@@ -15,6 +15,10 @@
       "path": "course/units.json"
     },
     {
+      "id": "lessons",
+      "path": "course/lessons.json"
+    },
+    {
       "id": "assessment",
       "path": "course/assessment.json"
     },

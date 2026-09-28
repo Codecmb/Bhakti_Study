@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "lessonCounts": {
+    "bhakti-sastri": 96,
+    "bhakti-vaibhava": 189,
+    "bhakti-vedanta": 162,
+    "bhakti-sarvabhauma": 62
+  },
+  "totalLessons": 509,
+  "curriculumPolicy": "passage-level lesson outlines; canonical scripture referenced, not duplicated"
+}

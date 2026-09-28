@@ -5,28 +5,52 @@
       "title": "Bhagavad-gītā 1–6",
       "book": "bg",
       "range": "BG.1–BG.6",
-      "slokas": 12
+      "slokas": 12,
+      "sources": [
+        {
+          "book": "bg",
+          "startRef": "BG.1.1"
+        }
+      ]
     },
     {
       "id": "BS.U2",
       "title": "Bhagavad-gītā 7–12",
       "book": "bg",
       "range": "BG.7–BG.12",
-      "slokas": 14
+      "slokas": 14,
+      "sources": [
+        {
+          "book": "bg",
+          "startRef": "BG.7.1"
+        }
+      ]
     },
     {
       "id": "BS.U3",
       "title": "Bhagavad-gītā 13–18",
       "book": "bg",
       "range": "BG.13–BG.18",
-      "slokas": 9
+      "slokas": 9,
+      "sources": [
+        {
+          "book": "bg",
+          "startRef": "BG.13.1"
+        }
+      ]
     },
     {
       "id": "BS.U4",
       "title": "The Nectar of Devotion",
       "book": "nod",
       "range": "Bhakti Śāstrī prescribed study",
-      "slokas": 4
+      "slokas": 4,
+      "sources": [
+        {
+          "book": "nod",
+          "startRef": "NOD.1"
+        }
+      ]
     },
     {
       "id": "BS.U5",
@@ -35,7 +59,17 @@
         "iso",
         "noi"
       ],
-      "slokas": 6
+      "slokas": 6,
+      "sources": [
+        {
+          "book": "iso",
+          "startRef": "ISO.1"
+        },
+        {
+          "book": "noi",
+          "startRef": "NOI.1"
+        }
+      ]
     }
   ]
 }

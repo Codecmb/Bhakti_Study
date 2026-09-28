@@ -1,8 +1,12 @@
 (function(global){
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  function sourceBookHref(unit,canonical){
+  const BOOK_ALIAS={'sb-1':'sb1','sb-2':'sb2','sb-3':'sb3','sb-4':'sb4','sb-5':'sb5','sb-6':'sb6','sb-7':'sb7','sb-8':'sb8','sb-9':'sb9','sb-10':'sb10','sb-11':'sb11','sb-12':'sb12'};
+  function sourceBookHref(unit,canonical,lesson){
     if(canonical)return null;
-    return `../../library/reader.html?book=${encodeURIComponent(unit.book||'')}`;
+    const book=lesson?.book||BOOK_ALIAS[unit.book]||unit.book||(unit.books||[])[0];
+    if(!book)return null;
+    const q=new URLSearchParams({book}); if(lesson?.firstRef)q.set('ref',lesson.firstRef);
+    return `../../library/reader.html?${q}`;
   }
   async function init(opts){
     const {programId,dataBase='data/',programHref='index.html'}=opts;
@@ -10,6 +14,7 @@
     const course=await BhaktiProgramData.loadCourse(dataBase),units=course.units||[];
     const uid=q.get('unit')||units[0]?.id||'',unit=units.find(x=>x.id===uid)||units[0];
     if(!unit)throw new Error('This program has no configured study units.');
+    const lesson=(course.lessons?.lessons||course.lessons||[]).find(x=>x.unitId===unit.id);
     const canonical=ref&&(SourceResolver?.canon?.(ref)||ref);
     if(!StudyWorkflow.hasMode(course,mode)){
       const fallback=StudyWorkflow.tools(course).find(t=>t.mode)?.mode||'understanding';
@@ -17,7 +22,7 @@
     }
     const ctx={program:programId,unit:unit.id,canonical,mode};
     const sourceTarget=canonical?await SourceResolver.resolve(canonical):null;
-    const internalBook=sourceBookHref(unit,canonical);
+    const internalBook=sourceBookHref(unit,canonical,lesson);
     const sourceHref=sourceTarget?.href?(sourceTarget.href+(sourceTarget.kind==='internal'?`&program=${encodeURIComponent(programId)}&unit=${encodeURIComponent(unit.id)}`:'')):(internalBook?`${internalBook}&program=${encodeURIComponent(programId)}&unit=${encodeURIComponent(unit.id)}`:'');
     document.querySelector('#heading').textContent=unit.title;
     document.querySelector('#sub').textContent=`${course.title||programId} · ${unit.id}${canonical?' · '+canonical:''}`;

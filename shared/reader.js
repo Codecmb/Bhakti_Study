@@ -24,9 +24,10 @@ function jump(n){if(!n)return;if(n.si!==sectionIndex)openSection(n.si,false);ope
 
 function renderStudyContext(canonical){
  const host=document.querySelector('#studyContext'); if(!host)return;
- if(programId==='bhakti-sastri'&&unitId){
+ if(programId&&unitId){
    const q=`unit=${encodeURIComponent(unitId)}&ref=${encodeURIComponent(canonical)}`;
-   host.innerHTML=`<div class="card"><div class="eyebrow">Study this passage</div><div class="action-grid"><a class="button lotus" href="../programs/bhakti-sastri/tools.html?${q}&mode=understanding">My Understanding</a><a class="button secondary" href="../programs/bhakti-sastri/tools.html?${q}&mode=questions">Study Questions</a><a class="button secondary" href="../programs/bhakti-sastri/tools.html?${q}&mode=my-questions">My Questions</a><a class="button secondary" href="../programs/bhakti-sastri/tools.html?${q}&mode=notes">Notes</a><a class="button secondary" href="../programs/bhakti-sastri/tools.html?${q}&mode=assessment">Assessment</a></div></div>`;
+   const tools=`../programs/${encodeURIComponent(programId)}/tools.html`;
+   host.innerHTML=`<div class="card"><div class="eyebrow">Study this passage</div><div class="action-grid"><a class="button lotus" href="${tools}?${q}&mode=understanding">My Understanding</a><a class="button secondary" href="${tools}?${q}&mode=questions">Study Questions</a><a class="button secondary" href="${tools}?${q}&mode=my-questions">My Questions</a><a class="button secondary" href="${tools}?${q}&mode=notes">Notes</a><a class="button secondary" href="${tools}?${q}&mode=assessment">Assessment</a></div></div>`;
  } else host.innerHTML='';
 }
 

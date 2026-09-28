@@ -3,9 +3,6 @@
   function tools(course){return Array.isArray(course?.workflow?.tools)?course.workflow.tools:DEFAULT}
   function enabled(course,context={}){return tools(course).filter(t=>t.enabled!==false && (!t.requiresCanonical||context.canonical))}
   function href(tool,{program,unit,canonical}={}){
-    if(program==='bhakti-sastri' && unit==='BS.U1' && tool.mode==='read'){
-      return `bg-1-6.html${canonical?`?ref=${encodeURIComponent(canonical)}`:''}`;
-    }
     const p=new URLSearchParams();
     if(unit)p.set('unit',unit);
     if(tool.mode)p.set('mode',tool.mode);
