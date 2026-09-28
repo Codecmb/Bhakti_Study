@@ -1,0 +1,132 @@
+{
+  "units": [
+    {
+      "id": "BVED.U1",
+      "book": "sb7",
+      "title": "Śrīmad-Bhāgavatam Canto 7, Chapters 1–10",
+      "range": "SB.7.1–SB.7.10",
+      "chapterCount": 10,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U2",
+      "book": "sb7",
+      "title": "Śrīmad-Bhāgavatam Canto 7, Chapters 11–15",
+      "range": "SB.7.11–SB.7.15",
+      "chapterCount": 5,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U3",
+      "book": "sb8",
+      "title": "Śrīmad-Bhāgavatam Canto 8, Chapters 1–10",
+      "range": "SB.8.1–SB.8.10",
+      "chapterCount": 10,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U4",
+      "book": "sb8",
+      "title": "Śrīmad-Bhāgavatam Canto 8, Chapters 11–20",
+      "range": "SB.8.11–SB.8.20",
+      "chapterCount": 10,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U5",
+      "book": "sb8",
+      "title": "Śrīmad-Bhāgavatam Canto 8, Chapters 21–24",
+      "range": "SB.8.21–SB.8.24",
+      "chapterCount": 4,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U6",
+      "book": "sb9",
+      "title": "Śrīmad-Bhāgavatam Canto 9, Chapters 1–10",
+      "range": "SB.9.1–SB.9.10",
+      "chapterCount": 10,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U7",
+      "book": "sb9",
+      "title": "Śrīmad-Bhāgavatam Canto 9, Chapters 11–20",
+      "range": "SB.9.11–SB.9.20",
+      "chapterCount": 10,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U8",
+      "book": "sb9",
+      "title": "Śrīmad-Bhāgavatam Canto 9, Chapters 21–24",
+      "range": "SB.9.21–SB.9.24",
+      "chapterCount": 4,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U9",
+      "book": "sb10",
+      "title": "Śrīmad-Bhāgavatam Canto 10, Chapters 1–10",
+      "range": "SB.10.1–SB.10.10",
+      "chapterCount": 10,
+      "status": "partial-source-range"
+    },
+    {
+      "id": "BVED.U10",
+      "book": "sb10",
+      "title": "Śrīmad-Bhāgavatam Canto 10, Chapters 11–13",
+      "range": "SB.10.11–SB.10.13",
+      "chapterCount": 3,
+      "status": "partial-source-range"
+    },
+    {
+      "id": "BVED.U11",
+      "book": "sb11",
+      "title": "Śrīmad-Bhāgavatam Canto 11, Chapters 1–10",
+      "range": "SB.11.1–SB.11.10",
+      "chapterCount": 10,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U12",
+      "book": "sb11",
+      "title": "Śrīmad-Bhāgavatam Canto 11, Chapters 11–20",
+      "range": "SB.11.11–SB.11.20",
+      "chapterCount": 10,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U13",
+      "book": "sb11",
+      "title": "Śrīmad-Bhāgavatam Canto 11, Chapters 21–30",
+      "range": "SB.11.21–SB.11.30",
+      "chapterCount": 10,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U14",
+      "book": "sb11",
+      "title": "Śrīmad-Bhāgavatam Canto 11, Chapters 31–31",
+      "range": "SB.11.31–SB.11.31",
+      "chapterCount": 1,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U15",
+      "book": "sb12",
+      "title": "Śrīmad-Bhāgavatam Canto 12, Chapters 1–10",
+      "range": "SB.12.1–SB.12.10",
+      "chapterCount": 10,
+      "status": "available-source-range"
+    },
+    {
+      "id": "BVED.U16",
+      "book": "sb12",
+      "title": "Śrīmad-Bhāgavatam Canto 12, Chapters 11–13",
+      "range": "SB.12.11–SB.12.13",
+      "chapterCount": 3,
+      "status": "available-source-range"
+    }
+  ]
+}

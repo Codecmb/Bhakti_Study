@@ -1,0 +1,10 @@
+{
+  "schema": "bhakti-study.sandarbha-edition-crosswalk.v1",
+  "policy": "Never renumber source editions silently. External edition structures are aliases/crosswalks only.",
+  "notes": {
+    "paramatma": "This source has top-level Anuccheda headings through 109. A literal Text 110 occurs inside Anuccheda 105 and is not promoted to a top-level unit.",
+    "krsna": "This source contains a complete top-level sequence 1–190.",
+    "bhakti": "Source reaches 340; extracted heading gaps are retained as validation metadata.",
+    "priti": "Source reaches 429; many extracted heading gaps are retained as validation metadata."
+  }
+}

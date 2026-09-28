@@ -1,0 +1,9 @@
+{
+  "provider": {
+    "id": "academy",
+    "label": "Academy Study Questions",
+    "authority": "academy",
+    "mode": "internal",
+    "description": "Source-based reflection and synthesis prompts created by the Academy."
+  }
+}

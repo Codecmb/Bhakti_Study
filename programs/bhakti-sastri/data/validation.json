@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "bhaktiSastriBooksPresent": true,
+  "courseUnits": 5,
+  "requiredSlokaReferences": 45,
+  "uniqueSlokaReferences": 45,
+  "slokaContentDuplicated": false,
+  "officialDegreeClaim": false
+}

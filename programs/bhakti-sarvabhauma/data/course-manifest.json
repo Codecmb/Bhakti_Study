@@ -1,0 +1,38 @@
+{
+  "schema": "bhakti-study-course-manifest-v1",
+  "programId": "bhakti-sarvabhauma",
+  "modules": [
+    {
+      "id": "metadata",
+      "path": "course/metadata.json"
+    },
+    {
+      "id": "books",
+      "path": "course/books.json"
+    },
+    {
+      "id": "units",
+      "path": "course/units.json"
+    },
+    {
+      "id": "study-flow",
+      "path": "course/study-flow.json"
+    },
+    {
+      "id": "assessment",
+      "path": "course/assessment.json"
+    },
+    {
+      "id": "integrity",
+      "path": "course/integrity.json"
+    },
+    {
+      "id": "completion-rules",
+      "path": "course/completion-rules.json"
+    },
+    {
+      "id": "workflow",
+      "path": "course/workflow.json"
+    }
+  ]
+}

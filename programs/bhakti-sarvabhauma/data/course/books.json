@@ -1,0 +1,23 @@
+{
+  "books": [
+    {
+      "bookId": "cc-adi",
+      "canonicalId": "CC.ADI",
+      "chapters": 17,
+      "librarySections": 18,
+      "note": "Library includes front/back matter as a section."
+    },
+    {
+      "bookId": "cc-madhya",
+      "canonicalId": "CC.MADHYA",
+      "chapters": 25,
+      "librarySections": 25
+    },
+    {
+      "bookId": "cc-antya",
+      "canonicalId": "CC.ANTYA",
+      "chapters": 20,
+      "librarySections": 20
+    }
+  ]
+}

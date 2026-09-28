@@ -1,0 +1,30 @@
+{
+  "academyUnitCompletion": {
+    "enabled": true,
+    "label": "Academy unit completion",
+    "requirements": [
+      {
+        "id": "reading",
+        "label": "I completed the assigned primary reading.",
+        "source": "student-check"
+      },
+      {
+        "id": "questions",
+        "label": "I answered the study questions from the source.",
+        "source": "student-check"
+      },
+      {
+        "id": "slokas",
+        "label": "I reviewed the required ślokas.",
+        "source": "student-check"
+      },
+      {
+        "id": "understanding",
+        "label": "I revised My Understanding after rereading the source.",
+        "source": "student-check"
+      }
+    ],
+    "policy": "All configured Academy requirements must be checked before a unit can be marked complete.",
+    "officialDegree": false
+  }
+}

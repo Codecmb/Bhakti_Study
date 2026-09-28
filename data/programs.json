@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bhakti-sastri",
+    "title": "Bhakti Śāstrī",
+    "subtitle": "Foundational study",
+    "books": [
+      "bg",
+      "iso",
+      "noi",
+      "nod"
+    ]
+  },
+  {
+    "id": "bhakti-vaibhava",
+    "title": "Bhakti Vaibhava",
+    "subtitle": "Śrīmad-Bhāgavatam Cantos 1–6",
+    "books": [
+      "sb1",
+      "sb2",
+      "sb3",
+      "sb4",
+      "sb5",
+      "sb6"
+    ]
+  },
+  {
+    "id": "bhakti-vedanta",
+    "title": "Bhakti Vedānta",
+    "subtitle": "Śrīmad-Bhāgavatam Cantos 7–12",
+    "books": [
+      "sb7",
+      "sb8",
+      "sb9",
+      "sb10",
+      "sb11",
+      "sb12"
+    ]
+  },
+  {
+    "id": "bhakti-sarvabhauma",
+    "title": "Bhakti Sārvabhauma",
+    "subtitle": "Śrī Caitanya-caritāmṛta",
+    "books": [
+      "cc-adi",
+      "cc-madhya",
+      "cc-antya"
+    ]
+  },
+  {
+    "id": "sat-sandarbhas",
+    "title": "Ṣaṭ Sandarbhas",
+    "subtitle": "Advanced siddhānta study",
+    "books": [
+      "tattva",
+      "bhagavat",
+      "paramatma",
+      "krsna",
+      "bhakti",
+      "priti"
+    ]
+  }
+]

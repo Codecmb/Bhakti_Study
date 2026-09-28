@@ -1,0 +1,11 @@
+{
+  "officialAssessment": {
+    "thesisMinimumWords": 20000,
+    "closedBookShortAnswersMinimum": 200,
+    "memorizedVersesMinimum": 70,
+    "seminarPresentationsMinimum": 5,
+    "seminarMinutesMinimum": 60,
+    "attendanceMinimumPercent": 75,
+    "passingPercent": "At discretion of local approved center"
+  }
+}

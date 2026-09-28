@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "booksFound": [
+    "cc-adi",
+    "cc-madhya",
+    "cc-antya"
+  ],
+  "libraryRecords": {
+    "cc-adi": 2254,
+    "cc-madhya": 5930,
+    "cc-antya": 3176
+  },
+  "officialRequirementsEncoded": true,
+  "inventedOfficialQuestions": 0,
+  "inventedOfficialSlokas": 0
+}

@@ -1,0 +1,13 @@
+{
+  "sourceIntegrity": {
+    "sb10": {
+      "status": "incomplete",
+      "registeredChapters": 13,
+      "note": "The supplied Vedabase Canto 10 EPUB itself contains chapter-1.xhtml through chapter-13.xhtml only. The Academy does not label Canto 10 complete or invent missing chapters."
+    },
+    "sb11_12": {
+      "status": "source-aware",
+      "note": "Contributor attribution is not stated in the supplied TXT sources; reader uses generic Purport labeling."
+    }
+  }
+}

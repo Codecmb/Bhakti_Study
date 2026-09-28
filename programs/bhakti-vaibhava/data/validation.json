@@ -1,0 +1,16 @@
+{
+  "booksPresent": {
+    "sb-1": true,
+    "sb-2": true,
+    "sb-3": true,
+    "sb-4": true,
+    "sb-5": true,
+    "sb-6": true
+  },
+  "unitCount": 16,
+  "maxUnitChapters": 10,
+  "officialPublicSlokaRefs": 53,
+  "slokaMinimumStandard": 70,
+  "duplicates": 0,
+  "pass": true
+}

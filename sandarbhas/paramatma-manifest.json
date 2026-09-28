@@ -1,0 +1,905 @@
+{
+  "schema": "bhakti-study.sandarbha-manifest.v2",
+  "workId": "paramatma",
+  "title": "Paramātma Sandarbha",
+  "canonicalPrefix": "PAS",
+  "sourceEdition": {
+    "fileName": "Paramatma Total with Sanskrit.doc",
+    "topLevelRangeObserved": "1–109",
+    "sha256OfExtractedText": "eb0a575c510082a5fe097c14df84c9ad9640b5f29b33f71b3f109e796025ca4c"
+  },
+  "mappingPolicy": "Canonical IDs are stable academy identities. Source-local headings are evidence; absent extracted headings are never fabricated.",
+  "canonicalRange": "PAS.1–PAS.109",
+  "unitCount": 109,
+  "sourceHeadingCoverage": {
+    "found": 102,
+    "missing": [
+      12,
+      13,
+      24,
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  "units": [
+    {
+      "canonicalId": "PAS.1",
+      "sourceLocalNumber": 1,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        44
+      ]
+    },
+    {
+      "canonicalId": "PAS.2",
+      "sourceLocalNumber": 2,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1787
+      ]
+    },
+    {
+      "canonicalId": "PAS.3",
+      "sourceLocalNumber": 3,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2121
+      ]
+    },
+    {
+      "canonicalId": "PAS.4",
+      "sourceLocalNumber": 4,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2226
+      ]
+    },
+    {
+      "canonicalId": "PAS.5",
+      "sourceLocalNumber": 5,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2275
+      ]
+    },
+    {
+      "canonicalId": "PAS.6",
+      "sourceLocalNumber": 6,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2365
+      ]
+    },
+    {
+      "canonicalId": "PAS.7",
+      "sourceLocalNumber": 7,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2404
+      ]
+    },
+    {
+      "canonicalId": "PAS.8",
+      "sourceLocalNumber": 8,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2455
+      ]
+    },
+    {
+      "canonicalId": "PAS.9",
+      "sourceLocalNumber": 9,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2721
+      ]
+    },
+    {
+      "canonicalId": "PAS.10",
+      "sourceLocalNumber": 10,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2771
+      ]
+    },
+    {
+      "canonicalId": "PAS.11",
+      "sourceLocalNumber": 11,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2830
+      ]
+    },
+    {
+      "canonicalId": "PAS.12",
+      "sourceLocalNumber": 12,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PAS.13",
+      "sourceLocalNumber": 13,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PAS.14",
+      "sourceLocalNumber": 14,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3432
+      ]
+    },
+    {
+      "canonicalId": "PAS.15",
+      "sourceLocalNumber": 15,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3647
+      ]
+    },
+    {
+      "canonicalId": "PAS.16",
+      "sourceLocalNumber": 16,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3725
+      ]
+    },
+    {
+      "canonicalId": "PAS.17",
+      "sourceLocalNumber": 17,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3854
+      ]
+    },
+    {
+      "canonicalId": "PAS.18",
+      "sourceLocalNumber": 18,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5222
+      ]
+    },
+    {
+      "canonicalId": "PAS.19",
+      "sourceLocalNumber": 19,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5273
+      ]
+    },
+    {
+      "canonicalId": "PAS.20",
+      "sourceLocalNumber": 20,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5568
+      ]
+    },
+    {
+      "canonicalId": "PAS.21",
+      "sourceLocalNumber": 21,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5660
+      ]
+    },
+    {
+      "canonicalId": "PAS.22",
+      "sourceLocalNumber": 22,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5716
+      ]
+    },
+    {
+      "canonicalId": "PAS.23",
+      "sourceLocalNumber": 23,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5880
+      ]
+    },
+    {
+      "canonicalId": "PAS.24",
+      "sourceLocalNumber": 24,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PAS.25",
+      "sourceLocalNumber": 25,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6008
+      ]
+    },
+    {
+      "canonicalId": "PAS.26",
+      "sourceLocalNumber": 26,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6044
+      ]
+    },
+    {
+      "canonicalId": "PAS.27",
+      "sourceLocalNumber": 27,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6130
+      ]
+    },
+    {
+      "canonicalId": "PAS.28",
+      "sourceLocalNumber": 28,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6415
+      ]
+    },
+    {
+      "canonicalId": "PAS.29",
+      "sourceLocalNumber": 29,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6552
+      ]
+    },
+    {
+      "canonicalId": "PAS.30",
+      "sourceLocalNumber": 30,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6697
+      ]
+    },
+    {
+      "canonicalId": "PAS.31",
+      "sourceLocalNumber": 31,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6738
+      ]
+    },
+    {
+      "canonicalId": "PAS.32",
+      "sourceLocalNumber": 32,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6782
+      ]
+    },
+    {
+      "canonicalId": "PAS.33",
+      "sourceLocalNumber": 33,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7102
+      ]
+    },
+    {
+      "canonicalId": "PAS.34",
+      "sourceLocalNumber": 34,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7245
+      ]
+    },
+    {
+      "canonicalId": "PAS.35",
+      "sourceLocalNumber": 35,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7548
+      ]
+    },
+    {
+      "canonicalId": "PAS.36",
+      "sourceLocalNumber": 36,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7720
+      ]
+    },
+    {
+      "canonicalId": "PAS.37",
+      "sourceLocalNumber": 37,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7768
+      ]
+    },
+    {
+      "canonicalId": "PAS.38",
+      "sourceLocalNumber": 38,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8585
+      ]
+    },
+    {
+      "canonicalId": "PAS.39",
+      "sourceLocalNumber": 39,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8645
+      ]
+    },
+    {
+      "canonicalId": "PAS.40",
+      "sourceLocalNumber": 40,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8740
+      ]
+    },
+    {
+      "canonicalId": "PAS.41",
+      "sourceLocalNumber": 41,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8794
+      ]
+    },
+    {
+      "canonicalId": "PAS.42",
+      "sourceLocalNumber": 42,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8879
+      ]
+    },
+    {
+      "canonicalId": "PAS.43",
+      "sourceLocalNumber": 43,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8963
+      ]
+    },
+    {
+      "canonicalId": "PAS.44",
+      "sourceLocalNumber": 44,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9029
+      ]
+    },
+    {
+      "canonicalId": "PAS.45",
+      "sourceLocalNumber": 45,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9274
+      ]
+    },
+    {
+      "canonicalId": "PAS.46",
+      "sourceLocalNumber": 46,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9428
+      ]
+    },
+    {
+      "canonicalId": "PAS.47",
+      "sourceLocalNumber": 47,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9642
+      ]
+    },
+    {
+      "canonicalId": "PAS.48",
+      "sourceLocalNumber": 48,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10220
+      ]
+    },
+    {
+      "canonicalId": "PAS.49",
+      "sourceLocalNumber": 49,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PAS.50",
+      "sourceLocalNumber": 50,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PAS.51",
+      "sourceLocalNumber": 51,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PAS.52",
+      "sourceLocalNumber": 52,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PAS.53",
+      "sourceLocalNumber": 53,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10720
+      ]
+    },
+    {
+      "canonicalId": "PAS.54",
+      "sourceLocalNumber": 54,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10925
+      ]
+    },
+    {
+      "canonicalId": "PAS.55",
+      "sourceLocalNumber": 55,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11096
+      ]
+    },
+    {
+      "canonicalId": "PAS.56",
+      "sourceLocalNumber": 56,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11552
+      ]
+    },
+    {
+      "canonicalId": "PAS.57",
+      "sourceLocalNumber": 57,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11726
+      ]
+    },
+    {
+      "canonicalId": "PAS.58",
+      "sourceLocalNumber": 58,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11930
+      ]
+    },
+    {
+      "canonicalId": "PAS.59",
+      "sourceLocalNumber": 59,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12845
+      ]
+    },
+    {
+      "canonicalId": "PAS.60",
+      "sourceLocalNumber": 60,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13046
+      ]
+    },
+    {
+      "canonicalId": "PAS.61",
+      "sourceLocalNumber": 61,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13195
+      ]
+    },
+    {
+      "canonicalId": "PAS.62",
+      "sourceLocalNumber": 62,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13276
+      ]
+    },
+    {
+      "canonicalId": "PAS.63",
+      "sourceLocalNumber": 63,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13335
+      ]
+    },
+    {
+      "canonicalId": "PAS.64",
+      "sourceLocalNumber": 64,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13397
+      ]
+    },
+    {
+      "canonicalId": "PAS.65",
+      "sourceLocalNumber": 65,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13477
+      ]
+    },
+    {
+      "canonicalId": "PAS.66",
+      "sourceLocalNumber": 66,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13669
+      ]
+    },
+    {
+      "canonicalId": "PAS.67",
+      "sourceLocalNumber": 67,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13863
+      ]
+    },
+    {
+      "canonicalId": "PAS.68",
+      "sourceLocalNumber": 68,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13913
+      ]
+    },
+    {
+      "canonicalId": "PAS.69",
+      "sourceLocalNumber": 69,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14062
+      ]
+    },
+    {
+      "canonicalId": "PAS.70",
+      "sourceLocalNumber": 70,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14288
+      ]
+    },
+    {
+      "canonicalId": "PAS.71",
+      "sourceLocalNumber": 71,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15061
+      ]
+    },
+    {
+      "canonicalId": "PAS.72",
+      "sourceLocalNumber": 72,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15843
+      ]
+    },
+    {
+      "canonicalId": "PAS.73",
+      "sourceLocalNumber": 73,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16071
+      ]
+    },
+    {
+      "canonicalId": "PAS.74",
+      "sourceLocalNumber": 74,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16133
+      ]
+    },
+    {
+      "canonicalId": "PAS.75",
+      "sourceLocalNumber": 75,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16200
+      ]
+    },
+    {
+      "canonicalId": "PAS.76",
+      "sourceLocalNumber": 76,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16285
+      ]
+    },
+    {
+      "canonicalId": "PAS.77",
+      "sourceLocalNumber": 77,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16331
+      ]
+    },
+    {
+      "canonicalId": "PAS.78",
+      "sourceLocalNumber": 78,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16391
+      ]
+    },
+    {
+      "canonicalId": "PAS.79",
+      "sourceLocalNumber": 79,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16466
+      ]
+    },
+    {
+      "canonicalId": "PAS.80",
+      "sourceLocalNumber": 80,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16526
+      ]
+    },
+    {
+      "canonicalId": "PAS.81",
+      "sourceLocalNumber": 81,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16598,
+        20463
+      ]
+    },
+    {
+      "canonicalId": "PAS.82",
+      "sourceLocalNumber": 82,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16672,
+        20537
+      ]
+    },
+    {
+      "canonicalId": "PAS.83",
+      "sourceLocalNumber": 83,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16790,
+        20655
+      ]
+    },
+    {
+      "canonicalId": "PAS.84",
+      "sourceLocalNumber": 84,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16908,
+        20773
+      ]
+    },
+    {
+      "canonicalId": "PAS.85",
+      "sourceLocalNumber": 85,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16962,
+        20827
+      ]
+    },
+    {
+      "canonicalId": "PAS.86",
+      "sourceLocalNumber": 86,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17210,
+        21075
+      ]
+    },
+    {
+      "canonicalId": "PAS.87",
+      "sourceLocalNumber": 87,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17284,
+        21149
+      ]
+    },
+    {
+      "canonicalId": "PAS.88",
+      "sourceLocalNumber": 88,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17333,
+        21198
+      ]
+    },
+    {
+      "canonicalId": "PAS.89",
+      "sourceLocalNumber": 89,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17401,
+        21266
+      ]
+    },
+    {
+      "canonicalId": "PAS.90",
+      "sourceLocalNumber": 90,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17458,
+        21323
+      ]
+    },
+    {
+      "canonicalId": "PAS.91",
+      "sourceLocalNumber": 91,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17944,
+        21809
+      ]
+    },
+    {
+      "canonicalId": "PAS.92",
+      "sourceLocalNumber": 92,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18040,
+        21905
+      ]
+    },
+    {
+      "canonicalId": "PAS.93",
+      "sourceLocalNumber": 93,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18163,
+        22028
+      ]
+    },
+    {
+      "canonicalId": "PAS.94",
+      "sourceLocalNumber": 94,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19944,
+        23809
+      ]
+    },
+    {
+      "canonicalId": "PAS.95",
+      "sourceLocalNumber": 95,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19992,
+        23857
+      ]
+    },
+    {
+      "canonicalId": "PAS.96",
+      "sourceLocalNumber": 96,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20024,
+        23889
+      ]
+    },
+    {
+      "canonicalId": "PAS.97",
+      "sourceLocalNumber": 97,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20108,
+        23973
+      ]
+    },
+    {
+      "canonicalId": "PAS.98",
+      "sourceLocalNumber": 98,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20151,
+        24016
+      ]
+    },
+    {
+      "canonicalId": "PAS.99",
+      "sourceLocalNumber": 99,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20342,
+        24207
+      ]
+    },
+    {
+      "canonicalId": "PAS.100",
+      "sourceLocalNumber": 100,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24328
+      ]
+    },
+    {
+      "canonicalId": "PAS.101",
+      "sourceLocalNumber": 101,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24651
+      ]
+    },
+    {
+      "canonicalId": "PAS.102",
+      "sourceLocalNumber": 102,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24800
+      ]
+    },
+    {
+      "canonicalId": "PAS.103",
+      "sourceLocalNumber": 103,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25012
+      ]
+    },
+    {
+      "canonicalId": "PAS.104",
+      "sourceLocalNumber": 104,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25258
+      ]
+    },
+    {
+      "canonicalId": "PAS.105",
+      "sourceLocalNumber": 105,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25309
+      ]
+    },
+    {
+      "canonicalId": "PAS.106",
+      "sourceLocalNumber": 106,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        28876
+      ]
+    },
+    {
+      "canonicalId": "PAS.107",
+      "sourceLocalNumber": 107,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        28967
+      ]
+    },
+    {
+      "canonicalId": "PAS.108",
+      "sourceLocalNumber": 108,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29027
+      ]
+    },
+    {
+      "canonicalId": "PAS.109",
+      "sourceLocalNumber": 109,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29073
+      ]
+    }
+  ]
+}

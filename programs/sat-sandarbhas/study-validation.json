@@ -1,0 +1,74 @@
+{
+  "schema": "bhakti-study.sat-study-validation.v1",
+  "status": "PASS",
+  "works": [
+    {
+      "status": "PASS",
+      "workId": "tattva",
+      "canonicalPrefix": "TS",
+      "unitCount": 63,
+      "verifiedSourceHeadings": 63,
+      "unverifiedCanonicalSlots": 0,
+      "first": "TS.1",
+      "last": "TS.63",
+      "duplicateIds": false
+    },
+    {
+      "status": "PASS",
+      "workId": "bhagavat",
+      "canonicalPrefix": "BGS",
+      "unitCount": 106,
+      "verifiedSourceHeadings": 106,
+      "unverifiedCanonicalSlots": 0,
+      "first": "BGS.1",
+      "last": "BGS.106",
+      "duplicateIds": false
+    },
+    {
+      "status": "PASS",
+      "workId": "paramatma",
+      "canonicalPrefix": "PAS",
+      "unitCount": 109,
+      "verifiedSourceHeadings": 102,
+      "unverifiedCanonicalSlots": 7,
+      "first": "PAS.1",
+      "last": "PAS.109",
+      "duplicateIds": false
+    },
+    {
+      "status": "PASS",
+      "workId": "krsna",
+      "canonicalPrefix": "KS",
+      "unitCount": 190,
+      "verifiedSourceHeadings": 190,
+      "unverifiedCanonicalSlots": 0,
+      "first": "KS.1",
+      "last": "KS.190",
+      "duplicateIds": false
+    },
+    {
+      "status": "PASS",
+      "workId": "bhakti",
+      "canonicalPrefix": "BHS",
+      "unitCount": 340,
+      "verifiedSourceHeadings": 332,
+      "unverifiedCanonicalSlots": 8,
+      "first": "BHS.1",
+      "last": "BHS.340",
+      "duplicateIds": false
+    },
+    {
+      "status": "PASS",
+      "workId": "priti",
+      "canonicalPrefix": "PS",
+      "unitCount": 429,
+      "verifiedSourceHeadings": 291,
+      "unverifiedCanonicalSlots": 138,
+      "first": "PS.1",
+      "last": "PS.429",
+      "duplicateIds": false
+    }
+  ],
+  "totalCanonicalStudyUnits": 1237,
+  "policy": "Unverified extracted headings remain explicit canonical slots; no source headings or text are fabricated."
+}

@@ -1,0 +1,114 @@
+{
+  "schema": "bg-1-6-integrity-v1",
+  "scope": "Bhakti Śāstrī BS.U1",
+  "individual_verses": 279,
+  "source_records": 264,
+  "all_individual_verses_mapped": true,
+  "all_individual_verses_have_core_fields": true,
+  "required_slokas": [
+    {
+      "reference": "BG 2.7",
+      "canonical": "BG.2.7",
+      "internal_href": "bg-1-6.html?ref=BG.2.7",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 2.44",
+      "canonical": "BG.2.44",
+      "internal_href": "bg-1-6.html?ref=BG.2.44",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 2.13",
+      "canonical": "BG.2.13",
+      "internal_href": "bg-1-6.html?ref=BG.2.13",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 2.20",
+      "canonical": "BG.2.20",
+      "internal_href": "bg-1-6.html?ref=BG.2.20",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 3.27",
+      "canonical": "BG.3.27",
+      "internal_href": "bg-1-6.html?ref=BG.3.27",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 4.2",
+      "canonical": "BG.4.2",
+      "internal_href": "bg-1-6.html?ref=BG.4.2",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 4.8",
+      "canonical": "BG.4.8",
+      "internal_href": "bg-1-6.html?ref=BG.4.8",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 4.9",
+      "canonical": "BG.4.9",
+      "internal_href": "bg-1-6.html?ref=BG.4.9",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 4.34",
+      "canonical": "BG.4.34",
+      "internal_href": "bg-1-6.html?ref=BG.4.34",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 5.22",
+      "canonical": "BG.5.22",
+      "internal_href": "bg-1-6.html?ref=BG.5.22",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 5.29",
+      "canonical": "BG.5.29",
+      "internal_href": "bg-1-6.html?ref=BG.5.29",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    },
+    {
+      "reference": "BG 6.47",
+      "canonical": "BG.6.47",
+      "internal_href": "bg-1-6.html?ref=BG.6.47",
+      "mapped": true,
+      "required_fields": true,
+      "purport": true
+    }
+  ],
+  "required_slokas_all_internal_and_complete": true,
+  "routing_contract": {
+    "read_source": "bg-1-6.html",
+    "required_slokas": "bg-1-6.html?ref=<canonical>",
+    "source_resolver_BG_1_6": "bg-1-6.html?ref=<canonical>",
+    "my_questions_BG_1_6": "bg-1-6.html?ref=<canonical>",
+    "sloka_lab": "optional memorization only"
+  }
+}

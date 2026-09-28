@@ -1,0 +1,172 @@
+[
+  {
+    "id": "BG",
+    "title": "Bhagavad-gītā As It Is",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 23,
+    "verses": 658,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "CC.ADI",
+    "title": "Śrī Caitanya-caritāmṛta — Ādi-līlā",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 18,
+    "verses": 2254,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "CC.ANTYA",
+    "title": "Śrī Caitanya-caritāmṛta — Antya-līlā",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 20,
+    "verses": 3176,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "CC.MADHYA",
+    "title": "Śrī Caitanya-caritāmṛta — Madhya-līlā",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 25,
+    "verses": 5930,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "ISO",
+    "title": "Śrī Īśopaniṣad",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 20,
+    "verses": 20,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "NOD",
+    "title": "The Nectar of Devotion",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 56,
+    "verses": 56,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "NOI",
+    "title": "Nectar of Instruction",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 12,
+    "verses": 12,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "SB.1",
+    "title": "Śrīmad-Bhāgavatam — Canto 1",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 19,
+    "verses": 779,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "SB.10",
+    "title": "Śrīmad-Bhāgavatam — Canto 10",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 13,
+    "verses": 554,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "SB.2",
+    "title": "Śrīmad-Bhāgavatam — Canto 2",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 10,
+    "verses": 371,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "SB.3",
+    "title": "Śrīmad-Bhāgavatam — Canto 3",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 33,
+    "verses": 1388,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "SB.4",
+    "title": "Śrīmad-Bhāgavatam — Canto 4",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 32,
+    "verses": 1388,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "SB.5",
+    "title": "Śrīmad-Bhāgavatam — Canto 5",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 26,
+    "verses": 650,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "SB.6",
+    "title": "Śrīmad-Bhāgavatam — Canto 6",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 19,
+    "verses": 760,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "SB.7",
+    "title": "Śrīmad-Bhāgavatam — Canto 7",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 15,
+    "verses": 676,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "SB.8",
+    "title": "Śrīmad-Bhāgavatam — Canto 8",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 24,
+    "verses": 848,
+    "source_format": "EPUB",
+    "status": "ok"
+  },
+  {
+    "id": "SB.9",
+    "title": "Śrīmad-Bhāgavatam — Canto 9",
+    "creator": "A.C. Bhaktivedanta Swami Prabhupāda",
+    "publisher": "Bhaktivedanta Book Trust",
+    "sections": 24,
+    "verses": 846,
+    "source_format": "EPUB",
+    "status": "ok"
+  }
+]

@@ -1,0 +1,2224 @@
+{
+  "schema": "bhakti-study.study-course.v2",
+  "courseId": "sat-sandarbhas-tattva",
+  "title": "Tattva Sandarbha — Estudio avanzado",
+  "displayTitle": "Tattva Sandarbha",
+  "primaryWork": "tattva",
+  "canonicalPrefix": "TS",
+  "language": "es",
+  "authorityPolicy": {
+    "primaryTextIsAuthority": true,
+    "aiRequired": false,
+    "generatedAnswerKeys": false,
+    "studentReflectionStoredSeparately": true,
+    "instruction": "Las herramientas de estudio remiten al estudiante a la fuente primaria; no sustituyen el texto ni presentan respuestas generadas como siddhānta."
+  },
+  "unitCount": 63,
+  "units": [
+    {
+      "id": "TS.1",
+      "number": 1,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 19
+      }
+    },
+    {
+      "id": "TS.2",
+      "number": 2,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 2",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 190
+      }
+    },
+    {
+      "id": "TS.3",
+      "number": 3,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 3",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 233
+      }
+    },
+    {
+      "id": "TS.4",
+      "number": 4,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 4",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 269
+      }
+    },
+    {
+      "id": "TS.5",
+      "number": 5,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 5",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 304
+      }
+    },
+    {
+      "id": "TS.6",
+      "number": 6,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 6",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 346
+      }
+    },
+    {
+      "id": "TS.7",
+      "number": 7,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 7",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 393
+      }
+    },
+    {
+      "id": "TS.8",
+      "number": 8,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 8",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 440
+      }
+    },
+    {
+      "id": "TS.9",
+      "number": 9,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 9",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 532
+      }
+    },
+    {
+      "id": "TS.10",
+      "number": 10,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 10",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 833
+      }
+    },
+    {
+      "id": "TS.11",
+      "number": 11,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 11",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 1059
+      }
+    },
+    {
+      "id": "TS.12",
+      "number": 12,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 12.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 1193
+      }
+    },
+    {
+      "id": "TS.13",
+      "number": 13,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 13.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 1383
+      }
+    },
+    {
+      "id": "TS.14",
+      "number": 14,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 14.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 1545
+      }
+    },
+    {
+      "id": "TS.15",
+      "number": 15,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 15.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 1700
+      }
+    },
+    {
+      "id": "TS.16",
+      "number": 16,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 16.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 1862
+      }
+    },
+    {
+      "id": "TS.17",
+      "number": 17,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 17.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 2018
+      }
+    },
+    {
+      "id": "TS.18",
+      "number": 18,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 18.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 2162
+      }
+    },
+    {
+      "id": "TS.19",
+      "number": 19,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 19.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 2333
+      }
+    },
+    {
+      "id": "TS.20",
+      "number": 20,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 20.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 2478
+      }
+    },
+    {
+      "id": "TS.21",
+      "number": 21,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 21",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 2745
+      }
+    },
+    {
+      "id": "TS.22",
+      "number": 22,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 22.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 2920
+      }
+    },
+    {
+      "id": "TS.23",
+      "number": 23,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 23.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 3404
+      }
+    },
+    {
+      "id": "TS.24",
+      "number": 24,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 24.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 3718
+      }
+    },
+    {
+      "id": "TS.25",
+      "number": 25,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 25.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 3829
+      }
+    },
+    {
+      "id": "TS.26",
+      "number": 26,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 26.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 3926
+      }
+    },
+    {
+      "id": "TS.27",
+      "number": 27,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 27.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 4060
+      }
+    },
+    {
+      "id": "TS.28",
+      "number": 28,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 28.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 4201
+      }
+    },
+    {
+      "id": "TS.29",
+      "number": 29,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 29.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 4295
+      }
+    },
+    {
+      "id": "TS.30",
+      "number": 30,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 30.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 4439
+      }
+    },
+    {
+      "id": "TS.31",
+      "number": 31,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 31.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 4718
+      }
+    },
+    {
+      "id": "TS.32",
+      "number": 32,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 32.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 4915
+      }
+    },
+    {
+      "id": "TS.33",
+      "number": 33,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 33.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 5081
+      }
+    },
+    {
+      "id": "TS.34",
+      "number": 34,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 34",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 5293
+      }
+    },
+    {
+      "id": "TS.35",
+      "number": 35,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 35",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 5374
+      }
+    },
+    {
+      "id": "TS.36",
+      "number": 36,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 36",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 5505
+      }
+    },
+    {
+      "id": "TS.37",
+      "number": 37,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 37",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 5589
+      }
+    },
+    {
+      "id": "TS.38",
+      "number": 38,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 38",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 5785
+      }
+    },
+    {
+      "id": "TS.39",
+      "number": 39,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 39",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 5978
+      }
+    },
+    {
+      "id": "TS.40",
+      "number": 40,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 40",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 6079
+      }
+    },
+    {
+      "id": "TS.41",
+      "number": 41,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 41",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 6264
+      }
+    },
+    {
+      "id": "TS.42",
+      "number": 42,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 42",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 6336
+      }
+    },
+    {
+      "id": "TS.43",
+      "number": 43,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 43",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 6464
+      }
+    },
+    {
+      "id": "TS.44",
+      "number": 44,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 44",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 6593
+      }
+    },
+    {
+      "id": "TS.45",
+      "number": 45,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 45",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 6663
+      }
+    },
+    {
+      "id": "TS.46",
+      "number": 46,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 46.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 6812
+      }
+    },
+    {
+      "id": "TS.47",
+      "number": 47,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 47.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 6945
+      }
+    },
+    {
+      "id": "TS.48",
+      "number": 48,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 48",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 7111
+      }
+    },
+    {
+      "id": "TS.49",
+      "number": 49,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 49.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 7246
+      }
+    },
+    {
+      "id": "TS.50",
+      "number": 50,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 50",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 7510
+      }
+    },
+    {
+      "id": "TS.51",
+      "number": 51,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 51",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 7580
+      }
+    },
+    {
+      "id": "TS.52",
+      "number": 52,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 52.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 7740
+      }
+    },
+    {
+      "id": "TS.53",
+      "number": 53,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 53.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 8068
+      }
+    },
+    {
+      "id": "TS.54",
+      "number": 54,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 54.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 8250
+      }
+    },
+    {
+      "id": "TS.55",
+      "number": 55,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 55",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 8483
+      }
+    },
+    {
+      "id": "TS.56",
+      "number": 56,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 56.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 8558
+      }
+    },
+    {
+      "id": "TS.57",
+      "number": 57,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 57.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 8745
+      }
+    },
+    {
+      "id": "TS.58",
+      "number": 58,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 58",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 8933
+      }
+    },
+    {
+      "id": "TS.59",
+      "number": 59,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 59.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 9002
+      }
+    },
+    {
+      "id": "TS.60",
+      "number": 60,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 60.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 9107
+      }
+    },
+    {
+      "id": "TS.61",
+      "number": 61,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 61.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 9233
+      }
+    },
+    {
+      "id": "TS.62",
+      "number": 62,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 62.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 9455
+      }
+    },
+    {
+      "id": "TS.63",
+      "number": 63,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "TEXT 63.1",
+      "sourcePointer": {
+        "sourceId": "tattva-source-edition",
+        "startLine": 9741
+      }
+    }
+  ]
+}

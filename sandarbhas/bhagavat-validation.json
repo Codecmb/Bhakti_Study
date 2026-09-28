@@ -1,0 +1,11 @@
+{
+  "work": "bhagavat",
+  "status": "PASS",
+  "canonicalPrefix": "BGS",
+  "sourceEditionUnits": 106,
+  "foundUnits": 106,
+  "first": "BGS.1",
+  "last": "BGS.106",
+  "missing": [],
+  "editionNote": "Uploaded/source Library PDF continues through Anuccheda 106. Current Jiva Institute edition lists 1–102. These are preserved as edition-specific structures; no silent renumbering or reconciliation was performed."
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "final-app-validation-v1",
+  "passed": true,
+  "checks": [
+    {
+      "check": "five programs",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "program page bhakti-sastri",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "program page bhakti-vaibhava",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "program page bhakti-vedanta",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "program page bhakti-sarvabhauma",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "program page sat-sandarbhas",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "library/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student/progress.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "certificates/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slokas/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slokas/integration.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "data/final-source-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "manifest.webmanifest",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "service-worker.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "book path bg",
+      "pass": true,
+      "detail": "library/books/bg/book.json"
+    },
+    {
+      "check": "book path cc-adi",
+      "pass": true,
+      "detail": "library/books/cc-adi/book.json"
+    },
+    {
+      "check": "book path cc-antya",
+      "pass": true,
+      "detail": "library/books/cc-antya/book.json"
+    },
+    {
+      "check": "book path cc-madhya",
+      "pass": true,
+      "detail": "library/books/cc-madhya/book.json"
+    },
+    {
+      "check": "book path iso",
+      "pass": true,
+      "detail": "library/books/iso/book.json"
+    },
+    {
+      "check": "book path nod",
+      "pass": true,
+      "detail": "library/books/nod/book.json"
+    },
+    {
+      "check": "book path noi",
+      "pass": true,
+      "detail": "library/books/noi/book.json"
+    },
+    {
+      "check": "book path sb1",
+      "pass": true,
+      "detail": "library/books/sb-1/book.json"
+    },
+    {
+      "check": "book path sb10",
+      "pass": true,
+      "detail": "library/books/sb-10/book.json"
+    },
+    {
+      "check": "book path sb11",
+      "pass": true,
+      "detail": "library/books/sb-11/book.json"
+    },
+    {
+      "check": "book path sb12",
+      "pass": true,
+      "detail": "library/books/sb-12/book.json"
+    },
+    {
+      "check": "book path sb2",
+      "pass": true,
+      "detail": "library/books/sb-2/book.json"
+    },
+    {
+      "check": "book path sb3",
+      "pass": true,
+      "detail": "library/books/sb-3/book.json"
+    },
+    {
+      "check": "book path sb4",
+      "pass": true,
+      "detail": "library/books/sb-4/book.json"
+    },
+    {
+      "check": "book path sb5",
+      "pass": true,
+      "detail": "library/books/sb-5/book.json"
+    },
+    {
+      "check": "book path sb6",
+      "pass": true,
+      "detail": "library/books/sb-6/book.json"
+    },
+    {
+      "check": "book path sb7",
+      "pass": true,
+      "detail": "library/books/sb-7/book.json"
+    },
+    {
+      "check": "book path sb8",
+      "pass": true,
+      "detail": "library/books/sb-8/book.json"
+    },
+    {
+      "check": "book path sb9",
+      "pass": true,
+      "detail": "library/books/sb-9/book.json"
+    },
+    {
+      "check": "book path sat-sandarbhas",
+      "pass": true,
+      "detail": "sandarbhas/module.json"
+    }
+  ]
+}

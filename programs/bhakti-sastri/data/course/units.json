@@ -1,0 +1,41 @@
+{
+  "units": [
+    {
+      "id": "BS.U1",
+      "title": "Bhagavad-gītā 1–6",
+      "book": "bg",
+      "range": "BG.1–BG.6",
+      "slokas": 12
+    },
+    {
+      "id": "BS.U2",
+      "title": "Bhagavad-gītā 7–12",
+      "book": "bg",
+      "range": "BG.7–BG.12",
+      "slokas": 14
+    },
+    {
+      "id": "BS.U3",
+      "title": "Bhagavad-gītā 13–18",
+      "book": "bg",
+      "range": "BG.13–BG.18",
+      "slokas": 9
+    },
+    {
+      "id": "BS.U4",
+      "title": "The Nectar of Devotion",
+      "book": "nod",
+      "range": "Bhakti Śāstrī prescribed study",
+      "slokas": 4
+    },
+    {
+      "id": "BS.U5",
+      "title": "Śrī Īśopaniṣad + Nectar of Instruction",
+      "books": [
+        "iso",
+        "noi"
+      ],
+      "slokas": 6
+    }
+  ]
+}

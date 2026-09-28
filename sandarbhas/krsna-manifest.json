@@ -1,0 +1,1548 @@
+{
+  "schema": "bhakti-study.sandarbha-manifest.v2",
+  "workId": "krsna",
+  "title": "Kṛṣṇa Sandarbha",
+  "canonicalPrefix": "KS",
+  "sourceEdition": {
+    "fileName": "Krsna Sandarbha.pdf",
+    "topLevelRangeObserved": "1–190",
+    "sha256OfExtractedText": "92c2122a04bc3859a2841bfb39631774125292a221c7b034e3261c4ec0ed59f9"
+  },
+  "mappingPolicy": "Canonical IDs are stable academy identities. Source-local headings are evidence; absent extracted headings are never fabricated.",
+  "canonicalRange": "KS.1–KS.190",
+  "unitCount": 190,
+  "sourceHeadingCoverage": {
+    "found": 190,
+    "missing": []
+  },
+  "units": [
+    {
+      "canonicalId": "KS.1",
+      "sourceLocalNumber": 1,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23,
+        590,
+        854
+      ]
+    },
+    {
+      "canonicalId": "KS.2",
+      "sourceLocalNumber": 2,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        337
+      ]
+    },
+    {
+      "canonicalId": "KS.3",
+      "sourceLocalNumber": 3,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        745
+      ]
+    },
+    {
+      "canonicalId": "KS.4",
+      "sourceLocalNumber": 4,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        840
+      ]
+    },
+    {
+      "canonicalId": "KS.5",
+      "sourceLocalNumber": 5,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1041
+      ]
+    },
+    {
+      "canonicalId": "KS.6",
+      "sourceLocalNumber": 6,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1115,
+        2564
+      ]
+    },
+    {
+      "canonicalId": "KS.7",
+      "sourceLocalNumber": 7,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1186
+      ]
+    },
+    {
+      "canonicalId": "KS.8",
+      "sourceLocalNumber": 8,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1310
+      ]
+    },
+    {
+      "canonicalId": "KS.9",
+      "sourceLocalNumber": 9,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1360
+      ]
+    },
+    {
+      "canonicalId": "KS.10",
+      "sourceLocalNumber": 10,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1404
+      ]
+    },
+    {
+      "canonicalId": "KS.11",
+      "sourceLocalNumber": 11,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1467
+      ]
+    },
+    {
+      "canonicalId": "KS.12",
+      "sourceLocalNumber": 12,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1561
+      ]
+    },
+    {
+      "canonicalId": "KS.13",
+      "sourceLocalNumber": 13,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1603
+      ]
+    },
+    {
+      "canonicalId": "KS.14",
+      "sourceLocalNumber": 14,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1641
+      ]
+    },
+    {
+      "canonicalId": "KS.15",
+      "sourceLocalNumber": 15,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1669
+      ]
+    },
+    {
+      "canonicalId": "KS.16",
+      "sourceLocalNumber": 16,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1808
+      ]
+    },
+    {
+      "canonicalId": "KS.17",
+      "sourceLocalNumber": 17,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1846
+      ]
+    },
+    {
+      "canonicalId": "KS.18",
+      "sourceLocalNumber": 18,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1912
+      ]
+    },
+    {
+      "canonicalId": "KS.19",
+      "sourceLocalNumber": 19,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1935
+      ]
+    },
+    {
+      "canonicalId": "KS.20",
+      "sourceLocalNumber": 20,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1977
+      ]
+    },
+    {
+      "canonicalId": "KS.21",
+      "sourceLocalNumber": 21,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2020
+      ]
+    },
+    {
+      "canonicalId": "KS.22",
+      "sourceLocalNumber": 22,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2057
+      ]
+    },
+    {
+      "canonicalId": "KS.23",
+      "sourceLocalNumber": 23,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2114
+      ]
+    },
+    {
+      "canonicalId": "KS.24",
+      "sourceLocalNumber": 24,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2192
+      ]
+    },
+    {
+      "canonicalId": "KS.25",
+      "sourceLocalNumber": 25,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2228
+      ]
+    },
+    {
+      "canonicalId": "KS.26",
+      "sourceLocalNumber": 26,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2322
+      ]
+    },
+    {
+      "canonicalId": "KS.27",
+      "sourceLocalNumber": 27,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2670
+      ]
+    },
+    {
+      "canonicalId": "KS.28",
+      "sourceLocalNumber": 28,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2708
+      ]
+    },
+    {
+      "canonicalId": "KS.29",
+      "sourceLocalNumber": 29,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3276
+      ]
+    },
+    {
+      "canonicalId": "KS.30",
+      "sourceLocalNumber": 30,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5882
+      ]
+    },
+    {
+      "canonicalId": "KS.31",
+      "sourceLocalNumber": 31,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5938
+      ]
+    },
+    {
+      "canonicalId": "KS.32",
+      "sourceLocalNumber": 32,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5956
+      ]
+    },
+    {
+      "canonicalId": "KS.33",
+      "sourceLocalNumber": 33,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5972
+      ]
+    },
+    {
+      "canonicalId": "KS.34",
+      "sourceLocalNumber": 34,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6029
+      ]
+    },
+    {
+      "canonicalId": "KS.35",
+      "sourceLocalNumber": 35,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6057
+      ]
+    },
+    {
+      "canonicalId": "KS.36",
+      "sourceLocalNumber": 36,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6128
+      ]
+    },
+    {
+      "canonicalId": "KS.37",
+      "sourceLocalNumber": 37,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6181
+      ]
+    },
+    {
+      "canonicalId": "KS.38",
+      "sourceLocalNumber": 38,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6286
+      ]
+    },
+    {
+      "canonicalId": "KS.39",
+      "sourceLocalNumber": 39,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6323
+      ]
+    },
+    {
+      "canonicalId": "KS.40",
+      "sourceLocalNumber": 40,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6372
+      ]
+    },
+    {
+      "canonicalId": "KS.41",
+      "sourceLocalNumber": 41,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6419
+      ]
+    },
+    {
+      "canonicalId": "KS.42",
+      "sourceLocalNumber": 42,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6471
+      ]
+    },
+    {
+      "canonicalId": "KS.43",
+      "sourceLocalNumber": 43,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6735
+      ]
+    },
+    {
+      "canonicalId": "KS.44",
+      "sourceLocalNumber": 44,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7050
+      ]
+    },
+    {
+      "canonicalId": "KS.45",
+      "sourceLocalNumber": 45,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7110
+      ]
+    },
+    {
+      "canonicalId": "KS.46",
+      "sourceLocalNumber": 46,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7152
+      ]
+    },
+    {
+      "canonicalId": "KS.47",
+      "sourceLocalNumber": 47,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7195
+      ]
+    },
+    {
+      "canonicalId": "KS.48",
+      "sourceLocalNumber": 48,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7238
+      ]
+    },
+    {
+      "canonicalId": "KS.49",
+      "sourceLocalNumber": 49,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7298
+      ]
+    },
+    {
+      "canonicalId": "KS.50",
+      "sourceLocalNumber": 50,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7338
+      ]
+    },
+    {
+      "canonicalId": "KS.51",
+      "sourceLocalNumber": 51,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7494
+      ]
+    },
+    {
+      "canonicalId": "KS.52",
+      "sourceLocalNumber": 52,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7581
+      ]
+    },
+    {
+      "canonicalId": "KS.53",
+      "sourceLocalNumber": 53,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7735
+      ]
+    },
+    {
+      "canonicalId": "KS.54",
+      "sourceLocalNumber": 54,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7784
+      ]
+    },
+    {
+      "canonicalId": "KS.55",
+      "sourceLocalNumber": 55,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7856
+      ]
+    },
+    {
+      "canonicalId": "KS.56",
+      "sourceLocalNumber": 56,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7915
+      ]
+    },
+    {
+      "canonicalId": "KS.57",
+      "sourceLocalNumber": 57,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7968
+      ]
+    },
+    {
+      "canonicalId": "KS.58",
+      "sourceLocalNumber": 58,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8105
+      ]
+    },
+    {
+      "canonicalId": "KS.59",
+      "sourceLocalNumber": 59,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8162
+      ]
+    },
+    {
+      "canonicalId": "KS.60",
+      "sourceLocalNumber": 60,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8302
+      ]
+    },
+    {
+      "canonicalId": "KS.61",
+      "sourceLocalNumber": 61,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8366
+      ]
+    },
+    {
+      "canonicalId": "KS.62",
+      "sourceLocalNumber": 62,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8432
+      ]
+    },
+    {
+      "canonicalId": "KS.63",
+      "sourceLocalNumber": 63,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8486
+      ]
+    },
+    {
+      "canonicalId": "KS.64",
+      "sourceLocalNumber": 64,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8724
+      ]
+    },
+    {
+      "canonicalId": "KS.65",
+      "sourceLocalNumber": 65,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9057
+      ]
+    },
+    {
+      "canonicalId": "KS.66",
+      "sourceLocalNumber": 66,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9101
+      ]
+    },
+    {
+      "canonicalId": "KS.67",
+      "sourceLocalNumber": 67,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9172
+      ]
+    },
+    {
+      "canonicalId": "KS.68",
+      "sourceLocalNumber": 68,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9310
+      ]
+    },
+    {
+      "canonicalId": "KS.69",
+      "sourceLocalNumber": 69,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9336
+      ]
+    },
+    {
+      "canonicalId": "KS.70",
+      "sourceLocalNumber": 70,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9376
+      ]
+    },
+    {
+      "canonicalId": "KS.71",
+      "sourceLocalNumber": 71,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9429
+      ]
+    },
+    {
+      "canonicalId": "KS.72",
+      "sourceLocalNumber": 72,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9487
+      ]
+    },
+    {
+      "canonicalId": "KS.73",
+      "sourceLocalNumber": 73,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9603
+      ]
+    },
+    {
+      "canonicalId": "KS.74",
+      "sourceLocalNumber": 74,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9870
+      ]
+    },
+    {
+      "canonicalId": "KS.75",
+      "sourceLocalNumber": 75,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9915
+      ]
+    },
+    {
+      "canonicalId": "KS.76",
+      "sourceLocalNumber": 76,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9945
+      ]
+    },
+    {
+      "canonicalId": "KS.77",
+      "sourceLocalNumber": 77,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10030
+      ]
+    },
+    {
+      "canonicalId": "KS.78",
+      "sourceLocalNumber": 78,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10056
+      ]
+    },
+    {
+      "canonicalId": "KS.79",
+      "sourceLocalNumber": 79,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10079
+      ]
+    },
+    {
+      "canonicalId": "KS.80",
+      "sourceLocalNumber": 80,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10107
+      ]
+    },
+    {
+      "canonicalId": "KS.81",
+      "sourceLocalNumber": 81,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10416
+      ]
+    },
+    {
+      "canonicalId": "KS.82",
+      "sourceLocalNumber": 82,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10521
+      ]
+    },
+    {
+      "canonicalId": "KS.83",
+      "sourceLocalNumber": 83,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12982
+      ]
+    },
+    {
+      "canonicalId": "KS.84",
+      "sourceLocalNumber": 84,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13042
+      ]
+    },
+    {
+      "canonicalId": "KS.85",
+      "sourceLocalNumber": 85,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13251
+      ]
+    },
+    {
+      "canonicalId": "KS.86",
+      "sourceLocalNumber": 86,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13282
+      ]
+    },
+    {
+      "canonicalId": "KS.87",
+      "sourceLocalNumber": 87,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13691
+      ]
+    },
+    {
+      "canonicalId": "KS.88",
+      "sourceLocalNumber": 88,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13853
+      ]
+    },
+    {
+      "canonicalId": "KS.89",
+      "sourceLocalNumber": 89,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13925
+      ]
+    },
+    {
+      "canonicalId": "KS.90",
+      "sourceLocalNumber": 90,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14202
+      ]
+    },
+    {
+      "canonicalId": "KS.91",
+      "sourceLocalNumber": 91,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14536
+      ]
+    },
+    {
+      "canonicalId": "KS.92",
+      "sourceLocalNumber": 92,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14615
+      ]
+    },
+    {
+      "canonicalId": "KS.93",
+      "sourceLocalNumber": 93,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14787
+      ]
+    },
+    {
+      "canonicalId": "KS.94",
+      "sourceLocalNumber": 94,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15785
+      ]
+    },
+    {
+      "canonicalId": "KS.95",
+      "sourceLocalNumber": 95,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15813
+      ]
+    },
+    {
+      "canonicalId": "KS.96",
+      "sourceLocalNumber": 96,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15842
+      ]
+    },
+    {
+      "canonicalId": "KS.97",
+      "sourceLocalNumber": 97,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16044
+      ]
+    },
+    {
+      "canonicalId": "KS.98",
+      "sourceLocalNumber": 98,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16070
+      ]
+    },
+    {
+      "canonicalId": "KS.99",
+      "sourceLocalNumber": 99,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16379
+      ]
+    },
+    {
+      "canonicalId": "KS.100",
+      "sourceLocalNumber": 100,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16455
+      ]
+    },
+    {
+      "canonicalId": "KS.101",
+      "sourceLocalNumber": 101,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16493
+      ]
+    },
+    {
+      "canonicalId": "KS.102",
+      "sourceLocalNumber": 102,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16538
+      ]
+    },
+    {
+      "canonicalId": "KS.103",
+      "sourceLocalNumber": 103,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16685
+      ]
+    },
+    {
+      "canonicalId": "KS.104",
+      "sourceLocalNumber": 104,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16719
+      ]
+    },
+    {
+      "canonicalId": "KS.105",
+      "sourceLocalNumber": 105,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16978
+      ]
+    },
+    {
+      "canonicalId": "KS.106",
+      "sourceLocalNumber": 106,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17024,
+        20797
+      ]
+    },
+    {
+      "canonicalId": "KS.107",
+      "sourceLocalNumber": 107,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20879
+      ]
+    },
+    {
+      "canonicalId": "KS.108",
+      "sourceLocalNumber": 108,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20994
+      ]
+    },
+    {
+      "canonicalId": "KS.109",
+      "sourceLocalNumber": 109,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21155
+      ]
+    },
+    {
+      "canonicalId": "KS.110",
+      "sourceLocalNumber": 110,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21183
+      ]
+    },
+    {
+      "canonicalId": "KS.111",
+      "sourceLocalNumber": 111,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21408
+      ]
+    },
+    {
+      "canonicalId": "KS.112",
+      "sourceLocalNumber": 112,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21430
+      ]
+    },
+    {
+      "canonicalId": "KS.113",
+      "sourceLocalNumber": 113,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21454
+      ]
+    },
+    {
+      "canonicalId": "KS.114",
+      "sourceLocalNumber": 114,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21506
+      ]
+    },
+    {
+      "canonicalId": "KS.115",
+      "sourceLocalNumber": 115,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21561
+      ]
+    },
+    {
+      "canonicalId": "KS.116",
+      "sourceLocalNumber": 116,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21940
+      ]
+    },
+    {
+      "canonicalId": "KS.117",
+      "sourceLocalNumber": 117,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        22346
+      ]
+    },
+    {
+      "canonicalId": "KS.118",
+      "sourceLocalNumber": 118,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23086
+      ]
+    },
+    {
+      "canonicalId": "KS.119",
+      "sourceLocalNumber": 119,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23175
+      ]
+    },
+    {
+      "canonicalId": "KS.120",
+      "sourceLocalNumber": 120,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23257
+      ]
+    },
+    {
+      "canonicalId": "KS.121",
+      "sourceLocalNumber": 121,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23374
+      ]
+    },
+    {
+      "canonicalId": "KS.122",
+      "sourceLocalNumber": 122,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23405
+      ]
+    },
+    {
+      "canonicalId": "KS.123",
+      "sourceLocalNumber": 123,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23445
+      ]
+    },
+    {
+      "canonicalId": "KS.124",
+      "sourceLocalNumber": 124,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23550
+      ]
+    },
+    {
+      "canonicalId": "KS.125",
+      "sourceLocalNumber": 125,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23732
+      ]
+    },
+    {
+      "canonicalId": "KS.126",
+      "sourceLocalNumber": 126,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23825
+      ]
+    },
+    {
+      "canonicalId": "KS.127",
+      "sourceLocalNumber": 127,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23915
+      ]
+    },
+    {
+      "canonicalId": "KS.128",
+      "sourceLocalNumber": 128,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23987
+      ]
+    },
+    {
+      "canonicalId": "KS.129",
+      "sourceLocalNumber": 129,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24047
+      ]
+    },
+    {
+      "canonicalId": "KS.130",
+      "sourceLocalNumber": 130,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24110
+      ]
+    },
+    {
+      "canonicalId": "KS.131",
+      "sourceLocalNumber": 131,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24157
+      ]
+    },
+    {
+      "canonicalId": "KS.132",
+      "sourceLocalNumber": 132,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24348
+      ]
+    },
+    {
+      "canonicalId": "KS.133",
+      "sourceLocalNumber": 133,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24385
+      ]
+    },
+    {
+      "canonicalId": "KS.134",
+      "sourceLocalNumber": 134,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24415
+      ]
+    },
+    {
+      "canonicalId": "KS.135",
+      "sourceLocalNumber": 135,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24458
+      ]
+    },
+    {
+      "canonicalId": "KS.136",
+      "sourceLocalNumber": 136,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24537
+      ]
+    },
+    {
+      "canonicalId": "KS.137",
+      "sourceLocalNumber": 137,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24583
+      ]
+    },
+    {
+      "canonicalId": "KS.138",
+      "sourceLocalNumber": 138,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24661
+      ]
+    },
+    {
+      "canonicalId": "KS.139",
+      "sourceLocalNumber": 139,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24764
+      ]
+    },
+    {
+      "canonicalId": "KS.140",
+      "sourceLocalNumber": 140,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24864
+      ]
+    },
+    {
+      "canonicalId": "KS.141",
+      "sourceLocalNumber": 141,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24917
+      ]
+    },
+    {
+      "canonicalId": "KS.142",
+      "sourceLocalNumber": 142,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24986
+      ]
+    },
+    {
+      "canonicalId": "KS.143",
+      "sourceLocalNumber": 143,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25451
+      ]
+    },
+    {
+      "canonicalId": "KS.144",
+      "sourceLocalNumber": 144,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25526
+      ]
+    },
+    {
+      "canonicalId": "KS.145",
+      "sourceLocalNumber": 145,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25594
+      ]
+    },
+    {
+      "canonicalId": "KS.146",
+      "sourceLocalNumber": 146,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25705
+      ]
+    },
+    {
+      "canonicalId": "KS.147",
+      "sourceLocalNumber": 147,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        26251
+      ]
+    },
+    {
+      "canonicalId": "KS.148",
+      "sourceLocalNumber": 148,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        26361
+      ]
+    },
+    {
+      "canonicalId": "KS.149",
+      "sourceLocalNumber": 149,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        26387
+      ]
+    },
+    {
+      "canonicalId": "KS.150",
+      "sourceLocalNumber": 150,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        26415
+      ]
+    },
+    {
+      "canonicalId": "KS.151",
+      "sourceLocalNumber": 151,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        26852
+      ]
+    },
+    {
+      "canonicalId": "KS.152",
+      "sourceLocalNumber": 152,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        26937
+      ]
+    },
+    {
+      "canonicalId": "KS.153",
+      "sourceLocalNumber": 153,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        27176
+      ]
+    },
+    {
+      "canonicalId": "KS.154",
+      "sourceLocalNumber": 154,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        27495
+      ]
+    },
+    {
+      "canonicalId": "KS.155",
+      "sourceLocalNumber": 155,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        28210
+      ]
+    },
+    {
+      "canonicalId": "KS.156",
+      "sourceLocalNumber": 156,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        28281
+      ]
+    },
+    {
+      "canonicalId": "KS.157",
+      "sourceLocalNumber": 157,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        28708
+      ]
+    },
+    {
+      "canonicalId": "KS.158",
+      "sourceLocalNumber": 158,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        28776
+      ]
+    },
+    {
+      "canonicalId": "KS.159",
+      "sourceLocalNumber": 159,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29000
+      ]
+    },
+    {
+      "canonicalId": "KS.160",
+      "sourceLocalNumber": 160,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29155
+      ]
+    },
+    {
+      "canonicalId": "KS.161",
+      "sourceLocalNumber": 161,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29253
+      ]
+    },
+    {
+      "canonicalId": "KS.162",
+      "sourceLocalNumber": 162,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29314
+      ]
+    },
+    {
+      "canonicalId": "KS.163",
+      "sourceLocalNumber": 163,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29389
+      ]
+    },
+    {
+      "canonicalId": "KS.164",
+      "sourceLocalNumber": 164,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29415
+      ]
+    },
+    {
+      "canonicalId": "KS.165",
+      "sourceLocalNumber": 165,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29447
+      ]
+    },
+    {
+      "canonicalId": "KS.166",
+      "sourceLocalNumber": 166,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29771
+      ]
+    },
+    {
+      "canonicalId": "KS.167",
+      "sourceLocalNumber": 167,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29820
+      ]
+    },
+    {
+      "canonicalId": "KS.168",
+      "sourceLocalNumber": 168,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29849
+      ]
+    },
+    {
+      "canonicalId": "KS.169",
+      "sourceLocalNumber": 169,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29876
+      ]
+    },
+    {
+      "canonicalId": "KS.170",
+      "sourceLocalNumber": 170,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        30018
+      ]
+    },
+    {
+      "canonicalId": "KS.171",
+      "sourceLocalNumber": 171,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        30099
+      ]
+    },
+    {
+      "canonicalId": "KS.172",
+      "sourceLocalNumber": 172,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        30318
+      ]
+    },
+    {
+      "canonicalId": "KS.173",
+      "sourceLocalNumber": 173,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        30415
+      ]
+    },
+    {
+      "canonicalId": "KS.174",
+      "sourceLocalNumber": 174,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        30961
+      ]
+    },
+    {
+      "canonicalId": "KS.175",
+      "sourceLocalNumber": 175,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        31009,
+        32157
+      ]
+    },
+    {
+      "canonicalId": "KS.176",
+      "sourceLocalNumber": 176,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        32023
+      ]
+    },
+    {
+      "canonicalId": "KS.177",
+      "sourceLocalNumber": 177,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        32520
+      ]
+    },
+    {
+      "canonicalId": "KS.178",
+      "sourceLocalNumber": 178,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        32679
+      ]
+    },
+    {
+      "canonicalId": "KS.179",
+      "sourceLocalNumber": 179,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        34014
+      ]
+    },
+    {
+      "canonicalId": "KS.180",
+      "sourceLocalNumber": 180,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        34093
+      ]
+    },
+    {
+      "canonicalId": "KS.181",
+      "sourceLocalNumber": 181,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        34176
+      ]
+    },
+    {
+      "canonicalId": "KS.182",
+      "sourceLocalNumber": 182,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        34267,
+        36105
+      ]
+    },
+    {
+      "canonicalId": "KS.183",
+      "sourceLocalNumber": 183,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        34818,
+        36655
+      ]
+    },
+    {
+      "canonicalId": "KS.184",
+      "sourceLocalNumber": 184,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        35418,
+        37259
+      ]
+    },
+    {
+      "canonicalId": "KS.185",
+      "sourceLocalNumber": 185,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        37982
+      ]
+    },
+    {
+      "canonicalId": "KS.186",
+      "sourceLocalNumber": 186,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        38067
+      ]
+    },
+    {
+      "canonicalId": "KS.187",
+      "sourceLocalNumber": 187,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        38437
+      ]
+    },
+    {
+      "canonicalId": "KS.188",
+      "sourceLocalNumber": 188,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        38752
+      ]
+    },
+    {
+      "canonicalId": "KS.189",
+      "sourceLocalNumber": 189,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        38787
+      ]
+    },
+    {
+      "canonicalId": "KS.190",
+      "sourceLocalNumber": 190,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        38859
+      ]
+    }
+  ]
+}

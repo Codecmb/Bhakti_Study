@@ -1,0 +1,97 @@
+{
+  "moduleId": "sat-sandarbhas",
+  "title": "Ṣaṭ Sandarbhas",
+  "author": "Śrī Jīva Gosvāmī",
+  "unitType": "anuccheda",
+  "architectureVersion": 2,
+  "principles": {
+    "canonicalIdentityIndependentOfFile": true,
+    "sourceLocalLabelsPreserved": true,
+    "coursesReferenceCanonicalIds": true,
+    "studentDataIndependent": true,
+    "sourcesReplaceable": true,
+    "commentariesAttachable": true
+  },
+  "works": [
+    {
+      "id": "tattva",
+      "canonicalPrefix": "TS",
+      "title": "Tattva Sandarbha",
+      "order": 1
+    },
+    {
+      "id": "bhagavat",
+      "canonicalPrefix": "BGS",
+      "title": "Bhagavat Sandarbha",
+      "order": 2
+    },
+    {
+      "id": "paramatma",
+      "canonicalPrefix": "PAS",
+      "title": "Paramātma Sandarbha",
+      "order": 3
+    },
+    {
+      "id": "krsna",
+      "canonicalPrefix": "KS",
+      "title": "Kṛṣṇa Sandarbha",
+      "order": 4
+    },
+    {
+      "id": "bhakti",
+      "canonicalPrefix": "BHS",
+      "title": "Bhakti Sandarbha",
+      "order": 5
+    },
+    {
+      "id": "priti",
+      "canonicalPrefix": "PS",
+      "title": "Prīti Sandarbha",
+      "order": 6
+    }
+  ],
+  "canonicalMappingPolicy": {
+    "principle": "Canonical study identity is independent from replaceable source files.",
+    "sourceLocalLabels": "Preserved exactly per edition/source.",
+    "renumbering": "Never silent; edition aliases require explicit validation.",
+    "validatedWorks": {
+      "tattva": {
+        "prefix": "TS",
+        "range": "TS.1–TS.63",
+        "source": "tattva-bbt-structured-doc",
+        "status": "validated"
+      },
+      "bhagavat": {
+        "prefix": "BGS",
+        "range": "BGS.1–BGS.106",
+        "source": "user Bhagavat Sandarbha.pdf",
+        "status": "validated-source-edition"
+      },
+      "paramatma": {
+        "prefix": "PAS",
+        "range": "PAS.1–PAS.109",
+        "source": "Paramatma Total with Sanskrit.doc",
+        "status": "source-edition-registered",
+        "note": "Text 110 is internal to Anuccheda 105, not a top-level Anuccheda."
+      },
+      "krsna": {
+        "prefix": "KS",
+        "range": "KS.1–KS.190",
+        "source": "Krsna Sandarbha.pdf",
+        "status": "validated-complete-sequence"
+      },
+      "bhakti": {
+        "prefix": "BHS",
+        "range": "BHS.1–BHS.340",
+        "source": "Bhakti Sandarbha.pdf",
+        "status": "registered-with-extraction-gaps"
+      },
+      "priti": {
+        "prefix": "PS",
+        "range": "PS.1–PS.429",
+        "source": "Priti sandarbha 2.doc",
+        "status": "registered-with-extraction-gaps"
+      }
+    }
+  }
+}

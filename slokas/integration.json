@@ -1,0 +1,11 @@
+{
+  "schema":"sloka-integration-v1",
+  "provider":"Śrīla Prabhupāda Ślokas",
+  "repository":"https://github.com/Codecmb/srila-prabhupada-slokas",
+  "dataFiles":{"verses":"verses.json","audio":"audio-map.json"},
+  "mode":"external-provider-with-local-cache-fallback",
+  "ownership":{"bhaktiStudy":"course requirements and course progress","slokaApp":"verse content, audio, memorization experience"},
+  "referenceNormalization":{"Bhagavad-gītā":"BG","Śrīmad-Bhāgavatam":"SB","Śrī Īśopaniṣad":"ISO","Nectar of Instruction":"NOI","Nectar of Devotion":"NOD"},
+  "appUrl":null,
+  "status":"configured; app deployment URL can be added without changing course data"
+}

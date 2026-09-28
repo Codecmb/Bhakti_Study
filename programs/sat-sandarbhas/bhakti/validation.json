@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "workId": "bhakti",
+  "canonicalPrefix": "BHS",
+  "unitCount": 340,
+  "verifiedSourceHeadings": 332,
+  "unverifiedCanonicalSlots": 8,
+  "first": "BHS.1",
+  "last": "BHS.340",
+  "duplicateIds": false
+}

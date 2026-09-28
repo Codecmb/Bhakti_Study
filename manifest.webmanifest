@@ -1,0 +1,8 @@
+{
+  "name": "Academia Master Siddhānta Gauḍīya — Bhakti Study",
+  "short_name": "Bhakti Study",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#faf8f2",
+  "theme_color": "#292720"
+}

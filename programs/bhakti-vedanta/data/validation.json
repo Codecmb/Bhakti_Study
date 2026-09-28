@@ -1,0 +1,18 @@
+{
+  "booksPresent": {
+    "sb7": true,
+    "sb8": true,
+    "sb9": true,
+    "sb10": true,
+    "sb11": true,
+    "sb12": true
+  },
+  "unitCount": 16,
+  "slokaMinimumStandard": 70,
+  "slokaContentDuplicated": false,
+  "sb10RegisteredChapters": 13,
+  "sb10Complete": false,
+  "sb11Creator": "Contributor attribution not stated in source file",
+  "sb12Creator": "Contributor attribution not stated in source file",
+  "passWithKnownSourceLimitation": true
+}

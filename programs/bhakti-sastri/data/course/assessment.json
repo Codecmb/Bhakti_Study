@@ -1,0 +1,12 @@
+{
+  "assessment": {
+    "officialFramework": {
+      "openBookPassingPercent": 60,
+      "closedBookPassingPercent": 65,
+      "slokaPassingPercent": 65,
+      "attendancePercent": 75
+    },
+    "academyCertificate": true,
+    "officialDegree": false
+  }
+}

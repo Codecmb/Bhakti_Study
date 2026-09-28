@@ -1,0 +1,3325 @@
+{
+  "schema": "bhakti-study.sandarbha-manifest.v2",
+  "workId": "priti",
+  "title": "Prīti Sandarbha",
+  "canonicalPrefix": "PS",
+  "sourceEdition": {
+    "fileName": "Priti sandarbha 2.doc",
+    "topLevelRangeObserved": "1–429",
+    "sha256OfExtractedText": "ae322a4a3d4849969bdd63020667ecfe1113562dcecb6f8202414eafa9090003"
+  },
+  "mappingPolicy": "Canonical IDs are stable academy identities. Source-local headings are evidence; absent extracted headings are never fabricated.",
+  "canonicalRange": "PS.1–PS.429",
+  "unitCount": 429,
+  "sourceHeadingCoverage": {
+    "found": 291,
+    "missing": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      103,
+      104,
+      193,
+      194,
+      195,
+      198,
+      218,
+      219,
+      226,
+      227,
+      228,
+      229,
+      239,
+      240,
+      247,
+      248,
+      272,
+      273,
+      285,
+      286,
+      290,
+      291,
+      292,
+      293,
+      294,
+      296,
+      297,
+      298,
+      299,
+      308,
+      309,
+      310,
+      311,
+      312,
+      316,
+      317,
+      320,
+      321,
+      324,
+      325,
+      333,
+      334,
+      346,
+      347,
+      361,
+      362,
+      363,
+      364,
+      372,
+      373,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      387,
+      388,
+      389,
+      390,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      425,
+      426,
+      427
+    ]
+  },
+  "units": [
+    {
+      "canonicalId": "PS.1",
+      "sourceLocalNumber": 1,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        29
+      ]
+    },
+    {
+      "canonicalId": "PS.2",
+      "sourceLocalNumber": 2,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        436
+      ]
+    },
+    {
+      "canonicalId": "PS.3",
+      "sourceLocalNumber": 3,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        464
+      ]
+    },
+    {
+      "canonicalId": "PS.4",
+      "sourceLocalNumber": 4,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        598
+      ]
+    },
+    {
+      "canonicalId": "PS.5",
+      "sourceLocalNumber": 5,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        679
+      ]
+    },
+    {
+      "canonicalId": "PS.6",
+      "sourceLocalNumber": 6,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1326
+      ]
+    },
+    {
+      "canonicalId": "PS.7",
+      "sourceLocalNumber": 7,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1361
+      ]
+    },
+    {
+      "canonicalId": "PS.8",
+      "sourceLocalNumber": 8,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2161
+      ]
+    },
+    {
+      "canonicalId": "PS.9",
+      "sourceLocalNumber": 9,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2225
+      ]
+    },
+    {
+      "canonicalId": "PS.10",
+      "sourceLocalNumber": 10,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2255
+      ]
+    },
+    {
+      "canonicalId": "PS.11",
+      "sourceLocalNumber": 11,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2578
+      ]
+    },
+    {
+      "canonicalId": "PS.12",
+      "sourceLocalNumber": 12,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2626
+      ]
+    },
+    {
+      "canonicalId": "PS.13",
+      "sourceLocalNumber": 13,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2648
+      ]
+    },
+    {
+      "canonicalId": "PS.14",
+      "sourceLocalNumber": 14,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2807
+      ]
+    },
+    {
+      "canonicalId": "PS.15",
+      "sourceLocalNumber": 15,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2830
+      ]
+    },
+    {
+      "canonicalId": "PS.16",
+      "sourceLocalNumber": 16,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2987
+      ]
+    },
+    {
+      "canonicalId": "PS.17",
+      "sourceLocalNumber": 17,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3268
+      ]
+    },
+    {
+      "canonicalId": "PS.18",
+      "sourceLocalNumber": 18,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3340
+      ]
+    },
+    {
+      "canonicalId": "PS.19",
+      "sourceLocalNumber": 19,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3418
+      ]
+    },
+    {
+      "canonicalId": "PS.20",
+      "sourceLocalNumber": 20,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3480
+      ]
+    },
+    {
+      "canonicalId": "PS.21",
+      "sourceLocalNumber": 21,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3516
+      ]
+    },
+    {
+      "canonicalId": "PS.22",
+      "sourceLocalNumber": 22,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3616
+      ]
+    },
+    {
+      "canonicalId": "PS.23",
+      "sourceLocalNumber": 23,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3640
+      ]
+    },
+    {
+      "canonicalId": "PS.24",
+      "sourceLocalNumber": 24,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3676
+      ]
+    },
+    {
+      "canonicalId": "PS.25",
+      "sourceLocalNumber": 25,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3702
+      ]
+    },
+    {
+      "canonicalId": "PS.26",
+      "sourceLocalNumber": 26,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3728
+      ]
+    },
+    {
+      "canonicalId": "PS.27",
+      "sourceLocalNumber": 27,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3757
+      ]
+    },
+    {
+      "canonicalId": "PS.28",
+      "sourceLocalNumber": 28,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3796
+      ]
+    },
+    {
+      "canonicalId": "PS.29",
+      "sourceLocalNumber": 29,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3825
+      ]
+    },
+    {
+      "canonicalId": "PS.30",
+      "sourceLocalNumber": 30,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3853,
+        3950
+      ]
+    },
+    {
+      "canonicalId": "PS.31",
+      "sourceLocalNumber": 31,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3977
+      ]
+    },
+    {
+      "canonicalId": "PS.32",
+      "sourceLocalNumber": 32,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4019
+      ]
+    },
+    {
+      "canonicalId": "PS.33",
+      "sourceLocalNumber": 33,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4301
+      ]
+    },
+    {
+      "canonicalId": "PS.34",
+      "sourceLocalNumber": 34,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4334
+      ]
+    },
+    {
+      "canonicalId": "PS.35",
+      "sourceLocalNumber": 35,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4375
+      ]
+    },
+    {
+      "canonicalId": "PS.36",
+      "sourceLocalNumber": 36,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4509
+      ]
+    },
+    {
+      "canonicalId": "PS.37",
+      "sourceLocalNumber": 37,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4558
+      ]
+    },
+    {
+      "canonicalId": "PS.38",
+      "sourceLocalNumber": 38,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4578
+      ]
+    },
+    {
+      "canonicalId": "PS.39",
+      "sourceLocalNumber": 39,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4608
+      ]
+    },
+    {
+      "canonicalId": "PS.40",
+      "sourceLocalNumber": 40,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4632
+      ]
+    },
+    {
+      "canonicalId": "PS.41",
+      "sourceLocalNumber": 41,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4676
+      ]
+    },
+    {
+      "canonicalId": "PS.42",
+      "sourceLocalNumber": 42,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4713
+      ]
+    },
+    {
+      "canonicalId": "PS.43",
+      "sourceLocalNumber": 43,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4747
+      ]
+    },
+    {
+      "canonicalId": "PS.44",
+      "sourceLocalNumber": 44,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4797
+      ]
+    },
+    {
+      "canonicalId": "PS.45",
+      "sourceLocalNumber": 45,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4821
+      ]
+    },
+    {
+      "canonicalId": "PS.46",
+      "sourceLocalNumber": 46,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4875
+      ]
+    },
+    {
+      "canonicalId": "PS.47",
+      "sourceLocalNumber": 47,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4975
+      ]
+    },
+    {
+      "canonicalId": "PS.48",
+      "sourceLocalNumber": 48,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5035
+      ]
+    },
+    {
+      "canonicalId": "PS.49",
+      "sourceLocalNumber": 49,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5200
+      ]
+    },
+    {
+      "canonicalId": "PS.50",
+      "sourceLocalNumber": 50,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5290
+      ]
+    },
+    {
+      "canonicalId": "PS.51",
+      "sourceLocalNumber": 51,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5445
+      ]
+    },
+    {
+      "canonicalId": "PS.52",
+      "sourceLocalNumber": 52,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.53",
+      "sourceLocalNumber": 53,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.54",
+      "sourceLocalNumber": 54,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.55",
+      "sourceLocalNumber": 55,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.56",
+      "sourceLocalNumber": 56,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.57",
+      "sourceLocalNumber": 57,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.58",
+      "sourceLocalNumber": 58,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.59",
+      "sourceLocalNumber": 59,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.60",
+      "sourceLocalNumber": 60,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.61",
+      "sourceLocalNumber": 61,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.62",
+      "sourceLocalNumber": 62,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.63",
+      "sourceLocalNumber": 63,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.64",
+      "sourceLocalNumber": 64,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.65",
+      "sourceLocalNumber": 65,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.66",
+      "sourceLocalNumber": 66,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.67",
+      "sourceLocalNumber": 67,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.68",
+      "sourceLocalNumber": 68,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.69",
+      "sourceLocalNumber": 69,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.70",
+      "sourceLocalNumber": 70,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.71",
+      "sourceLocalNumber": 71,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.72",
+      "sourceLocalNumber": 72,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.73",
+      "sourceLocalNumber": 73,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.74",
+      "sourceLocalNumber": 74,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.75",
+      "sourceLocalNumber": 75,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.76",
+      "sourceLocalNumber": 76,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.77",
+      "sourceLocalNumber": 77,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.78",
+      "sourceLocalNumber": 78,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.79",
+      "sourceLocalNumber": 79,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.80",
+      "sourceLocalNumber": 80,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.81",
+      "sourceLocalNumber": 81,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.82",
+      "sourceLocalNumber": 82,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.83",
+      "sourceLocalNumber": 83,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.84",
+      "sourceLocalNumber": 84,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.85",
+      "sourceLocalNumber": 85,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.86",
+      "sourceLocalNumber": 86,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.87",
+      "sourceLocalNumber": 87,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.88",
+      "sourceLocalNumber": 88,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.89",
+      "sourceLocalNumber": 89,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.90",
+      "sourceLocalNumber": 90,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.91",
+      "sourceLocalNumber": 91,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.92",
+      "sourceLocalNumber": 92,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.93",
+      "sourceLocalNumber": 93,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.94",
+      "sourceLocalNumber": 94,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.95",
+      "sourceLocalNumber": 95,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.96",
+      "sourceLocalNumber": 96,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.97",
+      "sourceLocalNumber": 97,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.98",
+      "sourceLocalNumber": 98,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.99",
+      "sourceLocalNumber": 99,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.100",
+      "sourceLocalNumber": 100,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5785
+      ]
+    },
+    {
+      "canonicalId": "PS.101",
+      "sourceLocalNumber": 101,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6270
+      ]
+    },
+    {
+      "canonicalId": "PS.102",
+      "sourceLocalNumber": 102,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6316
+      ]
+    },
+    {
+      "canonicalId": "PS.103",
+      "sourceLocalNumber": 103,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.104",
+      "sourceLocalNumber": 104,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.105",
+      "sourceLocalNumber": 105,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6596
+      ]
+    },
+    {
+      "canonicalId": "PS.106",
+      "sourceLocalNumber": 106,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6638
+      ]
+    },
+    {
+      "canonicalId": "PS.107",
+      "sourceLocalNumber": 107,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6684
+      ]
+    },
+    {
+      "canonicalId": "PS.108",
+      "sourceLocalNumber": 108,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6776
+      ]
+    },
+    {
+      "canonicalId": "PS.109",
+      "sourceLocalNumber": 109,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6972
+      ]
+    },
+    {
+      "canonicalId": "PS.110",
+      "sourceLocalNumber": 110,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7059
+      ]
+    },
+    {
+      "canonicalId": "PS.111",
+      "sourceLocalNumber": 111,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7586
+      ]
+    },
+    {
+      "canonicalId": "PS.112",
+      "sourceLocalNumber": 112,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8040
+      ]
+    },
+    {
+      "canonicalId": "PS.113",
+      "sourceLocalNumber": 113,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8099
+      ]
+    },
+    {
+      "canonicalId": "PS.114",
+      "sourceLocalNumber": 114,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8117
+      ]
+    },
+    {
+      "canonicalId": "PS.115",
+      "sourceLocalNumber": 115,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8145
+      ]
+    },
+    {
+      "canonicalId": "PS.116",
+      "sourceLocalNumber": 116,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8211
+      ]
+    },
+    {
+      "canonicalId": "PS.117",
+      "sourceLocalNumber": 117,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8425
+      ]
+    },
+    {
+      "canonicalId": "PS.118",
+      "sourceLocalNumber": 118,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8445
+      ]
+    },
+    {
+      "canonicalId": "PS.119",
+      "sourceLocalNumber": 119,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8577
+      ]
+    },
+    {
+      "canonicalId": "PS.120",
+      "sourceLocalNumber": 120,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8695
+      ]
+    },
+    {
+      "canonicalId": "PS.121",
+      "sourceLocalNumber": 121,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8733
+      ]
+    },
+    {
+      "canonicalId": "PS.122",
+      "sourceLocalNumber": 122,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8893
+      ]
+    },
+    {
+      "canonicalId": "PS.123",
+      "sourceLocalNumber": 123,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8986
+      ]
+    },
+    {
+      "canonicalId": "PS.124",
+      "sourceLocalNumber": 124,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9015
+      ]
+    },
+    {
+      "canonicalId": "PS.125",
+      "sourceLocalNumber": 125,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9037
+      ]
+    },
+    {
+      "canonicalId": "PS.126",
+      "sourceLocalNumber": 126,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9069
+      ]
+    },
+    {
+      "canonicalId": "PS.127",
+      "sourceLocalNumber": 127,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9106
+      ]
+    },
+    {
+      "canonicalId": "PS.128",
+      "sourceLocalNumber": 128,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9128
+      ]
+    },
+    {
+      "canonicalId": "PS.129",
+      "sourceLocalNumber": 129,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9154
+      ]
+    },
+    {
+      "canonicalId": "PS.130",
+      "sourceLocalNumber": 130,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9186
+      ]
+    },
+    {
+      "canonicalId": "PS.131",
+      "sourceLocalNumber": 131,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9218
+      ]
+    },
+    {
+      "canonicalId": "PS.132",
+      "sourceLocalNumber": 132,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9240
+      ]
+    },
+    {
+      "canonicalId": "PS.133",
+      "sourceLocalNumber": 133,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9262,
+        9695
+      ]
+    },
+    {
+      "canonicalId": "PS.134",
+      "sourceLocalNumber": 134,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9295,
+        9728
+      ]
+    },
+    {
+      "canonicalId": "PS.135",
+      "sourceLocalNumber": 135,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9338,
+        9771
+      ]
+    },
+    {
+      "canonicalId": "PS.136",
+      "sourceLocalNumber": 136,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9387,
+        9820
+      ]
+    },
+    {
+      "canonicalId": "PS.137",
+      "sourceLocalNumber": 137,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9433,
+        9866
+      ]
+    },
+    {
+      "canonicalId": "PS.138",
+      "sourceLocalNumber": 138,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9457,
+        9890
+      ]
+    },
+    {
+      "canonicalId": "PS.139",
+      "sourceLocalNumber": 139,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9503,
+        9936
+      ]
+    },
+    {
+      "canonicalId": "PS.140",
+      "sourceLocalNumber": 140,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9555,
+        9988
+      ]
+    },
+    {
+      "canonicalId": "PS.141",
+      "sourceLocalNumber": 141,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9578,
+        10011
+      ]
+    },
+    {
+      "canonicalId": "PS.142",
+      "sourceLocalNumber": 142,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10143
+      ]
+    },
+    {
+      "canonicalId": "PS.143",
+      "sourceLocalNumber": 143,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10169
+      ]
+    },
+    {
+      "canonicalId": "PS.144",
+      "sourceLocalNumber": 144,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10314
+      ]
+    },
+    {
+      "canonicalId": "PS.145",
+      "sourceLocalNumber": 145,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10344
+      ]
+    },
+    {
+      "canonicalId": "PS.146",
+      "sourceLocalNumber": 146,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10393
+      ]
+    },
+    {
+      "canonicalId": "PS.147",
+      "sourceLocalNumber": 147,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10444
+      ]
+    },
+    {
+      "canonicalId": "PS.148",
+      "sourceLocalNumber": 148,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10500
+      ]
+    },
+    {
+      "canonicalId": "PS.149",
+      "sourceLocalNumber": 149,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10536
+      ]
+    },
+    {
+      "canonicalId": "PS.150",
+      "sourceLocalNumber": 150,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10570
+      ]
+    },
+    {
+      "canonicalId": "PS.151",
+      "sourceLocalNumber": 151,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10725
+      ]
+    },
+    {
+      "canonicalId": "PS.152",
+      "sourceLocalNumber": 152,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10961
+      ]
+    },
+    {
+      "canonicalId": "PS.153",
+      "sourceLocalNumber": 153,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11002
+      ]
+    },
+    {
+      "canonicalId": "PS.154",
+      "sourceLocalNumber": 154,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11062
+      ]
+    },
+    {
+      "canonicalId": "PS.155",
+      "sourceLocalNumber": 155,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11084
+      ]
+    },
+    {
+      "canonicalId": "PS.156",
+      "sourceLocalNumber": 156,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11190
+      ]
+    },
+    {
+      "canonicalId": "PS.157",
+      "sourceLocalNumber": 157,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11218
+      ]
+    },
+    {
+      "canonicalId": "PS.158",
+      "sourceLocalNumber": 158,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11263
+      ]
+    },
+    {
+      "canonicalId": "PS.159",
+      "sourceLocalNumber": 159,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11998
+      ]
+    },
+    {
+      "canonicalId": "PS.160",
+      "sourceLocalNumber": 160,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12019
+      ]
+    },
+    {
+      "canonicalId": "PS.161",
+      "sourceLocalNumber": 161,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12039
+      ]
+    },
+    {
+      "canonicalId": "PS.162",
+      "sourceLocalNumber": 162,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12149
+      ]
+    },
+    {
+      "canonicalId": "PS.163",
+      "sourceLocalNumber": 163,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12183
+      ]
+    },
+    {
+      "canonicalId": "PS.164",
+      "sourceLocalNumber": 164,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12205
+      ]
+    },
+    {
+      "canonicalId": "PS.165",
+      "sourceLocalNumber": 165,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12278
+      ]
+    },
+    {
+      "canonicalId": "PS.166",
+      "sourceLocalNumber": 166,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12296
+      ]
+    },
+    {
+      "canonicalId": "PS.167",
+      "sourceLocalNumber": 167,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12326
+      ]
+    },
+    {
+      "canonicalId": "PS.168",
+      "sourceLocalNumber": 168,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12369
+      ]
+    },
+    {
+      "canonicalId": "PS.169",
+      "sourceLocalNumber": 169,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12391
+      ]
+    },
+    {
+      "canonicalId": "PS.170",
+      "sourceLocalNumber": 170,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12430
+      ]
+    },
+    {
+      "canonicalId": "PS.171",
+      "sourceLocalNumber": 171,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12449
+      ]
+    },
+    {
+      "canonicalId": "PS.172",
+      "sourceLocalNumber": 172,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12472
+      ]
+    },
+    {
+      "canonicalId": "PS.173",
+      "sourceLocalNumber": 173,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12524
+      ]
+    },
+    {
+      "canonicalId": "PS.174",
+      "sourceLocalNumber": 174,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12553
+      ]
+    },
+    {
+      "canonicalId": "PS.175",
+      "sourceLocalNumber": 175,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12650
+      ]
+    },
+    {
+      "canonicalId": "PS.176",
+      "sourceLocalNumber": 176,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12735
+      ]
+    },
+    {
+      "canonicalId": "PS.177",
+      "sourceLocalNumber": 177,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12789
+      ]
+    },
+    {
+      "canonicalId": "PS.178",
+      "sourceLocalNumber": 178,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12832
+      ]
+    },
+    {
+      "canonicalId": "PS.179",
+      "sourceLocalNumber": 179,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13014
+      ]
+    },
+    {
+      "canonicalId": "PS.180",
+      "sourceLocalNumber": 180,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13045
+      ]
+    },
+    {
+      "canonicalId": "PS.181",
+      "sourceLocalNumber": 181,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13073
+      ]
+    },
+    {
+      "canonicalId": "PS.182",
+      "sourceLocalNumber": 182,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13096
+      ]
+    },
+    {
+      "canonicalId": "PS.183",
+      "sourceLocalNumber": 183,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13203
+      ]
+    },
+    {
+      "canonicalId": "PS.184",
+      "sourceLocalNumber": 184,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13236
+      ]
+    },
+    {
+      "canonicalId": "PS.185",
+      "sourceLocalNumber": 185,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13286
+      ]
+    },
+    {
+      "canonicalId": "PS.186",
+      "sourceLocalNumber": 186,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13356
+      ]
+    },
+    {
+      "canonicalId": "PS.187",
+      "sourceLocalNumber": 187,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13384
+      ]
+    },
+    {
+      "canonicalId": "PS.188",
+      "sourceLocalNumber": 188,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13417
+      ]
+    },
+    {
+      "canonicalId": "PS.189",
+      "sourceLocalNumber": 189,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13463
+      ]
+    },
+    {
+      "canonicalId": "PS.190",
+      "sourceLocalNumber": 190,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13520
+      ]
+    },
+    {
+      "canonicalId": "PS.191",
+      "sourceLocalNumber": 191,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13544
+      ]
+    },
+    {
+      "canonicalId": "PS.192",
+      "sourceLocalNumber": 192,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13569
+      ]
+    },
+    {
+      "canonicalId": "PS.193",
+      "sourceLocalNumber": 193,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.194",
+      "sourceLocalNumber": 194,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.195",
+      "sourceLocalNumber": 195,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.196",
+      "sourceLocalNumber": 196,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13796
+      ]
+    },
+    {
+      "canonicalId": "PS.197",
+      "sourceLocalNumber": 197,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13838
+      ]
+    },
+    {
+      "canonicalId": "PS.198",
+      "sourceLocalNumber": 198,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.199",
+      "sourceLocalNumber": 199,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13907
+      ]
+    },
+    {
+      "canonicalId": "PS.200",
+      "sourceLocalNumber": 200,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13988
+      ]
+    },
+    {
+      "canonicalId": "PS.201",
+      "sourceLocalNumber": 201,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14016
+      ]
+    },
+    {
+      "canonicalId": "PS.202",
+      "sourceLocalNumber": 202,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14037
+      ]
+    },
+    {
+      "canonicalId": "PS.203",
+      "sourceLocalNumber": 203,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14062
+      ]
+    },
+    {
+      "canonicalId": "PS.204",
+      "sourceLocalNumber": 204,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14279
+      ]
+    },
+    {
+      "canonicalId": "PS.205",
+      "sourceLocalNumber": 205,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14316
+      ]
+    },
+    {
+      "canonicalId": "PS.206",
+      "sourceLocalNumber": 206,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14350
+      ]
+    },
+    {
+      "canonicalId": "PS.207",
+      "sourceLocalNumber": 207,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14401
+      ]
+    },
+    {
+      "canonicalId": "PS.208",
+      "sourceLocalNumber": 208,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14449
+      ]
+    },
+    {
+      "canonicalId": "PS.209",
+      "sourceLocalNumber": 209,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14582
+      ]
+    },
+    {
+      "canonicalId": "PS.210",
+      "sourceLocalNumber": 210,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14653
+      ]
+    },
+    {
+      "canonicalId": "PS.211",
+      "sourceLocalNumber": 211,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14677
+      ]
+    },
+    {
+      "canonicalId": "PS.212",
+      "sourceLocalNumber": 212,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14698
+      ]
+    },
+    {
+      "canonicalId": "PS.213",
+      "sourceLocalNumber": 213,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14721
+      ]
+    },
+    {
+      "canonicalId": "PS.214",
+      "sourceLocalNumber": 214,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14743
+      ]
+    },
+    {
+      "canonicalId": "PS.215",
+      "sourceLocalNumber": 215,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14813
+      ]
+    },
+    {
+      "canonicalId": "PS.216",
+      "sourceLocalNumber": 216,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14849
+      ]
+    },
+    {
+      "canonicalId": "PS.217",
+      "sourceLocalNumber": 217,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14957
+      ]
+    },
+    {
+      "canonicalId": "PS.218",
+      "sourceLocalNumber": 218,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.219",
+      "sourceLocalNumber": 219,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.220",
+      "sourceLocalNumber": 220,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15255
+      ]
+    },
+    {
+      "canonicalId": "PS.221",
+      "sourceLocalNumber": 221,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15277
+      ]
+    },
+    {
+      "canonicalId": "PS.222",
+      "sourceLocalNumber": 222,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15298
+      ]
+    },
+    {
+      "canonicalId": "PS.223",
+      "sourceLocalNumber": 223,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15380
+      ]
+    },
+    {
+      "canonicalId": "PS.224",
+      "sourceLocalNumber": 224,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15432
+      ]
+    },
+    {
+      "canonicalId": "PS.225",
+      "sourceLocalNumber": 225,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15482
+      ]
+    },
+    {
+      "canonicalId": "PS.226",
+      "sourceLocalNumber": 226,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.227",
+      "sourceLocalNumber": 227,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.228",
+      "sourceLocalNumber": 228,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.229",
+      "sourceLocalNumber": 229,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.230",
+      "sourceLocalNumber": 230,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15629
+      ]
+    },
+    {
+      "canonicalId": "PS.231",
+      "sourceLocalNumber": 231,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15650
+      ]
+    },
+    {
+      "canonicalId": "PS.232",
+      "sourceLocalNumber": 232,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15706
+      ]
+    },
+    {
+      "canonicalId": "PS.233",
+      "sourceLocalNumber": 233,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15737
+      ]
+    },
+    {
+      "canonicalId": "PS.234",
+      "sourceLocalNumber": 234,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15782
+      ]
+    },
+    {
+      "canonicalId": "PS.235",
+      "sourceLocalNumber": 235,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15804
+      ]
+    },
+    {
+      "canonicalId": "PS.236",
+      "sourceLocalNumber": 236,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15827
+      ]
+    },
+    {
+      "canonicalId": "PS.237",
+      "sourceLocalNumber": 237,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15849
+      ]
+    },
+    {
+      "canonicalId": "PS.238",
+      "sourceLocalNumber": 238,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15896
+      ]
+    },
+    {
+      "canonicalId": "PS.239",
+      "sourceLocalNumber": 239,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.240",
+      "sourceLocalNumber": 240,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.241",
+      "sourceLocalNumber": 241,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16008
+      ]
+    },
+    {
+      "canonicalId": "PS.242",
+      "sourceLocalNumber": 242,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16029
+      ]
+    },
+    {
+      "canonicalId": "PS.243",
+      "sourceLocalNumber": 243,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16051
+      ]
+    },
+    {
+      "canonicalId": "PS.244",
+      "sourceLocalNumber": 244,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16089
+      ]
+    },
+    {
+      "canonicalId": "PS.245",
+      "sourceLocalNumber": 245,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16393
+      ]
+    },
+    {
+      "canonicalId": "PS.246",
+      "sourceLocalNumber": 246,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16417
+      ]
+    },
+    {
+      "canonicalId": "PS.247",
+      "sourceLocalNumber": 247,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.248",
+      "sourceLocalNumber": 248,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.249",
+      "sourceLocalNumber": 249,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16563
+      ]
+    },
+    {
+      "canonicalId": "PS.250",
+      "sourceLocalNumber": 250,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16773
+      ]
+    },
+    {
+      "canonicalId": "PS.251",
+      "sourceLocalNumber": 251,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16792
+      ]
+    },
+    {
+      "canonicalId": "PS.252",
+      "sourceLocalNumber": 252,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16813
+      ]
+    },
+    {
+      "canonicalId": "PS.253",
+      "sourceLocalNumber": 253,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16834
+      ]
+    },
+    {
+      "canonicalId": "PS.254",
+      "sourceLocalNumber": 254,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16850
+      ]
+    },
+    {
+      "canonicalId": "PS.255",
+      "sourceLocalNumber": 255,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16870
+      ]
+    },
+    {
+      "canonicalId": "PS.256",
+      "sourceLocalNumber": 256,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16902
+      ]
+    },
+    {
+      "canonicalId": "PS.257",
+      "sourceLocalNumber": 257,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16937
+      ]
+    },
+    {
+      "canonicalId": "PS.258",
+      "sourceLocalNumber": 258,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16966
+      ]
+    },
+    {
+      "canonicalId": "PS.259",
+      "sourceLocalNumber": 259,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16987
+      ]
+    },
+    {
+      "canonicalId": "PS.260",
+      "sourceLocalNumber": 260,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17014
+      ]
+    },
+    {
+      "canonicalId": "PS.261",
+      "sourceLocalNumber": 261,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17152
+      ]
+    },
+    {
+      "canonicalId": "PS.262",
+      "sourceLocalNumber": 262,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17250
+      ]
+    },
+    {
+      "canonicalId": "PS.263",
+      "sourceLocalNumber": 263,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17297
+      ]
+    },
+    {
+      "canonicalId": "PS.264",
+      "sourceLocalNumber": 264,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17323
+      ]
+    },
+    {
+      "canonicalId": "PS.265",
+      "sourceLocalNumber": 265,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17348
+      ]
+    },
+    {
+      "canonicalId": "PS.266",
+      "sourceLocalNumber": 266,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17376
+      ]
+    },
+    {
+      "canonicalId": "PS.267",
+      "sourceLocalNumber": 267,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17424
+      ]
+    },
+    {
+      "canonicalId": "PS.268",
+      "sourceLocalNumber": 268,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17447
+      ]
+    },
+    {
+      "canonicalId": "PS.269",
+      "sourceLocalNumber": 269,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17470
+      ]
+    },
+    {
+      "canonicalId": "PS.270",
+      "sourceLocalNumber": 270,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17493
+      ]
+    },
+    {
+      "canonicalId": "PS.271",
+      "sourceLocalNumber": 271,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17527
+      ]
+    },
+    {
+      "canonicalId": "PS.272",
+      "sourceLocalNumber": 272,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.273",
+      "sourceLocalNumber": 273,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.274",
+      "sourceLocalNumber": 274,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17677
+      ]
+    },
+    {
+      "canonicalId": "PS.275",
+      "sourceLocalNumber": 275,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17707
+      ]
+    },
+    {
+      "canonicalId": "PS.276",
+      "sourceLocalNumber": 276,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17729
+      ]
+    },
+    {
+      "canonicalId": "PS.277",
+      "sourceLocalNumber": 277,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17784
+      ]
+    },
+    {
+      "canonicalId": "PS.278",
+      "sourceLocalNumber": 278,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17863
+      ]
+    },
+    {
+      "canonicalId": "PS.279",
+      "sourceLocalNumber": 279,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17924
+      ]
+    },
+    {
+      "canonicalId": "PS.280",
+      "sourceLocalNumber": 280,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18121
+      ]
+    },
+    {
+      "canonicalId": "PS.281",
+      "sourceLocalNumber": 281,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18141
+      ]
+    },
+    {
+      "canonicalId": "PS.282",
+      "sourceLocalNumber": 282,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18161
+      ]
+    },
+    {
+      "canonicalId": "PS.283",
+      "sourceLocalNumber": 283,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18183
+      ]
+    },
+    {
+      "canonicalId": "PS.284",
+      "sourceLocalNumber": 284,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18229
+      ]
+    },
+    {
+      "canonicalId": "PS.285",
+      "sourceLocalNumber": 285,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.286",
+      "sourceLocalNumber": 286,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.287",
+      "sourceLocalNumber": 287,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18422
+      ]
+    },
+    {
+      "canonicalId": "PS.288",
+      "sourceLocalNumber": 288,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18526
+      ]
+    },
+    {
+      "canonicalId": "PS.289",
+      "sourceLocalNumber": 289,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18687
+      ]
+    },
+    {
+      "canonicalId": "PS.290",
+      "sourceLocalNumber": 290,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.291",
+      "sourceLocalNumber": 291,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.292",
+      "sourceLocalNumber": 292,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.293",
+      "sourceLocalNumber": 293,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.294",
+      "sourceLocalNumber": 294,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.295",
+      "sourceLocalNumber": 295,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        18843
+      ]
+    },
+    {
+      "canonicalId": "PS.296",
+      "sourceLocalNumber": 296,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.297",
+      "sourceLocalNumber": 297,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.298",
+      "sourceLocalNumber": 298,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.299",
+      "sourceLocalNumber": 299,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.300",
+      "sourceLocalNumber": 300,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19063
+      ]
+    },
+    {
+      "canonicalId": "PS.301",
+      "sourceLocalNumber": 301,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19106
+      ]
+    },
+    {
+      "canonicalId": "PS.302",
+      "sourceLocalNumber": 302,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19207
+      ]
+    },
+    {
+      "canonicalId": "PS.303",
+      "sourceLocalNumber": 303,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19230
+      ]
+    },
+    {
+      "canonicalId": "PS.304",
+      "sourceLocalNumber": 304,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19250
+      ]
+    },
+    {
+      "canonicalId": "PS.305",
+      "sourceLocalNumber": 305,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19271
+      ]
+    },
+    {
+      "canonicalId": "PS.306",
+      "sourceLocalNumber": 306,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19295
+      ]
+    },
+    {
+      "canonicalId": "PS.307",
+      "sourceLocalNumber": 307,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19332
+      ]
+    },
+    {
+      "canonicalId": "PS.308",
+      "sourceLocalNumber": 308,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.309",
+      "sourceLocalNumber": 309,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.310",
+      "sourceLocalNumber": 310,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.311",
+      "sourceLocalNumber": 311,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.312",
+      "sourceLocalNumber": 312,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.313",
+      "sourceLocalNumber": 313,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19482
+      ]
+    },
+    {
+      "canonicalId": "PS.314",
+      "sourceLocalNumber": 314,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19514
+      ]
+    },
+    {
+      "canonicalId": "PS.315",
+      "sourceLocalNumber": 315,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19541
+      ]
+    },
+    {
+      "canonicalId": "PS.316",
+      "sourceLocalNumber": 316,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.317",
+      "sourceLocalNumber": 317,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.318",
+      "sourceLocalNumber": 318,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19667
+      ]
+    },
+    {
+      "canonicalId": "PS.319",
+      "sourceLocalNumber": 319,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19702
+      ]
+    },
+    {
+      "canonicalId": "PS.320",
+      "sourceLocalNumber": 320,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.321",
+      "sourceLocalNumber": 321,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.322",
+      "sourceLocalNumber": 322,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19825
+      ]
+    },
+    {
+      "canonicalId": "PS.323",
+      "sourceLocalNumber": 323,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        19874
+      ]
+    },
+    {
+      "canonicalId": "PS.324",
+      "sourceLocalNumber": 324,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.325",
+      "sourceLocalNumber": 325,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.326",
+      "sourceLocalNumber": 326,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20062
+      ]
+    },
+    {
+      "canonicalId": "PS.327",
+      "sourceLocalNumber": 327,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20094
+      ]
+    },
+    {
+      "canonicalId": "PS.328",
+      "sourceLocalNumber": 328,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20154
+      ]
+    },
+    {
+      "canonicalId": "PS.329",
+      "sourceLocalNumber": 329,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20222
+      ]
+    },
+    {
+      "canonicalId": "PS.330",
+      "sourceLocalNumber": 330,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20282
+      ]
+    },
+    {
+      "canonicalId": "PS.331",
+      "sourceLocalNumber": 331,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20336
+      ]
+    },
+    {
+      "canonicalId": "PS.332",
+      "sourceLocalNumber": 332,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20362
+      ]
+    },
+    {
+      "canonicalId": "PS.333",
+      "sourceLocalNumber": 333,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.334",
+      "sourceLocalNumber": 334,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.335",
+      "sourceLocalNumber": 335,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        20977
+      ]
+    },
+    {
+      "canonicalId": "PS.336",
+      "sourceLocalNumber": 336,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21008
+      ]
+    },
+    {
+      "canonicalId": "PS.337",
+      "sourceLocalNumber": 337,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21039
+      ]
+    },
+    {
+      "canonicalId": "PS.338",
+      "sourceLocalNumber": 338,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21062
+      ]
+    },
+    {
+      "canonicalId": "PS.339",
+      "sourceLocalNumber": 339,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21095
+      ]
+    },
+    {
+      "canonicalId": "PS.340",
+      "sourceLocalNumber": 340,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21130
+      ]
+    },
+    {
+      "canonicalId": "PS.341",
+      "sourceLocalNumber": 341,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21150
+      ]
+    },
+    {
+      "canonicalId": "PS.342",
+      "sourceLocalNumber": 342,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21169
+      ]
+    },
+    {
+      "canonicalId": "PS.343",
+      "sourceLocalNumber": 343,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21187
+      ]
+    },
+    {
+      "canonicalId": "PS.344",
+      "sourceLocalNumber": 344,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21206
+      ]
+    },
+    {
+      "canonicalId": "PS.345",
+      "sourceLocalNumber": 345,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21224
+      ]
+    },
+    {
+      "canonicalId": "PS.346",
+      "sourceLocalNumber": 346,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.347",
+      "sourceLocalNumber": 347,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.348",
+      "sourceLocalNumber": 348,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21275
+      ]
+    },
+    {
+      "canonicalId": "PS.349",
+      "sourceLocalNumber": 349,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21296
+      ]
+    },
+    {
+      "canonicalId": "PS.350",
+      "sourceLocalNumber": 350,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21349
+      ]
+    },
+    {
+      "canonicalId": "PS.351",
+      "sourceLocalNumber": 351,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21368
+      ]
+    },
+    {
+      "canonicalId": "PS.352",
+      "sourceLocalNumber": 352,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21388
+      ]
+    },
+    {
+      "canonicalId": "PS.353",
+      "sourceLocalNumber": 353,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21408
+      ]
+    },
+    {
+      "canonicalId": "PS.354",
+      "sourceLocalNumber": 354,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21428
+      ]
+    },
+    {
+      "canonicalId": "PS.355",
+      "sourceLocalNumber": 355,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21461
+      ]
+    },
+    {
+      "canonicalId": "PS.356",
+      "sourceLocalNumber": 356,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21481
+      ]
+    },
+    {
+      "canonicalId": "PS.357",
+      "sourceLocalNumber": 357,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21504
+      ]
+    },
+    {
+      "canonicalId": "PS.358",
+      "sourceLocalNumber": 358,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21523
+      ]
+    },
+    {
+      "canonicalId": "PS.359",
+      "sourceLocalNumber": 359,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21554
+      ]
+    },
+    {
+      "canonicalId": "PS.360",
+      "sourceLocalNumber": 360,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21574
+      ]
+    },
+    {
+      "canonicalId": "PS.361",
+      "sourceLocalNumber": 361,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.362",
+      "sourceLocalNumber": 362,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.363",
+      "sourceLocalNumber": 363,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.364",
+      "sourceLocalNumber": 364,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.365",
+      "sourceLocalNumber": 365,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21705
+      ]
+    },
+    {
+      "canonicalId": "PS.366",
+      "sourceLocalNumber": 366,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21732
+      ]
+    },
+    {
+      "canonicalId": "PS.367",
+      "sourceLocalNumber": 367,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        21749
+      ]
+    },
+    {
+      "canonicalId": "PS.368",
+      "sourceLocalNumber": 368,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        22034
+      ]
+    },
+    {
+      "canonicalId": "PS.369",
+      "sourceLocalNumber": 369,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        22086
+      ]
+    },
+    {
+      "canonicalId": "PS.370",
+      "sourceLocalNumber": 370,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        22154
+      ]
+    },
+    {
+      "canonicalId": "PS.371",
+      "sourceLocalNumber": 371,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        22279
+      ]
+    },
+    {
+      "canonicalId": "PS.372",
+      "sourceLocalNumber": 372,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.373",
+      "sourceLocalNumber": 373,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.374",
+      "sourceLocalNumber": 374,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        22598
+      ]
+    },
+    {
+      "canonicalId": "PS.375",
+      "sourceLocalNumber": 375,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        22620
+      ]
+    },
+    {
+      "canonicalId": "PS.376",
+      "sourceLocalNumber": 376,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.377",
+      "sourceLocalNumber": 377,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.378",
+      "sourceLocalNumber": 378,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.379",
+      "sourceLocalNumber": 379,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.380",
+      "sourceLocalNumber": 380,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.381",
+      "sourceLocalNumber": 381,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.382",
+      "sourceLocalNumber": 382,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.383",
+      "sourceLocalNumber": 383,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23103
+      ]
+    },
+    {
+      "canonicalId": "PS.384",
+      "sourceLocalNumber": 384,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23165
+      ]
+    },
+    {
+      "canonicalId": "PS.385",
+      "sourceLocalNumber": 385,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23312
+      ]
+    },
+    {
+      "canonicalId": "PS.386",
+      "sourceLocalNumber": 386,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23346
+      ]
+    },
+    {
+      "canonicalId": "PS.387",
+      "sourceLocalNumber": 387,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.388",
+      "sourceLocalNumber": 388,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.389",
+      "sourceLocalNumber": 389,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.390",
+      "sourceLocalNumber": 390,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.391",
+      "sourceLocalNumber": 391,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23889
+      ]
+    },
+    {
+      "canonicalId": "PS.392",
+      "sourceLocalNumber": 392,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        23906
+      ]
+    },
+    {
+      "canonicalId": "PS.393",
+      "sourceLocalNumber": 393,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24159
+      ]
+    },
+    {
+      "canonicalId": "PS.394",
+      "sourceLocalNumber": 394,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.395",
+      "sourceLocalNumber": 395,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.396",
+      "sourceLocalNumber": 396,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.397",
+      "sourceLocalNumber": 397,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.398",
+      "sourceLocalNumber": 398,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.399",
+      "sourceLocalNumber": 399,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.400",
+      "sourceLocalNumber": 400,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.401",
+      "sourceLocalNumber": 401,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24653
+      ]
+    },
+    {
+      "canonicalId": "PS.402",
+      "sourceLocalNumber": 402,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        24717
+      ]
+    },
+    {
+      "canonicalId": "PS.403",
+      "sourceLocalNumber": 403,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.404",
+      "sourceLocalNumber": 404,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.405",
+      "sourceLocalNumber": 405,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.406",
+      "sourceLocalNumber": 406,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.407",
+      "sourceLocalNumber": 407,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.408",
+      "sourceLocalNumber": 408,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.409",
+      "sourceLocalNumber": 409,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.410",
+      "sourceLocalNumber": 410,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.411",
+      "sourceLocalNumber": 411,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.412",
+      "sourceLocalNumber": 412,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.413",
+      "sourceLocalNumber": 413,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.414",
+      "sourceLocalNumber": 414,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.415",
+      "sourceLocalNumber": 415,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.416",
+      "sourceLocalNumber": 416,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.417",
+      "sourceLocalNumber": 417,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.418",
+      "sourceLocalNumber": 418,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.419",
+      "sourceLocalNumber": 419,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.420",
+      "sourceLocalNumber": 420,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.421",
+      "sourceLocalNumber": 421,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.422",
+      "sourceLocalNumber": 422,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25241
+      ]
+    },
+    {
+      "canonicalId": "PS.423",
+      "sourceLocalNumber": 423,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25267
+      ]
+    },
+    {
+      "canonicalId": "PS.424",
+      "sourceLocalNumber": 424,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25387
+      ]
+    },
+    {
+      "canonicalId": "PS.425",
+      "sourceLocalNumber": 425,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.426",
+      "sourceLocalNumber": 426,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.427",
+      "sourceLocalNumber": 427,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "PS.428",
+      "sourceLocalNumber": 428,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25496
+      ]
+    },
+    {
+      "canonicalId": "PS.429",
+      "sourceLocalNumber": 429,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        25516
+      ]
+    }
+  ]
+}

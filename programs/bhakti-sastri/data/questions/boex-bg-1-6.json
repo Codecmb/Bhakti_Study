@@ -1,0 +1,92 @@
+{
+  "schema":"bhakti-study.official-question-bank.v1",
+  "program":"bhakti-sastri","scope":"BS.U1","provider":"ISKCON Ministry of Education / Board of Examinations",
+  "title":"Official BOEX Question Bank — Bhagavad-gītā 1–6",
+  "source":"https://iskconeducation.org/wp-content/uploads/2025/01/Bhagavad-Gita-1-6.pdf",
+  "note":"Questions below are transcribed from the official Ministry/BOEX BG 1–6 bank. Wording is preserved except for minor whitespace normalization.",
+  "groups":[
+    {"chapter":1,"sections":[
+      {"type":"Closed Book Short","questions":[
+        {"q":"Why was Duryodhana confident of full support of Bhismadeva and Dronacarya in the battle?","refs":["BG.1.11"]},
+        {"q":"List and explain the significance of the four signs of victory for the Pandavas.","refs":["BG.1.14","BG.1.20"]},
+        {"q":"What is the meaning of the word gudakesa?","refs":["BG.1.24"]},
+        {"q":"List the six kinds of aggressors.","refs":["BG.1.36"]},
+        {"q":"List the various consequences due to the destruction of the dynasty.","refs":["BG.1.39","BG.1.42"]},
+        {"q":"Which quality of Arjuna makes him fit to receive the knowledge of Bhagavad-Gita, according to the last purport of Chapter 1?","refs":["BG.1.46"]}
+      ]},
+      {"type":"Closed Book Questions","questions":[
+        {"q":"Explain the significance of the words dharma-ksetre in relation to the outcome of the battle and the fear of Dhrtarastra.","refs":["BG.1.1"]},
+        {"q":"Explain the significance of Dhrtarastra's usage of mamakah.","refs":["BG.1.1"]},
+        {"q":"Explain the significance of the following names of Krishna used in this chapter: Acyuta, Govinda, Madhava, Hrsikesa.","refs":["BG.1.15","BG.1.21","BG.1.24","BG.1.32","BG.1.36"]}
+      ]},
+      {"type":"Open Book Essays","questions":[
+        {"q":"Discuss the significance of Arjuna’s ordering Krishna and Krishna’s accepting the position of a charioteer as seen in BG 1.21-22. Give reference to Śrīla Prabhupāda’s statements in the purport.","refs":["BG.1.21","BG.1.22"]},
+        {"q":"Discuss the relevance of Arjuna’s arguments regarding destruction of the dynasty in relation to modern society.","refs":["BG.1.39","BG.1.43"]},
+        {"q":"List and explain at least four of Arjuna’s reasons for not fighting with reference to the appropriate verses from BG chapters 1 and 2.","refs":["BG.1.28","BG.2.9"]}
+      ]}
+    ]},
+    {"chapter":2,"sections":[
+      {"type":"Closed Book Short","questions":[
+        {"q":"List six symptoms of Bhagavan in English or Sanskrit.","refs":["BG.2.2"]},{"q":"Explain the analogy of the sun’s three features.","refs":["BG.2.2"]},{"q":"What is the meaning of the phrase ksudram hrdaya-daurbalyam?","refs":["BG.2.3"]},{"q":"What is the meaning of the phrase dharma-sammudha-cetah?","refs":["BG.2.7"]},{"q":"What is the size of soul and what is the symptom of its existence?","refs":["BG.2.17"]},{"q":"List the six kinds of transformations the body is subject to.","refs":["BG.2.20"]},{"q":"Give the English meaning of anu-atma and vibhu-atma.","refs":["BG.2.20"]},{"q":"What is meant by sva-dharma and what are the two types of sva-dharma?","refs":["BG.2.31"]},{"q":"Give the English meaning of the phrases pratyavayo na vidyate and vyavasayatmika buddhir.","refs":["BG.2.40","BG.2.41"]},{"q":"What is the meaning of the word prajna?","refs":["BG.2.54"]},{"q":"What is the meaning of the phrase param drstva nivartate?","refs":["BG.2.59"]},{"q":"List the eight stages of spiritual fall down in English or Sanskrit.","refs":["BG.2.62","BG.2.63"]}
+      ]},
+      {"type":"Closed Book Questions","questions":[
+        {"q":"Present arguments to refute Mayavadi theory with reference to BG 2.12-13 verses and purports.","refs":["BG.2.12","BG.2.13"]},{"q":"Explain how application of the principles conveyed in BG 2.14 can improve your service attitude.","refs":["BG.2.14"]},{"q":"Summarize main philosophical points on atma-tattva from BG 2.11-30 with reference to key verses and analogies cited in Śrīla Prabhupāda’s purports.","refs":["BG.2.11","BG.2.30"]},{"q":"Discuss the relevance of pratyavayah na vidyate and vyavasayatmika buddhi for your personal practice of Krishna consciousness.","refs":["BG.2.40","BG.2.41"]},{"q":"List at least four qualities of a sthita-prajna, as mentioned in BG 2.55-71, and explain how developing them would help you improve your relationships.","refs":["BG.2.55","BG.2.71"]},{"q":"Explain the analogy of the rivers entering into the ocean.","refs":["BG.2.70"]}
+      ]},
+      {"type":"Open Book Essays","questions":[
+        {"q":"Describe the significance of surrender to guru in order to solve the perplexities of life, with reference to Bhagavad-Gita 2.6-11.","refs":["BG.2.6","BG.2.11"]},{"q":"Explain the process of transmigration with reference to BG 2.13 and 2.22 and analogies from these purports.","refs":["BG.2.13","BG.2.22"]},{"q":"Explain the principles of atma-tattva with reference to at least four verses from Bhagavad Gita 2.11-30.","refs":["BG.2.11","BG.2.30"]},{"q":"Briefly explain the principles of karma-yoga/buddhi-yoga with reference to Bhagavad-Gita 2.38-53.","refs":["BG.2.38","BG.2.53"]},{"q":"Explain the process of sense control by Krishna consciousness with reference to Bhagavad-Gita 2.54-68.","refs":["BG.2.54","BG.2.68"]},{"q":"Explain the stages of fall down as presented in Bhagavad-Gita 2.62-63.","refs":["BG.2.62","BG.2.63"]}
+      ]}
+    ]},
+    {"chapter":3,"sections":[
+      {"type":"Closed Book Short","questions":[
+        {"q":"What is Krishna consciousness sometimes misunderstood as?","refs":["BG.3.1"]},{"q":"Explain the analogy of an antiseptic vaccine.","refs":["BG.3.14"]},{"q":"Why is a fully Krishna conscious person not obliged to follow the Vedic injunctions?","refs":["BG.3.17"]},{"q":"Give the English meaning of acarya.","refs":["BG.3.21"]},{"q":"Give the English meaning of the phrase nirasir nirmamo.","refs":["BG.3.30"]},{"q":"List the three sitting places of lust.","refs":["BG.3.40"]}
+      ]},
+      {"type":"Closed Book Questions","questions":[
+        {"q":"Present a summary of Bhagavad-Gita Chapter 3, identifying the main philosophical concepts and sections of verses, and how they connect.","refs":["BG.3.1","BG.3.43"]},{"q":"Explain how by performance of sankirtan-yajna the demigods are automatically satisfied.","refs":["BG.3.10","BG.3.16"]},{"q":"Explain the Acarya principle as mentioned in the purport to 3.21 and discuss its relevance.","refs":["BG.3.21"]},{"q":"Based in BG 3.20-24, identify principles of spiritual leadership and discuss their relevance for you.","refs":["BG.3.20","BG.3.24"]}
+      ]},
+      {"type":"Open Book Essays","questions":[
+        {"q":"Give arguments supporting the superiority of karma-yoga over karma-sannyasa with reference to Bhagavad-Gita 3.4-9.","refs":["BG.3.4","BG.3.9"]},{"q":"Explain how one gradually becomes purified by the performance of Vedic yajnas with reference to BG 3.10-16.","refs":["BG.3.10","BG.3.16"]},{"q":"Explain the difference between following and imitating with reference to examples from the purport to 3.24.","refs":["BG.3.24"]},{"q":"Draw general principles from Krishna’s analysis of lust in 3.36-43 and discuss their application in your practice.","refs":["BG.3.36","BG.3.43"]},{"q":"Discuss ways the statements in BG 3.30, verse and purport, impact your attitude toward serving Krishna.","refs":["BG.3.30"]}
+      ]}
+    ]},
+    {"chapter":4,"sections":[
+      {"type":"Closed Book Short","questions":[
+        {"q":"The Gita was spoken by the Lord to Vivasvan, how many years ago?","refs":["BG.4.1"]},{"q":"List the six kinds of avataras.","refs":["BG.4.8"]},{"q":"List the eight steps from sraddha to prema, in English or Sanskrit.","refs":["BG.4.10"]},{"q":"What is a pasandi?","refs":["BG.4.12"]},{"q":"List the modes predominantly influencing the four divisions of human society.","refs":["BG.4.13"]},{"q":"List the 12 mahajanas.","refs":["BG.4.16"]}
+      ]},
+      {"type":"Closed Book Questions","questions":[
+        {"q":"Present a summary of Bhagavad-Gita Chapter 4, identifying the main philosophical concepts, sections of verses, and how they connect.","refs":["BG.4.1","BG.4.42"]},{"q":"Explain how verse 4.2 and Śrīla Prabhupāda’s purport reflect Śrīla Prabhupāda’s mood and mission regarding Bhagavad-Gita.","refs":["BG.4.2"]},{"q":"Explain the significance of the statement yogah proktah puratanah.","refs":["BG.4.3"]},{"q":"Explain the term atma-mayaya.","refs":["BG.4.6"]},{"q":"Explain, giving examples, the distinction between karma, akarma and vikarma.","refs":["BG.4.17","BG.4.18"]},{"q":"List some of the sacrifices enumerated by Sri Krishna in Bhagavad-Gita 4.24-33, and explain their ultimate purpose.","refs":["BG.4.24","BG.4.33"]}
+      ]},
+      {"type":"Open Book Essays","questions":[
+        {"q":"Present the history of the dissemination of Bhagavad-Gita with reference to BG 4.1-3 verses and purports.","refs":["BG.4.1","BG.4.3"]},{"q":"Explain in your own words the nature and purpose of Krishna’s appearance and activities with reference to BG 4.5-9.","refs":["BG.4.5","BG.4.9"]},{"q":"Discuss the significance of the principles found in BG 4.34 and their relevance for society, ISKCON and you personally.","refs":["BG.4.34"]}
+      ]}
+    ]},
+    {"chapter":5,"sections":[
+      {"type":"Closed Book Short","questions":[
+        {"q":"Give the English meaning of the word pradhana.","refs":["BG.5.10"]},{"q":"Give the English meaning of the phrase phalam tyaktva santim apnoti naisthikim.","refs":["BG.5.12"]},{"q":"List the nine gates of the body.","refs":["BG.5.13"]},{"q":"Give the English meaning of the words vibhu and anu.","refs":["BG.5.15"]},{"q":"Give the English meaning of the phrase panditah sama-darsinah.","refs":["BG.5.18"]},{"q":"List the eight limbs of astanga-yoga.","refs":["BG.5.27"]}
+      ]},
+      {"type":"Closed Book Questions","questions":[
+        {"q":"Present a summary of Bhagavad-Gita Chapter 5, identifying main philosophical concepts and sections of verses, and how they connect.","refs":["BG.5.1","BG.5.29"]},{"q":"Explain the analogy of lotus leaf.","refs":["BG.5.10"]},{"q":"What lessons regarding karma-yoga and karma-sannyasa does Krishna present in BG 5.2-6?","refs":["BG.5.2","BG.5.6"]},{"q":"How can one become dear to everyone according to BG 5.7?","refs":["BG.5.7"]},{"q":"Krishna is the supreme well-wisher of all. What guidelines can you derive from this verse for your dealings with others?","refs":["BG.5.29"]}
+      ]},
+      {"type":"Open Book Essays","questions":[
+        {"q":"Discuss phalgu (artificial renunciation) and yukta-vairagya with reference to BG 5.1-2.","refs":["BG.5.1","BG.5.2"]},{"q":"Explain who is responsible for the suffering of conditioned living entities with reference to BG 4.14 and 5.14-15.","refs":["BG.4.14","BG.5.14","BG.5.15"]},{"q":"Discuss practical application of panditah sama-darsinah with reference to Bhagavad-Gita 5.18.","refs":["BG.5.18"]},{"q":"Explain how application of the principles of BG 5.29 can contribute to world peace.","refs":["BG.5.29"]}
+      ]}
+    ]},
+    {"chapter":6,"sections":[
+      {"type":"Closed Book Short","questions":[
+        {"q":"When is the mind the best of friends and when is the mind greatest enemy?","refs":["BG.6.6"]},{"q":"Give the English meaning of the words ekaki and sucau dese.","refs":["BG.6.10","BG.6.11"]},{"q":"What is the result of extravagance in eating, sleeping, defending, and mating?","refs":["BG.6.17"]},{"q":"Give the English meaning of the term yukta.","refs":["BG.6.18"]},{"q":"Explain with an analogy that the mind is strong and obstinate.","refs":["BG.6.34"]},{"q":"Describe what happens to an unsuccessful yogi.","refs":["BG.6.41","BG.6.42"]}
+      ]},
+      {"type":"Closed Book Questions","questions":[
+        {"q":"Present a summary of Bhagavad-Gita Chapter 6, identifying main philosophical concepts and sections of verses, and how they connect.","refs":["BG.6.1","BG.6.47"]},{"q":"Discuss how BG 6.9 inspires you to cultivate friendly Vaishnava dealings.","refs":["BG.6.9"]},{"q":"Explain the significance of the story of the sparrow.","refs":["BG.6.24"]},{"q":"Discuss the significance of the word bhajate and its distinction from the word worship as explained in Bhagavad-Gita 6.47 purport.","refs":["BG.6.47"]},{"q":"Explain how the principles of astanga-yoga are included in Krishna consciousness.","refs":["BG.6.1","BG.6.47"]}
+      ]},
+      {"type":"Open Book Essays","questions":[
+        {"q":"Explain the stages of astanga-yoga, including yogaruruksu and yogarudha, and how astanga-yoga ultimately relates to bhakti-yoga.","refs":["BG.6.3"]},{"q":"Discuss the importance of regulation in all spheres of life with reference to BG 6.16-17.","refs":["BG.6.16","BG.6.17"]},{"q":"Summarize the impracticality of astanga-yoga for the modern age with reference to BG 6.10-14 and 6.33-35.","refs":["BG.6.10","BG.6.14","BG.6.33","BG.6.35"]},{"q":"State Arjuna’s concern and Krishna’s response in relation to the destination of the unsuccessful yogi.","refs":["BG.6.37","BG.6.45"]}
+      ]}
+    ]},
+    {"chapter":"1-6","sections":[
+      {"type":"Closed Book Thematic Questions","questions":[
+        {"q":"With reference to Bhagavad-gita Chapter 2 verses and purports, explain the statement from BG 2.25 purport that there is no source of understanding the soul except by studying the Vedas.","refs":["BG.2.25"]},{"q":"Discuss the relevance of the statement from BG 5.7 purport that a man of controlled senses cannot be offensive to anyone.","refs":["BG.5.7"]},{"q":"Discuss the relevance of the statement from BG 5.12 purport concerning realization that there is no existence besides Krishna as the platform of peace and fearlessness.","refs":["BG.5.12"]},{"q":"Choose three verses from Bhagavad-gita Chapters 1-6 which, if applied, would enhance your own Krishna consciousness. Write down a plan for doing this.","refs":[]},{"q":"Choose four verses from Bhagavad-gita Chapters 1-6 which you consider most useful in preaching. Explain why and discuss.","refs":[]}
+      ]},
+      {"type":"Open Book Thematic Questions","questions":[
+        {"q":"Discuss the relevance for modern society and Krishna conscious communities of Arjuna’s arguments about destruction of family traditions, with reference to Chapters 1 and 2.","refs":["BG.1.39","BG.2.1"]},{"q":"Discuss the significance of the principle in BG 1.41 purport concerning devotional service and forefathers, with reference to Chapters 1-3.","refs":["BG.1.41"]},{"q":"Establish in your own words the superiority of bhakti over the other yoga systems with reference to Chapters 2-6.","refs":["BG.2.1","BG.6.47"]},{"q":"Explain, with references to Chapters 1-6, the relevance of the statement in BG 3.29 purport that devotees are more kind than the Lord because they understand the purpose of the Lord.","refs":["BG.3.29"]},{"q":"Explain how Bhagavad-gita takes a real-life situation, examines it philosophically, and offers a universal solution, with reference to Chapters 1-6.","refs":[]}
+      ]}
+    ]}
+  ]
+}

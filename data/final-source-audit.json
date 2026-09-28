@@ -1,0 +1,24 @@
+{
+  "schema": "final-source-audit-v1",
+  "booksRegistered": 20,
+  "programsRegistered": 5,
+  "knownIssues": [
+    {
+      "book": "sb10",
+      "issue": "Current imported source registers only the supplied Canto 10 material; do not imply completeness beyond source."
+    },
+    {
+      "book": "sb11",
+      "issue": "Source-aware attribution retained; generic purport label used when individual authorship is not established by source metadata."
+    },
+    {
+      "book": "sb12",
+      "issue": "Source-aware attribution retained; generic purport label used when individual authorship is not established by source metadata."
+    }
+  ],
+  "notes": [
+    "Course data is separate from book data.",
+    "Sloka requirements reference external provider rather than duplicating verse/audio data.",
+    "Academy certificates are not official BOEX degrees."
+  ]
+}

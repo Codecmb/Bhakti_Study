@@ -1,0 +1,25 @@
+{
+  "units": [
+    {
+      "id": "BSARV.U1",
+      "book": "cc-adi",
+      "title": "Śrī Caitanya-caritāmṛta — Ādi-līlā",
+      "range": "CC.ADI.1–CC.ADI.17",
+      "status": "internal-source-unit"
+    },
+    {
+      "id": "BSARV.U2",
+      "book": "cc-madhya",
+      "title": "Śrī Caitanya-caritāmṛta — Madhya-līlā",
+      "range": "CC.MADHYA.1–CC.MADHYA.25",
+      "status": "internal-source-unit"
+    },
+    {
+      "id": "BSARV.U3",
+      "book": "cc-antya",
+      "title": "Śrī Caitanya-caritāmṛta — Antya-līlā",
+      "range": "CC.ANTYA.1–CC.ANTYA.20",
+      "status": "internal-source-unit"
+    }
+  ]
+}

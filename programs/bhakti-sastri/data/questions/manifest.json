@@ -1,0 +1,32 @@
+{
+  "schema": "bhakti-study.question-manifest.v1",
+  "program": "bhakti-sastri",
+  "provider": "academy",
+  "shards": [
+    {
+      "scope": "BS.U1",
+      "path": "academy/bs-u1.json",
+      "count": 6
+    },
+    {
+      "scope": "BS.U2",
+      "path": "academy/bs-u2.json",
+      "count": 6
+    },
+    {
+      "scope": "BS.U3",
+      "path": "academy/bs-u3.json",
+      "count": 6
+    },
+    {
+      "scope": "BS.U4",
+      "path": "academy/bs-u4.json",
+      "count": 6
+    },
+    {
+      "scope": "BS.U5",
+      "path": "academy/bs-u5.json",
+      "count": 6
+    }
+  ]
+}

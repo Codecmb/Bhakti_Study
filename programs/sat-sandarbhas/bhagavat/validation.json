@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "workId": "bhagavat",
+  "canonicalPrefix": "BGS",
+  "unitCount": 106,
+  "verifiedSourceHeadings": 106,
+  "unverifiedCanonicalSlots": 0,
+  "first": "BGS.1",
+  "last": "BGS.106",
+  "duplicateIds": false
+}

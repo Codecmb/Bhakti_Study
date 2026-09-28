@@ -1,0 +1,329 @@
+{
+  "schema": "sloka-reference-map-v1",
+  "owner": "Bhakti Vaibhava curriculum",
+  "provider": "Srila Prabhupada Slokas app",
+  "contentDuplicated": false,
+  "officialPublicReferences": [
+    {
+      "canonicalRef": "SB.1.1.1",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.1.1"
+    },
+    {
+      "canonicalRef": "SB.1.1.2",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.1.2"
+    },
+    {
+      "canonicalRef": "SB.1.1.3",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.1.3"
+    },
+    {
+      "canonicalRef": "SB.1.1.10",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.1.10"
+    },
+    {
+      "canonicalRef": "SB.1.2.4",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.2.4"
+    },
+    {
+      "canonicalRef": "SB.1.2.6",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.2.6"
+    },
+    {
+      "canonicalRef": "SB.1.2.7",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.2.7"
+    },
+    {
+      "canonicalRef": "SB.1.2.8",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.2.8"
+    },
+    {
+      "canonicalRef": "SB.1.2.11",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.2.11"
+    },
+    {
+      "canonicalRef": "SB.1.2.13",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.2.13"
+    },
+    {
+      "canonicalRef": "SB.1.2.17",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.2.17"
+    },
+    {
+      "canonicalRef": "SB.1.2.18",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.2.18"
+    },
+    {
+      "canonicalRef": "SB.1.2.19",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.2.19"
+    },
+    {
+      "canonicalRef": "SB.1.2.20",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.2.20"
+    },
+    {
+      "canonicalRef": "SB.1.3.28",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.3.28"
+    },
+    {
+      "canonicalRef": "SB.1.3.43",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.3.43"
+    },
+    {
+      "canonicalRef": "SB.1.5.10",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.5.10"
+    },
+    {
+      "canonicalRef": "SB.1.5.11",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.5.11"
+    },
+    {
+      "canonicalRef": "SB.1.5.17",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.5.17"
+    },
+    {
+      "canonicalRef": "SB.1.7.4",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.7.4"
+    },
+    {
+      "canonicalRef": "SB.1.7.5",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.7.5"
+    },
+    {
+      "canonicalRef": "SB.1.7.6",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.7.6"
+    },
+    {
+      "canonicalRef": "SB.1.13.10",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.13.10"
+    },
+    {
+      "canonicalRef": "SB.1.7.7",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.7.7"
+    },
+    {
+      "canonicalRef": "SB.1.7.10",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.7.10"
+    },
+    {
+      "canonicalRef": "SB.1.8.25",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.8.25"
+    },
+    {
+      "canonicalRef": "SB.1.8.26",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 1.8.26"
+    },
+    {
+      "canonicalRef": "SB.2.1.2",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.1.2"
+    },
+    {
+      "canonicalRef": "SB.2.1.3",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.1.3"
+    },
+    {
+      "canonicalRef": "SB.2.1.4",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.1.4"
+    },
+    {
+      "canonicalRef": "SB.2.1.6",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.1.6"
+    },
+    {
+      "canonicalRef": "SB.2.3.10",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.3.10"
+    },
+    {
+      "canonicalRef": "SB.2.3.17",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.3.17"
+    },
+    {
+      "canonicalRef": "SB.2.4.1",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.4.1"
+    },
+    {
+      "canonicalRef": "SB.2.3.19",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.3.19"
+    },
+    {
+      "canonicalRef": "SB.2.3.24",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.3.24"
+    },
+    {
+      "canonicalRef": "SB.2.8.4",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.8.4"
+    },
+    {
+      "canonicalRef": "SB.2.8.5",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.8.5"
+    },
+    {
+      "canonicalRef": "SB.2.8.6",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.8.6"
+    },
+    {
+      "canonicalRef": "SB.2.9.31",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.9.31"
+    },
+    {
+      "canonicalRef": "SB.2.9.33",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.9.33"
+    },
+    {
+      "canonicalRef": "SB.2.9.34",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.9.34"
+    },
+    {
+      "canonicalRef": "SB.2.9.35",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.9.35"
+    },
+    {
+      "canonicalRef": "SB.2.9.36",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.9.36"
+    },
+    {
+      "canonicalRef": "SB.2.10.1",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 2.10.1"
+    },
+    {
+      "canonicalRef": "SB.3.15.43",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 3.15.43"
+    },
+    {
+      "canonicalRef": "SB.3.25.21",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 3.25.21"
+    },
+    {
+      "canonicalRef": "SB.3.25.22",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 3.25.22"
+    },
+    {
+      "canonicalRef": "SB.3.25.25",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 3.25.25"
+    },
+    {
+      "canonicalRef": "SB.3.29.13",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 3.29.13"
+    },
+    {
+      "canonicalRef": "SB.3.31.1",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 3.31.1"
+    },
+    {
+      "canonicalRef": "SB.3.33.6",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 3.33.6"
+    },
+    {
+      "canonicalRef": "SB.3.33.7",
+      "source": "ISKCON Ministry of Education assessment page",
+      "status": "official-public-list",
+      "slokaAppRef": "SB 3.33.7"
+    }
+  ],
+  "officialPublicReferenceCount": 53,
+  "minimumRequiredByStandard": 70,
+  "remainingSelectionPolicy": "Configurable. Do not label additional Canto 4–6 selections official unless sourced from BOEX/Ministry material."
+}

@@ -1,0 +1,3729 @@
+{
+  "schema": "bhakti-study.study-course.v2",
+  "courseId": "sat-sandarbhas-bhagavat",
+  "title": "Bhagavat Sandarbha — Estudio avanzado",
+  "displayTitle": "Bhagavat Sandarbha",
+  "primaryWork": "bhagavat",
+  "canonicalPrefix": "BGS",
+  "language": "es",
+  "authorityPolicy": {
+    "primaryTextIsAuthority": true,
+    "aiRequired": false,
+    "generatedAnswerKeys": false,
+    "studentReflectionStoredSeparately": true,
+    "instruction": "Las herramientas de estudio remiten al estudiante a la fuente primaria; no sustituyen el texto ni presentan respuestas generadas como siddhānta."
+  },
+  "unitCount": 106,
+  "units": [
+    {
+      "id": "BGS.1",
+      "number": 1,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 1",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 63
+      }
+    },
+    {
+      "id": "BGS.2",
+      "number": 2,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 2",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 74
+      }
+    },
+    {
+      "id": "BGS.3",
+      "number": 3,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 3",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 140
+      }
+    },
+    {
+      "id": "BGS.4",
+      "number": 4,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 4",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 242
+      }
+    },
+    {
+      "id": "BGS.5",
+      "number": 5,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 5",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 320
+      }
+    },
+    {
+      "id": "BGS.6",
+      "number": 6,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 6",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 355
+      }
+    },
+    {
+      "id": "BGS.7",
+      "number": 7,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 7",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 424
+      }
+    },
+    {
+      "id": "BGS.8",
+      "number": 8,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 8",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 472
+      }
+    },
+    {
+      "id": "BGS.9",
+      "number": 9,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 9",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 486
+      }
+    },
+    {
+      "id": "BGS.10",
+      "number": 10,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 10",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 496
+      }
+    },
+    {
+      "id": "BGS.11",
+      "number": 11,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 11",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 802
+      }
+    },
+    {
+      "id": "BGS.12",
+      "number": 12,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 12",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 819
+      }
+    },
+    {
+      "id": "BGS.13",
+      "number": 13,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 13",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 836
+      }
+    },
+    {
+      "id": "BGS.14",
+      "number": 14,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 14",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 853
+      }
+    },
+    {
+      "id": "BGS.15",
+      "number": 15,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 15",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 866
+      }
+    },
+    {
+      "id": "BGS.16",
+      "number": 16,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 16",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 883
+      }
+    },
+    {
+      "id": "BGS.17",
+      "number": 17,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 17",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1175
+      }
+    },
+    {
+      "id": "BGS.18",
+      "number": 18,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 18",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1205
+      }
+    },
+    {
+      "id": "BGS.19",
+      "number": 19,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 19",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1294
+      }
+    },
+    {
+      "id": "BGS.20",
+      "number": 20,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 20",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1395
+      }
+    },
+    {
+      "id": "BGS.21",
+      "number": 21,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 21",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1471
+      }
+    },
+    {
+      "id": "BGS.22",
+      "number": 22,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 22",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1495
+      }
+    },
+    {
+      "id": "BGS.23",
+      "number": 23,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 23",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1517
+      }
+    },
+    {
+      "id": "BGS.24",
+      "number": 24,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 24",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1724
+      }
+    },
+    {
+      "id": "BGS.25",
+      "number": 25,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 25",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1729
+      }
+    },
+    {
+      "id": "BGS.26",
+      "number": 26,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 26",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1854
+      }
+    },
+    {
+      "id": "BGS.27",
+      "number": 27,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 27",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1890
+      }
+    },
+    {
+      "id": "BGS.28",
+      "number": 28,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 28",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1916
+      }
+    },
+    {
+      "id": "BGS.29",
+      "number": 29,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 29",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1944
+      }
+    },
+    {
+      "id": "BGS.30",
+      "number": 30,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 30",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 1965
+      }
+    },
+    {
+      "id": "BGS.31",
+      "number": 31,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 31",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2047
+      }
+    },
+    {
+      "id": "BGS.32",
+      "number": 32,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 32",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2152
+      }
+    },
+    {
+      "id": "BGS.33",
+      "number": 33,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 33",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2309
+      }
+    },
+    {
+      "id": "BGS.34",
+      "number": 34,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 34",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2431
+      }
+    },
+    {
+      "id": "BGS.35",
+      "number": 35,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 35",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2460
+      }
+    },
+    {
+      "id": "BGS.36",
+      "number": 36,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 36",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2496
+      }
+    },
+    {
+      "id": "BGS.37",
+      "number": 37,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 37",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2541
+      }
+    },
+    {
+      "id": "BGS.38",
+      "number": 38,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 38",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2578
+      }
+    },
+    {
+      "id": "BGS.39",
+      "number": 39,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 39",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2636
+      }
+    },
+    {
+      "id": "BGS.40",
+      "number": 40,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 40",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2652
+      }
+    },
+    {
+      "id": "BGS.41",
+      "number": 41,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 41",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2864
+      }
+    },
+    {
+      "id": "BGS.42",
+      "number": 42,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 42",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 2938
+      }
+    },
+    {
+      "id": "BGS.43",
+      "number": 43,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 43",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 3018
+      }
+    },
+    {
+      "id": "BGS.44",
+      "number": 44,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 44",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 3092
+      }
+    },
+    {
+      "id": "BGS.45",
+      "number": 45,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 45",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 3156
+      }
+    },
+    {
+      "id": "BGS.46",
+      "number": 46,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 46",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 3299
+      }
+    },
+    {
+      "id": "BGS.47",
+      "number": 47,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 47",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 3396
+      }
+    },
+    {
+      "id": "BGS.48",
+      "number": 48,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 48",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 4465
+      }
+    },
+    {
+      "id": "BGS.49",
+      "number": 49,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 49",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 4655
+      }
+    },
+    {
+      "id": "BGS.50",
+      "number": 50,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 50",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 4723
+      }
+    },
+    {
+      "id": "BGS.51",
+      "number": 51,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 51",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 4892
+      }
+    },
+    {
+      "id": "BGS.52",
+      "number": 52,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 52",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 4990
+      }
+    },
+    {
+      "id": "BGS.53",
+      "number": 53,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 53",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5055
+      }
+    },
+    {
+      "id": "BGS.54",
+      "number": 54,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 54",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5073
+      }
+    },
+    {
+      "id": "BGS.55",
+      "number": 55,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 55",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5111
+      }
+    },
+    {
+      "id": "BGS.56",
+      "number": 56,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 56",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5210
+      }
+    },
+    {
+      "id": "BGS.57",
+      "number": 57,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 57",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5262
+      }
+    },
+    {
+      "id": "BGS.58",
+      "number": 58,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 58",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5277
+      }
+    },
+    {
+      "id": "BGS.59",
+      "number": 59,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 59",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5565
+      }
+    },
+    {
+      "id": "BGS.60",
+      "number": 60,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 60",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5590
+      }
+    },
+    {
+      "id": "BGS.61",
+      "number": 61,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 61",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5669
+      }
+    },
+    {
+      "id": "BGS.62",
+      "number": 62,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 62",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5762
+      }
+    },
+    {
+      "id": "BGS.63",
+      "number": 63,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 63",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5793
+      }
+    },
+    {
+      "id": "BGS.64",
+      "number": 64,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 64",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5904
+      }
+    },
+    {
+      "id": "BGS.65",
+      "number": 65,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 65",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5910
+      }
+    },
+    {
+      "id": "BGS.66",
+      "number": 66,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 66",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5923
+      }
+    },
+    {
+      "id": "BGS.67",
+      "number": 67,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 67",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5944
+      }
+    },
+    {
+      "id": "BGS.68",
+      "number": 68,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 68",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5956
+      }
+    },
+    {
+      "id": "BGS.69",
+      "number": 69,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 69",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 5992
+      }
+    },
+    {
+      "id": "BGS.70",
+      "number": 70,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 70",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 6031
+      }
+    },
+    {
+      "id": "BGS.71",
+      "number": 71,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 71",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 6080
+      }
+    },
+    {
+      "id": "BGS.72",
+      "number": 72,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 72",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 6096
+      }
+    },
+    {
+      "id": "BGS.73",
+      "number": 73,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 73",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 6453
+      }
+    },
+    {
+      "id": "BGS.74",
+      "number": 74,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 74",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 6491
+      }
+    },
+    {
+      "id": "BGS.75",
+      "number": 75,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 75",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 6520
+      }
+    },
+    {
+      "id": "BGS.76",
+      "number": 76,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 76",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 6533
+      }
+    },
+    {
+      "id": "BGS.77",
+      "number": 77,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 77",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 6545
+      }
+    },
+    {
+      "id": "BGS.78",
+      "number": 78,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 78",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 6588
+      }
+    },
+    {
+      "id": "BGS.79",
+      "number": 79,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 79",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 6768
+      }
+    },
+    {
+      "id": "BGS.80",
+      "number": 80,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 80",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7479
+      }
+    },
+    {
+      "id": "BGS.81",
+      "number": 81,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 81",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7499
+      }
+    },
+    {
+      "id": "BGS.82",
+      "number": 82,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 82",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7605
+      }
+    },
+    {
+      "id": "BGS.83",
+      "number": 83,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 83",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7633
+      }
+    },
+    {
+      "id": "BGS.84",
+      "number": 84,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 84",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7738
+      }
+    },
+    {
+      "id": "BGS.85",
+      "number": 85,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 85",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7749
+      }
+    },
+    {
+      "id": "BGS.86",
+      "number": 86,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 86",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7766
+      }
+    },
+    {
+      "id": "BGS.87",
+      "number": 87,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 87",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7778
+      }
+    },
+    {
+      "id": "BGS.88",
+      "number": 88,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 88",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7833
+      }
+    },
+    {
+      "id": "BGS.89",
+      "number": 89,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 89",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7861
+      }
+    },
+    {
+      "id": "BGS.90",
+      "number": 90,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 90",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7888
+      }
+    },
+    {
+      "id": "BGS.91",
+      "number": 91,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 91",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7901
+      }
+    },
+    {
+      "id": "BGS.92",
+      "number": 92,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 92",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7928
+      }
+    },
+    {
+      "id": "BGS.93",
+      "number": 93,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 93",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 7970
+      }
+    },
+    {
+      "id": "BGS.94",
+      "number": 94,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 94",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 8199
+      }
+    },
+    {
+      "id": "BGS.95",
+      "number": 95,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 95",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 8429
+      }
+    },
+    {
+      "id": "BGS.96",
+      "number": 96,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 96",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 8597
+      }
+    },
+    {
+      "id": "BGS.97",
+      "number": 97,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 97",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 8822
+      }
+    },
+    {
+      "id": "BGS.98",
+      "number": 98,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 98",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 8992
+      }
+    },
+    {
+      "id": "BGS.99",
+      "number": 99,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 99",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 9042
+      }
+    },
+    {
+      "id": "BGS.100",
+      "number": 100,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 100",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 9251
+      }
+    },
+    {
+      "id": "BGS.101",
+      "number": 101,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 101",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 9547
+      }
+    },
+    {
+      "id": "BGS.102",
+      "number": 102,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 102",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 9742
+      }
+    },
+    {
+      "id": "BGS.103",
+      "number": 103,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 103",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 9919
+      }
+    },
+    {
+      "id": "BGS.104",
+      "number": 104,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 104",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 10520
+      }
+    },
+    {
+      "id": "BGS.105",
+      "number": 105,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 105",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 10601
+      }
+    },
+    {
+      "id": "BGS.106",
+      "number": 106,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      },
+      "sourceLabel": "Anuccheda 106",
+      "sourcePointer": {
+        "sourceId": "bhagavat-source-edition",
+        "startLine": 10686
+      }
+    }
+  ]
+}

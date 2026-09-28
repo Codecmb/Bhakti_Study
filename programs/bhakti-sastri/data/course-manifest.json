@@ -1,0 +1,34 @@
+{
+  "schema": "bhakti-study-course-manifest-v1",
+  "programId": "bhakti-sastri",
+  "modules": [
+    {
+      "id": "metadata",
+      "path": "course/metadata.json"
+    },
+    {
+      "id": "books",
+      "path": "course/books.json"
+    },
+    {
+      "id": "units",
+      "path": "course/units.json"
+    },
+    {
+      "id": "study-tools",
+      "path": "course/study-tools.json"
+    },
+    {
+      "id": "assessment",
+      "path": "course/assessment.json"
+    },
+    {
+      "id": "completion-rules",
+      "path": "course/completion-rules.json"
+    },
+    {
+      "id": "workflow",
+      "path": "course/workflow.json"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "workflow": {
+    "schema": "bhakti-study-workflow-v1",
+    "policy": "Tools are independent modules connected by canonical study context. Internal sources resolve before external sources.",
+    "tools": [
+      {
+        "id": "read-source",
+        "mode": "read",
+        "label": "Read Source",
+        "className": "",
+        "showInUnit": true,
+        "showInWorkspace": true
+      },
+      {
+        "id": "understanding",
+        "mode": "understanding",
+        "label": "My Understanding",
+        "className": "lotus",
+        "showInUnit": true,
+        "showInWorkspace": true
+      },
+      {
+        "id": "questions",
+        "mode": "questions",
+        "label": "Study Questions",
+        "className": "secondary",
+        "showInUnit": true,
+        "showInWorkspace": true
+      },
+      {
+        "id": "my-questions",
+        "mode": "my-questions",
+        "label": "My Questions",
+        "className": "secondary",
+        "showInUnit": true,
+        "showInWorkspace": true
+      },
+      {
+        "id": "notes",
+        "mode": "notes",
+        "label": "Notes",
+        "className": "secondary",
+        "showInUnit": true,
+        "showInWorkspace": true
+      },
+      {
+        "id": "assessment",
+        "mode": "assessment",
+        "label": "Assessment",
+        "className": "secondary",
+        "showInUnit": true,
+        "showInWorkspace": true
+      },
+      {
+        "id": "progress",
+        "route": "progress",
+        "label": "Progress",
+        "className": "secondary",
+        "showInUnit": true,
+        "showInWorkspace": true
+      },
+      {
+        "id": "sloka-lab",
+        "route": "slokas",
+        "label": "Śloka Lab",
+        "className": "secondary",
+        "showInUnit": false,
+        "showInWorkspace": true,
+        "requiresCanonical": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "units": [
+    {
+      "id": "BV.U1",
+      "title": "Śrīmad-Bhāgavatam Canto 1, Chapters 1–10",
+      "book": "sb-1",
+      "range": "SB.1.1–SB.1.10",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U2",
+      "title": "Śrīmad-Bhāgavatam Canto 1, Chapters 11–19",
+      "book": "sb-1",
+      "range": "SB.1.11–SB.1.19",
+      "chapterCount": 9
+    },
+    {
+      "id": "BV.U3",
+      "title": "Śrīmad-Bhāgavatam Canto 2, Chapters 1–10",
+      "book": "sb-2",
+      "range": "SB.2.1–SB.2.10",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U4",
+      "title": "Śrīmad-Bhāgavatam Canto 3, Chapters 1–10",
+      "book": "sb-3",
+      "range": "SB.3.1–SB.3.10",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U5",
+      "title": "Śrīmad-Bhāgavatam Canto 3, Chapters 11–20",
+      "book": "sb-3",
+      "range": "SB.3.11–SB.3.20",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U6",
+      "title": "Śrīmad-Bhāgavatam Canto 3, Chapters 21–30",
+      "book": "sb-3",
+      "range": "SB.3.21–SB.3.30",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U7",
+      "title": "Śrīmad-Bhāgavatam Canto 3, Chapters 31–33",
+      "book": "sb-3",
+      "range": "SB.3.31–SB.3.33",
+      "chapterCount": 3
+    },
+    {
+      "id": "BV.U8",
+      "title": "Śrīmad-Bhāgavatam Canto 4, Chapters 1–10",
+      "book": "sb-4",
+      "range": "SB.4.1–SB.4.10",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U9",
+      "title": "Śrīmad-Bhāgavatam Canto 4, Chapters 11–20",
+      "book": "sb-4",
+      "range": "SB.4.11–SB.4.20",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U10",
+      "title": "Śrīmad-Bhāgavatam Canto 4, Chapters 21–30",
+      "book": "sb-4",
+      "range": "SB.4.21–SB.4.30",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U11",
+      "title": "Śrīmad-Bhāgavatam Canto 4, Chapters 31–31",
+      "book": "sb-4",
+      "range": "SB.4.31–SB.4.31",
+      "chapterCount": 1
+    },
+    {
+      "id": "BV.U12",
+      "title": "Śrīmad-Bhāgavatam Canto 5, Chapters 1–10",
+      "book": "sb-5",
+      "range": "SB.5.1–SB.5.10",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U13",
+      "title": "Śrīmad-Bhāgavatam Canto 5, Chapters 11–20",
+      "book": "sb-5",
+      "range": "SB.5.11–SB.5.20",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U14",
+      "title": "Śrīmad-Bhāgavatam Canto 5, Chapters 21–26",
+      "book": "sb-5",
+      "range": "SB.5.21–SB.5.26",
+      "chapterCount": 6
+    },
+    {
+      "id": "BV.U15",
+      "title": "Śrīmad-Bhāgavatam Canto 6, Chapters 1–10",
+      "book": "sb-6",
+      "range": "SB.6.1–SB.6.10",
+      "chapterCount": 10
+    },
+    {
+      "id": "BV.U16",
+      "title": "Śrīmad-Bhāgavatam Canto 6, Chapters 11–19",
+      "book": "sb-6",
+      "range": "SB.6.11–SB.6.19",
+      "chapterCount": 9
+    }
+  ]
+}

@@ -1,0 +1,2743 @@
+{
+  "schema": "bhakti-study.sandarbha-manifest.v2",
+  "workId": "bhakti",
+  "title": "Bhakti Sandarbha",
+  "canonicalPrefix": "BHS",
+  "sourceEdition": {
+    "fileName": "Bhakti Sandarbha.pdf",
+    "topLevelRangeObserved": "1–340",
+    "sha256OfExtractedText": "2ad6f847bc896021f1199eb4cd5e555072a8e34579fe35b52a598cc3bce4bccb"
+  },
+  "mappingPolicy": "Canonical IDs are stable academy identities. Source-local headings are evidence; absent extracted headings are never fabricated.",
+  "canonicalRange": "BHS.1–BHS.340",
+  "unitCount": 340,
+  "sourceHeadingCoverage": {
+    "found": 332,
+    "missing": [
+      20,
+      219,
+      220,
+      221,
+      258,
+      259,
+      331,
+      332
+    ]
+  },
+  "units": [
+    {
+      "canonicalId": "BHS.1",
+      "sourceLocalNumber": 1,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10
+      ]
+    },
+    {
+      "canonicalId": "BHS.2",
+      "sourceLocalNumber": 2,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        124
+      ]
+    },
+    {
+      "canonicalId": "BHS.3",
+      "sourceLocalNumber": 3,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        151
+      ]
+    },
+    {
+      "canonicalId": "BHS.4",
+      "sourceLocalNumber": 4,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        217
+      ]
+    },
+    {
+      "canonicalId": "BHS.5",
+      "sourceLocalNumber": 5,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        234
+      ]
+    },
+    {
+      "canonicalId": "BHS.6",
+      "sourceLocalNumber": 6,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        283
+      ]
+    },
+    {
+      "canonicalId": "BHS.7",
+      "sourceLocalNumber": 7,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        352
+      ]
+    },
+    {
+      "canonicalId": "BHS.8",
+      "sourceLocalNumber": 8,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        397
+      ]
+    },
+    {
+      "canonicalId": "BHS.9",
+      "sourceLocalNumber": 9,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        411
+      ]
+    },
+    {
+      "canonicalId": "BHS.10",
+      "sourceLocalNumber": 10,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        426
+      ]
+    },
+    {
+      "canonicalId": "BHS.11",
+      "sourceLocalNumber": 11,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        442
+      ]
+    },
+    {
+      "canonicalId": "BHS.12",
+      "sourceLocalNumber": 12,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        486
+      ]
+    },
+    {
+      "canonicalId": "BHS.13",
+      "sourceLocalNumber": 13,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        498
+      ]
+    },
+    {
+      "canonicalId": "BHS.14",
+      "sourceLocalNumber": 14,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        512
+      ]
+    },
+    {
+      "canonicalId": "BHS.15",
+      "sourceLocalNumber": 15,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        535
+      ]
+    },
+    {
+      "canonicalId": "BHS.16",
+      "sourceLocalNumber": 16,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        547
+      ]
+    },
+    {
+      "canonicalId": "BHS.17",
+      "sourceLocalNumber": 17,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        564
+      ]
+    },
+    {
+      "canonicalId": "BHS.18",
+      "sourceLocalNumber": 18,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        583
+      ]
+    },
+    {
+      "canonicalId": "BHS.19",
+      "sourceLocalNumber": 19,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        637
+      ]
+    },
+    {
+      "canonicalId": "BHS.20",
+      "sourceLocalNumber": 20,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "BHS.21",
+      "sourceLocalNumber": 21,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        666
+      ]
+    },
+    {
+      "canonicalId": "BHS.22",
+      "sourceLocalNumber": 22,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        711
+      ]
+    },
+    {
+      "canonicalId": "BHS.23",
+      "sourceLocalNumber": 23,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        730
+      ]
+    },
+    {
+      "canonicalId": "BHS.24",
+      "sourceLocalNumber": 24,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        797
+      ]
+    },
+    {
+      "canonicalId": "BHS.25",
+      "sourceLocalNumber": 25,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        808
+      ]
+    },
+    {
+      "canonicalId": "BHS.26",
+      "sourceLocalNumber": 26,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        822
+      ]
+    },
+    {
+      "canonicalId": "BHS.27",
+      "sourceLocalNumber": 27,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        895
+      ]
+    },
+    {
+      "canonicalId": "BHS.28",
+      "sourceLocalNumber": 28,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        915
+      ]
+    },
+    {
+      "canonicalId": "BHS.29",
+      "sourceLocalNumber": 29,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        940
+      ]
+    },
+    {
+      "canonicalId": "BHS.30",
+      "sourceLocalNumber": 30,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        979
+      ]
+    },
+    {
+      "canonicalId": "BHS.31",
+      "sourceLocalNumber": 31,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1004
+      ]
+    },
+    {
+      "canonicalId": "BHS.32",
+      "sourceLocalNumber": 32,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1068
+      ]
+    },
+    {
+      "canonicalId": "BHS.33",
+      "sourceLocalNumber": 33,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1088
+      ]
+    },
+    {
+      "canonicalId": "BHS.34",
+      "sourceLocalNumber": 34,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1100
+      ]
+    },
+    {
+      "canonicalId": "BHS.35",
+      "sourceLocalNumber": 35,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1110
+      ]
+    },
+    {
+      "canonicalId": "BHS.36",
+      "sourceLocalNumber": 36,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1119
+      ]
+    },
+    {
+      "canonicalId": "BHS.37",
+      "sourceLocalNumber": 37,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1129
+      ]
+    },
+    {
+      "canonicalId": "BHS.38",
+      "sourceLocalNumber": 38,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1138
+      ]
+    },
+    {
+      "canonicalId": "BHS.39",
+      "sourceLocalNumber": 39,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1148
+      ]
+    },
+    {
+      "canonicalId": "BHS.40",
+      "sourceLocalNumber": 40,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1156
+      ]
+    },
+    {
+      "canonicalId": "BHS.41",
+      "sourceLocalNumber": 41,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1199
+      ]
+    },
+    {
+      "canonicalId": "BHS.42",
+      "sourceLocalNumber": 42,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1206
+      ]
+    },
+    {
+      "canonicalId": "BHS.43",
+      "sourceLocalNumber": 43,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1243
+      ]
+    },
+    {
+      "canonicalId": "BHS.44",
+      "sourceLocalNumber": 44,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1258
+      ]
+    },
+    {
+      "canonicalId": "BHS.45",
+      "sourceLocalNumber": 45,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1284
+      ]
+    },
+    {
+      "canonicalId": "BHS.46",
+      "sourceLocalNumber": 46,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1295
+      ]
+    },
+    {
+      "canonicalId": "BHS.47",
+      "sourceLocalNumber": 47,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1304
+      ]
+    },
+    {
+      "canonicalId": "BHS.48",
+      "sourceLocalNumber": 48,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1316
+      ]
+    },
+    {
+      "canonicalId": "BHS.49",
+      "sourceLocalNumber": 49,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1360
+      ]
+    },
+    {
+      "canonicalId": "BHS.50",
+      "sourceLocalNumber": 50,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1377
+      ]
+    },
+    {
+      "canonicalId": "BHS.51",
+      "sourceLocalNumber": 51,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1395
+      ]
+    },
+    {
+      "canonicalId": "BHS.52",
+      "sourceLocalNumber": 52,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1472
+      ]
+    },
+    {
+      "canonicalId": "BHS.53",
+      "sourceLocalNumber": 53,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1486
+      ]
+    },
+    {
+      "canonicalId": "BHS.54",
+      "sourceLocalNumber": 54,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1517
+      ]
+    },
+    {
+      "canonicalId": "BHS.55",
+      "sourceLocalNumber": 55,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1533
+      ]
+    },
+    {
+      "canonicalId": "BHS.56",
+      "sourceLocalNumber": 56,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1598
+      ]
+    },
+    {
+      "canonicalId": "BHS.57",
+      "sourceLocalNumber": 57,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1614
+      ]
+    },
+    {
+      "canonicalId": "BHS.58",
+      "sourceLocalNumber": 58,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1637
+      ]
+    },
+    {
+      "canonicalId": "BHS.59",
+      "sourceLocalNumber": 59,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1753
+      ]
+    },
+    {
+      "canonicalId": "BHS.60",
+      "sourceLocalNumber": 60,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1804
+      ]
+    },
+    {
+      "canonicalId": "BHS.61",
+      "sourceLocalNumber": 61,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1840
+      ]
+    },
+    {
+      "canonicalId": "BHS.62",
+      "sourceLocalNumber": 62,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1864
+      ]
+    },
+    {
+      "canonicalId": "BHS.63",
+      "sourceLocalNumber": 63,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        1988
+      ]
+    },
+    {
+      "canonicalId": "BHS.64",
+      "sourceLocalNumber": 64,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2028
+      ]
+    },
+    {
+      "canonicalId": "BHS.65",
+      "sourceLocalNumber": 65,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2073
+      ]
+    },
+    {
+      "canonicalId": "BHS.66",
+      "sourceLocalNumber": 66,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2087
+      ]
+    },
+    {
+      "canonicalId": "BHS.67",
+      "sourceLocalNumber": 67,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2129
+      ]
+    },
+    {
+      "canonicalId": "BHS.68",
+      "sourceLocalNumber": 68,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2174
+      ]
+    },
+    {
+      "canonicalId": "BHS.69",
+      "sourceLocalNumber": 69,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2186
+      ]
+    },
+    {
+      "canonicalId": "BHS.70",
+      "sourceLocalNumber": 70,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2219
+      ]
+    },
+    {
+      "canonicalId": "BHS.71",
+      "sourceLocalNumber": 71,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2236
+      ]
+    },
+    {
+      "canonicalId": "BHS.72",
+      "sourceLocalNumber": 72,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2279
+      ]
+    },
+    {
+      "canonicalId": "BHS.73",
+      "sourceLocalNumber": 73,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2310
+      ]
+    },
+    {
+      "canonicalId": "BHS.74",
+      "sourceLocalNumber": 74,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2321
+      ]
+    },
+    {
+      "canonicalId": "BHS.75",
+      "sourceLocalNumber": 75,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2328
+      ]
+    },
+    {
+      "canonicalId": "BHS.76",
+      "sourceLocalNumber": 76,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2352
+      ]
+    },
+    {
+      "canonicalId": "BHS.77",
+      "sourceLocalNumber": 77,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2371
+      ]
+    },
+    {
+      "canonicalId": "BHS.78",
+      "sourceLocalNumber": 78,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2383
+      ]
+    },
+    {
+      "canonicalId": "BHS.79",
+      "sourceLocalNumber": 79,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2391
+      ]
+    },
+    {
+      "canonicalId": "BHS.80",
+      "sourceLocalNumber": 80,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2400
+      ]
+    },
+    {
+      "canonicalId": "BHS.81",
+      "sourceLocalNumber": 81,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2426
+      ]
+    },
+    {
+      "canonicalId": "BHS.82",
+      "sourceLocalNumber": 82,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2438
+      ]
+    },
+    {
+      "canonicalId": "BHS.83",
+      "sourceLocalNumber": 83,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2446
+      ]
+    },
+    {
+      "canonicalId": "BHS.84",
+      "sourceLocalNumber": 84,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2472
+      ]
+    },
+    {
+      "canonicalId": "BHS.85",
+      "sourceLocalNumber": 85,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2527
+      ]
+    },
+    {
+      "canonicalId": "BHS.86",
+      "sourceLocalNumber": 86,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2550
+      ]
+    },
+    {
+      "canonicalId": "BHS.87",
+      "sourceLocalNumber": 87,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2760
+      ]
+    },
+    {
+      "canonicalId": "BHS.88",
+      "sourceLocalNumber": 88,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2780
+      ]
+    },
+    {
+      "canonicalId": "BHS.89",
+      "sourceLocalNumber": 89,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2797
+      ]
+    },
+    {
+      "canonicalId": "BHS.90",
+      "sourceLocalNumber": 90,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2803
+      ]
+    },
+    {
+      "canonicalId": "BHS.91",
+      "sourceLocalNumber": 91,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2828
+      ]
+    },
+    {
+      "canonicalId": "BHS.92",
+      "sourceLocalNumber": 92,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2840
+      ]
+    },
+    {
+      "canonicalId": "BHS.93",
+      "sourceLocalNumber": 93,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2870
+      ]
+    },
+    {
+      "canonicalId": "BHS.94",
+      "sourceLocalNumber": 94,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2878
+      ]
+    },
+    {
+      "canonicalId": "BHS.95",
+      "sourceLocalNumber": 95,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2923
+      ]
+    },
+    {
+      "canonicalId": "BHS.96",
+      "sourceLocalNumber": 96,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2962
+      ]
+    },
+    {
+      "canonicalId": "BHS.97",
+      "sourceLocalNumber": 97,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2996
+      ]
+    },
+    {
+      "canonicalId": "BHS.98",
+      "sourceLocalNumber": 98,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3039
+      ]
+    },
+    {
+      "canonicalId": "BHS.99",
+      "sourceLocalNumber": 99,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2019,
+        3112
+      ]
+    },
+    {
+      "canonicalId": "BHS.100",
+      "sourceLocalNumber": 100,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3159
+      ]
+    },
+    {
+      "canonicalId": "BHS.101",
+      "sourceLocalNumber": 101,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3253
+      ]
+    },
+    {
+      "canonicalId": "BHS.102",
+      "sourceLocalNumber": 102,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2022,
+        3279
+      ]
+    },
+    {
+      "canonicalId": "BHS.103",
+      "sourceLocalNumber": 103,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3328
+      ]
+    },
+    {
+      "canonicalId": "BHS.104",
+      "sourceLocalNumber": 104,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3343
+      ]
+    },
+    {
+      "canonicalId": "BHS.105",
+      "sourceLocalNumber": 105,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        3414
+      ]
+    },
+    {
+      "canonicalId": "BHS.106",
+      "sourceLocalNumber": 106,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        2026,
+        3471
+      ]
+    },
+    {
+      "canonicalId": "BHS.107",
+      "sourceLocalNumber": 107,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4199
+      ]
+    },
+    {
+      "canonicalId": "BHS.108",
+      "sourceLocalNumber": 108,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4217
+      ]
+    },
+    {
+      "canonicalId": "BHS.109",
+      "sourceLocalNumber": 109,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4253
+      ]
+    },
+    {
+      "canonicalId": "BHS.110",
+      "sourceLocalNumber": 110,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4269
+      ]
+    },
+    {
+      "canonicalId": "BHS.111",
+      "sourceLocalNumber": 111,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4354
+      ]
+    },
+    {
+      "canonicalId": "BHS.112",
+      "sourceLocalNumber": 112,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4519
+      ]
+    },
+    {
+      "canonicalId": "BHS.113",
+      "sourceLocalNumber": 113,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4536
+      ]
+    },
+    {
+      "canonicalId": "BHS.114",
+      "sourceLocalNumber": 114,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4562
+      ]
+    },
+    {
+      "canonicalId": "BHS.115",
+      "sourceLocalNumber": 115,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        4669
+      ]
+    },
+    {
+      "canonicalId": "BHS.116",
+      "sourceLocalNumber": 116,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5155
+      ]
+    },
+    {
+      "canonicalId": "BHS.117",
+      "sourceLocalNumber": 117,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5172
+      ]
+    },
+    {
+      "canonicalId": "BHS.118",
+      "sourceLocalNumber": 118,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5183
+      ]
+    },
+    {
+      "canonicalId": "BHS.119",
+      "sourceLocalNumber": 119,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5198
+      ]
+    },
+    {
+      "canonicalId": "BHS.120",
+      "sourceLocalNumber": 120,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5207
+      ]
+    },
+    {
+      "canonicalId": "BHS.121",
+      "sourceLocalNumber": 121,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5222
+      ]
+    },
+    {
+      "canonicalId": "BHS.122",
+      "sourceLocalNumber": 122,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5350
+      ]
+    },
+    {
+      "canonicalId": "BHS.123",
+      "sourceLocalNumber": 123,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5384
+      ]
+    },
+    {
+      "canonicalId": "BHS.124",
+      "sourceLocalNumber": 124,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5412
+      ]
+    },
+    {
+      "canonicalId": "BHS.125",
+      "sourceLocalNumber": 125,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5427
+      ]
+    },
+    {
+      "canonicalId": "BHS.126",
+      "sourceLocalNumber": 126,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5488
+      ]
+    },
+    {
+      "canonicalId": "BHS.127",
+      "sourceLocalNumber": 127,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5505
+      ]
+    },
+    {
+      "canonicalId": "BHS.128",
+      "sourceLocalNumber": 128,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5566
+      ]
+    },
+    {
+      "canonicalId": "BHS.129",
+      "sourceLocalNumber": 129,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5637
+      ]
+    },
+    {
+      "canonicalId": "BHS.130",
+      "sourceLocalNumber": 130,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5667
+      ]
+    },
+    {
+      "canonicalId": "BHS.131",
+      "sourceLocalNumber": 131,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5682
+      ]
+    },
+    {
+      "canonicalId": "BHS.132",
+      "sourceLocalNumber": 132,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5708
+      ]
+    },
+    {
+      "canonicalId": "BHS.133",
+      "sourceLocalNumber": 133,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5747
+      ]
+    },
+    {
+      "canonicalId": "BHS.134",
+      "sourceLocalNumber": 134,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        5760
+      ]
+    },
+    {
+      "canonicalId": "BHS.135",
+      "sourceLocalNumber": 135,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6001
+      ]
+    },
+    {
+      "canonicalId": "BHS.136",
+      "sourceLocalNumber": 136,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6043
+      ]
+    },
+    {
+      "canonicalId": "BHS.137",
+      "sourceLocalNumber": 137,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6057
+      ]
+    },
+    {
+      "canonicalId": "BHS.138",
+      "sourceLocalNumber": 138,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6096
+      ]
+    },
+    {
+      "canonicalId": "BHS.139",
+      "sourceLocalNumber": 139,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6124
+      ]
+    },
+    {
+      "canonicalId": "BHS.140",
+      "sourceLocalNumber": 140,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6145
+      ]
+    },
+    {
+      "canonicalId": "BHS.141",
+      "sourceLocalNumber": 141,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6176
+      ]
+    },
+    {
+      "canonicalId": "BHS.142",
+      "sourceLocalNumber": 142,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6236
+      ]
+    },
+    {
+      "canonicalId": "BHS.143",
+      "sourceLocalNumber": 143,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6262
+      ]
+    },
+    {
+      "canonicalId": "BHS.144",
+      "sourceLocalNumber": 144,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6295
+      ]
+    },
+    {
+      "canonicalId": "BHS.145",
+      "sourceLocalNumber": 145,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6335
+      ]
+    },
+    {
+      "canonicalId": "BHS.146",
+      "sourceLocalNumber": 146,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6346
+      ]
+    },
+    {
+      "canonicalId": "BHS.147",
+      "sourceLocalNumber": 147,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6365
+      ]
+    },
+    {
+      "canonicalId": "BHS.148",
+      "sourceLocalNumber": 148,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6519
+      ]
+    },
+    {
+      "canonicalId": "BHS.149",
+      "sourceLocalNumber": 149,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6679
+      ]
+    },
+    {
+      "canonicalId": "BHS.150",
+      "sourceLocalNumber": 150,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6750
+      ]
+    },
+    {
+      "canonicalId": "BHS.151",
+      "sourceLocalNumber": 151,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6761
+      ]
+    },
+    {
+      "canonicalId": "BHS.152",
+      "sourceLocalNumber": 152,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6833
+      ]
+    },
+    {
+      "canonicalId": "BHS.153",
+      "sourceLocalNumber": 153,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6083,
+        6874
+      ]
+    },
+    {
+      "canonicalId": "BHS.154",
+      "sourceLocalNumber": 154,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7084
+      ]
+    },
+    {
+      "canonicalId": "BHS.155",
+      "sourceLocalNumber": 155,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7105
+      ]
+    },
+    {
+      "canonicalId": "BHS.156",
+      "sourceLocalNumber": 156,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7145
+      ]
+    },
+    {
+      "canonicalId": "BHS.157",
+      "sourceLocalNumber": 157,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7159
+      ]
+    },
+    {
+      "canonicalId": "BHS.158",
+      "sourceLocalNumber": 158,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7182
+      ]
+    },
+    {
+      "canonicalId": "BHS.159",
+      "sourceLocalNumber": 159,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7195
+      ]
+    },
+    {
+      "canonicalId": "BHS.160",
+      "sourceLocalNumber": 160,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7257
+      ]
+    },
+    {
+      "canonicalId": "BHS.161",
+      "sourceLocalNumber": 161,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7267
+      ]
+    },
+    {
+      "canonicalId": "BHS.162",
+      "sourceLocalNumber": 162,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7290
+      ]
+    },
+    {
+      "canonicalId": "BHS.163",
+      "sourceLocalNumber": 163,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7323
+      ]
+    },
+    {
+      "canonicalId": "BHS.164",
+      "sourceLocalNumber": 164,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7336
+      ]
+    },
+    {
+      "canonicalId": "BHS.165",
+      "sourceLocalNumber": 165,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7347
+      ]
+    },
+    {
+      "canonicalId": "BHS.166",
+      "sourceLocalNumber": 166,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7467
+      ]
+    },
+    {
+      "canonicalId": "BHS.167",
+      "sourceLocalNumber": 167,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7482
+      ]
+    },
+    {
+      "canonicalId": "BHS.168",
+      "sourceLocalNumber": 168,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7515
+      ]
+    },
+    {
+      "canonicalId": "BHS.169",
+      "sourceLocalNumber": 169,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        6091,
+        7606
+      ]
+    },
+    {
+      "canonicalId": "BHS.170",
+      "sourceLocalNumber": 170,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7666
+      ]
+    },
+    {
+      "canonicalId": "BHS.171",
+      "sourceLocalNumber": 171,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7691
+      ]
+    },
+    {
+      "canonicalId": "BHS.172",
+      "sourceLocalNumber": 172,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7732
+      ]
+    },
+    {
+      "canonicalId": "BHS.173",
+      "sourceLocalNumber": 173,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        7956
+      ]
+    },
+    {
+      "canonicalId": "BHS.174",
+      "sourceLocalNumber": 174,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8273
+      ]
+    },
+    {
+      "canonicalId": "BHS.175",
+      "sourceLocalNumber": 175,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8321
+      ]
+    },
+    {
+      "canonicalId": "BHS.176",
+      "sourceLocalNumber": 176,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8331
+      ]
+    },
+    {
+      "canonicalId": "BHS.177",
+      "sourceLocalNumber": 177,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8059,
+        8518
+      ]
+    },
+    {
+      "canonicalId": "BHS.178",
+      "sourceLocalNumber": 178,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8582
+      ]
+    },
+    {
+      "canonicalId": "BHS.179",
+      "sourceLocalNumber": 179,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8671
+      ]
+    },
+    {
+      "canonicalId": "BHS.180",
+      "sourceLocalNumber": 180,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8819
+      ]
+    },
+    {
+      "canonicalId": "BHS.181",
+      "sourceLocalNumber": 181,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8941
+      ]
+    },
+    {
+      "canonicalId": "BHS.182",
+      "sourceLocalNumber": 182,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8969
+      ]
+    },
+    {
+      "canonicalId": "BHS.183",
+      "sourceLocalNumber": 183,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8986
+      ]
+    },
+    {
+      "canonicalId": "BHS.184",
+      "sourceLocalNumber": 184,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        8999
+      ]
+    },
+    {
+      "canonicalId": "BHS.185",
+      "sourceLocalNumber": 185,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9011
+      ]
+    },
+    {
+      "canonicalId": "BHS.186",
+      "sourceLocalNumber": 186,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9062
+      ]
+    },
+    {
+      "canonicalId": "BHS.187",
+      "sourceLocalNumber": 187,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9123
+      ]
+    },
+    {
+      "canonicalId": "BHS.188",
+      "sourceLocalNumber": 188,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9245
+      ]
+    },
+    {
+      "canonicalId": "BHS.189",
+      "sourceLocalNumber": 189,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9353
+      ]
+    },
+    {
+      "canonicalId": "BHS.190",
+      "sourceLocalNumber": 190,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9481
+      ]
+    },
+    {
+      "canonicalId": "BHS.191",
+      "sourceLocalNumber": 191,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9514
+      ]
+    },
+    {
+      "canonicalId": "BHS.192",
+      "sourceLocalNumber": 192,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9527
+      ]
+    },
+    {
+      "canonicalId": "BHS.193",
+      "sourceLocalNumber": 193,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9548
+      ]
+    },
+    {
+      "canonicalId": "BHS.194",
+      "sourceLocalNumber": 194,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9561
+      ]
+    },
+    {
+      "canonicalId": "BHS.195",
+      "sourceLocalNumber": 195,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9578
+      ]
+    },
+    {
+      "canonicalId": "BHS.196",
+      "sourceLocalNumber": 196,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9592
+      ]
+    },
+    {
+      "canonicalId": "BHS.197",
+      "sourceLocalNumber": 197,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9604
+      ]
+    },
+    {
+      "canonicalId": "BHS.198",
+      "sourceLocalNumber": 198,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9621,
+        9928
+      ]
+    },
+    {
+      "canonicalId": "BHS.199",
+      "sourceLocalNumber": 199,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9801
+      ]
+    },
+    {
+      "canonicalId": "BHS.200",
+      "sourceLocalNumber": 200,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9854
+      ]
+    },
+    {
+      "canonicalId": "BHS.201",
+      "sourceLocalNumber": 201,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        9938
+      ]
+    },
+    {
+      "canonicalId": "BHS.202",
+      "sourceLocalNumber": 202,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10026
+      ]
+    },
+    {
+      "canonicalId": "BHS.203",
+      "sourceLocalNumber": 203,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10182
+      ]
+    },
+    {
+      "canonicalId": "BHS.204",
+      "sourceLocalNumber": 204,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10212
+      ]
+    },
+    {
+      "canonicalId": "BHS.205",
+      "sourceLocalNumber": 205,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10303
+      ]
+    },
+    {
+      "canonicalId": "BHS.206",
+      "sourceLocalNumber": 206,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10327
+      ]
+    },
+    {
+      "canonicalId": "BHS.207",
+      "sourceLocalNumber": 207,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10359
+      ]
+    },
+    {
+      "canonicalId": "BHS.208",
+      "sourceLocalNumber": 208,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10388
+      ]
+    },
+    {
+      "canonicalId": "BHS.209",
+      "sourceLocalNumber": 209,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10417
+      ]
+    },
+    {
+      "canonicalId": "BHS.210",
+      "sourceLocalNumber": 210,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10474
+      ]
+    },
+    {
+      "canonicalId": "BHS.211",
+      "sourceLocalNumber": 211,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10496
+      ]
+    },
+    {
+      "canonicalId": "BHS.212",
+      "sourceLocalNumber": 212,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10506
+      ]
+    },
+    {
+      "canonicalId": "BHS.213",
+      "sourceLocalNumber": 213,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10526
+      ]
+    },
+    {
+      "canonicalId": "BHS.214",
+      "sourceLocalNumber": 214,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10542
+      ]
+    },
+    {
+      "canonicalId": "BHS.215",
+      "sourceLocalNumber": 215,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10556
+      ]
+    },
+    {
+      "canonicalId": "BHS.216",
+      "sourceLocalNumber": 216,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10596
+      ]
+    },
+    {
+      "canonicalId": "BHS.217",
+      "sourceLocalNumber": 217,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10675
+      ]
+    },
+    {
+      "canonicalId": "BHS.218",
+      "sourceLocalNumber": 218,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10947
+      ]
+    },
+    {
+      "canonicalId": "BHS.219",
+      "sourceLocalNumber": 219,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "BHS.220",
+      "sourceLocalNumber": 220,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "BHS.221",
+      "sourceLocalNumber": 221,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "BHS.222",
+      "sourceLocalNumber": 222,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11034
+      ]
+    },
+    {
+      "canonicalId": "BHS.223",
+      "sourceLocalNumber": 223,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11157
+      ]
+    },
+    {
+      "canonicalId": "BHS.224",
+      "sourceLocalNumber": 224,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11190
+      ]
+    },
+    {
+      "canonicalId": "BHS.225",
+      "sourceLocalNumber": 225,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11261
+      ]
+    },
+    {
+      "canonicalId": "BHS.226",
+      "sourceLocalNumber": 226,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        10468,
+        11340
+      ]
+    },
+    {
+      "canonicalId": "BHS.227",
+      "sourceLocalNumber": 227,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11384
+      ]
+    },
+    {
+      "canonicalId": "BHS.228",
+      "sourceLocalNumber": 228,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11392
+      ]
+    },
+    {
+      "canonicalId": "BHS.229",
+      "sourceLocalNumber": 229,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11438
+      ]
+    },
+    {
+      "canonicalId": "BHS.230",
+      "sourceLocalNumber": 230,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11499
+      ]
+    },
+    {
+      "canonicalId": "BHS.231",
+      "sourceLocalNumber": 231,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11511
+      ]
+    },
+    {
+      "canonicalId": "BHS.232",
+      "sourceLocalNumber": 232,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11526
+      ]
+    },
+    {
+      "canonicalId": "BHS.233",
+      "sourceLocalNumber": 233,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11537
+      ]
+    },
+    {
+      "canonicalId": "BHS.234",
+      "sourceLocalNumber": 234,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11597
+      ]
+    },
+    {
+      "canonicalId": "BHS.235",
+      "sourceLocalNumber": 235,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11751
+      ]
+    },
+    {
+      "canonicalId": "BHS.236",
+      "sourceLocalNumber": 236,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11785
+      ]
+    },
+    {
+      "canonicalId": "BHS.237",
+      "sourceLocalNumber": 237,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11903
+      ]
+    },
+    {
+      "canonicalId": "BHS.238",
+      "sourceLocalNumber": 238,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12000
+      ]
+    },
+    {
+      "canonicalId": "BHS.239",
+      "sourceLocalNumber": 239,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12157
+      ]
+    },
+    {
+      "canonicalId": "BHS.240",
+      "sourceLocalNumber": 240,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12251
+      ]
+    },
+    {
+      "canonicalId": "BHS.241",
+      "sourceLocalNumber": 241,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12280
+      ]
+    },
+    {
+      "canonicalId": "BHS.242",
+      "sourceLocalNumber": 242,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12317
+      ]
+    },
+    {
+      "canonicalId": "BHS.243",
+      "sourceLocalNumber": 243,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12346
+      ]
+    },
+    {
+      "canonicalId": "BHS.244",
+      "sourceLocalNumber": 244,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12357
+      ]
+    },
+    {
+      "canonicalId": "BHS.245",
+      "sourceLocalNumber": 245,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12387
+      ]
+    },
+    {
+      "canonicalId": "BHS.246",
+      "sourceLocalNumber": 246,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12425
+      ]
+    },
+    {
+      "canonicalId": "BHS.247",
+      "sourceLocalNumber": 247,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12438
+      ]
+    },
+    {
+      "canonicalId": "BHS.248",
+      "sourceLocalNumber": 248,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12609
+      ]
+    },
+    {
+      "canonicalId": "BHS.249",
+      "sourceLocalNumber": 249,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12624
+      ]
+    },
+    {
+      "canonicalId": "BHS.250",
+      "sourceLocalNumber": 250,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12654
+      ]
+    },
+    {
+      "canonicalId": "BHS.251",
+      "sourceLocalNumber": 251,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12712
+      ]
+    },
+    {
+      "canonicalId": "BHS.252",
+      "sourceLocalNumber": 252,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        11594,
+        12730
+      ]
+    },
+    {
+      "canonicalId": "BHS.253",
+      "sourceLocalNumber": 253,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12804
+      ]
+    },
+    {
+      "canonicalId": "BHS.254",
+      "sourceLocalNumber": 254,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12833
+      ]
+    },
+    {
+      "canonicalId": "BHS.255",
+      "sourceLocalNumber": 255,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12876
+      ]
+    },
+    {
+      "canonicalId": "BHS.256",
+      "sourceLocalNumber": 256,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12923
+      ]
+    },
+    {
+      "canonicalId": "BHS.257",
+      "sourceLocalNumber": 257,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        12959
+      ]
+    },
+    {
+      "canonicalId": "BHS.258",
+      "sourceLocalNumber": 258,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "BHS.259",
+      "sourceLocalNumber": 259,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "BHS.260",
+      "sourceLocalNumber": 260,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13028
+      ]
+    },
+    {
+      "canonicalId": "BHS.261",
+      "sourceLocalNumber": 261,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13042
+      ]
+    },
+    {
+      "canonicalId": "BHS.262",
+      "sourceLocalNumber": 262,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13049
+      ]
+    },
+    {
+      "canonicalId": "BHS.263",
+      "sourceLocalNumber": 263,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13123
+      ]
+    },
+    {
+      "canonicalId": "BHS.264",
+      "sourceLocalNumber": 264,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13189
+      ]
+    },
+    {
+      "canonicalId": "BHS.265",
+      "sourceLocalNumber": 265,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13201
+      ]
+    },
+    {
+      "canonicalId": "BHS.266",
+      "sourceLocalNumber": 266,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13524
+      ]
+    },
+    {
+      "canonicalId": "BHS.267",
+      "sourceLocalNumber": 267,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13554
+      ]
+    },
+    {
+      "canonicalId": "BHS.268",
+      "sourceLocalNumber": 268,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13577
+      ]
+    },
+    {
+      "canonicalId": "BHS.269",
+      "sourceLocalNumber": 269,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13585
+      ]
+    },
+    {
+      "canonicalId": "BHS.270",
+      "sourceLocalNumber": 270,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13666
+      ]
+    },
+    {
+      "canonicalId": "BHS.271",
+      "sourceLocalNumber": 271,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13702
+      ]
+    },
+    {
+      "canonicalId": "BHS.272",
+      "sourceLocalNumber": 272,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13715
+      ]
+    },
+    {
+      "canonicalId": "BHS.273",
+      "sourceLocalNumber": 273,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13744
+      ]
+    },
+    {
+      "canonicalId": "BHS.274",
+      "sourceLocalNumber": 274,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13832
+      ]
+    },
+    {
+      "canonicalId": "BHS.275",
+      "sourceLocalNumber": 275,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13851
+      ]
+    },
+    {
+      "canonicalId": "BHS.276",
+      "sourceLocalNumber": 276,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13882
+      ]
+    },
+    {
+      "canonicalId": "BHS.277",
+      "sourceLocalNumber": 277,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13901
+      ]
+    },
+    {
+      "canonicalId": "BHS.278",
+      "sourceLocalNumber": 278,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13922
+      ]
+    },
+    {
+      "canonicalId": "BHS.279",
+      "sourceLocalNumber": 279,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        13995
+      ]
+    },
+    {
+      "canonicalId": "BHS.280",
+      "sourceLocalNumber": 280,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14019
+      ]
+    },
+    {
+      "canonicalId": "BHS.281",
+      "sourceLocalNumber": 281,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14044
+      ]
+    },
+    {
+      "canonicalId": "BHS.282",
+      "sourceLocalNumber": 282,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14056
+      ]
+    },
+    {
+      "canonicalId": "BHS.283",
+      "sourceLocalNumber": 283,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14092
+      ]
+    },
+    {
+      "canonicalId": "BHS.284",
+      "sourceLocalNumber": 284,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14287
+      ]
+    },
+    {
+      "canonicalId": "BHS.285",
+      "sourceLocalNumber": 285,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14413
+      ]
+    },
+    {
+      "canonicalId": "BHS.286",
+      "sourceLocalNumber": 286,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14530
+      ]
+    },
+    {
+      "canonicalId": "BHS.287",
+      "sourceLocalNumber": 287,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14853
+      ]
+    },
+    {
+      "canonicalId": "BHS.288",
+      "sourceLocalNumber": 288,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14861
+      ]
+    },
+    {
+      "canonicalId": "BHS.289",
+      "sourceLocalNumber": 289,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14871
+      ]
+    },
+    {
+      "canonicalId": "BHS.290",
+      "sourceLocalNumber": 290,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14885
+      ]
+    },
+    {
+      "canonicalId": "BHS.291",
+      "sourceLocalNumber": 291,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14903
+      ]
+    },
+    {
+      "canonicalId": "BHS.292",
+      "sourceLocalNumber": 292,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14919
+      ]
+    },
+    {
+      "canonicalId": "BHS.293",
+      "sourceLocalNumber": 293,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14928
+      ]
+    },
+    {
+      "canonicalId": "BHS.294",
+      "sourceLocalNumber": 294,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14942
+      ]
+    },
+    {
+      "canonicalId": "BHS.295",
+      "sourceLocalNumber": 295,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        14983
+      ]
+    },
+    {
+      "canonicalId": "BHS.296",
+      "sourceLocalNumber": 296,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15105
+      ]
+    },
+    {
+      "canonicalId": "BHS.297",
+      "sourceLocalNumber": 297,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15130
+      ]
+    },
+    {
+      "canonicalId": "BHS.298",
+      "sourceLocalNumber": 298,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15141
+      ]
+    },
+    {
+      "canonicalId": "BHS.299",
+      "sourceLocalNumber": 299,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15228
+      ]
+    },
+    {
+      "canonicalId": "BHS.300",
+      "sourceLocalNumber": 300,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15371
+      ]
+    },
+    {
+      "canonicalId": "BHS.301",
+      "sourceLocalNumber": 301,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15397
+      ]
+    },
+    {
+      "canonicalId": "BHS.302",
+      "sourceLocalNumber": 302,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15416
+      ]
+    },
+    {
+      "canonicalId": "BHS.303",
+      "sourceLocalNumber": 303,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15428
+      ]
+    },
+    {
+      "canonicalId": "BHS.304",
+      "sourceLocalNumber": 304,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15538
+      ]
+    },
+    {
+      "canonicalId": "BHS.305",
+      "sourceLocalNumber": 305,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15593
+      ]
+    },
+    {
+      "canonicalId": "BHS.306",
+      "sourceLocalNumber": 306,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15606
+      ]
+    },
+    {
+      "canonicalId": "BHS.307",
+      "sourceLocalNumber": 307,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15681
+      ]
+    },
+    {
+      "canonicalId": "BHS.308",
+      "sourceLocalNumber": 308,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15691
+      ]
+    },
+    {
+      "canonicalId": "BHS.309",
+      "sourceLocalNumber": 309,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15704
+      ]
+    },
+    {
+      "canonicalId": "BHS.310",
+      "sourceLocalNumber": 310,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15821
+      ]
+    },
+    {
+      "canonicalId": "BHS.311",
+      "sourceLocalNumber": 311,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15934
+      ]
+    },
+    {
+      "canonicalId": "BHS.312",
+      "sourceLocalNumber": 312,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15950
+      ]
+    },
+    {
+      "canonicalId": "BHS.313",
+      "sourceLocalNumber": 313,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16217
+      ]
+    },
+    {
+      "canonicalId": "BHS.314",
+      "sourceLocalNumber": 314,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16229
+      ]
+    },
+    {
+      "canonicalId": "BHS.315",
+      "sourceLocalNumber": 315,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16237
+      ]
+    },
+    {
+      "canonicalId": "BHS.316",
+      "sourceLocalNumber": 316,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16264
+      ]
+    },
+    {
+      "canonicalId": "BHS.317",
+      "sourceLocalNumber": 317,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        15223,
+        16317
+      ]
+    },
+    {
+      "canonicalId": "BHS.318",
+      "sourceLocalNumber": 318,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16357
+      ]
+    },
+    {
+      "canonicalId": "BHS.319",
+      "sourceLocalNumber": 319,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16371
+      ]
+    },
+    {
+      "canonicalId": "BHS.320",
+      "sourceLocalNumber": 320,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16413
+      ]
+    },
+    {
+      "canonicalId": "BHS.321",
+      "sourceLocalNumber": 321,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16660
+      ]
+    },
+    {
+      "canonicalId": "BHS.322",
+      "sourceLocalNumber": 322,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16738
+      ]
+    },
+    {
+      "canonicalId": "BHS.323",
+      "sourceLocalNumber": 323,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16767
+      ]
+    },
+    {
+      "canonicalId": "BHS.324",
+      "sourceLocalNumber": 324,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16783
+      ]
+    },
+    {
+      "canonicalId": "BHS.325",
+      "sourceLocalNumber": 325,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        16856
+      ]
+    },
+    {
+      "canonicalId": "BHS.326",
+      "sourceLocalNumber": 326,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17055
+      ]
+    },
+    {
+      "canonicalId": "BHS.327",
+      "sourceLocalNumber": 327,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17103
+      ]
+    },
+    {
+      "canonicalId": "BHS.328",
+      "sourceLocalNumber": 328,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17141
+      ]
+    },
+    {
+      "canonicalId": "BHS.329",
+      "sourceLocalNumber": 329,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17191
+      ]
+    },
+    {
+      "canonicalId": "BHS.330",
+      "sourceLocalNumber": 330,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17216
+      ]
+    },
+    {
+      "canonicalId": "BHS.331",
+      "sourceLocalNumber": 331,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "BHS.332",
+      "sourceLocalNumber": 332,
+      "sourceHeadingFound": false,
+      "sourceHeadingLines": []
+    },
+    {
+      "canonicalId": "BHS.333",
+      "sourceLocalNumber": 333,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17384
+      ]
+    },
+    {
+      "canonicalId": "BHS.334",
+      "sourceLocalNumber": 334,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17406
+      ]
+    },
+    {
+      "canonicalId": "BHS.335",
+      "sourceLocalNumber": 335,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17424
+      ]
+    },
+    {
+      "canonicalId": "BHS.336",
+      "sourceLocalNumber": 336,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17436
+      ]
+    },
+    {
+      "canonicalId": "BHS.337",
+      "sourceLocalNumber": 337,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17453
+      ]
+    },
+    {
+      "canonicalId": "BHS.338",
+      "sourceLocalNumber": 338,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17463
+      ]
+    },
+    {
+      "canonicalId": "BHS.339",
+      "sourceLocalNumber": 339,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17513
+      ]
+    },
+    {
+      "canonicalId": "BHS.340",
+      "sourceLocalNumber": 340,
+      "sourceHeadingFound": true,
+      "sourceHeadingLines": [
+        17526
+      ]
+    }
+  ]
+}

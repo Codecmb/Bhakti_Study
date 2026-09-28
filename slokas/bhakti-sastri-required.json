@@ -1,0 +1,14 @@
+{
+  "schema":"sloka-requirements-v1",
+  "owner":"Bhakti Study",
+  "verseContentOwner":"Śrīla Prabhupāda Ślokas app",
+  "policy":"References only. Do not duplicate verse text, audio, translations, or memorization state in this course file.",
+  "total":45,
+  "units":[
+    {"id":"BS.U1","references":["BG 2.7","BG 2.44","BG 2.13","BG 2.20","BG 3.27","BG 4.2","BG 4.8","BG 4.9","BG 4.34","BG 5.22","BG 5.29","BG 6.47"]},
+    {"id":"BS.U2","references":["BG 7.5","BG 7.14","BG 7.19","BG 8.5","BG 8.16","BG 9.2","BG 9.4","BG 9.14","BG 9.25","BG 9.26","BG 9.27","BG 9.29","BG 10.8","BG 10.10"]},
+    {"id":"BS.U3","references":["BG 13.22","BG 13.23","BG 14.26","BG 15.15","BG 15.7","BG 18.54","BG 18.55","BG 18.65","BG 18.66"]},
+    {"id":"BS.U4","references":["NOD 1.1.11","NOD 1.1.12","NOD 1.2.234","NOD 1.2.255"]},
+    {"id":"BS.U5","references":["ISO Invocation","ISO 1","NOI 1","NOI 2","NOI 3","NOI 4"]}
+  ]
+}

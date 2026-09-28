@@ -1,0 +1,17 @@
+{
+  "schema": "academy-certificate-v1",
+  "issuer": "Academia Master Siddhānta Gauḍīya",
+  "type": "Academy Completion Certificate",
+  "officialDegree": false,
+  "privacy": {
+    "storeStudentName": false,
+    "nameUse": "render-only"
+  },
+  "programs": [
+    "bhakti-sastri",
+    "bhakti-vaibhava",
+    "bhakti-vedanta",
+    "bhakti-sarvabhauma",
+    "sat-sandarbhas"
+  ]
+}

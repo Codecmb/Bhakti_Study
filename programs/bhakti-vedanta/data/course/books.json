@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "id": "sb7",
+      "canonicalId": "SB.7",
+      "title": "Śrīmad-Bhāgavatam — Canto 7",
+      "sections": 15,
+      "status": "complete-source-import",
+      "sourceFormat": "EPUB",
+      "creator": "A.C. Bhaktivedanta Swami Prabhupāda"
+    },
+    {
+      "id": "sb8",
+      "canonicalId": "SB.8",
+      "title": "Śrīmad-Bhāgavatam — Canto 8",
+      "sections": 24,
+      "status": "complete-source-import",
+      "sourceFormat": "EPUB",
+      "creator": "A.C. Bhaktivedanta Swami Prabhupāda"
+    },
+    {
+      "id": "sb9",
+      "canonicalId": "SB.9",
+      "title": "Śrīmad-Bhāgavatam — Canto 9",
+      "sections": 24,
+      "status": "complete-source-import",
+      "sourceFormat": "EPUB",
+      "creator": "A.C. Bhaktivedanta Swami Prabhupāda"
+    },
+    {
+      "id": "sb10",
+      "canonicalId": "SB.10",
+      "title": "Śrīmad-Bhāgavatam — Canto 10",
+      "sections": 13,
+      "status": "source-import-incomplete",
+      "sourceFormat": "EPUB",
+      "creator": "A.C. Bhaktivedanta Swami Prabhupāda"
+    },
+    {
+      "id": "sb11",
+      "canonicalId": "SB.11",
+      "title": "Śrīmad-Bhāgavatam — Canto 11",
+      "sections": 31,
+      "status": "complete-source-import",
+      "sourceFormat": "TXT",
+      "creator": "Contributor attribution not stated in source file"
+    },
+    {
+      "id": "sb12",
+      "canonicalId": "SB.12",
+      "title": "Śrīmad-Bhāgavatam — Canto 12",
+      "sections": 13,
+      "status": "complete-source-import",
+      "sourceFormat": "TXT",
+      "creator": "Contributor attribution not stated in source file"
+    }
+  ]
+}

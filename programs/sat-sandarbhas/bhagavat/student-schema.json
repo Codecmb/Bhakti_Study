@@ -1,0 +1,12 @@
+{
+  "schema": "bhakti-study.student-schema.v1",
+  "storage": "browser-localStorage",
+  "keyPattern": "bhakti:sandarbha:bhagavat:<canonicalId>",
+  "fields": [
+    "initialUnderstanding",
+    "revisedUnderstanding",
+    "completed",
+    "lastStudiedAt"
+  ],
+  "storesPrimaryText": false
+}

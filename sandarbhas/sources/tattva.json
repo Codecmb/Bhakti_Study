@@ -1,0 +1,13 @@
+{
+  "schema": "bhakti-study.sandarbha-source.v1",
+  "workId": "tattva",
+  "canonicalPrefix": "TS",
+  "sourceId": "uploaded-jiva-goswami-sri-tattva-sandarbha-pdf",
+  "sourceFile": "Jiva_Goswami_Sri_Tattva_Sandarbha.pdf",
+  "mappingStatus": "pending-clean-structured-text",
+  "validation": {
+    "requiresReview": true,
+    "reason": "PDF embedded Sanskrit/transliteration font extraction is unreliable; preserve PDF and do not normalize corrupted text."
+  },
+  "records": []
+}

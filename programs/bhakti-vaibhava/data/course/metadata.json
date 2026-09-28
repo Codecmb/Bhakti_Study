@@ -1,0 +1,18 @@
+{
+  "schema": "bhakti-study-course-v1",
+  "id": "bhakti-vaibhava",
+  "title": "Bhakti Vaibhava",
+  "authorityNote": "Independent Academy study program. Official BOEX standards/resources are identified separately; Academy completion is not an ISKCON/BOEX degree.",
+  "studyTools": [
+    "read-source",
+    "my-understanding",
+    "academy-study-questions",
+    "official-boex-question-bank-links",
+    "required-slokas",
+    "sloka-app-link",
+    "notes",
+    "progress",
+    "presentations",
+    "assessment"
+  ]
+}

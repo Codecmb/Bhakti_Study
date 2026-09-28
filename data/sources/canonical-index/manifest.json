@@ -1,0 +1,159 @@
+{
+  "schema": "bhakti-study.canonical-source-manifest.v1",
+  "policy": "Internal Academy source first; external source only when internal canonical record is unavailable.",
+  "recordCount": 22077,
+  "shards": [
+    {
+      "id": "bg",
+      "path": "bg.json",
+      "recordCount": 653,
+      "prefixes": [
+        "BG"
+      ]
+    },
+    {
+      "id": "cc-adi",
+      "path": "cc-adi.json",
+      "recordCount": 2253,
+      "prefixes": [
+        "CC.ADI"
+      ]
+    },
+    {
+      "id": "cc-antya",
+      "path": "cc-antya.json",
+      "recordCount": 3176,
+      "prefixes": [
+        "CC.ANTYA"
+      ]
+    },
+    {
+      "id": "cc-madhya",
+      "path": "cc-madhya.json",
+      "recordCount": 5930,
+      "prefixes": [
+        "CC.MADHYA"
+      ]
+    },
+    {
+      "id": "iso",
+      "path": "iso.json",
+      "recordCount": 19,
+      "prefixes": [
+        "ISO"
+      ]
+    },
+    {
+      "id": "nod",
+      "path": "nod.json",
+      "recordCount": 51,
+      "prefixes": [
+        "NOD"
+      ]
+    },
+    {
+      "id": "noi",
+      "path": "noi.json",
+      "recordCount": 12,
+      "prefixes": [
+        "NOI"
+      ]
+    },
+    {
+      "id": "sb-canto-01",
+      "path": "sb-canto-01.json",
+      "recordCount": 779,
+      "prefixes": [
+        "SB.1"
+      ]
+    },
+    {
+      "id": "sb-canto-02",
+      "path": "sb-canto-02.json",
+      "recordCount": 371,
+      "prefixes": [
+        "SB.2"
+      ]
+    },
+    {
+      "id": "sb-canto-03",
+      "path": "sb-canto-03.json",
+      "recordCount": 1388,
+      "prefixes": [
+        "SB.3"
+      ]
+    },
+    {
+      "id": "sb-canto-04",
+      "path": "sb-canto-04.json",
+      "recordCount": 1387,
+      "prefixes": [
+        "SB.4"
+      ]
+    },
+    {
+      "id": "sb-canto-05",
+      "path": "sb-canto-05.json",
+      "recordCount": 650,
+      "prefixes": [
+        "SB.5"
+      ]
+    },
+    {
+      "id": "sb-canto-06",
+      "path": "sb-canto-06.json",
+      "recordCount": 760,
+      "prefixes": [
+        "SB.6"
+      ]
+    },
+    {
+      "id": "sb-canto-07",
+      "path": "sb-canto-07.json",
+      "recordCount": 676,
+      "prefixes": [
+        "SB.7"
+      ]
+    },
+    {
+      "id": "sb-canto-08",
+      "path": "sb-canto-08.json",
+      "recordCount": 848,
+      "prefixes": [
+        "SB.8"
+      ]
+    },
+    {
+      "id": "sb-canto-09",
+      "path": "sb-canto-09.json",
+      "recordCount": 846,
+      "prefixes": [
+        "SB.9"
+      ]
+    },
+    {
+      "id": "sb-canto-10",
+      "path": "sb-canto-10.json",
+      "recordCount": 554,
+      "prefixes": [
+        "SB.10"
+      ]
+    },
+    {
+      "id": "sb-canto-11",
+      "path": "sb-canto-11.json",
+      "recordCount": 1244,
+      "prefixes": [
+        "SB.11"
+      ]
+    },
+    {
+      "id": "sb-canto-12",
+      "path": "sb-canto-12.json",
+      "recordCount": 480,
+      "prefixes": [
+        "SB.12"
+      ]
+    }
+  ]
+}

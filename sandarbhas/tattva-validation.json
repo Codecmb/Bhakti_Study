@@ -1,0 +1,43 @@
+{
+  "work": "tattva",
+  "status": "PASS",
+  "canonicalPrefix": "TS",
+  "expectedUnits": 63,
+  "foundUnits": 63,
+  "first": "TS.1",
+  "last": "TS.63",
+  "missing": [],
+  "studyDivisions": [
+    {
+      "id": "mangalacarana",
+      "title": "Maṅgalācaraṇa",
+      "canonicalRange": [
+        "TS.1",
+        "TS.8"
+      ],
+      "source": "Jiva Institute contents cross-check"
+    },
+    {
+      "id": "pramana",
+      "title": "Pramāṇa",
+      "canonicalRange": [
+        "TS.9",
+        "TS.28"
+      ],
+      "source": "Jiva Institute contents cross-check"
+    },
+    {
+      "id": "prameya",
+      "title": "Prameya",
+      "canonicalRange": [
+        "TS.29",
+        "TS.63"
+      ],
+      "source": "Jiva Institute contents cross-check"
+    }
+  ],
+  "notes": [
+    "Sequential parser ignores incidental TEXT references inside commentary.",
+    "Uploaded 293-page PDF remains a reference source because embedded Sanskrit/transliteration extraction is unreliable."
+  ]
+}

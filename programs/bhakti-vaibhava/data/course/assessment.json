@@ -1,0 +1,18 @@
+{
+  "assessment": {
+    "officialFramework": {
+      "openBookMinWords": 20000,
+      "closedBookShortAnswersMin": 200,
+      "slokasMin": 70,
+      "presentationsMin": 4,
+      "openBookPassingPercent": 60,
+      "closedBookPassingPercent": 65,
+      "slokaPassingPercent": 65,
+      "presentationAggregatePassingPercent": 65,
+      "attendancePercent": 75,
+      "maxChaptersPerUnit": 10
+    },
+    "academyCertificate": true,
+    "officialDegree": false
+  }
+}

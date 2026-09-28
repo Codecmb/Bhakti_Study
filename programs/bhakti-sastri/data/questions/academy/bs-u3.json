@@ -1,0 +1,50 @@
+{
+  "schema": "bhakti-study.question-shard.v1",
+  "program": "bhakti-sastri",
+  "provider": "academy",
+  "scope": "BS.U3",
+  "questions": [
+    {
+      "canonical_ref": "BS.U3",
+      "provider": "academy",
+      "source_question_id": "A1",
+      "question": "What is the central teaching or argument in this unit?",
+      "kind": "reflection"
+    },
+    {
+      "canonical_ref": "BS.U3",
+      "provider": "academy",
+      "source_question_id": "A2",
+      "question": "Which passages from the primary text support that understanding?",
+      "kind": "reflection"
+    },
+    {
+      "canonical_ref": "BS.U3",
+      "provider": "academy",
+      "source_question_id": "A3",
+      "question": "What misconception or opposing understanding does the text correct?",
+      "kind": "reflection"
+    },
+    {
+      "canonical_ref": "BS.U3",
+      "provider": "academy",
+      "source_question_id": "A4",
+      "question": "Which Sanskrit terms are essential to the argument?",
+      "kind": "reflection"
+    },
+    {
+      "canonical_ref": "BS.U3",
+      "provider": "academy",
+      "source_question_id": "A5",
+      "question": "How would you explain the teaching in your own words without changing its conclusion?",
+      "kind": "reflection"
+    },
+    {
+      "canonical_ref": "BS.U3",
+      "provider": "academy",
+      "source_question_id": "A6",
+      "question": "What practical application follows from the teaching?",
+      "kind": "reflection"
+    }
+  ]
+}

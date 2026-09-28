@@ -1,0 +1,51 @@
+(function(global){
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function sourceBookHref(unit,canonical){
+    if(canonical)return null;
+    return `../../library/reader.html?book=${encodeURIComponent(unit.book||'')}`;
+  }
+  async function init(opts){
+    const {programId,dataBase='data/',programHref='index.html'}=opts;
+    const q=new URLSearchParams(location.search),mode=q.get('mode')||'understanding',ref=q.get('ref')||'';
+    const course=await BhaktiProgramData.loadCourse(dataBase),units=course.units||[];
+    const uid=q.get('unit')||units[0]?.id||'',unit=units.find(x=>x.id===uid)||units[0];
+    if(!unit)throw new Error('This program has no configured study units.');
+    const canonical=ref&&(SourceResolver?.canon?.(ref)||ref);
+    if(!StudyWorkflow.hasMode(course,mode)){
+      const fallback=StudyWorkflow.tools(course).find(t=>t.mode)?.mode||'understanding';
+      location.replace(`tools.html?unit=${encodeURIComponent(unit.id)}&mode=${encodeURIComponent(fallback)}${canonical?'&ref='+encodeURIComponent(canonical):''}`);return;
+    }
+    const ctx={program:programId,unit:unit.id,canonical,mode};
+    const sourceTarget=canonical?await SourceResolver.resolve(canonical):null;
+    const internalBook=sourceBookHref(unit,canonical);
+    const sourceHref=sourceTarget?.href?(sourceTarget.href+(sourceTarget.kind==='internal'?`&program=${encodeURIComponent(programId)}&unit=${encodeURIComponent(unit.id)}`:'')):(internalBook?`${internalBook}&program=${encodeURIComponent(programId)}&unit=${encodeURIComponent(unit.id)}`:'');
+    document.querySelector('#heading').textContent=unit.title;
+    document.querySelector('#sub').textContent=`${course.title||programId} · ${unit.id}${canonical?' · '+canonical:''}`;
+    document.querySelector('#workflowTabs').innerHTML=StudyWorkflow.tabs(course,ctx);
+    const ix=units.findIndex(x=>x.id===unit.id),prev=units[ix-1],next=units[ix+1];
+    document.querySelector('#unitNav').innerHTML=`${prev?`<a class="button secondary" href="tools.html?unit=${encodeURIComponent(prev.id)}&mode=${encodeURIComponent(mode)}">← Back</a>`:'<span></span>'}<a class="button secondary" href="${programHref}">↑ Program</a>${next?`<a class="button secondary" href="tools.html?unit=${encodeURIComponent(next.id)}&mode=${encodeURIComponent(mode)}">Forward →</a>`:'<span></span>'}`;
+    const content=document.querySelector('#content'),scope=canonical||unit.id,studentId=`${programId}.${scope}.${mode}`;
+    const returnSource=sourceHref?`<a class="button secondary" href="${esc(sourceHref)}"${sourceTarget?.kind==='external'?' target="_blank" rel="noopener"':''}>Study the Sources</a>`:'';
+    if(mode==='read'){
+      content.innerHTML=`<h2>Read Source</h2><p><strong>${esc(unit.range||unit.title)}</strong></p><p>The Academy opens its internal source first. External Vedabase is used only when the requested canonical passage is not available internally.</p>${sourceHref?`<a class="button" href="${esc(sourceHref)}"${sourceTarget?.kind==='external'?' target="_blank" rel="noopener"':''}>${sourceTarget?.kind==='external'?'Open external source ↗':'Open internal source'}</a>`:'<p class="small">No internal source route is configured for this unit yet.</p>'}`;
+    }else if(mode==='understanding'){
+      const old=`bhakti-study.${programId}.${scope}.${mode}`;StudentStore.migrate(old,mode,studentId);
+      content.innerHTML=`<h2>My Understanding</h2><p>Write first, then return to the primary source and revise your understanding.</p><textarea id="entry" class="field" placeholder="What do I understand from this study unit${canonical?' / '+esc(canonical):''}?"></textarea><button id="save" class="button lotus">Save Understanding</button> ${returnSource}<p id="msg" class="small"></p>`;
+      entry.value=StudentStore.get(mode,studentId,'');save.onclick=()=>{StudentStore.set(mode,studentId,entry.value);msg.textContent='Saved in this browser.'};
+    }else if(mode==='my-questions'){
+      MyQuestionsUI.render(content,{program:programId,unit:unit.id,canonical,bookIds:unit.books||[unit.book].filter(Boolean)});
+    }else if(mode==='notes'){
+      content.innerHTML=`<h2>Notes</h2><p>Notes remain independent of the book files and are attached to ${canonical?'the canonical passage':'this study unit'}.</p><textarea id="entry" class="field" placeholder="Study notes"></textarea><button id="save" class="button">Save Notes</button> ${returnSource}<p id="msg" class="small"></p>`;
+      entry.value=StudentStore.get('notes',`${programId}.${scope}`,'');save.onclick=()=>{StudentStore.set('notes',`${programId}.${scope}`,entry.value);msg.textContent='Saved in this browser.'};
+    }else if(mode==='questions'){
+      content.innerHTML=`<h2>Study Questions</h2><p>Questions are loaded only from verified, attributed question modules. No questions are invented when a provider/unit has not been mapped.</p><div class="notice">No verified question module is currently registered for <strong>${esc(scope)}</strong> in this program.</div>${returnSource}`;
+    }else if(mode==='assessment'){
+      const rules=course['completion-rules']?.academyUnitCompletion;
+      if(!rules?.enabled){content.innerHTML=`<h2>Assessment</h2><div class="notice">Academy completion requirements for this program have not been configured yet. Official framework information remains separate and is not converted into Academy requirements automatically.</div>${returnSource}`}
+      else content.innerHTML=`<h2>Assessment</h2><p>Assessment requirements are configured by this program's completion-rules module.</p>${returnSource}`;
+    }
+    if(canonical)StudyContext?.set?.({program:programId,unit:unit.id,canonical});
+    SourceResolver.linkify(content);
+  }
+  global.ProgramWorkspace={init};
+})(window);

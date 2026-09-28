@@ -1,0 +1,3289 @@
+{
+  "schema": "bhakti-study.study-course.v2",
+  "courseId": "sat-sandarbhas-paramatma",
+  "title": "Paramātma Sandarbha — Estudio avanzado",
+  "displayTitle": "Paramātma Sandarbha",
+  "primaryWork": "paramatma",
+  "canonicalPrefix": "PAS",
+  "language": "es",
+  "authorityPolicy": {
+    "primaryTextIsAuthority": true,
+    "aiRequired": false,
+    "generatedAnswerKeys": false,
+    "studentReflectionStoredSeparately": true,
+    "instruction": "Las herramientas de estudio remiten al estudiante a la fuente primaria; no sustituyen el texto ni presentan respuestas generadas como siddhānta."
+  },
+  "unitCount": 109,
+  "units": [
+    {
+      "id": "PAS.1",
+      "number": 1,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.2",
+      "number": 2,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.3",
+      "number": 3,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.4",
+      "number": 4,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.5",
+      "number": 5,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.6",
+      "number": 6,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.7",
+      "number": 7,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.8",
+      "number": 8,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.9",
+      "number": 9,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.10",
+      "number": 10,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.11",
+      "number": 11,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.12",
+      "number": 12,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.13",
+      "number": 13,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.14",
+      "number": 14,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.15",
+      "number": 15,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.16",
+      "number": 16,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.17",
+      "number": 17,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.18",
+      "number": 18,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.19",
+      "number": 19,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.20",
+      "number": 20,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.21",
+      "number": 21,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.22",
+      "number": 22,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.23",
+      "number": 23,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.24",
+      "number": 24,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.25",
+      "number": 25,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.26",
+      "number": 26,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.27",
+      "number": 27,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.28",
+      "number": 28,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.29",
+      "number": 29,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.30",
+      "number": 30,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.31",
+      "number": 31,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.32",
+      "number": 32,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.33",
+      "number": 33,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.34",
+      "number": 34,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.35",
+      "number": 35,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.36",
+      "number": 36,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.37",
+      "number": 37,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.38",
+      "number": 38,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.39",
+      "number": 39,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.40",
+      "number": 40,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.41",
+      "number": 41,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.42",
+      "number": 42,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.43",
+      "number": 43,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.44",
+      "number": 44,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.45",
+      "number": 45,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.46",
+      "number": 46,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.47",
+      "number": 47,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.48",
+      "number": 48,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.49",
+      "number": 49,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.50",
+      "number": 50,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.51",
+      "number": 51,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.52",
+      "number": 52,
+      "sourceHeadingVerified": false,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.53",
+      "number": 53,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.54",
+      "number": 54,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.55",
+      "number": 55,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.56",
+      "number": 56,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.57",
+      "number": 57,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.58",
+      "number": 58,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.59",
+      "number": 59,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.60",
+      "number": 60,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.61",
+      "number": 61,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.62",
+      "number": 62,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.63",
+      "number": 63,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.64",
+      "number": 64,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.65",
+      "number": 65,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.66",
+      "number": 66,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.67",
+      "number": 67,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.68",
+      "number": 68,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.69",
+      "number": 69,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.70",
+      "number": 70,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.71",
+      "number": 71,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.72",
+      "number": 72,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.73",
+      "number": 73,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.74",
+      "number": 74,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.75",
+      "number": 75,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.76",
+      "number": 76,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.77",
+      "number": 77,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.78",
+      "number": 78,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.79",
+      "number": 79,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.80",
+      "number": 80,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.81",
+      "number": 81,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.82",
+      "number": 82,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.83",
+      "number": 83,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.84",
+      "number": 84,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.85",
+      "number": 85,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.86",
+      "number": 86,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.87",
+      "number": 87,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.88",
+      "number": 88,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.89",
+      "number": 89,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.90",
+      "number": 90,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.91",
+      "number": 91,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.92",
+      "number": 92,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.93",
+      "number": 93,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.94",
+      "number": 94,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.95",
+      "number": 95,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.96",
+      "number": 96,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.97",
+      "number": 97,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.98",
+      "number": 98,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.99",
+      "number": 99,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.100",
+      "number": 100,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.101",
+      "number": 101,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.102",
+      "number": 102,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.103",
+      "number": 103,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.104",
+      "number": 104,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.105",
+      "number": 105,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.106",
+      "number": 106,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.107",
+      "number": 107,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.108",
+      "number": 108,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    },
+    {
+      "id": "PAS.109",
+      "number": 109,
+      "sourceHeadingVerified": true,
+      "studyMethod": {
+        "beforeReading": [
+          "¿Cuál parece ser la cuestión central de este anuccheda?",
+          "Escribe tu comprensión inicial antes de consultar las notas."
+        ],
+        "sourceStudy": [
+          "Lee el texto completo de la fuente primaria.",
+          "Identifica el pramāṇa citado y los términos sánscritos que estructuran el argumento.",
+          "Distingue la afirmación de Jīva Gosvāmī de las objeciones, citas y comentarios editoriales."
+        ],
+        "afterReading": [
+          "Resume la conclusión con tus propias palabras.",
+          "¿Qué evidencia de la fuente sostiene esa conclusión?",
+          "¿Qué cambió entre tu comprensión inicial y la comprensión después del estudio?"
+        ],
+        "advancedLens": [
+          "Viṣaya",
+          "Saṁśaya",
+          "Pūrvapakṣa",
+          "Siddhānta",
+          "Pramāṇa",
+          "Samanvaya",
+          "Aplicación"
+        ]
+      }
+    }
+  ]
+}

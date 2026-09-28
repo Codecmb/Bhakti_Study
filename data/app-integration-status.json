@@ -1,0 +1,67 @@
+{
+  "schema": "bhakti-study-integration-status-v1",
+  "build_stage": "working-not-released",
+  "question_engine": {
+    "status": "implemented-working-copy",
+    "dedupe": [
+      "provider+source URL+source question id",
+      "normalized exact question text"
+    ],
+    "near_duplicates": "flag/manual-review; do not auto-delete",
+    "answers": "per-question local storage"
+  },
+  "navigation": {
+    "study_unit_back_program_forward": true,
+    "canonical_verse_navigation": "implemented-working-copy"
+  },
+  "progress": {
+    "bhakti_sastri_unit_completion": true,
+    "saved_record_count": true
+  },
+  "release_note": "Do not distribute yet; working integration build.",
+  "source_resolution": {
+    "status": "implemented-working-copy",
+    "policy": "internal-first-external-only-if-needed",
+    "canonical_index_records": 22077,
+    "internal_linking": [
+      "BG",
+      "SB",
+      "CC"
+    ],
+    "reader_navigation": "previous/library/next",
+    "external_fallback": "resolver-supported but not shown when internal record exists"
+  },
+  "canonical_context_workflow": {
+    "status": "implemented-working-copy",
+    "details": [
+      "reader preserves program/unit context",
+      "selected canonical ref passes to My Understanding, Study Questions, Notes, Assessment",
+      "student storage scopes to canonical ref when present",
+      "internal resolver path depth fixed for library/student/slokas pages"
+    ]
+  },
+  "canonicalQuestionContext": {
+    "status": "implemented-working",
+    "details": [
+      "Question scopes resolve exact canonical passage, then chapter/text scope, then course unit.",
+      "Adjacent course-unit navigation does not carry an unrelated verse reference.",
+      "Unit-level Academy prompts remain unit-level; passage-specific provider questions can layer above them without duplicating generic prompts.",
+      "Exact and normalized duplicate suppression runs before rendering; near-duplicates are flagged."
+    ]
+  },
+  "manifestDrivenWorkflow": {
+    "status": "implemented-working-copy",
+    "programs": [
+      "bhakti-sastri",
+      "bhakti-vaibhava",
+      "bhakti-vedanta",
+      "bhakti-sarvabhauma"
+    ],
+    "details": [
+      "workflow tools are declared in per-program JSON",
+      "Vaibhava/Vedanta/Sarvabhauma now have functional shared workspaces",
+      "unmapped question providers show an explicit no-verified-module state instead of invented questions",
+      "programs with unconfigured Academy completion rules do not fabricate assessment requirements"
+    ]
+  }
+}
