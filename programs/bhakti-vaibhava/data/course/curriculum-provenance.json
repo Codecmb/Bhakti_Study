@@ -1,0 +1,27 @@
+{
+  "schema": "bhakti-study-curriculum-provenance-v1",
+  "programId": "bhakti-vaibhava",
+  "degreeScope": "Śrīmad-Bhāgavatam Cantos 1–6",
+  "authorities": [
+    {
+      "role": "degree standards / assessment / official question-bank divisions",
+      "organization": "ISKCON Ministry of Education — Board of Examinations",
+      "urls": [
+        "https://iskconeducation.org/question-banks/",
+        "https://iskconeducation.org/assessment/"
+      ]
+    },
+    {
+      "role": "granular lesson/session ranges",
+      "organization": "Bhaktivedanta Vidyapitha / ISKCON Wada",
+      "teacher": "Gauranga Darshan Das",
+      "url": "https://www.vidyapitha.in/p/bhakti-vaibhava-course",
+      "publishedSessionCount": 155
+    }
+  ],
+  "implementationNotes": [
+    "Canonical scripture remains in Bhakti Study library; curriculum files contain references only.",
+    "Overview/thematic sessions without published verse endpoints are preserved without invented endpoints.",
+    "The course UI may group sessions under BOEX-aligned units while retaining published session numbering and titles."
+  ]
+}

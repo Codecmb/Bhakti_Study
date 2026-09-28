@@ -29,6 +29,10 @@
     {
       "id": "workflow",
       "path": "course/workflow.json"
+    },
+    {
+      "id": "curriculum-provenance",
+      "path": "course/curriculum-provenance.json"
     }
   ]
 }
