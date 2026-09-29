@@ -1,0 +1,1851 @@
+{
+  "schema": "bhakti-study.question-shard.v1",
+  "program": "bhakti-vaibhava",
+  "provider": "boex",
+  "scope": "BV.U6",
+  "source_title": "Official BOEX Question Bank — Śrīmad-Bhāgavatam Canto-4-1-11",
+  "source_file": "Canto-4-1-11.pdf",
+  "note": "Transcribed from the supplied official Ministry/BOEX PDF. Wording is preserved except for whitespace normalization.",
+  "questions": [
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q001",
+      "question": "List the names of the daughters of Svayambhu Manu. (4.1.1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q002",
+      "question": "What was the name of the incarnation of the Supreme Personality of Godhead that was born to Prajapati Ruci and Äküti? And who was their daughter? (4.1.4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q003",
+      "question": "What is the meaning of the name Yajna? (4.1.5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q004",
+      "question": "Who is the presiding deity of the River Ganges? (4.1.14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q005",
+      "question": "What is apparent from Atri Muni’s thinking, as described in Srimad Bhagavatam 4.1.20?",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q006",
+      "question": "What is pranayama according to Srila Jiva Goswami? (4.1.21)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q007",
+      "question": "What is the name of the drum which Lord Shiva was carrying? (4.1.24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q008",
+      "question": "Which dynasty did Sukracarya belong to? (4.1.45)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q009",
+      "question": "Thereafter, who did Nara Näräyaëa Åñi appear as? (59)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q010",
+      "question": "Who are the oblations offered in fire meant for? (4.1.60)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q011",
+      "question": "Explain why Saté, the sixteenth daughter of Dakña & the wife of Lord Çiva, could not produce a child. (61)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q012",
+      "question": "Explain why Sati, the sixteenth daughter of Daksa and the wife of Lord Siva, could not produce a child. (4.1.65)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q013",
+      "question": "Give an overview of the Fourth Canto’s main sections. (4.1.1.)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q014",
+      "question": "Svayambhuva Manu’s name is specifically mentioned though Brahma had many other sons. Why? (4.1.1)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q015",
+      "question": "What is putrika-dharma? (4.1.2)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q016",
+      "question": "Summarize Srila Prabhupada’s instructions regarding husband and and wife’s relationships as given in the purport of Srimad Bhagavatam 4.1.6.",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q017",
+      "question": "Why is River Ganges accepted to be sanctified? (4.1.14)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q018",
+      "question": "Explain the phrase ‘gradations of Brahman’ in relation to Dattätreya, Durväsä and Soma. (15)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q019",
+      "question": "Why was Atri Muni not considered to be not a pure devotee? (4.1.20)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q020",
+      "question": "Explain the meaning of the term ‘dandavat’. (24)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q021",
+      "question": "Discuss the significance of Srila Prabhupada’s use of the word “herculean” in the beginning of the 4th Canto. Give reference to the Bhakti-sastri texts in your response. (4.1.1.)",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q022",
+      "question": "Explain how Atri Muni’s desire to have a son “exactly like” the Lord rather than the Lord Himself was material. Give reference to the Bhakti-sastri texts in your response. (4.1.20)",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.1",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q023",
+      "question": "Discuss the statement by Srila Prabhupada in Srimad Bhagavatam 4.1.30, “In other words, one’s determination is fulfilled according to the strength of one’s devotion” in terms of Personal Application in your own practice of Krsna consciousness. (4.1.30)",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q024",
+      "question": "What is the meaning of the word “satī ”? (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q025",
+      "question": "Why is Lord Siva called Asutosa? (10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q026",
+      "question": "Which Deities give shelter to people in the modes of goodness, passion and ignorance respectively? (14-15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q027",
+      "question": "Discuss the significance of the names “Siva” and “Bhutanath” with reference to texts Srimad Bhagavatam 4.2.1-2. (1-2)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q028",
+      "question": "Why was Vidura astonished? (2)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q029",
+      "question": "What significance does Srila Prabhupada draw from Daksa’s statement, “I speak about the manners of gentle persons. I do not speak out of ignorance or envy.” in Srimad Bhagavatam 4.2.9?",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q030",
+      "question": "List reasons why Daksa became intolerant of Lord Siva (8-16)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q031",
+      "question": "Identify general principles of Vaisnava culture and etiquette from the example of Gaura Kishore das Babaji Maharaja as described by Srila Prabhupada in the purport of 4.2.18.",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q032",
+      "question": "Give a brief overview of the cursing and countercursing that went on in the assembly as described in Srimad Bhagavatam 4.2.21-32.",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q033",
+      "question": "Explain the analogy of flowery language in relation to the Vedic promises of elevation. (25)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q034",
+      "question": "What does Lord Siva’s becoming morose and leaving the arena of the sacrifice indicate about his character? (33)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q035",
+      "question": "What general principles does Prabhupada draw from the demigods remaining to perform the sacrifice after the departure of Siva and Daksa? (35)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q036",
+      "question": "List reasons why Daksa became intolerant of Lord Siva with reference to Srimad Bhagavatam 4.2.8-16 verses and purports.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q037",
+      "question": "Explain why “Lord Śiva is especially called auspicious” with reference to Srimad Bhagavatam 4.2.14-15 verses and purports.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q038",
+      "question": "Explain how the curse of Daksa was indirectly a blessing. Give reference to Srimad Bhagavatam 4.2.18 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q039",
+      "question": "Give a brief overview of the cursing and countercursing that went on in the assembly with reference to Srimad Bhagavatam 4.2.21-32.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q040",
+      "question": "Give an overview of the incident of Daksa cursing Lord Siva with reference to key verses and purports from Srimad Bhagavatam Canto 4.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.2",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q041",
+      "question": "Identify Vaisnava qualities and principles of Vaisnava behaviour as seen in the incident of Lord Siva being cursed by Daksa. Discuss relevance of these principles for yourself personally and for ISKCON communities in general. Give reference to Srimad Bhagavatam Canto 4 chapter 2, verses and purports in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q042",
+      "question": "What was the chief reason for Sati giving up her body? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q043",
+      "question": "Give the English meaning of 'Daksayani'. (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q044",
+      "question": "Define the term “stri”. (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q045",
+      "question": "Give English meaning of word “adhoksaja” (23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q046",
+      "question": "Explain the significance of the term astottara-sata (108) in reference to the spiritual master. (23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q047",
+      "question": "Why did Lord Siva expect Daksa to insult Sati? (24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q048",
+      "question": "Describe some of the auspicious signs seen at the sacrificial ceremony. (4)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q049",
+      "question": "Why is Lord Siva addressed as 'nilakantha'? (12)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q050",
+      "question": "Why was Lord Siva, a liberated personality, unhappy because of the words of Daksa? (15)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q051",
+      "question": "Explain the analogy of the serpent biting innocent creatures. (17)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q052",
+      "question": "What was the real reason for enmity between Daksha and Lord Shiva ? (21)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q053",
+      "question": "Draw general principles, regarding the nature of a woman, from the example of Daksayani seen in this chapter. Discuss the relevance of these principles for Krsna conscious household life. Give reference to Srimad Bhagavatam 4.3.5-11 verses and purports in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q054",
+      "question": "Explain why a liberated personality like Lord Śiva was so unhappy because of the words of Dakṣa. Give reference to Srimad Bhagavatam 4.3.15 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q055",
+      "question": "“Unless one’s material assets are used in Krsna consciousness, they may play havoc and degrade the possessor”, Srimad Bhagavatam 4.3.17 purport. Discuss the significance of this statement for your practice of Krsna consciousness. Give reference to Srimad Bhagavatam 4.3.17 verse and purport, and the example of Daksa as seen in this chapter.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q056",
+      "question": "With reference to Srimad Bhagavatam 4.3.21-22 verses and purports, refute the argument that since Dakṣa was the father-in-law of Lord Śiva, it was certainly the duty of Lord Śiva to offer him respect. Discuss the relevance of this principle in regard to vaisnava interaction.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q057",
+      "question": "Explain the platform of suddha-sattva, with reference to Srimad Bhagavatam 4.3.23, verse and purport and appropriate verses from the Bhakti-sastras.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.3",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q058",
+      "question": "Srila Prabhupada writes in the purport to Srimad Bhagavatam 4.3.4, “In any auspicious ceremony, such as a marriage ceremony, sacrificial ceremony or pūjā ceremony, it is auspicious for married women to decorate themselves very nicely with ornaments, fine clothing and cosmetics.” Discuss the significance of this comment for Krsna Conscious communities. Give reference to Srimad Bhagavatam 4.3.4 verses and purports in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q059",
+      "question": "What is a woman's last weapon? (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q060",
+      "question": "What is generally the cause for separation between huand and wife? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q061",
+      "question": "What was the purpose of Vedic animal sacrifice (6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q062",
+      "question": "What was Sati's main purpose in coming to her father's house? (16)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q063",
+      "question": "What type of body did Saté achieve? (27)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q064",
+      "question": "What makes family life peaceful, as explained in the purport to Srimad Bhagavatam 4.4.3?",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q065",
+      "question": "How should one respond when Visnu or a Vaisnava is insulted? (10)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q066",
+      "question": "How does Lord Siva manifest his qualities as a qualitative incarnation of the Supreme Personality of Godhead? (11)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q067",
+      "question": "Explain how Lord Siva is the friend of everyone. (15)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q068",
+      "question": "Why do Siva's worshipers sometimes appear more opulent than the worshipers of Visnu? (21)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q069",
+      "question": "Explain how any transcendental process of spiritual realization automatically helps to keep the body fit (25)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q070",
+      "question": "Explain why Sati's anger towards her father was quite applaudable. Give reference to Srimad Bhagavatam 4.4.7-10, verses and purports, in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q071",
+      "question": "Give a detailed description of the position of Lord Siva. Give references from verses from Srimad Bhagavatam 4.4.14-16 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q072",
+      "question": "Discuss the consequences, upon one’s practice of Krsna consciousness, of offending a great personality. Give reference to Srimad Bhagavatam 4.4.19-20, verses and purports, in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q073",
+      "question": "Draw general principles of Vaisnava behavior from Daksayini’s response to not being received well at the sacrifice of Daksa. Give reference to Srimad Bhagavatam 4.4.11-23, verse and purports, in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q074",
+      "question": "Draw principles, relevant for Krsna consciousness, from the incident of Sati giving up her body. Give reference to Srimad Bhagavatam 4.4.28, verse and purport, the previous Cantos of Srimad Bhagavatam and the Bhakti-sastras.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q075",
+      "question": "Explain why Sati decided to give up her body. Discuss the relevance of this incident for practicing and preaching Krsna consciousness. Give reference to Srimad Bhagavatam 4.4.17-28, verses and purports and the Bhakti-sastras, in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.4",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q076",
+      "question": "What general principle does Prabhupada draw from Saté’s giving up her body? (28)",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q077",
+      "question": "Why did Sati, who is the personified material energy herself, not kill Daksa? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q078",
+      "question": "Why does Narada Muni carry news of such events as this one? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q079",
+      "question": "What is the consequence, as mentioned in Srimad Bhagavatam 4.5.5 purport, of offering liberty to the thieves? (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q080",
+      "question": "Briefly describe how Lord Siva created the gigantic demon. (2-4)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q081",
+      "question": "What general principle does Prabhupada draw from the competition between Brahma-tejas and Siva-tejas? (4-5)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q082",
+      "question": "Give a description of Lord Siva’s activities at the time of dissolution. (10)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q083",
+      "question": "Describe the fights that often ensued amongst the kṣatriyas during marriage ceremonies. Explain in what ways the Daksa-yajna was similar? (21)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q084",
+      "question": "Discuss the purpose behind the killing of animals in the sacrifices during Vedic times, as described in Srimad Bhagavatam 4.5.24.",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q085",
+      "question": "“When, in the name of justice, thieves are allowed liberty, the state and kingdom are disturbed by such plunderers and unwanted population” Srimad Bhagavatam 4.5.8 purport. Explain this statement in relation to the frustration of the sacrifice of Daksa, and discuss how this statement reflects Srila Prabhupada’s mission. Give reference to appropriate statements from Srimad Bhagavatam Canto One in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q086",
+      "question": "Summarize the sequence of events of Lord Siva’s frustration of the Daksa-yajna. (Canto 4 Chapter 5)",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q087",
+      "question": "In this verse, Daksa has been described as ‘mahatma.’ Discuss how the word mahatma has been commented upon by different commentators in various manners. What principles can you draw regarding describing people as ‘mahatma’ or rewarding them with this title in the secular world? (4.5.12)",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.5",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q088",
+      "question": "Describe key events in the destruction of the Daksa-yajna by the followers of Lord Siva, with reference to Srimad Bhagavatam 4.5.13-26, verses and purports.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q089",
+      "question": "What is the meaning of the name Asutosa? (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q090",
+      "question": "What was the name of the lake in Kailasa in which Sati used to take her bath? (22)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q091",
+      "question": "What does Lord Siva's association with the Kumaras and Kuvera indicate? (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q092",
+      "question": "Briefly describe the sitting posture of Lord Siva. (37-38)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q093",
+      "question": "Why did Lord Siva offer his respectful obeisances to Lord Brahma? (40)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q094",
+      "question": "Explain how it was good for Daksa to have been killed. (4)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q095",
+      "question": "Explain why Lord Brahma was confident that the demigods could mitigate their offenses to Lord Siva. (5-6)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q096",
+      "question": "Explain the significance of the term “tirthapada”. (25)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q097",
+      "question": "Briefly describe the great banyan tree in Kailasa. (31-32)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q098",
+      "question": "What is the significance of two names, adhīśvara and loka-maṅgala, in addressing Lord Siva in Srimad Bhagavatam 4.6.35?",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q099",
+      "question": "Explain the relationship between Lord Siva and Lord Advaita Prabhu. (39)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q100",
+      "question": "Describe some of the difficulties of performing the Vedic rituals in Kali-yuga. (53)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q101",
+      "question": "Describe some features, which you find particularly interesting, in the description of Kailasa. Discuss the significance of this description, for ISKCON’s present and future development. (9-32)",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q102",
+      "question": "In the purport to Srimad Bhagavatam 4.6.42, Srila Prabhupada writes, “...Brahma- saṁhitā: there is no difference between Lord Viṣṇu and Lord Śiva in their original positions, but still Lord Śiva is different from Lord Viṣṇu.” Explain the position of Lord Siva, with reference to verses and purports from Chapters 1-6 of the Fourth Canto of Srimad Bhagavatam.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.6",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q103",
+      "question": "With reference to Lord Brahma’s prayers to Lord Siva, in Srimad Bhagavatam 4.6.42-53 verses and purports, discuss qualities of Vaisnava behaviour, which if applied can enhance your relationships with other Vaisnavas and people and general.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q104",
+      "question": "What type of punishment was Lord Siva ‘s punishment to Daksha? (4.7.2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q105",
+      "question": "What analogy was used in reference to cleansing of the heart of Daksa on seeing auspicious Lord Siva. (4.7.10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q106",
+      "question": "What is the meaning of “brahma-bandhu”? (4.7.13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q107",
+      "question": "List five of the groups of participants in the yajna, who offer prayers to the Lord. (26-47)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q108",
+      "question": "If the Supreme Lord Visnu is self-satisfied, then why does He accept the offerings of yajna ? (4.7.49)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q109",
+      "question": "What is the relationship between Sakti & Purusa? (4.7.59)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q110",
+      "question": "What important lesson does the story of the poor brahmana and Sanatana Gosvami indicate? (6)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q111",
+      "question": "What is the main philosophical point that Srila Prabhupada draws from the incident of the animal’s head being fixed on the body of Daksa? (5,9)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q112",
+      "question": "What is the meaning of “Pasupati”?(14)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q113",
+      "question": "List and discuss the significance of the four symbols seen in the four hands of Visnu. (20)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q114",
+      "question": "Describe the position and activities of residents of Siddhaloka. (4.7.35)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q115",
+      "question": "Explain the import of the Lord's name as bhakta-vatsala. (38)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q116",
+      "question": "With reference to the prayers by the demigods, explain how can one find direct protection from the Lord. (42)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q117",
+      "question": "Explain how a person in Krsna consciousness is the best performer of yajna. (41, 45)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q118",
+      "question": "How do the Vaisnavas relate to the demigods? (49)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q119",
+      "question": "Draw lessons from the attitude and behaviour of Daksa, relevant for a practitioner of devotional service. Give reference to verses and purports from Daksa’s prayers to Lord Siva in this chapter. (Srimad Bhagavatam 4.7.10-15)",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q120",
+      "question": "Srila Prabhupada writes in the purport of Srimad Bhagavatam 4.7.44, “Lord Caitanya advocated a process whereby everyone may remain in his present position without change but simply hear from the proper authoritative sources about Kṛṣṇa.” Discuss the significance of this statement for the development of the Krsna consciousness movement. Give reference to Srimad Bhagavatam 4.7.44, verse and purport in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q121",
+      "question": "Explain the philosophy of acintya-bhedabheda - tattva, with reference to Srimad Bhagavatam 4.7.50-54, verse and purports, and appropriate references from the Bhakti- sastras.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q122",
+      "question": "Lord Visnu explains, “My devotee does not differentiate Viṣṇu, the all-pervading Personality of Godhead, from any thing or any living entity.” (Srimad Bhagavatam 4.7.53) Explain the equal vision of the devotee, with reference to 4.7.53-55, verses and purports, Bhagavad-gita and Sri Isopanisad.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.7",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q123",
+      "question": "Draw general principles relevant for Vaisnava behaviour, from Lord Siva’s chastisement of the demigods. Give reference to Srimad Bhagavatam 4.7, verses and purports and appropriate references from the Bhakti-sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q124",
+      "question": "What is the meaning of ūrdhva-retasaḥ? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q125",
+      "question": "Give the two meanings of the word grha. (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q126",
+      "question": "Discuss the meaning of the names “ Suruci” and “Suniti”.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q127",
+      "question": "What nature of a devotee does Dhruva exemplify? (37)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q128",
+      "question": "What is the significance of Dhruva comparing Narada to the sun? (38)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q129",
+      "question": "Why does Dhruva refer to Narada as “Bhagavan”? (40)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q130",
+      "question": "Explain how Brahma could have both saintly and demoniac offspring? (2)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q131",
+      "question": "Why are the impious progenies of Brahma listed in Srimad Bhagavatam? (5)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q132",
+      "question": "Explain why, although Suruci asks Dhruva to worship the Supreme Lord, her words are considered envious. (13)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q133",
+      "question": "How were the words of Suruci a benediction to Dhruva? (19)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q134",
+      "question": "What should be the motto of every honest person seeking perfection in Krishna Consciousness? (22)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q135",
+      "question": "Discuss qualities exhibited by Dhruva Maharaja in this chapter, which by imbibing, can enhance your practice of Krsna consciousness. Give reference to Canto 4, chapter 8 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q136",
+      "question": "Srila Prabhupada writes in Srimad Bhagavatam 4.8.42 purport, ‘Places of pilgrimage yield a special advantage for a devotee in quickly advancing his spiritual life”. Discuss the relevance of this statement for the present and future development of the Krsna consciousness movement. Give the reference to verses and purports to Srimad Bhagavatam 4.8. and the Bhakti-sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q137",
+      "question": "Draw points, applicable for inspiring new people to begin practicing Krsna-bhakti, from Suniti’s advice to Dhruva Maharaja in this chapter. Give the reference to verses and purports to Srimad Bhagavatam 4.8. and the Bhakti-sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q138",
+      "question": "Discuss the relevance, for a practice of Krsna consciousness, of Narada Muni’s various instructions to Dhruva Maharaja and his acceptance of them. Give the reference to verses and purports to Srimad Bhagavatam 4.8. and the Bhakti-sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q139",
+      "question": "Draw lessons, applicable for the practice of Krsna consciousness from the qualities of Suruci and Suniti, as described in Srimad Bhagavatam 4.8.8-10, verse and purport.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q140",
+      "question": "Draw principles relevant for preaching Krsna consciousness to newcomers from the incident of Dhruva Maharaja leaving home for the forest. Give reference from verses and purports from this chapter (Canto 4, chapter 8).",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.8",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q141",
+      "question": "Draw principles relevant for the expansion of the Krsna consciousness movement from Srimad Bhagavatam 4.8.55, regarding tulasi leaves in the worship of the Lord. Give reference to Srimad Bhagavatam 4.8.55 and the Bhakti-sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q142",
+      "question": "Why was Dhruva able to see the Syamasundara form of the Lord face to face? (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q143",
+      "question": "What is the panca-purusartha? (17)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q144",
+      "question": "How is the life of Dhruva Maharaja a “special case”? (19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q145",
+      "question": "How was is possible for “Dhruva Mahārāja’s ruling the world for thirty-six thousand years”? (22)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q146",
+      "question": "How did the brother and stepmother of Dhruva Maharaja die? (23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q147",
+      "question": "What does the phrase ante nārāyaṇa-smṛtiḥ mean? (24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q148",
+      "question": "What will happen to the planet known as Dhruvaloka at the time of the dissolution of this universe? (25)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q149",
+      "question": "Why was Dhruva Mahārāja not very much pleased when he returned home? (26)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q150",
+      "question": "What analogy is given to describe a paramahamsa? (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q151",
+      "question": "Describe Dhruva Maharaja’s lamentation. (30-31)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q152",
+      "question": "When is real knowledge is revealed to a devotee? (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q153",
+      "question": "How is the rule of a Vaisnava king different from a materialistic king? (66)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q154",
+      "question": "Discuss the significance of the Sanskrit term sahasrasirsa. (1)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q155",
+      "question": "Which words in Srimad Bhagavatam 4.9.3 indicate that Dhruva had developed the eight kinds of transcendental ecstasy in his body? (3)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q156",
+      "question": "How is the Lord contrasted to the living entity in Srimad Bhagavatam 4.9.15? (15)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q157",
+      "question": "Explain the term jnana-misra-bhakta. (16)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q158",
+      "question": "Explain the analogy given by Srila Visvanatha Cakravati Thakura of a person proceeding towards a destination. (16)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q159",
+      "question": "What is the role of the demigods’ envious feelings in Dhruva Maharaja neglecting the orders of Narada Muni? (32)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q160",
+      "question": "Why did Maharaja Uttanapada consider himself the most wretched? (37)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q161",
+      "question": "What are the two types of crying, as described in Srimad Bhagavatam 9.4.44?",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q162",
+      "question": "Explain the significance of the words, “...bowed his head at the feet of his two mothers.” (45)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q163",
+      "question": "What is the significance of Suniti’s bathing Dhruva Maharaja’s body with her tears and breastmilk? (50)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q164",
+      "question": "Srila Prabhupada writes in the purport of Srimad Bhagavatam 4.9.2, “Since the Supreme Lord is absolute, the form within the heart of a devotee, the form in the temple and the original form in Vaikuṇṭha, Vṛndāvana-dhāma, are all the same; they are nondifferent from one another.” Discuss the significance of this statement for spreading Krsna consciousness in society at large. Give reference to this section and Canto 1 of Srimad Bhagavatam in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q165",
+      "question": "Srila Prabhupada writes in Srimad Bhagavatam 4.9.4, “It is therefore understood that when a devotee writes or speaks about the Supreme Personality of Godhead, his words are dictated by the Lord from within.” Discuss the relevance of this statement for practicing and preaching Krsna consciousness with reference to the lila of Dhruva Maharaja and the Bhakti-sastras.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q166",
+      "question": "“Without revelation by the spiritual energy, one is unable to offer prayers glorifying the Lord.” - SP in Srimad Bhagavatam 4.9.6 purport. Discuss the relevance of this statement for your practice and preaching of Krsna consciousness. Give reference to the example of Dhruva Maharaja, and the Bhakti-sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q167",
+      "question": "Discuss points of significance for personal application from Dhruva Maharaja’s prayers with reference to Srimad Bhagavatam 4.9.6-17 and the Bhakti-sastras.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q168",
+      "question": "Respond to the Mayavada philosophers’ question, “You may be very happy in the association of devotees, but what is your plan for crossing the ocean of material existence?” (Srimad Bhagavatam 4.9.11 purport), with reference to the prayers of Dhruva Maharaja and Srimad Bhagavatam Cantos 1-4.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q169",
+      "question": "Srila Prabhupada writes in the purport to Srimad Bhagavatam 4.9.12, “He is not interested in bodily relationships with wife, children, home, bank balance, etc., or in the distress and happiness which come from these things.” Discuss the appropriate application of this instruction for your practice and preaching of Krsna consciousness. Give reference to the example of Dhruva Maharaja and the Bhakti-sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q170",
+      "question": "Discuss the significance of the Lord offering Dhruva Maharaja the Dhruvaloka planet. Give reference to Srimad Bhagavatam 4.9.20-21 verse and purport and the Bhakti- sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q171",
+      "question": "Discuss the significance of the example of Suruci insulting Dhruva Maharaja in regard to your association with Vaisnavas. Give reference to Srimad Bhagavatam 4.9.23, verse and purport in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q172",
+      "question": "“No one has sufficient money to distribute, but if we distribute kṛṣṇa-prasāda as far as possible, this is more valuable than the distribution of money.” Discuss the significance of this statement for ISKCON’s development, with reference to the sacrifice performed by Dhruva Maharaja as described in Srimad Bhagavatam 4.9.24.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q173",
+      "question": "“Although Dhruva Mahārāja’s achievement of an eternal planet was not conceived of by him, Kṛṣṇa thought, “What will Dhruva do with an exalted position within this material world?” ” Discuss this statement with reference to the activities of Dhruva Maharaja in this chapter and the Bhakti-sastras.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q174",
+      "question": "Discuss the application of Srila Prabhupada’s statement, “Sometimes it so happens that a devotee engaged in the loving service of the Lord desires some material benefit in exchange for this service. This is not the proper way to discharge devotional service.” for your own practice of Krsna consciousness. Give specific reference to the devotional service of Dhruva Maharaja as described in this chapter in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q175",
+      "question": "Discuss points relevant for Vaisnava behaviour from Dhruva Maharaja’s return home as described in this chapter. Give reference to Srimad Bhagavatam 4.9.39-52 verses and purports, and the Bhakti-sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.9",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q176",
+      "question": "Discuss points relevant for society at large and the development of Krsna conscious communities from the description of the capital of King Uttanapada. Give reference to Srimad Bhagavatam 4.9.53-67 verses and purports, Srimad Bhagavatam Cantos 1-4 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q177",
+      "question": "Why did Maharaja Uttanapada not get his son married before he left home? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q178",
+      "question": "What is the meaning of rajarsi? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q179",
+      "question": "Of which demigod were the Yaksas devotees? (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q180",
+      "question": "What is the “characteristic of real ksatriya spirit”? (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q181",
+      "question": "How does the analogy of ‘mountain covered by incessant rainfall’ describe the position of Dhruva Maharaj? (13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q182",
+      "question": "Explain the analogy of the sun setting on the horizon. (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q183",
+      "question": "Explain the analogy of the sun appearing from within the foggy mist. (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q184",
+      "question": "Why is the Yaksas’ victory described a “temporary”? (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q185",
+      "question": "What is the significance of the timing of Uttanapada leaving home? (1)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q186",
+      "question": "Why did Uttanapada feel that getting his son Dhruva Mahārāja married was not so important? (1)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q187",
+      "question": "How did Srila Prabhupada conclude that the Yaksas could be the Himālayan tribes like the Tibetans? (5)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q188",
+      "question": "Why wasn’t Dhruva Maharaja attracted by the various golden ornaments strewn on the battlefield. (18-19)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q189",
+      "question": "What is the significance of the use of the name Śārṅgadhanvā to describe Krsna? (30)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q190",
+      "question": "With reference to Srimad Bhagavatam 4.10.4, verse and purport, and Bhagavad-gita, discuss the proper use of violence.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q191",
+      "question": "Srila Prabhupada states in Srimad Bhagavatam 4.10.4 purport, “Dhruva Mahārāja’s becoming angry, overwhelmed with grief, and envious of the enemies was not incompatible with his position as a great devotee.” Explain this statement with reference to the activities of Dhruva Maharaja and appropriate reference from the Bhakti-sastras.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q192",
+      "question": "“It is a misunderstanding that a devotee should not be angry, envious or overwhelmed by lamentation.” Explain this statement, giving reference to the activities of Dhruva Maharaja in this section of Srimad Bhagavatam.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q193",
+      "question": "Discuss principles relevant for the practice and preaching of Krsna consciousness we can draw from this chapter. Give reference to verses and purports from this chapter, Srimad Bhagavatam Canto 4 chapter 10, in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.10",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q194",
+      "question": "Discuss Srila Prabhupada’s use of the words “spirit of fighting in a sporting attitude” in the purport of Srimad Bhagavatam 4.10.9 with regards to Dhruva Maharaja’s intent in killing so many yaksas.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q195",
+      "question": "What is considered as the narayanastra in this Age of Kali? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q196",
+      "question": "What means of being killed is auspicious for nondevotees?",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q197",
+      "question": "Why was the “wholesale attack” not approved of by Manu?(6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q198",
+      "question": "When should a ksatriya kill? (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q199",
+      "question": "Why does Manu describe Dhruva as “fortunate”? (11)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q200",
+      "question": "Why was Dhruva accustomed to always thinking of the Lord? (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q201",
+      "question": "What does samprasanne mean? (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q202",
+      "question": "What did Syavambhuva Manu want to impress upon the mind of Dhruva? (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q203",
+      "question": "List the 5 elements. (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q204",
+      "question": "What was Dhruva indirectly advised? (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q205",
+      "question": "What two examples does Srila Prabhupada use in the purport of Srimad Bhagavatam 4.11.17 to explain the concept of creation?",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q206",
+      "question": "What two examples does Srila Prabhupada use to explain Lord Caitanya’s acintya- bhedābheda-tattva philosophy? (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q207",
+      "question": "How do the devotees of the Lord feel about the flickering history of the world? (19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q208",
+      "question": "Explain the significance of the word anīśāḥ. (20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q209",
+      "question": "What does avyakta mean? (23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q210",
+      "question": "Why was Manu very proud that Dhruva Mahārāja was one of the descendants in his family? (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q211",
+      "question": "What is the significance of the arrow of Narayana which Dhruva Maharaja now had? (1)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q212",
+      "question": "Explain the analogy of the sun given in Srimad Bhagavatam 4.11.2.",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q213",
+      "question": "What is urdhva-retasah and why is it important? (5)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q214",
+      "question": "What is meant by the term sadhu?(10)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q215",
+      "question": "What are the three stages of devotional life as described in Srimad Bhagavatam 4.11.13.",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q216",
+      "question": "Explain the analogies of the potter’s wheel and the government state. (17-18)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q217",
+      "question": "Explain the example of the touchstone. (19)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q218",
+      "question": "Why do the mosquito and Lord Brahma have different durations of life? (21)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q219",
+      "question": "Briefly narrate the story of Dr. Frog. (23)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q220",
+      "question": "Explain the difference between the living entity, or conditioned soul, and the Supreme Soul. (25)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q221",
+      "question": "Why is the temple understood to be the spiritual world? (26)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q222",
+      "question": "In what way did Manu want to change the vision of Dhruva? (29)",
+      "kind": "closed-book",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q223",
+      "question": "Discuss Srila Prabhupada’s statement in Srimad Bhagavatam 4.11.5, “Killing, therefore, is not always bad” in terms of principle and detail. Give reference to Srimad Bhagavatam 4.11.5-7 verses and purports and the Bhakti-sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q224",
+      "question": "Give an overview of, and discuss points for personal application from the instructions imparted by Manu to Dhruva Maharaja in Srimad Bhagavatam 4.11.6-34.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q225",
+      "question": "Explain how the external energy of the Supreme Personality of Godhead works within this material world, with reference to Srimad Bhagavatam 4.11.17, verse and purport, and Bhagavad-gita.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q226",
+      "question": "Discuss Krsna’s inconceivable nature, according to the acintya-bhedābheda-tattva philosophy of Lord Caitanya, with reference to Srimad Bhagavatam 4.11.18-21, verses and purports.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q227",
+      "question": "Discuss the statement, “Although the Supreme Personality of Godhead is the original cause of all causes, He is not responsible for anyone’s material sufferings or enjoyment” (Srimad Bhagavatam 4.11.20), with reference to Srimad Bhagavatam Canto 4 chapter 11, verses and purports, as well as the Bhagavad-gita.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q228",
+      "question": "Srila Prabhupada writes in Srimad Bhagavatam 4.11.22 purport, “We are drawn into this material world by desire, but the same desire must be purified and employed in the devotional service of the Lord.” Discuss this principle in regards to the practice of devotional service. Give reference to example of Dhruva Maharaja and the Bhakti- sastras in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q229",
+      "question": "“But even though liberated, he was, for the time being, afflicted by the illusion of māyā, thinking himself the brother of Uttama in the bodily concept of life.” Explain this statement with reference to the activities of Dhruva Maharaja in this chapter. (Srimad Bhagavatam Canto 4, chapter 11)",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.11",
+      "provider": "boex",
+      "source_question_id": "BV.U6-Q230",
+      "question": "Discuss the appropriate use of anger with reference to Srimad Bhagavatam 4.11.31, verse and purport, and the Bhakti-sastras. Explain how you will apply this personally and in your preaching of Krsna consciousness.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-1-11.pdf"
+    }
+  ]
+}

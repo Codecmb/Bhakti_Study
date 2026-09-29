@@ -1,0 +1,1819 @@
+{
+  "schema": "bhakti-study.question-shard.v1",
+  "program": "bhakti-vaibhava",
+  "provider": "boex",
+  "scope": "BV.U2",
+  "source_title": "Official BOEX Question Bank — Śrīmad-Bhāgavatam Canto-1.10-19",
+  "source_file": "Canto-1.10-19.pdf",
+  "note": "Transcribed from the supplied official Ministry/BOEX PDF. Wording is preserved except for whitespace normalization.",
+  "questions": [
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q001",
+      "question": "Why was the Battle of Kurukshetra fought? (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q002",
+      "question": "What is according to the Srimad Bhagavatam the basic principle of economic development? (4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q003",
+      "question": "Give three characteristics of the world during the reign of Maharaja Yudhishthira. (3-6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q004",
+      "question": "Why is there always the strain of hot and cold war between men? (6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q005",
+      "question": "Give two reasons why the Lord decided to stay in Hastinapura for a few months more. (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q006",
+      "question": "What are the two types of dissolution of the manifested cosmos? (21)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q007",
+      "question": "What are nitya-muktas and nitya-badhas? (22)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q008",
+      "question": "List some of the superhuman acts the Lord performs to prove His supreme might. (25)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q009",
+      "question": "Describe the two classes of devotees of the Lord in the stage of conjugal love. (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q010",
+      "question": "Explain why Yudhishthira Maharaja could not enjoy the results of his victory? (1)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q011",
+      "question": "Explain why it was particularly difficult for the Pandavas to tolerate separation from the Lord. (1.10.11-12)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q012",
+      "question": "Discuss their significance the respective relationships between the Pandavas and Lord Krishna, as described in 1.10.8.",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q013",
+      "question": "Describe the extra-natural beauty of the fair sex & how it should be utilized. (16)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q014",
+      "question": "Explain the analogy of fire and butter and discuss its significance. (16)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q015",
+      "question": "Explain why the talk of the ladies on the roofs of all the houses in Hastinapura was more attractive than the hymns of the Vedas. (20)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q016",
+      "question": "Discuss the significance of the consciousness of the ladies Hastinapura, as described in Srila Prabhupada’s purport to 1.1.20.",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q017",
+      "question": "Explain how Dvaraka is more important than the heavenly planets. (27)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q018",
+      "question": "Why is a person engaged in the devotional service of the Lord recommended to live in Dvaraka, Mathura or Vrindavana? (27)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q019",
+      "question": "Describe the appropriate attitude for a resident of Dvaraka, Mathura or Vrindavana as Srila Prabhupada mentions in 1.10. 27 purport.",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q020",
+      "question": "Explain why the Lord accepted the fallen girls under the clutches of Bhaumasura as His wives. (30)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q021",
+      "question": "Explain why the benedictions being paid to Kṛṣṇa were neither befitting nor unbefitting. (19)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q022",
+      "question": "Discuss the significance of the Lord suspending His journey to perform evening rites. (36)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q023",
+      "question": "With reference to 10.1-6, select two passages reflecting Srila Prabhupada’s mood & mission. Discuss the significance of these aspects for ISKCON’s present and future.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q024",
+      "question": "Discuss how an autocracy like Maharaja Yudhishthira's is superior to a democracy. Give reference to 10.3-6, verses and purports in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q025",
+      "question": "“The basic principle of economic development is centred on land and cows.” Discuss how this statement reflects Srila Prabhupada’s mission. Give reference to 1.10.4, verse and purport, in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q026",
+      "question": "Explain with reference to 1.10.16, verse and purport, the principles of shyness & gender separation. Discuss the relevance of these principles for ISKCONs development.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.10",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q027",
+      "question": "With reference to 10.28-30 & 11.30-39, explain the relationship between Krsna and His queens in Dvaraka, and effectively counter the misunderstanding that Krsna is immoral.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q028",
+      "question": "Describe the effect the Lord’s conch blowing on the residents of Dvarakapuri. (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q029",
+      "question": "Out of the four problems of material existence which problem gives us most trouble? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q030",
+      "question": "Explain the analogy of offering of a lamp to the sun. (4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q031",
+      "question": "List some of the opulence of Dvarakapuri. (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q032",
+      "question": "Describe the difference between pious & impious trees. (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q033",
+      "question": "List 4 elements of a Vedic reception. (13-18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q034",
+      "question": "The festivities in the temple of the Lord are like what? (24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q035",
+      "question": "List some aspects of the analogies used to describe the Lord’s form. (26-27)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q036",
+      "question": "List the seven mothers. (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q037",
+      "question": "What is the meaning of vaibhava? (31)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q038",
+      "question": "Explain the general principle that Srila Prabhupada draws from the fact that the prostitutes of Dvaraka were all unalloyed devotees. (19)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q039",
+      "question": "Discuss the significance of every one of them being properly greeted by the Lord in terms of rank and position. (22)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q040",
+      "question": "How is female respectability is preserved more elegantly? (24)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q041",
+      "question": "What general principle can be drawn from the Lord marrying 16,000 wives? (31)",
+      "kind": "closed-book",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q042",
+      "question": "Discuss aspects of Srila Prabhupada’s mood and mission as revealed in his comparison between Dvarakapuri and modern metropolis. Give reference to 1.11. 12, verse and purport, in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.11",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q043",
+      "question": "With reference to 10.28-39, verses and purports, explain the relationship between Krsna and His queens in Dvaraka, and effectively counter the misunderstanding that Krsna is immoral.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q044",
+      "question": "For what reason was the subject of the release of the brahmastra weapon by Asvatthama renewed? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q045",
+      "question": "What 3 questions did Saunaka Rsi inquire from Suta Goswami about emperor Pariksit? (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q046",
+      "question": "What was the first sign that the age of Kali had arrived? (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q047",
+      "question": "List two reasons Maharaja Pariksit Maharaja Pariksit didn’t counteract the curse of the brahmana boy. (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q048",
+      "question": "Briefly describe Pariksit maharaja’s vision of the Lord in the womb. (7-11)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q049",
+      "question": "What does the word ‘virah’ mean and why has it been used in Text 7?",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q050",
+      "question": "What is the proper meaning of the word ‘jayanti’? (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q051",
+      "question": "For what two reasons did the Lord save Maharaja Pariksit in the womb? (16)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q052",
+      "question": "How is the family in which a maha-bhagavata takes his birth is fortunate? (17)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q053",
+      "question": "List 5 qualities of Maharaja Pariksit as predicted by the brahmanas at the time of his birth. 1.12.19- 29.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q054",
+      "question": "Who are the three famous Bharatas? (20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q055",
+      "question": "List 5 prominent features of Arjuna’s character and heroic life. (21)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q056",
+      "question": "Why was Maharaja Pariksit’s warning of death in 7 days a boon for him? (27)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q057",
+      "question": "What is the difference between vipras and brahmanas? (29)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q058",
+      "question": "What is the significance of the name Pariksit? (30)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q059",
+      "question": "Why did Maharaja Yudhisthira want to perform three horse sacrifices? (34) Close Book Essay Questions",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q060",
+      "question": "Discuss at least three principles, drawn from the birth of Maharaja Pariksit, relevant for the birth of contemporary vaisnavas. Give specific reference to at least two Bhagavad Gita verses in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q061",
+      "question": "Srila Prabhupada writes in 1.12.14: “The so-called daridra-narayana, a misconception of the Supreme Lord by unauthorized persons, is never to be found in the sastras as the object of charity.” Discuss the relevance of this statement for the mission of ISKCON. Give specific reference to at least two Bhagavad Gita verses in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q062",
+      "question": "Discuss the significance of impressions from one’s childhood on one’s subsequent devotional development. Give reference to Srila Prabhupada personal life in this regard, as described in 1.12.30 purport. Give specific reference to at least two Bhagavad Gita verses in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q063",
+      "question": "Explain the guru and disciple relationship with reference to the example of Sukadeva Goswami and Maharaja Pariksit and discuss its relevance for ISKCON. Give reference to Srila Prabhupada’s statements in the purport to 1.12.3. in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q064",
+      "question": "What general principles and vaisnava qualities can you draw from the example of Yudhisthira Maharja’s leadership. Give reference to 1.12.4-6 verses and purports in your response. (Note Purposes 1&7)",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q065",
+      "question": "Discuss, with reference to 1.2.12-14 verses and purports, the relevance of samskara performance and astrology in the practice of Krsna consciousness.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.12",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q066",
+      "question": "What lessons can be learnt from the acts of Maharaja Yudhisthira with the view to bring about peace and prosperity in society. Give reference to 1.12.34 verse and purport in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q067",
+      "question": "According to Indian moral codes, how should an enemy be received at home. (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q068",
+      "question": "List at least 4 examples of Vidura’s partiality to the Pandavas. (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q069",
+      "question": "How do pure devotees turn all places into places of pilgrimage? 1.13.10.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q070",
+      "question": "Explain why Vidura was competent to occupy the post of acarya. (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q071",
+      "question": "Whilst Vidura played the part of a sudra, being cursed by Manduka Muni, who officiated at the post of Yamaraja? (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q072",
+      "question": "Why did Vidura specifically mention Bhima in his criticism of Dhrtarashtra? (23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q073",
+      "question": "Why did Maharaja Yudhisthira consider himself ungrateful? (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q074",
+      "question": "Give 3 examples of great souls cheating others. (37)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q075",
+      "question": "Why is Devarsi Narada described herein as ‘bhagavan’? (38)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q076",
+      "question": "List reasons why Gandhari is considered an ideal woman. (39)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q077",
+      "question": "For what reason did Vidura predict the funeral ceremony of Dhrtarashtra and sati rite of Gandhari? (58)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q078",
+      "question": "Why wasn't Vidura able to turn Dhritarastra into a pure devotee? (59) Close Book Essay Questions",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q079",
+      "question": "What general principles can be drawn from the history of Vidura, as explained in purport to 1.13.1 and 1.13.15. Discuss the relevance of these principles for personal and preaching application.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q080",
+      "question": "List at least 4 features of each the lives of Gandhari, Kunti, Draupadi and Subhadra, which you find particularly interesting. (1.13.3-4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q081",
+      "question": "What principles can be drawn from the example of Vidura not disclosing the annihilation of the Yadu dynasty in relation to civic laws? Discuss the relevance of these principles for ISKCON communities in general. (1.13.13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q082",
+      "question": "What lessons can be drawn Vidura addressing Dhrtarashtra as ’My dear King’ in 1.13.18, for personal and preaching application.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q083",
+      "question": "Discuss the significance of the venue and audience present when Vidura instructed Dhrtarashtra. (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q084",
+      "question": "Describe significant aspects of Vidura’s reception in Hastinapura as mentioned in 1.13.3-7. Discuss the relevance of these aspects for ISKCON communities in general.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q085",
+      "question": "Discuss the proper attitude to renunciation as seen in the example of Dhrtarashtra quitting home. Give reference Chapter 13 verses and purports and at least 3 Bhakti Sastri verses in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q086",
+      "question": "Comment on Vidura’s speaking style, in his preaching to Dhrtarashtra and discuss its relevance for contemporary preaching. Give reference to 1.13.18-28 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q087",
+      "question": "Discuss general principles drawn from Dhrtarashtra’s situation at home and how they are relevant for your own situation in Krishna consciousness. Give reference to Canto 1 Chapter 13 and at least 4 references to the Bhakti Sastri texts in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q088",
+      "question": "Select points from Narada’s instructions to Yudhisthira 1.13.41- 48 and discuss the relevance for personal and preaching application.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.13",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q089",
+      "question": "Discuss Sri Narada’s statement “The weak are the subsistence of the strong”, in relation to the specific incident under discussion, and its relevance in devotional life. Give reference to 1.13.47 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q090",
+      "question": "List at least 5 of the inauspicious omens noticed by Yudhisthira Maharaja. (1-5, 12-20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q091",
+      "question": "Why was Arjuna sent to Dvaraka? (6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q092",
+      "question": "How many months had passed since Arjuna left for Dvaraka? (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q093",
+      "question": "Describe the analogy Prabhupada gives for the necessity of having the Lord's sanction in achieving success. (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q094",
+      "question": "List at least 4 inquiries of Yudhisthira about the Yadus. (1.14.25-34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q095",
+      "question": "How many family members did Lord Krsna have in Dvaraka? (31)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q096",
+      "question": "What two necessities are required for a society to prosper? (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q097",
+      "question": "Why didn't Yudhisthira Maharaja inquire about Lord Krsna's welfare? (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q098",
+      "question": "List some of Yudhisthira’s suggested reasons for Arjuna's dejection. (40-43)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q099",
+      "question": "Which citizens are given special protection by the state? (41)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q100",
+      "question": "Describe the meaning of uttama and adhama in relation to marriage. (42)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q101",
+      "question": "The neglect of what prescribed duty of a householder is unpardonable? (43)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q102",
+      "question": "List at least 5 reasons Yudhisthira suggests for Arjuna’s dejection? (1.14.39-44) Close Book Essay Questions",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q103",
+      "question": "Describe the nature of Lord Balaram and Lord Nityananda as mentioned in 1.14.28-29.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q104",
+      "question": "Explain the analogy given in purport to 1.14.38 which describes the fearlessness of the members of the Yadu dynasty. (38)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q105",
+      "question": "Explain the significance of the Yadus acquiring the assembly house in Dvaraka. (38)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q106",
+      "question": "Explain the significance of Karna being killed by crooked means. Give at least 3 references to the Bhakti Sastras in your response.(42)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q107",
+      "question": "Discuss the transcendental nature of Krsna’s disappearance with reference to purport to 1.14.8 and at least 3 relevant verses from Bhagavad Gita.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.14",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q108",
+      "question": "Describe, with reference to 1.14.34 purport, the significance of the Lord being referred to as Bhagavan, Govinda, Brahmanya and Bhakti Vatsala.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q109",
+      "question": "In what relationship did Lord Krishna reciprocate with Arjuna? (4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q110",
+      "question": "Why did the Lord withdraw Arjuna's special powers? (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q111",
+      "question": "List 4 examples of the Lord's showing favor to Arjuna & the Pandavas. (7-18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q112",
+      "question": "How was Arjuna's mind pacified when he was face to face with being vanquished? (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q113",
+      "question": "What is the Lord’s apparent relinquishing of one body and accepting another likened to? (35)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q114",
+      "question": "List 3 symptoms, from 1.15. 37, which King Yudhisthira could understand were due to the influence of the Age of Kali. (37) Close Book Essay Questions",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q115",
+      "question": "Briefly describe the incident of the demon Maya receiving the grace of Arjuna. Discuss the general principle which Srila Prabhupada draws from this incident. (1.15.8).",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q116",
+      "question": "Discuss how it was possible, as described in the purport to 1.15.20, that Arjuna was defeated by infidel cowherd men. (1.15.20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q117",
+      "question": "List and briefly explain 4 of the 7 analogies mentioned in the purport to 1.15.21.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q118",
+      "question": "Explain how Suta Gosvami gave relief to the sages of Naimisaranya having heard about the Yadus dying in the madness of intoxication? (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q119",
+      "question": "Discuss the import of the analogy of the thorn given in 1.15.34 purport.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q120",
+      "question": "List at least 4 symptoms of good administration, as described in the purport to 1.15.38, and discuss the relevance of these descriptions for ISKCON in general.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q121",
+      "question": "Discuss the relevance of Maharaja Yudhisthira’s retirement for your personal life and for ISKCON at large. Give reference to 15.37-40 & 44 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.15",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q122",
+      "question": "Discuss the relevance for your practice of Krsna consciousness, of Arjuna wanting to remember Bhagavad Gita when he was face to face with being vanquished. Give reference to 1.15.27-29.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q123",
+      "question": "What is the root cause of all quarrel and mismanagement. (4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q124",
+      "question": "Give two reasons why is it said that Lord Krsna has lotus feet? (6",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q125",
+      "question": "What does Yamaraja like? (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q126",
+      "question": "For what reason did no one present at the sacrifice performed at Naimasaranya meet with death? (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q127",
+      "question": "What do the bull and cow respectively represent? (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q128",
+      "question": "Which four things will gradually diminish as the age of Kali progresses? (20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q129",
+      "question": "What will result from three quarters of the population becoming irreligious? (20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q130",
+      "question": "What proportion of religious principles work in the respective yugas? (25)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q131",
+      "question": "Why were the Earth's feelings of separation more acute than the Lord's queens? (35) Close Book Essay Questions",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q132",
+      "question": "Explain benefits of advisors of the state not receiveiving salary. Discuss the relevance of this principle for ISKCON. Give reference to 1 verse of the Bhakti Sastris in your reponse. (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q133",
+      "question": "Discuss differences between welcome addresses today and in the days of Pariksit Maharja. How is this relevant for ISKCON? (13-15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q134",
+      "question": "Explain the role of the demigods with reference to the analogy in purport 1.16.20.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q135",
+      "question": "List 4 of the reasons Dharma suggests as causes of Dharani’s lamentation. (19-22).",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q136",
+      "question": "Explain the connection between cow protection and brahminical culture. Discuss how this is relevant for ISKCON. Give reference to Canto 1 Chapter 16 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q137",
+      "question": "With referece to verses and purports 1.16.19-22, identify at least 5 symptoms of the age of Kali and discuss examples of how they are currently exhibited in society.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q138",
+      "question": "Discuss how the advent of the age of Kali effected obedience to the Varnasrama system. Give reference to verse and purport of 1.16.31, and two verses from the Bhagavad gita in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q139",
+      "question": "Discuss how statements from Dharani’s lamentation in 1.16.32-33 can help you to improve your practice of Krsna consciousness. Give reference to the verse and purport of 1.16.32-33 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.16",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q140",
+      "question": "Srila Prabhupada writes in 1.16.32-33, “the movement of such pure devotees of the Lord all over the world can at once change the troublesome face of the world.” Discuss how you can contribute to changing the troublesome face of the world with appropriate reference to Canto 1 Chapter 16, verses and purports, and at least 3 Bhakti Sastri verses in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q141",
+      "question": "What is the meaning of ‘praja’ ?(10-11).",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q142",
+      "question": "What is the first sign in a state where the codes of Krishna are not followed? (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q143",
+      "question": "List 3 of the philosophers mentioned in the purport to 17.19. (19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q144",
+      "question": "Explain the the analogy of the moths captivated by the brightness. (24).",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q145",
+      "question": "What is the meaning of ‘brahmavarta’ ? (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q146",
+      "question": "In which five places was Kali given permission to live? (1.17.38-39)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q147",
+      "question": "Why did Maharaja Pariksit thus gave Kali permission to live where there is gold? (39)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q148",
+      "question": "Give the sanskrit terms for the four kinds of sin. (38) Close Book Essay Questions",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q149",
+      "question": "Give an overview of Chapter 16 and 17 and explain the events connecting them.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q150",
+      "question": "Describe what Maharaja Parikit observed when he reached the shore of the Sarasvati River. Explain what this incident indicates. 17.1-3",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q151",
+      "question": "List at least 5 signs of the age of Kali as described in the purports of 17.1-3.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q152",
+      "question": "List the four principles of religion in English & Sanskrit, and discuss the activities and qualities that respectivly curtail them. (24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q153",
+      "question": "List and breifly explain general principles of ksatriya dharma as demonstrated in the incident wherein the personality of Kali surrended to Maharaja Pariksit. (1.17.29-30)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q154",
+      "question": "Srila Prabhupada writes in 1.17.32, “A secular state may be impartial to any particular type of faith, but the state cannot be indifferent to the principles of religion as above mentioned.” Discuss the relevance of this statement for ISKCON’s future. Give reference to Canto 1 Chapter 17 and the Bhakti Sastri texts in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q155",
+      "question": "Srila Prabhupada writes in 1.17.27 purport: “in the absence of a suitable king to curb irreligious tendencies, educating the people systematically in the teachings of Srimad-Bhagavatam will clear up the hazy atmosphere of corruption, bribery, blackmail, etc.” Discuss the significance of this statment fpr you personally and for ISKCON in general.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q156",
+      "question": "Breifly present Srila Prabhupada’s 3 point plan for eradicatig corruption in the state, as presented in 1.17.38, and discuss stratergies for implementation locally and globally. Give references to appropriate Bhakti Sastri verses in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q157",
+      "question": "Explain Srila Prabhupada’s use of the term ‘necessary adharma’ in 1.17.38, and discuss it’s relevance for spreading Krsna consciousness. Give reference to the incident of Maharaja Parikit giving shelter to the personality of Kali in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q158",
+      "question": "“If we want to drive out corruption from the state, we must first of all organize society to accept the principles of religion, namely austerity, cleanliness, mercy and truthfulness, and to make the condition favorable we must close all places of gambling, drinking, prostitution and falsity. These are some of the practical lessons from the pages of Srimad Bhagavatam.( 1.71.44). Discuss how this statement refelects Srila Prabhupada’s mood and misison. Give reference to Canto 1 Chapter 17 and the Bhakti Sastras in your respose.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q159",
+      "question": "Discuss the responsibility of the administrative head of state in counteracting the effect of the degraded age of Kali. Give reference to 1.17.1-16, verses and purports.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q160",
+      "question": "Explain apad-dharma, and discuss its relevance for the spreading of Krishna consciousness. Give reference to 1.17.16, verse and purport, in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q161",
+      "question": "Discuss a devotee’s attitude toward suffering. How can you personally apply these principles to help you overcome suffering? Give reference to 1.17.18, verse and purport.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q162",
+      "question": "Explain, with reference to 1.17.17-23 verses and purports, why Dharma does not identify the pepetrator who had caused their suffering. Give two references to appropriate Bhakti Sastri verses in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q163",
+      "question": "Srila Prabhupada write in 1.17.45 “Maharaja Pariksit was experienced enough to drive away Kali from his field of activities and thereby make the state receptive to spiritual enlightenment.” Discuss the significance of this statement in relation to spreading Krsna consciousness. Give refernce to to",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.17",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q164",
+      "question": "“If Pariksit Maharaja had killed Kali, we wouldn’t be suffering the affects of Kali now…” Refute the argument, with refernce to Canto 1 Chapter 17.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q165",
+      "question": "Who is called narayana-parayana? (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q166",
+      "question": "Give the English meaning of the word ‘ajita’. (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q167",
+      "question": "When did the personality of Kali come into this world? (6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q168",
+      "question": "What is the meaning of ‘yosit-sangi’? (13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q169",
+      "question": "Name the four sects of worshipful devotees of the Lord and from whom they descend? (21)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q170",
+      "question": "List 4 ways guests should be received according to the Vedic law of reception. (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q171",
+      "question": "List the 5 categories of society who are beyond the jurisdiction of punishment. (29)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q172",
+      "question": "What was the only justification for Mahārāja Parīkṣit's behavior? (29)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q173",
+      "question": "Why was Sringi lacking in culture? (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q174",
+      "question": "What is the cause of downfall of the perfect social order? (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q175",
+      "question": "Why did the Lord arrange for a young boy to commit the offense? (47) Close Book Essay Questions",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q176",
+      "question": "Discuss the special facilities given in kali-yuga which are not given in other ages. (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q177",
+      "question": "“So instead of vibrating some nuisance sound for sense enjoyment, if the state arranges to distribute transcendental sound by resounding the holy name, fame and activities of the Lord, as they are authoritatively given in the Bhagavad Gita or Srimad Bhagavatam, then a favorable condition will be created and the principles of religion will be re-established in the world, and thus the executive heads, who are so anxious to drive away corruption from the world, will be successful.” 1.18.6. Discuss how this statement reflects Srila Prabhupada’s mission. Give reference to Canto 1 Chapter 18 and the Bhakti Sastras in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q178",
+      "question": "Explain the significance of the sages of Naimisaranya’s bodies becoming black from smoke. Give reference to 1.18.12 verse and purport in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q179",
+      "question": "Discuss the significance of Srila Suta Goswami being born in a mixed cast. Give reference to 1.18.16, verse and purport in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q180",
+      "question": "Briefly describe Pariksit Maharaja meeting with Samika Rsi, as narrated in 1.18.24-41.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q181",
+      "question": "Discuss reasons why Maharaja Pariksit became fatigued. (24-25)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q182",
+      "question": "“..the king, even though he commits a great mistake, is never to be considered a wrongdoer.” 1.18.29. Explain the relevance of this statement with reference to the meeting of Maharaja Pariksit and Samika Rsi. Discuss the relevance of this statement for ISKCON.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q183",
+      "question": "“A medical practitioner may kill a patient by mistaken treatment, but such a killer is never condemned to death.” 1.18.41. Explain the significance of this statement in relation to organization of the Krsna consciousness movement. Give reference to Samika Rsi’s response to Srngi as described in 1.18.41-46.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q184",
+      "question": "Explain how Maharaja Pariksit, Risi Samika and his son Sringi were never put into difficulty. (1.18.49)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q185",
+      "question": "Explain why was Maharaja Pariksit not envious of the personality Kali. Give reference to 1.18.7 verse and purport in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q186",
+      "question": "Discuss the significance of the sages of Naimisaranya being anxious to receive such messages about the pastimes of the Lord. Give reference to 1.18.15 verse and purport, and two Bhakti Sastri verses, in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q187",
+      "question": "Discuss points of philosophical significance form Srila Sukadeva Goswami becoming attracted by the transcendental pastimes of the Lord. Give reference to 1.18.16, verse and purport, in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q188",
+      "question": "Suta Goswami explains 1.18.23, “As the birds fly in the sky as far as their capacity allows, so do the learned devotees describe the Lord as far as their realization allows…” Discuss the relevance of this comment for spreading Krsna consciousness. Give reference to 1.18.15 verse and purport, and two Bhakti Sastri verses in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q189",
+      "question": "Discuss the significance of Pariksit Maharaja becoming angry at not being received properly by Samika Rsi. Give reference to 1.18. 28-30 verse and purports in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q190",
+      "question": "Discuss the significance of Maharaja Pariksit arguing within himself regarding whether the sage had actually been in meditation or not. Discuss the import of this statement for your own practice of Krsna consciousness. Give reference to 1.18.31 verse and purport in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q191",
+      "question": "Discuss Maharaja Pariksit’s attitude in response to being cursed, in relation to responding to challenges in your life. Give reference to Canto 1 Chapter 18 and the Bhakti Sastri texts. (Marking key: Note: 1.18.2 & 48).",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q192",
+      "question": "Why the brahmana community as a whole was made responsible for allowing Kali into the world. Give reference to 1.18.47, verse and purport in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q193",
+      "question": "Give reasons why Śamīka Ṛṣi prayed to the Lord to excuse his son. Give reference to 1.18.48 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q194",
+      "question": "With reference to Chapter 17, summarize Prabhupada’s guidelines to defeat Kali and bring about peace and harmony in the world. How are these guidelines relevant for leaders and preachers in ISKCON?",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.18",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q195",
+      "question": "With reference to 15.36-37, 17.38 & 18.32-37, explain how the age of Kali was able to enter human society.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q196",
+      "question": "What is the result of a devotee’s repentance for accidental improper behaviour? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q197",
+      "question": "On what three things is a progressive human civilization is based? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q198",
+      "question": "Why did Maharaja Parikṣit not go to the muni to beg his pardon? (4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q199",
+      "question": "How does the Varaha Purana compare the Ganges and the Yamuna? (6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q200",
+      "question": "How can the first-grade offender be excused? (11)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q201",
+      "question": "Who takes pleasure in seeing someone to go back to Godhead? (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q202",
+      "question": "To whom did Maharaja Pariksit give up the imperial throne? (20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q203",
+      "question": "Up to what percentage can the living beings have the original attributes pertaining to the Absolute Personality of Godhead? (23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q204",
+      "question": "Who are known as the Vedas personified? (23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q205",
+      "question": "What 4 activities instantly sanctify the homes of the householders? (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q206",
+      "question": "What is enjoined for a householder who does not bow down before a saint? (33) Close Book Essay Questions",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q207",
+      "question": "Why was the cursing of the brahmana boy a blessing upon Maharaja Pariksit? (1.19.4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q208",
+      "question": "Discuss the significance of the sages coming to meet Maharaja Pariksit, as described in 1.19.8.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q209",
+      "question": "“Any important decision, however firmly fixed, should be confirmed by some authority. That makes the matter perfect.” 1.19.12. Discuss the significance of this statement for ISKCON’s leadership, present and future. Refer to Maharaja Pariksit’s meeting the sages on the bank of the Ganges in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q210",
+      "question": "“The system of bowing the head to the ground to show respect to superiors is an excellent etiquette which obliges the honoured guest deep into the heart.” Discuss the significance of this statement for the Krsna consciousness movement. Give reference to the meeting of Maharaja Pariksit and the assembly of sages as described in 1.19.12, and appropriate verses from Bhagavad Gita in your response.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q211",
+      "question": "Discuss how Maharaja Pariksit was considered blessed by the so-called curse of the brahmana boy. (19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q212",
+      "question": "What two questions does the King ask the sages? Discuss the significance of these two questions. (1.19.24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q213",
+      "question": "Discuss why saintly persons visit holy places. (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q214",
+      "question": "Explain why Maharaja Pariksit desired the calamity fall on him alone, as described in 1.19.2. Discuss the significance of this principle, in your practice of Krsna consciousness. Give reference to 1.19.2 verse and purport in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q215",
+      "question": "Srila Prabhupada writes in the purport to 1.19.4, “Deterioration of the ideals of Indian civilization has brought about the deterioration of civic life, not only in India but also abroad.” Discuss the significance of this statement for Srila Prabhupada’s mission present and future. Give reference to Canto 1 Chapters 17-19.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q216",
+      "question": "“The conditions of the material world are so made that one has to commit sins willingly or unwillingly, and the best example is Maharaja Parikṣit himself, who was a recognized sinless, pious king.”, purport 1.19.7. Discuss the relevance of this statement for your practice of Krsna consciousness. Give reference to 1.19.7, verse and purport, and appropriate verses from the Bhakti Sastri texts in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q217",
+      "question": "“Lord Sri Caitanya Mahaprabhu said that to be in intimate touch with dollars-and-cents men, or the kingly order, is worse than suicide for one who desires to go back to Godhead.” Explain this principle with reference to the great sages’ presence during the departure of Maharaja Pariksit. Give reference to 1.19.13-14, verses and purports, and appropriate the Bhakti Sastri texts in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q218",
+      "question": "Discuss principles, significant for the practice of Krsna consciousness, drawn from Maharaja Pariksit’s prayers in 1.19.16.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q219",
+      "question": "Discuss the role of the messiahs who descend to different planets. Give reference to 1.19.23 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q220",
+      "question": "Draw general principles from, and explain the personal relevance of, the example of Maharaja Pariksit’s attitude in response to being cursed. (1.18.2,48, & 1.19.2-4). Mood & Mission Canto 1 Chapters 10-19 Thematic Questions Closed Book Thematic Questions",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q221",
+      "question": "Select at least 3 verses from Srimad Bhagavatam, Canto 1, Chapters 10-19, which you really like, which inspires you and/or which stands out for you. Explain why.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q222",
+      "question": "Considering current topical issues in society, choose at least 3 verses, from Srimad Bhagavatam, Canto 1, Chapters 10-19 that could constructively contribute towards that debate. Explain why you chose this verse/passage.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q223",
+      "question": "Give an overview, and brief analysis, of the structural flow of Srimad Bhagavatam Canto 1. Include some detail on at least 4 significant incidents from Canto 1. Open Book Thematic Questions",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q224",
+      "question": "Srila Prabhupada writes in the Preface to Srimad Bhagavatam, “There is need of a clue as to how humanity can become one in peace, friendship and prosperity with a common cause. Śrīmad- Bhāgavatam will fill this need, for it is a cultural presentation for the respiritualization of the entire human society.” Explain how Śrīmad-Bhāgavatam is a cultural presentation for the respiritualization of the entire human society with reference to verses, and statements from Srila Prabhupada purports to Srimad Bhagavatam, Canto 1, Chapters 10-19.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q225",
+      "question": "Discuss how your appreciation of Srila Prabhupada’s mood and mission has deepened by studying Srimad Bhagavatam, Canto 1, Chapters 10-19. Give reference to Srimad Bhagavatam, Canto 1, Chapters 10-19 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    },
+    {
+      "canonical_ref": "SB.1.19",
+      "provider": "boex",
+      "source_question_id": "BV.U2-Q226",
+      "question": "Discuss at least 3 points of philosophical significance, drawn from Krsna’s interaction with the Pandavas. Give reference to Srimad Bhagavatam, Canto 1, Chapters 10-14 in your response.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-1.10-19.pdf"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "provider": {
+    "id": "iskcon-desire-tree",
+    "label": "ISKCON Desire Tree — Vedic Quiz",
+    "authority": "supplementary",
+    "mode": "external-attributed",
+    "description": "Supplementary multiple-choice comprehension questions. The scripture remains the primary study source.",
+    "baseUrl": "https://quiz.iskcondesiretree.com/questions/text/",
+    "coverage": {
+      "bg": {
+        "status": "verified-index",
+        "canonical": "BG.1–BG.18",
+        "url": "https://quiz.iskcondesiretree.com/"
+      },
+      "noi": {
+        "status": "verified-index",
+        "canonical": "NOI.1–NOI.11",
+        "url": "https://quiz.iskcondesiretree.com/"
+      },
+      "nod": {
+        "status": "partial-verified",
+        "canonical": "NOD",
+        "url": "https://quiz.iskcondesiretree.com/"
+      },
+      "iso": {
+        "status": "verified-collection",
+        "canonical": "ISO",
+        "url": "https://quiz.iskcondesiretree.com/"
+      },
+      "sb": {
+        "status": "chapter-pages-verified",
+        "canonical": "SB",
+        "url": "https://quiz.iskcondesiretree.com/questions/text/srimad-bhagavatam/"
+      }
+    },
+    "rules": [
+      "Never use this provider as scripture text.",
+      "Never relabel its questions as BOEX or Academy questions.",
+      "Map only verified source pages to canonical Academy IDs.",
+      "Preserve source attribution and source URL.",
+      "Do not infer missing chapters or questions."
+    ]
+  }
+}

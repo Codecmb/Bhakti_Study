@@ -1,0 +1,2011 @@
+{
+  "schema": "bhakti-study.question-shard.v1",
+  "program": "bhakti-vaibhava",
+  "provider": "boex",
+  "scope": "BV.U7",
+  "source_title": "Official BOEX Question Bank — Śrīmad-Bhāgavatam Canto-4-12-31",
+  "source_file": "Canto-4-12-31.pdf",
+  "note": "Transcribed from the supplied official Ministry/BOEX PDF. Wording is preserved except for whitespace normalization.",
+  "questions": [
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q001",
+      "question": "Who, according to Kuvera, was responsible for killing the Yaksas? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q002",
+      "question": "Identify the three features implicit in the word bhajasva (6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q003",
+      "question": "What benediction did Dhruva ask from Kuvera? (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q004",
+      "question": "Why did Dhruva Mahäräja take a benediction from a demigod? (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q005",
+      "question": "How long did Dhruva Mahäräja rule over this planet? (13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q006",
+      "question": "What can be understood from the acts of Dhruva Mahäräja? (16)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q007",
+      "question": "What are the different levels of knowledge? (19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q008",
+      "question": "How did Dhruva greet the Visnudütas and thereby satisfy them? (21)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q009",
+      "question": "Dhruva’s mother acted as what kind of guru for her son? Explain (32)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q010",
+      "question": "Translate the phrase yasmin vijnäte sarvam evam vijnatam bhavati (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.12",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q011",
+      "question": "What is Srila Prabhupäda’s formula for being transferred to the Vaikunthaloka? (36)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.13",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q012",
+      "question": "Explain the two different ways of approaching the Supreme Lord (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.13",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q013",
+      "question": "Describe the two kinds of devotees, the bhajanänandi and the gosthy-änandei (10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.13",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q014",
+      "question": "What are the asvamedha and the gavälambha sacrifices? (25)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.13",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q015",
+      "question": "List some of the requirements for a Vedic sacrifice to be successful (27)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.13",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q016",
+      "question": "What should we avoid while worshiping Rädhä and Krsna in the temple? (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.13",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q017",
+      "question": "What can be concluded if a person does not get a son? (31)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.13",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q018",
+      "question": "Explain the difference in how the Lord fulfills the respective desires of the karmés and the devotees (37)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.13",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q019",
+      "question": "What is the meaning of pum-savanam? (38)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.13",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q020",
+      "question": "Explain how King Anga’s misfortune in family life was conducive to his spiritual advancement (39, 46-47)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.13",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q021",
+      "question": "Explain how a child, even though born of a good father, may become sinful (39)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q022",
+      "question": "In modern democracy, who are voted to administrative posts? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q023",
+      "question": "Describe the results of weak and strong governments (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q024",
+      "question": "Describe King Vena’s inappropriate attitude (4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q025",
+      "question": "Summarize the duty of the government (17-20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q026",
+      "question": "What is the duty of the saintly if the government becomes demonic? (12, 31, 40)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q027",
+      "question": "What is the duty of the saintly who see God and His devotee being insulted? (32)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q028",
+      "question": "How should devotees respond when there is a calamity in human society? (41)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q029",
+      "question": "Why did the saintly consider that, although King Vena was very sinful, the semen in the family of Vena must be protected? (41)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q030",
+      "question": "What is amogha-virya? (42)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q031",
+      "question": "What was the catastrophe in the family of Dhruva Mahäräja? (42)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q032",
+      "question": "With respect to Srila Prabhupäda’s translations and purports to SB Canto 4 Chapter 14 verses 12, 31 and 40, identify two ways saintly people may rightly respond to the policies and actions of a materialistic government. Cite a materialistic policy or action of your own country’s government and describe how you and your devotee community are responding.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.14",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q033",
+      "question": "With reference to SB 4.19.12-25, recount the origin of false sannyäsa orders. False sannyäsis persist even today. What are their symptoms?",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.15",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q034",
+      "question": "What type of expansion was King Prthu? (15.2, 4, 6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.15",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q035",
+      "question": "How should the goddess of fortune be worshiped? (15.3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.15",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q036",
+      "question": "What gifts presented to Prthu Mahäräja do you find intriguing and why? (15.14-20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.15",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q037",
+      "question": "What did Prthu Mahäräja’s unwillingness to accept praise indicate? (15.22-24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.15",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q038",
+      "question": "With respect to Prthu Mahäräja’s refusal to accept praise in SB 4.15.22-24, identify a personal lesson we can learn from the king’s words and behavior, as well as a vitalpoint we can present to people about true and false incarnations of Godhead.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.16",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q039",
+      "question": "How should one test all spiritual matters? (16.1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.16",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q040",
+      "question": "Explain the meaning of ätma-mäyayä in relation to the Lord’s appearance (16.2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.16",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q041",
+      "question": "Select points from the süta’s praise of Prthu Mahäräja that are instructive for administrators (16.4-27)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.17",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q042",
+      "question": "What is the significance of King Prthu’s accepting Sanat-kumära as his spiritual master? (17.5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.17",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q043",
+      "question": "What is the meaning of the word avatäri? (17.7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.17",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q044",
+      "question": "Why was there a scarcity of food grains? (17.13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.17",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q045",
+      "question": "Why did mother earth take the shape of a cow? (17.14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.17",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q046",
+      "question": "Explain the significance of planets’ being called dvépa (17.21)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.17",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q047",
+      "question": "Why was Mahäräja Prthu threatening to kill the cow-shaped earth? (17.22, 26, 27)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.17",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q048",
+      "question": "Under what circumstances can the government arrange for the eating of cow flesh? (17.25)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.17",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q049",
+      "question": "How should one understand the apparently contradictory acts of the Lord? (17.36)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.18",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q050",
+      "question": "Explain the difference between a conditioned and a liberated soul (18.5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.18",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q051",
+      "question": "Why are thunderbolts generally thrown on the tops of hills? (18.11, 29)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.18",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q052",
+      "question": "What general principle does Srilla Prabhupäda draw from the sages’ milking all kinds of Vedic knowledge from the earth? (18.14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.18",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q053",
+      "question": "Explain the performance of the sräddha ceremony in Vedic civilization (18.18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.18",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q054",
+      "question": "Describe the following beings: Siddhas, Vidyädharas, Kimpuruñas, Yaksas, Räksasas, bhütas, and pisäcas (18.19-21)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.18",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q055",
+      "question": "With reference to Srila Prabhupäda’s purports to SB 4.18. 8, 13-14, describe two ways the Hare Krsna movement can bring peace to our ever-troubled world.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q056",
+      "question": "Explain the import of the word matsara (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q057",
+      "question": "What does it mean that Krsna is sarvätmä? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q058",
+      "question": "What is a käma-dhenu? (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q059",
+      "question": "List the main points from the purports to texts 8 and 9.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q060",
+      "question": "List the four kinds of foodstuffs (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q061",
+      "question": "What lesson does Srila Prabhupäda draw from King Indra’s becoming envious of an incarnation of God? (10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q062",
+      "question": "Why did Indra steal the horse meant for the yajna performance? (11)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q063",
+      "question": "Explain the meaning of the words tistha tistha (13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q064",
+      "question": "What general principles does Srila Prabhupäda draw from King Indra’s fraudulently dressing as a sannyäsi? (12-26)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q065",
+      "question": "Why do the Vedic sastras practically prohibit the adoption of sannyäsa in this age? (25)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q066",
+      "question": "Being a devotee in the transcendental position, why was King Prthu performing the prescribed Vedic ritualistic ceremonies? (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q067",
+      "question": "How should a saintly person respond to reversals in life? (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q068",
+      "question": "Why did Brahmä want to end the competition between Indra and Prthu? (35-36)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q069",
+      "question": "Those who think they are taking the goddess Käli’s prasäda are actually eating what? (36)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.19",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q070",
+      "question": "With reference to SB 4.19.12-25, recount the origin of false sannyäsa orders. False sannyäsés persist even today. What are their symptoms?",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q071",
+      "question": "What is a quality of those who are advancing in spiritual knowledge? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q072",
+      "question": "Explain the terms traigunya-visayä vedäh and nistraigunya (6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q073",
+      "question": "Explain the process of karma-yoga (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q074",
+      "question": "Describe how devotional service is very simple (9, 15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q075",
+      "question": "Explain vyavasäyätmikä buddhih (13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q076",
+      "question": "What is the king's real duty? (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q077",
+      "question": "Describe the subtle laws of nature mentioned in text 14.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q078",
+      "question": "What is the Lord pleased by? (16)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q079",
+      "question": "If the Lord never excuses one who has offended his devotee, how can one get free from the reactions to such an offense? (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q080",
+      "question": "What is the meaning of bhakta-vatsala? (19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q081",
+      "question": "Why is there no chance of a devotee's being in error? (20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q082",
+      "question": "Explain the significance of the phrase ärya-sangama (26)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q083",
+      "question": "Who can give up the practice of chanting Hare Krsna? (26)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q084",
+      "question": "What did the Lord appreciate very much? (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.20",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q085",
+      "question": "With respect to SB 4.20.9-15, select two specific instructions of Lord Vishnu for King Prthu and explain how a Krsna conscious leader could apply each of them today.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q086",
+      "question": "According to Vedic civilization, list some of the auspicious paraphernalia for receiving a prominent guest (4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q087",
+      "question": "What was Saint Vidura's purpose in hearing about King Prthu again and again? (10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q088",
+      "question": "When one comes to Krsna consciousness, he immediately becomes what? (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q089",
+      "question": "People in general should be controlled by a king until what time? (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q090",
+      "question": "Explain the import of the word prajä (22)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q091",
+      "question": "Give examples of how the laws of nature are very subtle (24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q092",
+      "question": "What is more dangerous than denial of the existence of God? (27).",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q093",
+      "question": "Why doesn’t everyone receive the same result for their activities? (30)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q094",
+      "question": "Why did Lord Caitanya advise that one not accept many disciples? (31)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q095",
+      "question": "Explain how bhakti-yoga diminishes our false appetite for enjoyment and lordship over the material world (32)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q096",
+      "question": "Who should take to the indirect process of performing yajnas and why? (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q097",
+      "question": "Describe the respective qualifications of a brähmana and a Vaishnava (37)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q098",
+      "question": "Explain the import of the Lord’s obtaining His opulences by worshiping the lotus feet of the brähmanas (38)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q099",
+      "question": "Why at present is it very difficult to render service to the brähmana-kula? (40)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q100",
+      "question": "What is more effective than offering oblations to the sacrificial fire? (41)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q101",
+      "question": "What is the meaning of sädhu-väda? (45)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q102",
+      "question": "What is the purpose of accepting a wife in religious marriage? (46)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q103",
+      "question": "What is the chief concern of a Vaishnava? (47)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q104",
+      "question": "What is the symptom of one who is elevated to the platform of goodness? (52)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.21",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q105",
+      "question": "With respect to SB 4.21.24, what are some of the pros and cons we may consider before accepting an invitation to eat in a certain place? What should be our guiding principle in deciding whether to accept such an invitation?",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q106",
+      "question": "What are the special powers of the four Kumäras? (2, 9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q107",
+      "question": "How should one receive a saintly person who comes to one's home? (5,10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q108",
+      "question": "Why did the Kumäras keep themselves as small children? (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q109",
+      "question": "Why did Mahäräja Prthu not ask the Kumäras about their good fortune? (13-15,)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q110",
+      "question": "What four kinds of sinful activities are allowed for the ksatriyas? (13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q111",
+      "question": "Why were the Kumäras considered mahä-bhägavatas? (16)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q112",
+      "question": "The Krsna consciousness movement has started for what purpose? (23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q113",
+      "question": "How should a devotee relate to different types of religious systems? (24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q114",
+      "question": "How should a devotee deal with sickness? (24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q115",
+      "question": "List the five kinds of material attachments (26)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q116",
+      "question": "Describe the perfect idea of oneness between the soul and the Supersoul (27)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q117",
+      "question": "Why is there is no question of renouncing anything for a paramahamsa? (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q118",
+      "question": "What is the strongest obstruction to one's self-interest? (32)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q119",
+      "question": "How can the king or government head satisfy everyone? (55-58)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q120",
+      "question": "Describe a brahmacäri (62)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.22",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q121",
+      "question": "With respect to SB 4.22.51, explain how King Prthu perfectly practiced karma-yoga. Present two ways ISKCON is teaching people to practice karma-yoga or bhakti-yoga.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q122",
+      "question": "Explain why a Krsna conscious person does not need to go to the forest (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q123",
+      "question": "List some of the austerities executed by King Prthu and the jnanis and yogis (5-6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q124",
+      "question": "Why is a Krsna conscious person most intelligent? (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q125",
+      "question": "What is the aim of pranayama? (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q126",
+      "question": "Why did Prthu Mahäräja, an eternally pure devotee of the Lord, adopt the process of devotional service? (11)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q127",
+      "question": "Explain the purpose of the yogic process practiced by Prthu Mahäräja at the time of death (13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q128",
+      "question": "How did Mahäräja Prthu accelerate his return to Godhead? (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q129",
+      "question": "How does a soul, merged into Brahmän, fall down again into material life? (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q130",
+      "question": "Explain the meaning of prabhu (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q131",
+      "question": "Describe Vishnupriyadevi’s austerity (20)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q132",
+      "question": "What do the inconceivable activities of Mahäräja Prthu and his wife show? (26)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q133",
+      "question": "Describe the husbands and wives in the Vaikutha planets (29)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q134",
+      "question": "Explain the term advaya-jnana (31)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q135",
+      "question": "Analyze the distinctions between the pastimes of the Lord and the activities of Prthu Mahäräja (31, 38)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.23",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q136",
+      "question": "With respect to SB 4.23.26, how did King Prthu’s wife achieve the same destination as her husband? In his purport, what does Srila Prabhupäda write that a woman today may challenge? How would you answer that challenge?",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q137",
+      "question": "Why should the sins of Indra and other devotees “be overlooked?” (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q138",
+      "question": "Which kingly duties are identified as being “not very desirable?” (6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q139",
+      "question": "Who are the Prajäpatis? (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q140",
+      "question": "What is the deciding factor to judge the success of austerities and penances? (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q141",
+      "question": "What is the “perfectional meditation” and “secret of success?” (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q142",
+      "question": "What did Lord Siva appear as in the Kali age and what did he do? (17)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q143",
+      "question": "Identify Lord Siva’s final instruction as Sankaräcärya. (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q144",
+      "question": "Why don’t the Lord’s devotees need to ask benedictions from the demigods? (27)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q145",
+      "question": "Define ksara and aksara. (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q146",
+      "question": "What is karmärpanam and why is it considered fruitive activity? (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q147",
+      "question": "List the qualifications necessary to:",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q148",
+      "question": "Occupy Lord Brahmä’s post.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q149",
+      "question": "Approach Lord Siva and attain the spiritual planets. (29)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q150",
+      "question": "Describe the relationship between Lord Vishnu’s devotees and Lord Siva? (30)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q151",
+      "question": "What general principle about mantras is mentioned in the purport to text 32?",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q152",
+      "question": "List the six kinds of transformations that agitate conditioned souls? (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q153",
+      "question": "What functions do Sankarsana, Pradyumna, and Aniruddha perform? (35-36)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q154",
+      "question": "Explain the difference between päncarätrika- and bhägavata-vidhi. (45-46)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q155",
+      "question": "What influence does time have on the karmis, jnanis, and bhaktas? (56)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.24",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q156",
+      "question": "List the steps of creation explained in the purport to text 63.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q157",
+      "question": "Define karma-bandha-phänsa and küta-dharma. (5-6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q158",
+      "question": "Explain why knowledge and renunciation are called the ultimate goal of life? (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q159",
+      "question": "List the six people implicated in animal slaughter. (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q160",
+      "question": "What does puranjana mean? (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q161",
+      "question": "Why did Puranjana remain unsatisfied? (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q162",
+      "question": "Describe which animals are victimized by their different senses. (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q163",
+      "question": "What is andha-pangu-nyäya and how can we apply it? (13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q164",
+      "question": "What are the walls, parks, canals, windows, and three metals compared to? (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q165",
+      "question": "List what these living beings represent: a) The beautiful woman. b) Her ten servants. c) The servants’ wives. d) A five-hooded snake. (20-21)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q166",
+      "question": "Describe the two ways a living entity can be a hero. (25)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q167",
+      "question": "What is the difference between a demon and a demigod? (29)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q168",
+      "question": "Why do materialists feel non-grhastha statuses “worse than animal life?” (38)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q169",
+      "question": "Describe pravrtti and nivrtti-märgas. (39)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q170",
+      "question": "Explain why the mouth is described as the most important gate. (49)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q171",
+      "question": "Why is the right ear called Pitrhü and the left ear Devahü? (51)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q172",
+      "question": "Who are the “friends” of the different gates of the city? (47-53)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.25",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q173",
+      "question": "Prepare an essay for preaching to ISKCON devotees (grhasthas/to be married) on respecting women (especially their Dharmapatni) based on the purport of the verse 4.25.37. Student should quote at least 2 pastimes from the scriptures where e husbands’ care/protection was demonstrated.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.26",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q174",
+      "question": "List what the following represent: The chariot / The three flags / Panca-prastha forest / The five horses / Two explosive weapons / Two chariot wheels / Seven coverings / Revolving axle / Rein / Chariot driver / Sitting place / Two poles / Five weapons / Five different styles /Five obstacles/ Gold decorations. (26.1-3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.26",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q175",
+      "question": "What does Puranjana’s going hunting symbolize? (26.1-3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.26",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q176",
+      "question": "What marks the beginning of religious life? (26.10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.26",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q177",
+      "question": "What does Puranjana’s coming home, taking bath, and eating indicate? (26.11)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.26",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q178",
+      "question": "What does the mother represent? (26.15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.26",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q179",
+      "question": "What is the main quality of a dharma-patni? (26.16)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.26",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q180",
+      "question": "How do we come back to our good intelligence and Krsna consciousness? (26.19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.26",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q181",
+      "question": "Explain why brähmanas and Vaishnavas break neither the laws of the state nor the laws of nature. (26. 24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q182",
+      "question": "How can sinful life be counteracted? (27.1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q183",
+      "question": "Define and elaborate on the word pramadä. (27.3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q184",
+      "question": "What is Cärväka’s philosophy? (27.18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q185",
+      "question": "Identify what the following personalities represent: Kälakanyä, Candavega, Candavega’s soldiers and female companions, Prajvära, Yavana-räja, Yavana-räja’s soldiers. (27.16, 26, 30)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q186",
+      "question": "List one benefit of being a naisthika-brahmäcäri? (27. 21)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q187",
+      "question": "How did Kälakanyä curse Närada Muni? (27. 22)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q188",
+      "question": "What was achieved by Närada’s response to Kälakanyä’s curse? (27. 23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q189",
+      "question": "What is the proper and improper understanding of yavana and mleccha? (27. 24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q190",
+      "question": "List items Srila Prabhupäda associates with the “Vedic way of civilization.” (27. 24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q191",
+      "question": "Why are all devotees taken to be in Närada Muni’s disciplic succession? (27. 24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q192",
+      "question": "Describe the effect of old age on a devotee. (27. 24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.27",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q193",
+      "question": "How did Yavana-räja seek to utilize Kälakanyä? (27. 28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q194",
+      "question": "How does Srila Prabhupäda define kepana? (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q195",
+      "question": "Explain why the living entity does not want to leave his material body. (10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q196",
+      "question": "What roles do the subtle and gross bodies play in material enjoyment? (17)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q197",
+      "question": "Explain why Puranjana became a well-placed princess in his next life. (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q198",
+      "question": "What is the significance of Malayadhvaja and his children? (29, 30)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q199",
+      "question": "Explain nirjana-bhajana. (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q200",
+      "question": "How did King Malayadhvaja conquer life’s relativities? (37)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q201",
+      "question": "Explain the two types of Mäyävädi philosophies. (40)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q202",
+      "question": "What is saha-marana and why was it outlawed? (50)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q203",
+      "question": "Who is the brähmana friend of King Puranjana? (51)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q204",
+      "question": "How can a person contact the Supersoul? (52)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q205",
+      "question": "Why does the Lord expand Himself? (53)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q206",
+      "question": "What analogy does the brähmana use to explain Vaidarbhi's position? (54, 64)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.28",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q207",
+      "question": "Explain the value of stories in the Puranas similar to the Puranjana allegory. (65)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q208",
+      "question": "What does avadhüta mean and how does it relate to smell? (11)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q209",
+      "question": "How do sahajiyäs view sex? (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q210",
+      "question": "How does Vrndävana rectify sinful persons? (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q211",
+      "question": "What contemporary example does Srila Prabhupäda cite of trying to solve problems but only creating more problems? (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q212",
+      "question": "What is nirjana-bhajana and why can't a neophyte devotee practice it? (41)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q213",
+      "question": "Explain the mistake of the Ärya-samäjists? (47)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q214",
+      "question": "Why did Närada Muni tell a second allegory to the king? (52)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q215",
+      "question": "In the deer allegory what do the following represent: deer, flower garden, bumblebees’ humming, tiger, hunter? (53, 54)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q216",
+      "question": "Who are the karma jada-smärtas and why don't they like devotional service? (57)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q217",
+      "question": "Briefly explain the process of transmigration with reference to the Supersoul and the subtle and gross bodies. (62)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q218",
+      "question": "Give three examples of the connection between the mental condition and the",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q219",
+      "question": "gross body in both material life and Krsna consciousness. (63)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q220",
+      "question": "What is the relation between mental state, nature’s modes, and future life? (66)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q221",
+      "question": "Explain dreams according to text 67.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q222",
+      "question": "At which times does the soul not identify with his gross body? (71)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q223",
+      "question": "How does Viraräghava Äcärya define the protection of citizens? (81)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.29",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q224",
+      "question": "With specific references to SB 4.29.52-54, discuss the relevance of the deer allegory to your life. If you are presently in the deer’s predicament, how practically will you get out of it? If you are not in the deer’s predicament, how practically will you avoid it?",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q225",
+      "question": "How is Lord Siva able to offer all kinds of material happiness? (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q226",
+      "question": "Why is the Supreme Lord described as puranjana? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q227",
+      "question": "Describe some characteristics of the Kinnaras. (6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q228",
+      "question": "What is a mature devotee's attitude toward material opulence? (19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q229",
+      "question": "Define hari-medhase. (24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q230",
+      "question": "What is the most valuable benediction the Lord gives to neophyte devotees? (27)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q231",
+      "question": "What is the best benediction a devotee can ask of the Lord? (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q232",
+      "question": "Describe what is achieved by an audience that hears transcendental topics. (35)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q233",
+      "question": "What types of people are able to take advantage of the traveling preacher? (37)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q234",
+      "question": "List four qualities of Äryans. (40)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q235",
+      "question": "Cite two examples of the Lord's renunciation. (43)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q236",
+      "question": "Why were the Pracetäs angry to see the tall trees? (44)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q237",
+      "question": "Explain why svämis are sometimes addressed as mahäräja. (45)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q238",
+      "question": "Briefly sketch the story of the Pracetäs' wife, Märiñä. (47)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q239",
+      "question": "For what two reasons did Daksa have to take birth from Märisä's womb? (48)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.30",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q240",
+      "question": "Identify two statements from Chapter 30 that reflect Srila Prabhupäda’s mood and mission. Discuss the significance of these statements for ISKCON’s future.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.31",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q241",
+      "question": "What is a life based on the \"Vedic principles?” (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.31",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q242",
+      "question": "Describe the proper and improper way to approach a saintly person. (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.31",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q243",
+      "question": "Explain the phrase bhagavän näradah. (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.31",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q244",
+      "question": "List three kinds of births for a civilized human being. (10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.31",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q245",
+      "question": "Briefly explain the analogy given in text 17.",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.31",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q246",
+      "question": "What are the immediate and remote causes of the cosmic manifestation, and what example is cited to clarify this concept? (17)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.31",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q247",
+      "question": "What are the three causes of creation? (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.31",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q248",
+      "question": "What are three ways to quickly satisfy the Lord and how are they connected? (19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.31",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q249",
+      "question": "Explain what impels a saintly person to associate with his relatives. (30)",
+      "kind": "closed-book-short",
+      "source_url": "Canto-4-12-31.pdf"
+    },
+    {
+      "canonical_ref": "SB.4.31",
+      "provider": "boex",
+      "source_question_id": "BV.U7-Q250",
+      "question": "With reference to SB 4.31.9-22, select two points from Närada Muni’s instructions to the Pracetäs. Present each point persuasively in a preaching context.",
+      "kind": "open-book-essay",
+      "source_url": "Canto-4-12-31.pdf"
+    }
+  ]
+}

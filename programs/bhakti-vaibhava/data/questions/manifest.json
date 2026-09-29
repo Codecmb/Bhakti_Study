@@ -1,0 +1,52 @@
+{
+  "schema": "bhakti-study.question-manifest.v1",
+  "program": "bhakti-vaibhava",
+  "provider": "boex",
+  "shards": [
+    {
+      "scope": "BV.U1",
+      "path": "boex/bv-u1.json",
+      "count": 288
+    },
+    {
+      "scope": "BV.U2",
+      "path": "boex/bv-u2.json",
+      "count": 226
+    },
+    {
+      "scope": "BV.U3",
+      "path": "boex/bv-u3.json",
+      "count": 265
+    },
+    {
+      "scope": "BV.U4",
+      "path": "boex/bv-u4.json",
+      "count": 395
+    },
+    {
+      "scope": "BV.U5",
+      "path": "boex/bv-u5.json",
+      "count": 243
+    },
+    {
+      "scope": "BV.U6",
+      "path": "boex/bv-u6.json",
+      "count": 230
+    },
+    {
+      "scope": "BV.U7",
+      "path": "boex/bv-u7.json",
+      "count": 250
+    },
+    {
+      "scope": "BV.U8",
+      "path": "boex/bv-u8.json",
+      "count": 211
+    },
+    {
+      "scope": "BV.U9",
+      "path": "boex/bv-u9.json",
+      "count": 232
+    }
+  ]
+}

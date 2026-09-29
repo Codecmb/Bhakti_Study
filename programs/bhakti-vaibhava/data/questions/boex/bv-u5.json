@@ -1,0 +1,1955 @@
+{
+  "schema": "bhakti-study.question-shard.v1",
+  "program": "bhakti-vaibhava",
+  "provider": "boex",
+  "scope": "BV.U5",
+  "source_title": "Official BOEX Question Bank — Śrīmad-Bhāgavatam Canto 3.20-33",
+  "source_file": "Canto 3.20-33.pdf",
+  "note": "Transcribed from the supplied official Ministry/BOEX PDF. Wording is preserved except for whitespace normalization.",
+  "questions": [
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q001",
+      "question": "How many Manus are there within a day of Brahma & what is the duration of each? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q002",
+      "question": "How is the Bhagavad Gita as good as the water of the Ganges? (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q003",
+      "question": "What is the atheist’s theory? (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q004",
+      "question": "What are the five kinds of nescience? (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q005",
+      "question": "Who are yakshas and who are rakshasas? (21)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q006",
+      "question": "From where were demons born and what is their main attraction? (23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q007",
+      "question": "Explain the significance of sex in regard to demoniac & divine life. (23)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q008",
+      "question": "What is meant by Brahmä ‘giving up his present body’? (28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q009",
+      "question": "What did the demons imagine the twilight to be? (29) 10.What is the purpose of sporting events with the opposite sex? (35) 11.Explain the difference between material and spiritual enjoyment. (35)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q010",
+      "question": "From where were the gandharvas and apsarās generated? (38) 13.Where did ghosts and goblins come from? (40) 14.What are the results of the Çräddha ceremony? (43) 15.How did Brahma create kimpurushas and kinnaras?(45) 16.How were the snakes created? (48) 17.What is brāhma-muhūrta and why is it important? (48) 18.From what were the Manus are generated and what do they promote? (49)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q011",
+      "question": "What general principle does Prabhupäda draw from the example of Vidura’s giving up the company of his elder brother? (2)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q012",
+      "question": "A devotee should not be tolerant when there is misbehavior toward the Lord or the Lord’s devotee. Explain how Vidura proves this by example. (2)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q013",
+      "question": "Describe the history of Vidura.(3)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q014",
+      "question": "Explain the cause of material creation. (12)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q015",
+      "question": "Explain the five principles evolved from the false ego. (13)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q016",
+      "question": "Describe how Brahma is almost independent of the control of the Supreme Personality of Godhead with an analogy. (17)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q017",
+      "question": "Describe any eight of Brahma’s creations. (18-53)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q018",
+      "question": "Explain what should a saintly father like Brahma do with such demoniac sons? (23)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q019",
+      "question": "According to Sridhara Swami, explain what Brahma’s constant dropping of his body refers to. (28) 10.Analyze the difference between a demon and a devotee. (31, 34) 11.List and discuss the qualities that were Manu's children endowed with. (53)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q020",
+      "question": "Explain Srila Narottama däsa Öhäkura’s statement, forbidding us to go to places of pilgrimage, in the context of ISKCON’s current Yatra programs. (4)",
+      "kind": "open-book-essay",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q021",
+      "question": "Discuss Srila Prabhupäda’s comment on homosexuality, in purport to verse 26, in the context of ISKCON’s current congregational development strategies.",
+      "kind": "open-book-essay",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q022",
+      "question": "Discuss the relevance of ritualistic ceremonies as çräddha, as mentioned in verse 43, in the practice and preaching of Krsna consciousness.",
+      "kind": "open-book-essay",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.20",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q023",
+      "question": "Select some of the creations and emanations of Brahma described in this chapter and discuss their relevance for spreading Krsna consciousness.",
+      "kind": "open-book-essay",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q024",
+      "question": "What are the names of the five children of Svāyambhuva Manu? (1-2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q025",
+      "question": "How does a Kåñëa conscious person accept the form of Kåñëa as described in the Vedic literature? (11)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q026",
+      "question": "What is Kaivalya and how do the impersonalists twist the name of Kaivalya? (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q027",
+      "question": "Explain the significance of the phrase \"like disposition”. (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q028",
+      "question": "In astrology, who is considered the most fortunate man? (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q029",
+      "question": "Why did Kardama Muni want to enjoy material life in spite of his personally seeing and experiencing the Supreme Lord? (16)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q030",
+      "question": "Who can be freed from the primary necessities of the material body?(17)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q031",
+      "question": "Explain how the “wheel of time” cannot touch devotees (18).",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q032",
+      "question": "Explain the analogy of spider and how it defeats impersonalist. (19) 10.What does one require before he can aspire for liberation? (21) 11.Examine how the Lord fulfills the desires of a sincere devotee. (23-24) 12.What was the Vedic system for selecting a suitable husband for a girl? (27) 13.Explain the difference between Vibhinnäàça, sväàça, and kalä expansions. (32) 14.Describe the two flapping wings of the Lord's carrier, Garuòa. (34) 15.Why didn”t Manu engage an agent to find a husband for his daughter? (36) 16.Comment on the sage Kardama’s reception of the king. (51)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q033",
+      "question": "Explain how is sex life accepted by authorities of Vedic scripture? (1)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q034",
+      "question": "Why did Kardama want to enjoy material life inspite of his personally seeing and experiencing the Supreme Lord? (2)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q035",
+      "question": "Discuss some of the difficulties of practicing añöäìga-yoga in this age. (6-8, 12)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q036",
+      "question": "Explain how the impersonalists pollute the Patanjali system. (12)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q037",
+      "question": "Explain the advantage of worshiping the Lord for material enjoyment? (15)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q038",
+      "question": "What did Kardama muni desire and how did Lord Vishnu satisfy him? (15, 23)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q039",
+      "question": "Explain why should a girl's parents decide her marriage. (27)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q040",
+      "question": "Describe the duty of sannyasis and how they should relate to grhasthas. (31)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q041",
+      "question": "Describe Bindu-sarovara and it’s importance. (39-44)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q042",
+      "question": "Draw lessons, relevant to your practice of Krsna consciousness, from Kardma Munis prayers to the Lord. (24–28)",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q043",
+      "question": "Discuss the relevance, for you practice of Krsna consciousness, from the general principles Srila Prabhupäda draws from the example of Kardama Muni and Devahüti having their respective desires fulfilled. (28-30)",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q044",
+      "question": "Discuss the importance, in the practice of Krsna consciousness, of the morning duties followed in brahmacarya with reference to verses 45-47 of this chapter.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q045",
+      "question": "Explain how the Kṣatriya uses violence and discuss it relevance of the expansion of the Krsna consciousness movement. (50)",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.21",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q046",
+      "question": "With reference to 3.21.15 verse and purport, compare and contrast arranged marriages and love marriages and discuss their relevance for spreading Krsna consciousness in modern times.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q047",
+      "question": "What is the specific mission of the kṣatriyas? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q048",
+      "question": "According to Viśvanātha Cakravartī Ṭhākura how is the supreme success in life achieved? (6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q049",
+      "question": "Explain how the favor of the spiritual master is received. (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q050",
+      "question": "What blessing did Lord Brahma ask from Garbhokasayi visnu? (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q051",
+      "question": "What is the right of a disciple perfectly in consonance with the spiritual master? (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q052",
+      "question": "What is considered a humbling of one's position in regard to seeking a wife? (12-13)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q053",
+      "question": "List the two kinds of brahmacärés. (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q054",
+      "question": "Explain the two kinds of marriage. (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q055",
+      "question": "What was the most important consideration made by Kardama Muni before accepting the daughter of Sväyambhuva Manu? (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q056",
+      "question": "What two interesting facilities of Vedic life are indicated by the incident concerning Viçvävasu? (17)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q057",
+      "question": "Describe the two kinds of children born of good fathers. (19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q058",
+      "question": "Parent’s responsibility to their children continues until what point? (24)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q059",
+      "question": "Describe the reciprocal relationship of the brähmaëas and the kñatriyas, as described inverses 1-4, and and discuss its relevance for spreading Krsna consciousness.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q060",
+      "question": "Describe the respective ways in which a wife and husband should be be equal and discuss the relevance of this for the practice of Krsna consciousnes. (11)",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q061",
+      "question": "Discuss the significance, for the practicing of Krsna consciousness, of Kardama Muni requesting conditions in agreeing to accept Devahüti as his wife. (19-20)",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.22",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q062",
+      "question": "Explain how Svāyambhuva Manu not degraded despite having so many objects of enjoyment in his capacity as king and discuss and discuss the relevance in of his example for practicing and preaching Krsna consciousness. (34)",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.23",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q063",
+      "question": "(Give full Sanskrit phase and meaning) (1) 31.What are the two kinds of material disease? (7) 32.What is the first principle of religion to a woman? (8) 33.Explain the import of the word ‘stré’. (10) 34.Why did Devahüti want to a) improve her bodily condition, b) arrange for a suitable house? (11) 35.According to Vedic culture, what features of the face and mouth are very much appreciated. (33) 36.Why had Devahüti neglected her bodily dress and comforts? (24, 37) 37.What is the real beauty of a young woman? (37) 38.To what mountain did Kardama take Devahuti for romantic enjoyment? (39) 39.Briefly describe the qualifications of Kardama Muni. (42) 40.How did traveling all over the universe, with her husband, affect Devahüti ? (44) 41.Why did Kardama Muni expand himself into nine forms? (44, 47) 42.What should be understood from Kardama Muni preparing to leave home? (49) 43.What does a woman do with her toes when her mind is very disturbed? (50) 44.How does a husband liquidate his debt to his wife? (52) 45.After making what arrangemt for their sons and daughters the householder can retire from household life? (52)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.23",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q064",
+      "question": "Explain the ideal of a householder's life and discuss its significance for practicing Krsna consciousness. (1) 47.Explain the results from appropriately serving: A. a qualified husband, B. a qualified guru, 48.the Supreme Lord? (7-8) 49.List some of the attractive features of Kardama Muni’s aerial mansion. (14- 21) 50.What general principles can be drawn from the incident of Kardama Muni expanding himself into nine forms? (44) 51.List and explain the four kinds of enemies at home according to Cāṇakya Paṇḍita. Explain Devahüti’s final request from her husband? (51-53) 52.Briefly describe how Devahuti refreshed her body. (29-38) 53.Mala-snana is only what? This is done so the lady does not become what? (31)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.25",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q065",
+      "question": "What is the reason Srila Prabhupada began ISKCON. (24)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.25",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q066",
+      "question": "List reasons and discuss how bhakti is superior to yoga and mukti. (32- 34, 36, 41)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.25",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q067",
+      "question": "Describe the characteristics of a person in bhava. (34 to 38)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.25",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q068",
+      "question": "Describe a devotee’s attitude toward temporary household or social life. (39-40)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.25",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q069",
+      "question": "Briefly summarise the questions of Devahuti and draw general principles from them relevant for the practice of Krsna consciousness. (10, 28 & 29)",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.25",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q070",
+      "question": "Analyse the verse titikṣavaḥ kāruṇikāḥ 3.25.21, with specific attention to key Sanskrit words and phrases and discuss it significance for the cultivation of Krsna consciousness.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.25",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q071",
+      "question": "Srila Prabhupada writes in the purport to 3.24.25: satäà prasaìgän mama vérya-saàvido, “Simply by theoretical knowledge or study one cannot make any appreciable advancement.” Analyse the satäà prasaìgän verse, with specific attention to key Sanskrit words and phrases and discuss it significance for the cultivation ans spreading of Krsna consciousness.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.25",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q072",
+      "question": "Devahuta wants to know the best Yoga and the Lord gives a brief introduction of Sankhya yoga that will be described in detail later. Summarise in brief what does He say about it in this chapter.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.25",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q073",
+      "question": "Contrast the relationships between Kasyapa-Diti and Kardma- Devahuti and discuss lessons relevant for Krsna consciousness grhasta life.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.25",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q074",
+      "question": "Draw lessons relevant for the practice of Krsna consciousness, especially within grhastha asram, from the marriage of Kardama Muni and Devahuti as described in Chapters 21-24 of this Canto of Srimad Bhagavatam.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q075",
+      "question": "What is the result of understandin Sāṅkhya philosophy? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q076",
+      "question": "Explain the import of svayam-jyotiḥ. (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q077",
+      "question": "Explain the use of the term nitya-baddha (eternally conditioned). (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q078",
+      "question": "How does to Lord speak to every conditioned soul? (16)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q079",
+      "question": "What are the symptoms of the mind. (27)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q080",
+      "question": "Explain the term anävåttiù çabdät (32)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q081",
+      "question": "Explain the meaning of the word apauruña. (33)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q082",
+      "question": "Why is there saliva on the tongue? (41)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q083",
+      "question": "What are the six different tastes experience with the tongue? (42) 10.Explain the correct understanding of the word bhävana in comparison to its misinterpretation. (46) 11.What is the significance of Lord Brahmā’s four heads? (52) 12.Examine the relationship between discharge of semen and death. (57) 13.According to Āyur-veda how should one treat nervous and instability & irregularity in hunger and thirst? (59-60) 14.How can we fix the purified mind in the service of the Supreme Lord? (61) 15.What needs to be done to be able to concentrate the mind and energy upon the Supreme? (72) 16.Explain the sum and substance of the Sānkhya philosophical system. (72)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q084",
+      "question": "Explain the analogy of a cloud being perceived in two ways. (4)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q085",
+      "question": "Examine why this material world was created. (5)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q086",
+      "question": "Explain how the living entity is the cause of his own suffering. (8)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q087",
+      "question": "What does a womans connection with her husband and her children refer to? (9)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q088",
+      "question": "Explain the terms pradhāna and prakṛti. (10)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q089",
+      "question": "List the twenty-five elements of the Säìkhya philosophy mentioned in verses 11-15.",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q090",
+      "question": "What causes fear and how to get rid of it? (16)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q091",
+      "question": "Explain the analogy of a woman not being able to produce children without a man’s assistance. (17)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q092",
+      "question": "What does a child growing different bodily parts in the mother’s womb refer to? (17) 10.Briefly describe the function of the Supersoul. (18, 72) 11.Explain the living entity’s connection with marginal energy and the analogy of sharp razor. (23-24) 12.List which elements are manifested due to ego being in touch with each of the three modes of nature. (27-32) 13.Examine the role of doubt in intelligence. (30) 14.List the activities going on because of the movements of the air. (37-38) 15.Summarize texts 32-49. (49) 16.Briefly explain how we are never separated from the Supreme Lord. (50) 17.Explain with analogy why viräö-puruña is so important for material existence. (51-52)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q093",
+      "question": "Respond to the Māyāvādī philosophy that the conditional existence of the living entity is his līlā, or pastime. Refer to 3.26.7-8, verse and purport, as well as bhaktisastri texts in your response.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q094",
+      "question": "Discuss how the potency of sound is the cause of one’s bondage and liberation. Refer to 3.26.32-34, verses and puports, as well as bhaktisastras in your response.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.26",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q095",
+      "question": "Compare the Sankhya philosophy of Çré Kapiladevato atheistic Sankhya philosophy and draw conclusions with reference to verses and purports from chapter 26.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q096",
+      "question": "Explain the terms avikära, vikära and akartåtvät. (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q097",
+      "question": "What is the duty of all conditioned souls? (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q098",
+      "question": "What is the basic principle of bhakti-yoga? (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q099",
+      "question": "Explain the words mauna, sva-dharmeëa and baléyasä. (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q100",
+      "question": "Examine the application of the phrase yadṛcchayopalabdhena santuṣṭho. (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q101",
+      "question": "Explain the meaning of the word mita-bhuk. (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q102",
+      "question": "Where should a devotee make his place of residence? (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q103",
+      "question": "Explain the word satya-dṛk. (13-14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q104",
+      "question": "What is the basic principle of conditional life? (15) 10.Examine the terms icchā-dveṣa in relation to material bondage. (20) 11.How can one develop serious devotional service? (21) 12.How can one estimate his development of Kṛṣṇa consciousness? (22) 13.How does the living entity lose his independence? (24) 14.What is the unique feature of the level of pure devotional service of the gopés of våndävana? (27) 15.What are yogīs generally attracted to? (30)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q105",
+      "question": "Explain with an analogy how a bhakti-yogi should see him-/herself in the material world. (1)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q106",
+      "question": "Briefly summarize the theme of verses 1-4.",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q107",
+      "question": "Explain the meaning of the word karma-doñaiù. (3)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q108",
+      "question": "Why cannot we be any real benefit to the prople in general? (4)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q109",
+      "question": "Explain how a devotee lives ‘without intimate connections with anyone’. (7)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q110",
+      "question": "Explain with an anlogy about the special quality of a pure devotee in the darkness of material existence? (11-12)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q111",
+      "question": "Explain the analogy of a green bird seemingly merging into a green tree. (14)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q112",
+      "question": "Explain the analogy of husking the skin of an empty paddy. (20)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q113",
+      "question": "Explain the analogy of one not being punished even though in contact with the police. (21) 10.Analyze the two main diseases of material contamination. (23) 11.List some of the symptoms of someone who independent and of someone who is not. (24-26) 12.Explain the meaning of the words sva-saàsthäna and liìgäd vinirgame. (28-29)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q114",
+      "question": "Explain the stages of yoga process from controlling the senses to elevating oneself to the topmost platform, bhakti-yoga with reference to 3.27.5-6, verses and purports, as well as bhaktisastras in your response.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q115",
+      "question": "Describe the favourable and unfavourable activities for a devotee as described in 3.27.5-10, and discuss their relevance for your practice of Krsna consciousness.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q116",
+      "question": "Explain the false ego and the real ego with reference to 3.27.13-16, verses and purports.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q117",
+      "question": "Çréla Prabhupäda writes in the purport of 3.27.20, “There is a gulf of difference between theoretical freedom and actual freedom from material bandage.” Explain this statement with reference to 3.27.19-20, verses and purports, and discuss its relevance for your practice of Krsna consciousness.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.27",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q118",
+      "question": "Discuss pure and mixed devotional service with reference to this chapter and Bhagavad Gita Chapters 13-17.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q119",
+      "question": "What is the ultimate achievement in yoga practice? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q120",
+      "question": "Comment on the principle of sva-dharmācaraṇaṁ (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q121",
+      "question": "How does the Çrémad-Bhägavatam recommends a yogé should eat? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q122",
+      "question": "What is the two-fold practice a yogé should perform that is referred by the word puruñärcanam? (4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q123",
+      "question": "What sitting posture will help one to concentrate his mind on the Lord? (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q124",
+      "question": "Comment on the flowers in the spiritual sky. What do they indicate? (15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q125",
+      "question": "Compare material beauty with spiritual beauty. (16)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q126",
+      "question": "Describe the relationship dynamics between the Lord and His devotees. (17)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q127",
+      "question": "List the eight kinds of forms recommended for the devotees to see. (18) 10.List reasons why the process of hearing and chanting and fixing the mind on the pastimes of the Lord are superior. (6, 9, 11, 19, 21, 26) 11.Explain the word päñaëòé. (22) 12.What indictes that Goddes Lakñmé’s massaging the thighs of Lord Viñëu is not to be taken as an activity of an ordinary wife? (23) 13.What is the special function of the Lord’s four arms? (27) 14.What is the Lord’s club for? (28) 15.Explain the terms nirbéja-yoga and sabéja-yoga. (34) 16.Explain the meaning of nirvāṇa. (35) 17.List the four principle of the Vaiṣṇava philosophic doctrine. (41) 18.List the four different divisions of species – living entities. (42) 19.Explain the term sväàça-vibhinnäàça. (43)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q128",
+      "question": "List the different processes Lord Kapila gives for advancing towards the path of the Absolute Truth. (2-6)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q129",
+      "question": "Describe the application of Asteyam, “to refrain from theft”. (4)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q130",
+      "question": "Explain the analogy of putiing gold in fire and fanning it with bellows. (10)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q131",
+      "question": "Identify some of the metaphors used by Kapiladeva to describe the form of the Lord in verses 13 to 33. (13-33)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q132",
+      "question": "What is the significanse of comparing the Lord’s lotus feet to a thunderbolt? (22)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q133",
+      "question": "Explain the statement dhyäyen manomayam. (30)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q134",
+      "question": "Explain the analogy of a lotus surrounded by swarming bees and a pair of fish. (30)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q135",
+      "question": "How is a devotees agonies, anxieties and miseries immediately mitigated? (31-32)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q136",
+      "question": "Explain the analogy of having great affection for family and wealth. (39) 10.Describe the dynamics between the Supersoul and the individual soul. (43) 11.Explain the term svarüpeëävatiñöhate. (44)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q137",
+      "question": "Compare and contrast the practices of astanga yoga & bhakti yoga with reference to to 3.28.4-11, verses and purports, as well as bhaktisastras in your response.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q138",
+      "question": "In 3.28.35 purport Çréla Prabhupäda writes, “As long as the mind is in material consciousness, it must be forcibly trained to accept meditation on the Supreme Personality of Godhead, but when one is actually elevated to loving the Supreme Lord, the mind is automatically absorbed in thought of the Lord.” Discuss about this subject referring to 3.28.34- 35, verses and purports, and Nectar of Devotion in your response.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.28",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q139",
+      "question": "Discuss the relevance of the yogis system of meditation on the Lord in the he practice of Bhakti yoga with reference to 3.28.19-33 verses and purports.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q140",
+      "question": "What is the purpose of describing the influence of time? (1-2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q141",
+      "question": "To enter the darkest region of material existence means what? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q142",
+      "question": "What means yoga-bhäskara and who does it refer to? (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q143",
+      "question": "Elaborate on how the Lord is pleased with those devotees who are compassionate towards the conditioned souls. (5-6)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q144",
+      "question": "Define pure devotional service (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q145",
+      "question": "What is a separatist? (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q146",
+      "question": "How many varieties of mixed devotion are there? (10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q147",
+      "question": "Explain how one can be situated in the transcendental stage. (14)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q148",
+      "question": "Why does a devotee not have to try for ekatva liberation separately? (14) 10.Comment on the word nätihiàsä. (15) 11.Explain the significance of the phrase sva-karma-kåt. (25) 12.Explain the use of the Sanskrit words mäna and däna. (27) 13.How do Mäyävädés interpret the word sama-darçanät? (33) 14.Explain the phrases mayy arpitätmanaù and mayi sannyasta karmaëaù. (33) 15.When do the two kinds of dissolutions take place? (44) 16.Why a devotee does not desire anything in this material world? (45) 17.Despite material world is temporary, what exists eternally? (45)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q149",
+      "question": "Explain the relationship between Sankhya Yoga and Bhaktiyoga. (1-2)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q150",
+      "question": "Describe the influence of time on a human being. (4, 37, 45)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q151",
+      "question": "What is the role of a spiritual master and why? (8)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q152",
+      "question": "Explain the analogy the water of the Ganges flowing towards the ocean. (11-12)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q153",
+      "question": "Explain the words avicchinnä, ahaituké and avyavahitä. (11-12)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q154",
+      "question": "Describe the five kinds of liberation. What is the devotee’s attitude towards them and why? (13)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q155",
+      "question": "Explain the analogy of the chariot of air carrying an aroma. (20)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q156",
+      "question": "Explain the analogy of trying to feed a person who is not hungry. (24)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q157",
+      "question": "Explain the misconception of daridra-näräyaëa. (27) 10.What example does Prabhupäda give to illustrate equality with discrimination? (28) 11.List the gradations of living entities as explained in verses 28-36. 12.Explain the analogy of a poor man and a rich man. (35)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q158",
+      "question": "Examine the qualities and characteristics of Vaiñëava’s in the modes of ignorance, passion and goodness, as described in 3.28.7-13, and discuss the relevance of this analysis for your own practice of devotional service.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q159",
+      "question": "Explain the duties prescribed for the different classes of society and discuss their connection with the practice of devotional service of the Lord with reference to 3.29.15, verse and purport in your response.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.29",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q160",
+      "question": "Examine the approach of the devotee who disregards the Lord’s presence everywhere as the Supersoul and engages himself in worship of the Deity in the temple. How does the Lord feel about it? What is the solution? Refer to 3.29.21-24, verses and purports, in your response.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q161",
+      "question": "What is the meaning of the phrase mohäd-gåha-kñetra-vasüni? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q162",
+      "question": "Explain the terms prakñepätmikä and ävaraëätmikä. (4-5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q163",
+      "question": "Examine family relationships in the material world and in Kåñëaloka. (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q164",
+      "question": "What does happiness in material world mean? (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q165",
+      "question": "What is the sum and substance of material existence and attachment to material society, frienship and love? (10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q166",
+      "question": "What is called covering illusion of mäyä? (10)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q167",
+      "question": "Where are the thoughts of a dying man absorbed in? (18)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q168",
+      "question": "Which points do you find outstanding from Lord Kapiladeva’s description of the hellish punishments meted out to the materialist? (25 -28)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q169",
+      "question": "Why are hellish punishments sometimes visible on this planet also? (29) 10.What is the responsibility difference between man and animal? (30) 11.What conclusion does Prabhupäda draw from the gradual process of evolution through different hellish lives to the platform of a human being? (34)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q170",
+      "question": "Explain the analogy of a prisoner being shackled by iron chains and iron bars. (8)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q171",
+      "question": "Compare the focus of a gåhastha and that of a gåhamedhi. (8)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q172",
+      "question": "Summarise Lord Kapila’s description of the family life of a materialistc man. (8-18)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q173",
+      "question": "Describe the unfortunate position of a leader of a nation or head of a family. (10)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q174",
+      "question": "Explain the analogy of old and worn out oxen. (13)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q175",
+      "question": "What is the ideal way to spend one’s old age? (14-15)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q176",
+      "question": "Reflect the points of Lord Kapila’s description of the miseries afflicted to the sinner on the way to Yamaraja’s planet. (19-24)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q177",
+      "question": "Explain the analogy of criminals being arrested for punished by the constables of the state. (20)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q178",
+      "question": "Describe the problems caused by uncontrolled sex desire. (21, 28) 10.Reflect the points of Lord Kapila’s description of the hellish punishments meted out to the materialist? (25 -28) 11.Briefly describe the process of dgradation after death. (29) 12.What general principles does Prabhupäda draw, from the severses, regarding the means of livelihood for those trying to advance in Kåñëa consciousness? (31-33)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q179",
+      "question": "Explain the relationship between material advancement, time and Kåñëa consciousness with reference to 3.30.1-3, verses and purports.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q180",
+      "question": "Draw general principles, applicable for preaching Krsna consciousness, from Lord Kapiladeva’s description of materialistic family with reference to 3.30.8-18.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.30",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q181",
+      "question": "Çréla Prabhupäda writes in the purport of 3.30.33, “It is especially mentioned that the means of livelihood of those who are trying to advance in Kṛṣṇa consciousness must be very fair and uncomplicated.” Discuss the significance of this statement for ISKCON’s congregational development with reference to 3.30.31-33, verses and purports.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q182",
+      "question": "By what two factors is a living entity made to enter into the womb of a woman? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q183",
+      "question": "How it can be known if the child in the womb is a male or female? (4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q184",
+      "question": "What is the primary duty of the parents and why? (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q185",
+      "question": "Why is a civilization considered unfortunate? (8)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q186",
+      "question": "Reflect on the irony of birth mentioned by Çréla Prabhupäda in the purport of the verse 11.",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q187",
+      "question": "Explain the words calac-caraëäravindam and icchayä. (12)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q188",
+      "question": "Explain the meaning of the words kåpaëa-dhéù and udära. (17)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q189",
+      "question": "Explain the word dama-çaréré (19).",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q190",
+      "question": "Why does the living entity not wish to depart from the mother's abdomen? (20) 10.What general principle does Prabhupäda draw from the fact that the child can be fully Kåñëa conscious within the womb of the mother? (21) 11.Briefly describe the birth of the child. (22-24) 12.What should a person serious in spiritual life always consider? (23) 13.Explain the word ‘vigata jïänam’. (27) 14.What is Çréla Rüpa Gosvämé’s recommendation to attain actual renunciation. (29) 15.What are the two kinds of ignorance? (30) 16.To whom is haöha-yoga recommended? (31) 17.How does material life manifest? 18.Why is the tendency to be attracted by womanly beauty is natural? (39) 19.What is the special significance of Rädhä-Kåñëa worship? (38) 20.Explain the terms jéva-bhüta and brahma-bhuta. (43) 21.Explain the meaning of anädi karama-phale. (44) 22.When is one understood to be on the liberated platform? (47)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q191",
+      "question": "Explain what is indicated by the word retaù-kaëäçrayaù. (1)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q192",
+      "question": "List the four different kind of ways that the body develops in the material world. Give examples. (2)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q193",
+      "question": "Describe the condition of the child in the womb. (5-9)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q194",
+      "question": "Reflect on Çréla Prabhupäda’s urgency on crossing over the nescience of mäyä. (9)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q195",
+      "question": "Explain the analogy of the boat across the ocean. (9)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q196",
+      "question": "What is the meaning of the word sodara . (10)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q197",
+      "question": "Why does the human soul in the womb pray to the Lord? (11-13)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q198",
+      "question": "Explain the phrases viçuddham avikäram akhaëòa-boddham and ätapyamäna hådaye ‘vasitam. (13)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q199",
+      "question": "Summarize the main points in the verse and purport of text 18. 10.Why is it a blessing to be born in a human form in this world? (19) 11.How should we understand that we are under the control of the Supreme Lord? (19) 12.Explain the statement upasädita-viñëu-pädaù. (21) 13.Describe how the material world is unfair for a newly born baby. (25-26) 14.Summarize the main points of verses 32-37. 15.Analyze Kapiladeva’s description of the form of a woman in verses 38-40. 16.Explain how modern yoga societies have diverted from the actual path of yoga. 39) 17.Explain the analogy of a blind well covered by grass. (40) 18.Explain the analogy of sweet singing of a hunter. (42) 19.Explain how the opposite sex is respectively ones gateway to hell. (42) 20.What is the solution to the question of birth and death. (45-46)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q200",
+      "question": "Analyse the relationship of the conditioned soul and the Supreme Lord with reference to the child’s prayers in the womb of the mother as described in 3.31.12-21, verses and purports.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q201",
+      "question": "Draw general principles relevant for dealings wi the opposite sex with reference to erses and purports from this chapter.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.31",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q202",
+      "question": "Compare false renunciation and real renunciation with reference to 3.31.47-48, verses and purports. Discuss appropriate renunciation in the pracrictice of Krsna consciousness in your response.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q203",
+      "question": "Explain how so-called pious activities are the result of impersonalism. (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q204",
+      "question": "What is the meaning of käma-müòha? (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q205",
+      "question": "What is the frustrating thing about going to the moon for sense enjoyment? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q206",
+      "question": "Which obstacle for enjoyment is there even in the highest planet, Brahmaloka? (4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q207",
+      "question": "Explain the words niùsaìga and nyasta-karmäëaù. (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q208",
+      "question": "Explain the words vyäkåta and avyäkåta. (9)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q209",
+      "question": "Explain the word bheda-dåñöyä in relation to Brahmä. (12-15)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q210",
+      "question": "Why are the materialists compared to stool-eating hogs? (19)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q211",
+      "question": "Explain how for a devotee there is no question of agreeable or disagreeable. (25) 10.What is the purpose of all yoga? (27) 11.What is the conclusion of philosphical research? (32) 12.List the two symptoms of advancement in the process of devotional service (34-36) 13.What are the results of devotional service in the three modes and devotional service without any desires? (37) 14.Whom instructions should be given to? (41-42) 15.Explain what it means to be a bhakta. (42)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q212",
+      "question": "Describe the differences between gåhamedhé and gåhastha. (1)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q213",
+      "question": "Describe the two kinds of dissolutions. (4)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q214",
+      "question": "What was the attitude of Arjuna in comparison to that of ordinary kings in ruling a kingdom? (5)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q215",
+      "question": "Explain the difference between pravåtti-dharma and nivåtti-dharma. (6)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q216",
+      "question": "Explain the analogy of father and mother being the cause of a childbirth. (7)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q217",
+      "question": "What is meaning of the words parasya para-cintakäù? (8)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q218",
+      "question": "Describe the destination of persons who are worshipers of Hiraëyagarbha. (8)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q219",
+      "question": "Describe the gradual movement of yogés mentioned in verse 10.",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q220",
+      "question": "Reflect the master and servant dynamics in the transcendental world. (11) 10.Explain the movements of Brahmä after dissolution and new creation. (12-15) 11.What are the two kinds of religious activities, and how is worship of Kåñëa connected here? (22) 12.Summarize the benefits of performing devotional service explained by Lord Kapila in verses 22-25. 13.Explain the concept of sense control in different types of yoga systems. (27) 14.Explain the anlogy of the Sun and the rays of sunshine being luminous. (28) 15.Explain the relationship between the individual soul and his material body, and the independent Lord and His gigantic body of the universe. (29) 16.Describe how the analogies of the hill and the milk is compared to realizing the Supreme Godhead in different ways. (33) 16.List briefly the different activities prescribed for the four orders of the social system to elevate one to the platform of self-realization. (34-36) 17.Summarize the main points of Prabhupäda’s purport to verse 40.",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q221",
+      "question": "Describe the situation of persons too addicted to the material world with reference to 3.32.16-21. Give examples from modern day materialists reflecting this description in your response",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q222",
+      "question": "Draw general principles relevant for the relationship between the spiritual master and the disciple with referenece to verses and purport of 3.32.41-42.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.32",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q223",
+      "question": "Çréla Prabhupäda writes in the purport of 3.32.42, “If a Godbrother is more enlightened and advanced in Kåñëa consciousness, one should accept him as almost equal to the spiritual master.” Discuss application of this principle in your practice of Krsna consciousness with reference to Lord Kaplideva’s teaching in this section.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q224",
+      "question": "What stage was achieved by Devahüti? (1)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q225",
+      "question": "Why is Devahüti astonished? (2)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q226",
+      "question": "Why is this world created? (3)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q227",
+      "question": "What is the reason for the Lord to lick His toe?(4)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q228",
+      "question": "What is the specific purpose for Lord Kapila’s appearance in this world? (5)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q229",
+      "question": "What type of utterence of the holy name is required to immediately become eligible to perform Vedic sacrifices? (6-7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q230",
+      "question": "What does the example of Öhäkura Haridäsa show? (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q231",
+      "question": "Whether one has acquired the qualification of a brähmaëa depends on what? (7)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q232",
+      "question": "Explain the word äryäù and its connection to the chanting of the holy names. (7) 10.How is the word stage pratyähära connected to devotional service? (8) 11.How can we see if one is a jévan-mukta? (10) 12.What does Lord Kapila’s leaving home indicate? (12) 13.What was the way of Vedic civilization in regard to household paraphernalia? (17) 14.Explain how can we begin to forget the material body? (26-27) 15.What does the term daiva-guptam mean? (29) 16.To where was Devahüti promoted? (30)",
+      "kind": "closed-book-short",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q233",
+      "question": "Elaborate the statement, “Man proposes and God disposes.” (3)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q234",
+      "question": "Summarize the verse and purport of the verse 10.",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q235",
+      "question": "Reflect the procedures of anykind of yoga that Çréla Prabhupäda mentions towards the end of the purport of verse 14.",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q236",
+      "question": "Describe how powerful mystic yogé Kardama Muni was. (15)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q237",
+      "question": "What general principles can be drawn from the marital relationship described in verse 19?",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q238",
+      "question": "What general principles can be drawn from Devahüti attachment to her son? (20-22)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q239",
+      "question": "Explain the analogy of beating the husks of wheat after the graing have already been removed. (26)",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q240",
+      "question": "Summarize the purport of 3.33.30 that deals with the achievement of Devahuti.",
+      "kind": "closed-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q241",
+      "question": "Describe the power of chanting the holy names of the Lord with reference to 3.33.6-7 verses and purports.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q242",
+      "question": "Discuss general principles, relevant for preaching, drawn from Kapiladeva’s departure and Devahüti’s remaining at home as described in this chapter.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    },
+    {
+      "canonical_ref": "SB.3.33",
+      "provider": "boex",
+      "source_question_id": "BV.U5-Q243",
+      "question": "Summarise, in your own words, a brief overview of the Säìkhya philosophy given by Lord Kapila in Canto 3 Chapters 25-29.",
+      "kind": "open-book",
+      "source_url": "Canto 3.20-33.pdf"
+    }
+  ]
+}

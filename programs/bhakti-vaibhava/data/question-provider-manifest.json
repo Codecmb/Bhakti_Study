@@ -1,0 +1,13 @@
+{
+  "schema": "bhakti-study-question-provider-manifest-v1",
+  "modules": [
+    {
+      "id": "iskcon-desire-tree",
+      "path": "question-providers/iskcon-desire-tree.json"
+    },
+    {
+      "id": "boex",
+      "path": "question-providers/boex.json"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "provider": {
+    "id": "boex",
+    "label": "Official Ministry / BOEX",
+    "authority": "official-external",
+    "mode": "external-attributed",
+    "description": "Official resources remain separately identified and are never conflated with Academy or Desire Tree material."
+  }
+}
