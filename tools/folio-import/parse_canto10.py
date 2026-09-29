@@ -148,11 +148,49 @@ for section in canonical_book["sections"]:
 def extract_folio_transliteration(start, end):
     block = text[start:end]
 
-    lines = re.findall(
-        r"\\pard \\s(?:2304|9) [^{]*"
-        r"\{\\i\\f0\\fs28\\cf0 (.*?)\n",
-        block
-    )
+    # Transliteration occurs after TEXT and before SYNONYMS.
+    synonyms = re.search(r"\bSYNONYMS\b", block)
+    if synonyms:
+        block = block[:synonyms.start()]
+
+    lines = []
+
+    for raw_line in block.splitlines():
+        # Only actual verse/transliteration paragraph styles.
+        if not re.search(r"\\s(?:2304|9)\b", raw_line):
+            continue
+
+        # Ignore legacy Sanskrit font; transliteration is Folio font 0.
+        if r"\f0" not in raw_line or r"\i" not in raw_line:
+            continue
+
+        # A line can contain multiple RTF groups, all belonging to the
+        # same transliteration line.
+        parts = re.findall(
+            r"\{\\i\\f0[^{}]*?\s([^{}]*)",
+            raw_line
+        )
+
+        if parts:
+            lines.append("".join(parts))
+
+    # Rare Folio formatting fallback:
+    # some records place the Sanskrit in legacy f48 and the corresponding
+    # transliteration in an unstyled italic f0 group.
+    if not lines:
+        for raw_line in block.splitlines():
+            if r"\f48" in raw_line:
+                continue
+            if r"\f0" not in raw_line:
+                continue
+
+            parts = re.findall(
+                r"\{\\i\\f0[^{}]*?\s([^{}]*)",
+                raw_line
+            )
+
+            if parts:
+                lines.append("".join(parts))
 
     decoded = [
         decode_folio_transliteration(line).strip()
@@ -160,7 +198,6 @@ def extract_folio_transliteration(start, end):
     ]
 
     return " ".join(x for x in decoded if x)
-
 
 checked = 0
 exact = 0
@@ -223,3 +260,161 @@ print(
 
 if different:
     print("First differing refs:", ", ".join(different[:10]))
+
+# ------------------------------------------------------------
+# Structured Folio record extraction
+# Output is temporary development data only.
+# Canonical library/books/sb-10/book.json is NOT modified.
+# ------------------------------------------------------------
+
+def decode_general_text(value):
+    """Decode Folio prose while removing RTF formatting safely."""
+
+    # Decode Folio/RTF hex escapes first.
+    value = re.sub(
+        r"\\'([0-9a-fA-F]{2})",
+        lambda m: folio_encoding.decode_rtf_hex(m.group(1)),
+        value
+    )
+
+    # Explicit RTF semantic separators represent real textual spacing.
+    value = re.sub(r"\\line\b ?", " ", value)
+    value = re.sub(r"\\tab\b ?", " ", value)
+    value = re.sub(r"\\par\b ?", " ", value)
+
+    # Physical newlines in the Folio export are storage wrapping and can
+    # occur inside words. Remove them rather than converting them to spaces.
+    value = value.replace("\r\n", "")
+    value = value.replace("\n", "")
+    value = value.replace("\r", "")
+
+    # Decode escaped RTF literal characters before removing formatting.
+    value = value.replace(r"\{", "\uFFF0")
+    value = value.replace(r"\}", "\uFFF1")
+    value = value.replace(r"\\", "\uFFF2")
+
+    # Remove remaining RTF control words.
+    # Do not consume following visible text unless RTF provides the
+    # optional delimiter space.
+    value = re.sub(r"\\[a-zA-Z]+-?\d*(?: )?", "", value)
+
+    # Remove RTF structural braces.
+    value = value.replace("{", "").replace("}", "")
+
+    # Restore escaped literal characters.
+    value = value.replace("\uFFF0", "{")
+    value = value.replace("\uFFF1", "}")
+    value = value.replace("\uFFF2", "\\")
+
+    # Normalize whitespace introduced by legitimate RTF boundaries.
+    return " ".join(value.split()).strip()
+
+def section_after_heading(block, heading, next_headings):
+    """Return raw RTF content between one visible heading and the next."""
+    start = re.search(
+        rf"\b{re.escape(heading)}\b[^\n]*\n",
+        block
+    )
+
+    if not start:
+        return ""
+
+    content_start = start.end()
+    content_end = len(block)
+
+    for next_heading in next_headings:
+        m = re.search(
+            rf"\b{re.escape(next_heading)}\b[^\n]*\n",
+            block[content_start:]
+        )
+        if m:
+            candidate = content_start + m.start()
+            if candidate < content_end:
+                content_end = candidate
+
+    return block[content_start:content_end]
+
+
+def extract_record(match, end):
+    chapter = int(match.group(1))
+    verse = match.group(2)
+    ref = f"10.{chapter}.{verse}"
+
+    block = text[match.start():end]
+
+    transliteration = extract_folio_transliteration(
+        match.start(),
+        end
+    )
+
+    synonyms_raw = section_after_heading(
+        block,
+        "SYNONYMS",
+        ["TRANSLATION", "PURPORT"]
+    )
+
+    translation_raw = section_after_heading(
+        block,
+        "TRANSLATION",
+        ["PURPORT"]
+    )
+
+    purport_raw = section_after_heading(
+        block,
+        "PURPORT",
+        []
+    )
+
+    return {
+        "reference": ref,
+        "transliteration": transliteration,
+        "synonyms": decode_general_text(synonyms_raw),
+        "translation": decode_general_text(translation_raw),
+        "purport": decode_general_text(purport_raw),
+    }
+
+
+records = []
+
+for i, match in enumerate(record_matches):
+    end = (
+        record_matches[i + 1].start()
+        if i + 1 < len(record_matches)
+        else len(text)
+    )
+
+    records.append(extract_record(match, end))
+
+
+GENERATED = Path(__file__).with_name("generated")
+GENERATED.mkdir(exist_ok=True)
+
+OUTPUT = GENERATED / "sb10-records.json"
+
+OUTPUT.write_text(
+    json.dumps(
+        {
+            "schema": "bhakti-study.folio-import.v1",
+            "source": "SB_Canto_10_Folio.rtf",
+            "recordCount": len(records),
+            "records": records,
+        },
+        ensure_ascii=False,
+        indent=2
+    ),
+    encoding="utf-8"
+)
+
+
+with_synonyms = sum(bool(r["synonyms"]) for r in records)
+with_translation = sum(bool(r["translation"]) for r in records)
+with_purport = sum(bool(r["purport"]) for r in records)
+
+print("\nSTRUCTURED EXTRACTION")
+print("---------------------")
+print("Records:", len(records))
+print("With transliteration:", sum(bool(r["transliteration"]) for r in records))
+print("With synonyms:", with_synonyms)
+print("With translation:", with_translation)
+print("With purport:", with_purport)
+print("Output:", OUTPUT)

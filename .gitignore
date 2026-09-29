@@ -8,3 +8,7 @@ __pycache__/
 
 # Local Folio/VedaBase source exports
 tools/folio-import/*.rtf
+
+# Folio importer working files
+tools/folio-import/generated/
+tools/folio-import/backups/

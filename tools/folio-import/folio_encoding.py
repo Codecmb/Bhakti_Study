@@ -19,3 +19,32 @@ FOLIO_TRANSLITERATION_MAP = {
     "ff": "ḷ",
     "92": "’",
 }
+
+# General Folio/RTF text decoding.
+# Standard RTF hex escapes use the Windows-1252 character set.
+# Sanskrit transliteration characters are subsequently normalized
+# with the proven Folio legacy mapping where applicable.
+
+FOLIO_PROSE_MAP = {
+    "c7": "Ś",
+    "c9": "Ī",
+    "d1": "Ṣ",
+    "d2": "Ḍ",
+    "d6": "Ṭ",
+    "dc": "Ū",
+}
+
+
+def decode_rtf_hex(code):
+    code = code.lower()
+
+    if code in FOLIO_PROSE_MAP:
+        return FOLIO_PROSE_MAP[code]
+
+    if code in FOLIO_TRANSLITERATION_MAP:
+        return FOLIO_TRANSLITERATION_MAP[code]
+
+    try:
+        return bytes([int(code, 16)]).decode("cp1252")
+    except (ValueError, UnicodeDecodeError):
+        return f"[UNMAPPED:{code}]"
