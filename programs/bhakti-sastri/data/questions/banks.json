@@ -1,0 +1,15 @@
+{
+  "schema": "bhakti-study.question-bank-registry.v1",
+  "program": "bhakti-sastri",
+  "banks": [
+    {
+      "id": "academy",
+      "label": "Academy Study Questions",
+      "description": "Bhakti Study Academy questions for the current Bhakti Śāstrī unit.",
+      "provider": "academy",
+      "manifest": "manifest.json",
+      "default": true,
+      "provenance_label": "Bhakti Study Academy"
+    }
+  ]
+}

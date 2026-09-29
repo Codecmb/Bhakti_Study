@@ -31,14 +31,28 @@
     });
   }
 
-  async function questionShards(base,scopes){
-    const manifestUrl=base+'data/questions/manifest.json';
-    const manifest=await getJSON(manifestUrl);
-    const wanted=new Set(scopes||[]);
-    const rows=(manifest.shards||[]).filter(s=>wanted.has(s.scope));
-    const parts=await Promise.all(rows.map(s=>getJSON(base+'data/questions/'+s.path)));
-    return parts.flatMap(x=>x.questions||[]);
+  async function questionBanks(base){
+    try{
+      const registry=await getJSON(base+'data/questions/banks.json');
+      return registry.banks||[];
+    }catch(err){
+      const manifest=await getJSON(base+'data/questions/manifest.json');
+      return [{id:manifest.provider||'default',label:manifest.provider||'Study Questions',description:'Course question bank',manifest:'manifest.json',provider:manifest.provider||''}];
+    }
   }
 
-  global.DataRegistry={getJSON,cached,preloadJSON,loadManifestModules,questionShards,stats};
+  async function questionShards(base,scopes,bankId){
+    const banks=await questionBanks(base);
+    const bank=(bankId&&banks.find(b=>b.id===bankId))||banks.find(b=>b.default)||banks[0];
+    if(!bank)return [];
+    const manifestPath=bank.manifest||'manifest.json';
+    const manifest=await getJSON(base+'data/questions/'+manifestPath);
+    const wanted=new Set(scopes||[]);
+    const rows=(manifest.shards||[]).filter(s=>wanted.has(s.scope));
+    const manifestDir=manifestPath.includes('/')?manifestPath.slice(0,manifestPath.lastIndexOf('/')+1):'';
+    const parts=await Promise.all(rows.map(s=>getJSON(base+'data/questions/'+manifestDir+s.path)));
+    return parts.flatMap(x=>(x.questions||[]).map(q=>({...q,question_bank_id:q.question_bank_id||bank.id,question_bank_label:q.question_bank_label||bank.label})));
+  }
+
+  global.DataRegistry={getJSON,cached,preloadJSON,loadManifestModules,questionBanks,questionShards,stats};
 })(window);

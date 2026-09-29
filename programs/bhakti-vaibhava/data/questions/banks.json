@@ -1,0 +1,15 @@
+{
+  "schema": "bhakti-study.question-bank-registry.v1",
+  "program": "bhakti-vaibhava",
+  "banks": [
+    {
+      "id": "boex",
+      "label": "BOEX Bhakti Vaibhava",
+      "description": "Verified ISKCON Board of Examinations / Ministry question bank for Bhakti Vaibhava.",
+      "provider": "boex",
+      "manifest": "manifest.json",
+      "default": true,
+      "provenance_label": "Official Ministry / BOEX"
+    }
+  ]
+}
