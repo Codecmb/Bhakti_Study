@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Work — Bhakti Study</title>
+<link rel="stylesheet" href="../shared/styles.css">
+<style>
+.portfolio-toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.portfolio-list{display:grid;gap:12px}
+.work-card{border:1px solid var(--line,#ddd3c2);border-radius:12px;padding:16px;background:#fff}
+.work-card h3{margin:0 0 6px}.work-card .meta{font-size:.86rem;opacity:.7;margin-bottom:10px}
+.work-card pre{white-space:pre-wrap;font:inherit;margin:0}.portfolio-empty{padding:28px;text-align:center}
+#importBackup{display:none}.status{margin-left:8px}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar"></aside>
+  <main class="main">
+    <div class="eyebrow">Student Portfolio</div>
+    <h1>My Work</h1>
+    <p>Your writing across the Academy stays separate from the canonical library. Export an editable document for LibreOffice, FreeOffice, Word, or another word processor, or create a complete Bhakti Study backup.</p>
+    <div class="portfolio-toolbar">
+      <button class="button" id="exportRtf">Continue Writing / Export RTF</button>
+      <button class="button secondary" id="backupJson">Backup Student Data</button>
+      <button class="button secondary" id="restoreBtn">Restore Backup</button>
+      <input id="importBackup" type="file" accept=".json,application/json">
+      <span class="status muted" id="status"></span>
+    </div>
+    <div class="card">
+      <label><strong>Filter My Work</strong><input id="filter" type="search" placeholder="Reference, type, or text…" style="width:100%;margin-top:8px;padding:10px"></label>
+    </div>
+    <div id="work" class="portfolio-list" style="margin-top:16px"></div>
+  </main>
+</div>
+<script src="../shared/student-store.js"></script>
+<script src="../shared/student-portfolio.js"></script>
+<script src="../shared/app.js"></script>
+<script>
+sidebar('portfolio');
+const work=document.getElementById('work'),filter=document.getElementById('filter'),status=document.getElementById('status');
+function render(){
+ const q=filter.value.trim().toLowerCase(),rows=StudentPortfolio.records().filter(r=>!q||`${r.ref} ${r.label} ${r.value}`.toLowerCase().includes(q));
+ work.innerHTML=rows.length?rows.map(r=>`<article class="work-card"><div class="meta">${StudentPortfolio.esc(r.label)}</div><h3>${StudentPortfolio.esc(r.ref)}</h3><pre>${StudentPortfolio.esc(r.value)}</pre></article>`).join(''):`<div class="card portfolio-empty">No saved student writing matches this view yet.</div>`;
+}
+filter.addEventListener('input',render);
+document.getElementById('exportRtf').onclick=()=>StudentPortfolio.exportRTF();
+document.getElementById('backupJson').onclick=()=>{StudentPortfolio.backup();status.textContent='Backup created.'};
+const input=document.getElementById('importBackup');
+document.getElementById('restoreBtn').onclick=()=>input.click();
+input.onchange=async()=>{if(!input.files[0])return;if(!confirm('Restore this Bhakti Study student backup? Existing records with the same keys will be updated.'))return;try{const n=await StudentPortfolio.restore(input.files[0],false);status.textContent=`Restored ${n} records.`;render()}catch(e){status.textContent=e.message||'Restore failed.'}input.value=''};
+render();
+</script>
+</body></html>
