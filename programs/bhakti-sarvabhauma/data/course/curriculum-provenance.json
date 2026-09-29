@@ -1,0 +1,13 @@
+{
+  "schema": "bhakti-study-curriculum-provenance-v1",
+  "programId": "bhakti-sarvabhauma",
+  "scope": "Śrī Caitanya-caritāmṛta — Ādi-līlā, Madhya-līlā, Antya-līlā",
+  "curriculumModel": "Bhakti Study chapter-level lesson outline",
+  "status": "academy-structured-outline",
+  "notes": [
+    "The three canonical līlās define the course units.",
+    "Each canonical chapter is exposed as one lesson so the outline does not invent unsupported subchapter curriculum boundaries.",
+    "Lesson records contain canonical pointers only; Caitanya-caritāmṛta text remains in the shared canonical Library.",
+    "This outline is Bhakti Study curriculum metadata and is not presented as an official external examination syllabus."
+  ]
+}

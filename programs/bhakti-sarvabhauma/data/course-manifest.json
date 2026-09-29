@@ -19,6 +19,10 @@
       "path": "course/lessons.json"
     },
     {
+      "id": "curriculum-provenance",
+      "path": "course/curriculum-provenance.json"
+    },
+    {
       "id": "study-flow",
       "path": "course/study-flow.json"
     },
