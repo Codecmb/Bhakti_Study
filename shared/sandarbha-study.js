@@ -21,7 +21,19 @@
   function canonicalNumber(id){const m=String(id||'').match(/\.(\d+)$/);return m?+m[1]:0}
   async function init(){
     if(!work)throw new Error('Missing SANDARBHA_WORK');
-    await loadScript(ROOT+'shared/student-store.js').catch(()=>{});
+    await Promise.all([
+      loadScript(ROOT+'shared/app.js').catch(()=>{}),
+      loadScript(ROOT+'shared/student-store.js').catch(()=>{})
+    ]);
+    if(!document.querySelector('.sidebar')){
+      const layout=document.createElement('div');layout.className='layout';
+      const side=document.createElement('aside');side.className='sidebar';
+      const main=document.createElement('main');main.className='main';
+      const movable=[...document.body.children].filter(el=>el.tagName!=='SCRIPT');
+      movable.forEach(el=>main.appendChild(el));
+      layout.append(side,main);document.body.prepend(layout);
+    }
+    if(typeof window.sidebar==='function')window.sidebar('sat-sandarbhas',ROOT);
     const [course,source,registry]=await Promise.all([
       readJSON('course.json'),
       readJSON(`${ROOT}sandarbhas/sources/english-reader/${work}.json`),
@@ -32,7 +44,23 @@
     const intro=document.getElementById('courseIntro');if(intro)intro.textContent=`${source.unitCount} canonical anuccheda units · English-first source study · student work stored separately.`;
     const oldNotice=document.querySelector('.notice');if(oldNotice)oldNotice.innerHTML='<b>Method:</b> Viṣaya → Saṁśaya → Pūrvapakṣa → Siddhānta → Pramāṇa → Samanvaya → Application. Source text and student synthesis remain visibly separate.';
     const app=document.getElementById('app');
-    if(!document.getElementById('sandarbha-reader-layout')){const style=document.createElement('style');style.id='sandarbha-reader-layout';style.textContent=`.sandarbha-reader-shell{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,380px);gap:1rem;align-items:start}.sandarbha-study-panel{position:sticky;top:1rem;max-height:calc(100vh - 2rem);overflow:auto}.sandarbha-study-panel textarea{width:100%;box-sizing:border-box}.sandarbha-study-fab,.study-close{display:none}@media(max-width:800px){.sandarbha-reader-shell{display:block}.sandarbha-study-panel{display:none;position:fixed;z-index:1001;inset:auto 0 0 0;top:12vh;max-height:88vh;overflow:auto;border-radius:18px 18px 0 0;margin:0}.sandarbha-study-panel.open{display:block}.sandarbha-study-fab{display:block;position:fixed;z-index:1000;right:1rem;bottom:1rem;box-shadow:0 4px 18px rgba(0,0,0,.2)}.study-close{display:block;float:right;border:0;background:transparent;font-size:2rem;line-height:1;cursor:pointer}}`;document.head.appendChild(style)}
+    if(!document.getElementById('sandarbha-reader-layout')){const style=document.createElement('style');style.id='sandarbha-reader-layout';style.textContent=`
+.sandarbha-reader-shell{display:grid;grid-template-columns:250px minmax(0,1fr) minmax(300px,380px);gap:1rem;align-items:start}
+.sandarbha-nav-panel{position:sticky;top:1rem;min-width:0}
+.sandarbha-nav-panel .unit-list{display:flex;gap:.45rem;flex-wrap:wrap;max-height:58vh;overflow:auto}
+.sandarbha-nav-panel .unit-list button{border:1px solid #d8d0c2;background:#fff;border-radius:8px;padding:7px 9px;cursor:pointer}
+.sandarbha-nav-panel .unit-list button.active{font-weight:700;border-color:#f59e0b}
+.sandarbha-nav-toggle{display:block;margin:0 0 .7rem auto;min-width:36px;padding:5px 10px;font-size:1.2rem;line-height:1}
+.sandarbha-reader-shell.nav-collapsed{grid-template-columns:52px minmax(0,1fr) minmax(300px,380px)}
+.sandarbha-reader-shell.nav-collapsed>.sandarbha-nav-panel{padding:8px 6px;overflow:hidden}
+.sandarbha-reader-shell.nav-collapsed>.sandarbha-nav-panel>*:not(.sandarbha-nav-toggle){display:none!important}
+.sandarbha-reader-shell.nav-collapsed>.sandarbha-nav-panel .sandarbha-nav-toggle{margin:0 auto}
+.sandarbha-source-column{min-width:0}.sandarbha-study-panel{position:sticky;top:1rem;max-height:calc(100vh - 2rem);overflow:auto}
+.sandarbha-study-panel textarea{width:100%;box-sizing:border-box}.sandarbha-study-fab,.study-close{display:none}
+.sandarbha-passage-nav{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem}
+@media(max-width:1200px){.sandarbha-reader-shell{grid-template-columns:220px minmax(0,1fr)}.sandarbha-study-panel{display:none;position:fixed;z-index:1001;inset:auto 0 0 0;top:12vh;max-height:88vh;overflow:auto;border-radius:18px 18px 0 0;margin:0}.sandarbha-study-panel.open{display:block}.sandarbha-study-fab{display:block;position:fixed;z-index:1000;right:1rem;bottom:1rem;box-shadow:0 4px 18px rgba(0,0,0,.2)}.study-close{display:block;float:right;border:0;background:transparent;font-size:2rem;line-height:1;cursor:pointer}.sandarbha-reader-shell.nav-collapsed{grid-template-columns:52px minmax(0,1fr)}}
+@media(max-width:850px){.sandarbha-reader-shell,.sandarbha-reader-shell.nav-collapsed{grid-template-columns:1fr}.sandarbha-nav-panel{position:static}.sandarbha-reader-shell.nav-collapsed>.sandarbha-nav-panel{display:none}}
+`;document.head.appendChild(style)}
     const sourceByNum=new Map(source.records.map(r=>[r.number,r]));
     const units=course.units||[];
     let selected=Math.max(1,Math.min(source.unitCount,+new URLSearchParams(location.search).get('n')||1));
@@ -44,7 +72,27 @@
       let draft={};try{draft=JSON.parse(sessionStorage.getItem(draftKey)||'{}')}catch{}
       const before=draft.understanding??storeGet('understanding',id,''),after=draft.reflection??storeGet('reflection',id,''),notes=draft.notes??storeGet('notes',`sat-sandarbhas.${id}`,''),done=storeGet('completion',`sat-sandarbhas.${id}`,'')==='1';
       const lens=u.studyMethod?.advancedLens||[];
-      app.innerHTML=`<section class="card"><div class="eyebrow">${esc(course.title)} · English Source Reader</div><div style="display:flex;gap:.6rem;flex-wrap:wrap;align-items:center"><button class="button secondary" id="prev" ${selected<=1?'disabled':''}>← Previous</button><label>Canonical unit <select id="unitSelect">${Array.from({length:source.unitCount},(_,i)=>`<option value="${i+1}" ${i+1===selected?'selected':''}>${esc(prefixes[work])}.${i+1}</option>`).join('')}</select></label><button class="button secondary" id="next" ${selected>=source.unitCount?'disabled':''}>Next →</button></div><h2>${esc(id)} · ${esc(r?.sourceLabel||`Anuccheda ${selected}`)}</h2>${verified?'<span class="source-state verified">English source segment verified</span>':'<p class="notice"><b>Canonical identity preserved.</b> This edition does not expose an independently verified heading boundary for this unit, so Bhakti Study does not invent a source segment.</p>'}${lens.length?`<div class="lens">${lens.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}</section><div class="sandarbha-reader-shell"><main>${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div><h2>Source text</h2><p class="muted">${esc(source.sourceFile)} · English study source · ${esc(id)}</p><div style="white-space:pre-wrap;line-height:1.65">${esc(r.content)}</div></section>`:''}<section class="card"><div class="eyebrow">Provenance</div><p><b>Author:</b> Śrī Jīva Gosvāmī</p><p><b>Study source:</b> ${esc(source.sourceFile)}</p><p><b>Canonical identity:</b> ${esc(id)}</p><p><b>Segmentation:</b> ${verified?'Source heading/boundary independently detected.':'Canonical placeholder only; no source boundary guessed.'}</p><p class="muted">Bhakti Study reflections and summaries are student/application synthesis and are not quotations from the source.</p></section></main><aside class="sandarbha-study-panel card" id="studyPanel"><button class="study-close" id="studyClose" aria-label="Close study panel">×</button><div class="eyebrow">Study Workspace</div><h2>Study</h2><h3>My Understanding</h3><p>${esc(u.studyMethod?.beforeReading?.[0]||'What is Jīva Gosvāmī establishing here?')}</p><textarea id="understanding" rows="6" placeholder="Write your understanding before consulting additional notes…">${esc(before)}</textarea><h3>Source Study</h3><ul>${(u.studyMethod?.sourceStudy||['Identify the principal claim, scriptural evidence, and conclusion.']).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h3>Revised Understanding</h3><p>${esc(u.studyMethod?.afterReading?.[0]||'State the siddhānta in your own words and cite the supporting source.')}</p><textarea id="reflection" rows="6" placeholder="After returning to the source…">${esc(after)}</textarea><h3>Notes</h3><textarea id="notes" rows="6" placeholder="Personal notes…">${esc(notes)}</textarea><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;flex-wrap:wrap"><button class="button" id="saveStudy" type="button">Save</button><span id="saveStatus" class="muted" role="status" aria-live="polite">${Object.keys(draft).length?'Unsaved draft':'Saved'}</span></div><label style="display:block;margin-top:1rem"><input type="checkbox" id="completed" ${done?'checked':''}> Study unit completed</label></aside></div><button class="button sandarbha-study-fab" id="studyOpen" aria-controls="studyPanel">Study</button>`;
+      app.innerHTML=`<div class="sandarbha-reader-shell" id="sandarbhaReaderShell">
+<aside class="sandarbha-nav-panel card">
+<button class="button secondary sandarbha-nav-toggle" id="sandarbhaNavToggle" type="button" aria-label="Collapse canonical-unit navigation">‹</button>
+<div class="eyebrow">${esc(course.title)} · Navigation</div>
+<h2>Anucchedas</h2>
+<label>Canonical unit <select id="unitSelect">${Array.from({length:source.unitCount},(_,i)=>`<option value="${i+1}" ${i+1===selected?'selected':''}>${esc(prefixes[work])}.${i+1}</option>`).join('')}</select></label>
+<div class="unit-list" id="sandarbhaUnitList">${Array.from({length:source.unitCount},(_,i)=>`<button type="button" data-unit="${i+1}" class="${i+1===selected?'active':''}">${i+1}</button>`).join('')}</div>
+</aside>
+<main class="sandarbha-source-column">
+<section class="card">
+<div class="eyebrow">${esc(course.title)} · English Source Reader</div>
+<div class="sandarbha-passage-nav"><button class="button secondary" id="prev" ${selected<=1?'disabled':''}>← Previous</button><button class="button secondary" id="next" ${selected>=source.unitCount?'disabled':''}>Next →</button></div>
+<h2>${esc(id)} · ${esc(r?.sourceLabel||`Anuccheda ${selected}`)}</h2>
+${verified?'<span class="source-state verified">English source segment verified</span>':'<p class="notice"><b>Canonical identity preserved.</b> This edition does not expose an independently verified heading boundary for this unit, so Bhakti Study does not invent a source segment.</p>'}
+${lens.length?`<div class="lens">${lens.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}
+</section>
+${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div><h2>Source text</h2><p class="muted">${esc(source.sourceFile)} · English study source · ${esc(id)}</p><div style="white-space:pre-wrap;line-height:1.65">${esc(r.content)}</div></section>`:''}
+<section class="card"><div class="eyebrow">Provenance</div><p><b>Author:</b> Śrī Jīva Gosvāmī</p><p><b>Study source:</b> ${esc(source.sourceFile)}</p><p><b>Canonical identity:</b> ${esc(id)}</p><p><b>Segmentation:</b> ${verified?'Source heading/boundary independently detected.':'Canonical placeholder only; no source boundary guessed.'}</p><p class="muted">Bhakti Study reflections and summaries are student/application synthesis and are not quotations from the source.</p></section>
+</main>
+<aside class="sandarbha-study-panel card" id="studyPanel"><button class="study-close" id="studyClose" aria-label="Close study panel">×</button><div class="eyebrow">Study Workspace</div><h2>Study</h2><h3>My Understanding</h3><p>${esc(u.studyMethod?.beforeReading?.[0]||'What is Jīva Gosvāmī establishing here?')}</p><textarea id="understanding" rows="6" placeholder="Write your understanding before consulting additional notes…">${esc(before)}</textarea><h3>Source Study</h3><ul>${(u.studyMethod?.sourceStudy||['Identify the principal claim, scriptural evidence, and conclusion.']).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h3>Revised Understanding</h3><p>${esc(u.studyMethod?.afterReading?.[0]||'State the siddhānta in your own words and cite the supporting source.')}</p><textarea id="reflection" rows="6" placeholder="After returning to the source…">${esc(after)}</textarea><h3>Notes</h3><textarea id="notes" rows="6" placeholder="Personal notes…">${esc(notes)}</textarea><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;flex-wrap:wrap"><button class="button" id="saveStudy" type="button">Save</button><span id="saveStatus" class="muted" role="status" aria-live="polite">${Object.keys(draft).length?'Unsaved draft':'Saved'}</span></div><label style="display:block;margin-top:1rem"><input type="checkbox" id="completed" ${done?'checked':''}> Study unit completed</label></aside>
+</div><button class="button sandarbha-study-fab" id="studyOpen" aria-controls="studyPanel">Study</button>`
       const panel=document.getElementById('studyPanel');document.getElementById('studyOpen')?.addEventListener('click',()=>panel?.classList.add('open'));document.getElementById('studyClose')?.addEventListener('click',()=>panel?.classList.remove('open'));
       const fields=['understanding','reflection','notes'];
       const saveStatus=document.getElementById('saveStatus');
@@ -60,6 +108,11 @@
       document.getElementById('completed')?.addEventListener('change',e=>storeSet('completion',`sat-sandarbhas.${id}`,e.target.checked?'1':'0'));
       const go=n=>{selected=n;const q=new URLSearchParams(location.search);q.set('n',n);history.replaceState(null,'','?'+q);render();scrollTo({top:0,behavior:'smooth'})};
       document.getElementById('prev')?.addEventListener('click',()=>go(selected-1));document.getElementById('next')?.addEventListener('click',()=>go(selected+1));document.getElementById('unitSelect')?.addEventListener('change',e=>go(+e.target.value));
+      document.querySelectorAll('#sandarbhaUnitList [data-unit]').forEach(b=>b.addEventListener('click',()=>go(+b.dataset.unit)));
+      const shell=document.getElementById('sandarbhaReaderShell'),navToggle=document.getElementById('sandarbhaNavToggle'),navKey='bhakti-study:reader-nav-collapsed';
+      let navCollapsed=false;try{navCollapsed=localStorage.getItem(navKey)==='1'}catch{}
+      const setNav=v=>{shell?.classList.toggle('nav-collapsed',v);if(navToggle){navToggle.textContent=v?'A ›':'‹ Anucchedas';navToggle.title=v?'Expand Anucchedas':'Collapse Anucchedas';navToggle.setAttribute('aria-label',v?'Expand Anucchedas':'Collapse Anucchedas');navToggle.setAttribute('aria-expanded',String(!v))}try{localStorage.setItem(navKey,v?'1':'0')}catch{}};
+      setNav(navCollapsed);navToggle?.addEventListener('click',()=>setNav(!shell?.classList.contains('nav-collapsed')));
     }
     render();
     const refBox=document.getElementById('references');if(refBox)refBox.innerHTML='<div class="notice"><b>Internal-first:</b> canonical BG/SB cross-reference linking and the full Study Inspector will attach to this same canonical Sandarbha identity; source text is not duplicated into those systems.</div>';
