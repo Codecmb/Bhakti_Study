@@ -43,7 +43,71 @@
       content.innerHTML=`<h2>Notes</h2><p>Notes remain independent of the book files and are attached to ${canonical?'the canonical passage':'this study unit'}.</p><textarea id="entry" class="field" placeholder="Study notes"></textarea><button id="save" class="button">Save Notes</button> ${returnSource}<p id="msg" class="small"></p>`;
       entry.value=StudentStore.get('notes',`${programId}.${scope}`,'');save.onclick=()=>{StudentStore.set('notes',`${programId}.${scope}`,entry.value);msg.textContent='Saved in this browser.'};
     }else if(mode==='questions'){
-      content.innerHTML=`<h2>Study Questions</h2><p>Questions are loaded only from verified, attributed question modules. No questions are invented when a provider/unit has not been mapped.</p><div class="notice">No verified question module is currently registered for <strong>${esc(scope)}</strong> in this program.</div>${returnSource}`;
+      let banks=[];
+      try{
+        banks=await DataRegistry.questionBanks(dataBase);
+      }catch(err){
+        banks=[];
+      }
+
+      if(!banks.length){
+        content.innerHTML=`<h2>Study Questions</h2><p>Questions are loaded only from verified, attributed question modules. No questions are invented when a provider/unit has not been mapped.</p><div class="notice">This study area is ready for question banks. No verified question bank is registered yet for <strong>${esc(scope)}</strong>.</div>${returnSource}`;
+      }else{
+        const requestedBank=q.get('bank');
+        const activeBank=(requestedBank&&banks.find(b=>b.id===requestedBank))||banks.find(b=>b.default)||banks[0];
+        const scopes=QuestionEngine.scopes(canonical,unit.id);
+        let loaded=[];
+
+        try{
+          loaded=await DataRegistry.questionShards(dataBase,scopes,activeBank.id);
+        }catch(err){
+          loaded=[];
+        }
+
+        const mapped=QuestionEngine.relevant(loaded,canonical,unit.id);
+        const clean=QuestionEngine.dedupe(mapped).items;
+
+        content.innerHTML=`<h2>Study Questions</h2>
+          ${canonical?`<p class="small"><strong>Active source:</strong> ${esc(canonical)} · question scopes: ${QuestionEngine.scopes(canonical,unit.id).map(esc).join(' → ')}</p>`:''}
+          <div class="notice"><strong>Source-first:</strong> answer from the assigned primary reading. Question providers remain separately attributed.</div>
+          <div style="margin:1rem 0">
+            <label class="small" for="questionBankSelect"><strong>Question Bank</strong></label>
+            <select id="questionBankSelect" class="field">
+              ${banks.map(b=>`<option value="${esc(b.id)}"${b.id===activeBank.id?' selected':''}>${esc(b.label||b.id)}</option>`).join('')}
+            </select>
+            ${activeBank.description?`<p class="small">${esc(activeBank.description)}</p>`:''}
+          </div>
+          <div id="questionList"></div>
+          ${returnSource}
+          <p id="msg" class="small"></p>`;
+
+        if(clean.length){
+          QuestionManagementUI.render(document.querySelector('#questionList'),{
+            program:programId,
+            scope,
+            questions:clean,
+            bank:activeBank
+          });
+
+          const save=document.querySelector('#saveQuestions');
+          if(save)save.onclick=()=>{
+            document.querySelectorAll('.qanswer').forEach(el=>
+              QuestionEngine.save(programId,scope,el.dataset.qid,el.value)
+            );
+            const msg=document.querySelector('#msg');
+            if(msg)msg.textContent='Answers saved in this browser.';
+          };
+        }else{
+          document.querySelector('#questionList').innerHTML=`<div class="notice">This question bank is registered, but no verified questions are mapped to <strong>${esc(scope)}</strong> yet.</div>`;
+        }
+
+        const selector=document.querySelector('#questionBankSelect');
+        if(selector)selector.onchange=()=>{
+          const next=new URL(location.href);
+          next.searchParams.set('bank',selector.value);
+          location.href=next.toString();
+        };
+      }
     }else if(mode==='assessment'){
       const rules=course['completion-rules']?.academyUnitCompletion;
       if(!rules?.enabled){content.innerHTML=`<h2>Assessment</h2><div class="notice">Academy completion requirements for this program have not been configured yet. Official framework information remains separate and is not converted into Academy requirements automatically.</div>${returnSource}`}

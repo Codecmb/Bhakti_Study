@@ -23,8 +23,11 @@
     if(!work)throw new Error('Missing SANDARBHA_WORK');
     await Promise.all([
       loadScript(ROOT+'shared/app.js').catch(()=>{}),
-      loadScript(ROOT+'shared/student-store.js').catch(()=>{})
+      loadScript(ROOT+'shared/student-store.js').catch(()=>{}),
+      loadScript(ROOT+'shared/data-registry.js'),
+      loadScript(ROOT+'shared/question-engine.js')
     ]);
+    await loadScript(ROOT+'shared/question-management-ui.js');
     if(!document.querySelector('.sidebar')){
       const layout=document.createElement('div');layout.className='layout';
       const side=document.createElement('aside');side.className='sidebar';
@@ -91,8 +94,82 @@ ${lens.length?`<div class="lens">${lens.map(x=>`<span>${esc(x)}</span>`).join(''
 ${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div><h2>Source text</h2><p class="muted">${esc(source.sourceFile)} · English study source · ${esc(id)}</p><div style="white-space:pre-wrap;line-height:1.65">${esc(r.content)}</div></section>`:''}
 <section class="card"><div class="eyebrow">Provenance</div><p><b>Author:</b> Śrī Jīva Gosvāmī</p><p><b>Study source:</b> ${esc(source.sourceFile)}</p><p><b>Canonical identity:</b> ${esc(id)}</p><p><b>Segmentation:</b> ${verified?'Source heading/boundary independently detected.':'Canonical placeholder only; no source boundary guessed.'}</p><p class="muted">Bhakti Study reflections and summaries are student/application synthesis and are not quotations from the source.</p></section>
 </main>
-<aside class="sandarbha-study-panel card" id="studyPanel"><button class="study-close" id="studyClose" aria-label="Close study panel">×</button><div class="eyebrow">Study Workspace</div><h2>Study</h2><h3>My Understanding</h3><p>${esc(u.studyMethod?.beforeReading?.[0]||'What is Jīva Gosvāmī establishing here?')}</p><textarea id="understanding" rows="6" placeholder="Write your understanding before consulting additional notes…">${esc(before)}</textarea><h3>Source Study</h3><ul>${(u.studyMethod?.sourceStudy||['Identify the principal claim, scriptural evidence, and conclusion.']).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h3>Revised Understanding</h3><p>${esc(u.studyMethod?.afterReading?.[0]||'State the siddhānta in your own words and cite the supporting source.')}</p><textarea id="reflection" rows="6" placeholder="After returning to the source…">${esc(after)}</textarea><h3>Notes</h3><textarea id="notes" rows="6" placeholder="Personal notes…">${esc(notes)}</textarea><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;flex-wrap:wrap"><button class="button" id="saveStudy" type="button">Save</button><span id="saveStatus" class="muted" role="status" aria-live="polite">${Object.keys(draft).length?'Unsaved draft':'Saved'}</span></div><label style="display:block;margin-top:1rem"><input type="checkbox" id="completed" ${done?'checked':''}> Study unit completed</label></aside>
+<aside class="sandarbha-study-panel card" id="studyPanel"><button class="study-close" id="studyClose" aria-label="Close study panel">×</button><div class="eyebrow">Study Workspace</div><h2>Study</h2><h3>My Understanding</h3><p>${esc(u.studyMethod?.beforeReading?.[0]||'What is Jīva Gosvāmī establishing here?')}</p><textarea id="understanding" rows="6" placeholder="Write your understanding before consulting additional notes…">${esc(before)}</textarea><h3>Source Study</h3><ul>${(u.studyMethod?.sourceStudy||['Identify the principal claim, scriptural evidence, and conclusion.']).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h3>Revised Understanding</h3><p>${esc(u.studyMethod?.afterReading?.[0]||'State the siddhānta in your own words and cite the supporting source.')}</p><textarea id="reflection" rows="6" placeholder="After returning to the source…">${esc(after)}</textarea><h3>Notes</h3><textarea id="notes" rows="6" placeholder="Personal notes…">${esc(notes)}</textarea>
+<h3>Study Questions</h3>
+<div id="sandarbhaQuestions"><p class="muted">Loading question bank…</p></div><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;flex-wrap:wrap"><button class="button" id="saveStudy" type="button">Save</button><span id="saveStatus" class="muted" role="status" aria-live="polite">${Object.keys(draft).length?'Unsaved draft':'Saved'}</span></div><label style="display:block;margin-top:1rem"><input type="checkbox" id="completed" ${done?'checked':''}> Study unit completed</label></aside>
 </div><button class="button sandarbha-study-fab" id="studyOpen" aria-controls="studyPanel">Study</button>`
+      const questionHost=document.getElementById('sandarbhaQuestions');
+      if(questionHost){
+        (async()=>{
+          const dataBase=`../${work}/`;
+          let banks=[];
+          try{
+            banks=await DataRegistry.questionBanks(dataBase);
+          }catch(err){
+            banks=[];
+          }
+
+          if(!banks.length){
+            questionHost.innerHTML='<div class="notice">This Sandarbha is ready for question banks. No verified question bank is registered yet.</div>';
+            return;
+          }
+
+          const requestedBank=new URLSearchParams(location.search).get('bank');
+          const activeBank=(requestedBank&&banks.find(b=>b.id===requestedBank))||banks.find(b=>b.default)||banks[0];
+          const scopes=QuestionEngine.scopes(id,u.id);
+          let loaded=[];
+
+          try{
+            loaded=await DataRegistry.questionShards(dataBase,scopes,activeBank.id);
+          }catch(err){
+            loaded=[];
+          }
+
+          const clean=QuestionEngine.dedupe(
+            QuestionEngine.relevant(loaded,id,u.id)
+          ).items;
+
+          questionHost.innerHTML=`<div style="margin:0 0 1rem">
+            <label class="small" for="sandarbhaQuestionBank"><strong>Question Bank</strong></label>
+            <select id="sandarbhaQuestionBank" class="field">
+              ${banks.map(b=>`<option value="${esc(b.id)}"${b.id===activeBank.id?' selected':''}>${esc(b.label||b.id)}</option>`).join('')}
+            </select>
+            ${activeBank.description?`<p class="small">${esc(activeBank.description)}</p>`:''}
+          </div><div id="sandarbhaQuestionList"></div><p id="sandarbhaQuestionMsg" class="small"></p>`;
+
+          const list=document.getElementById('sandarbhaQuestionList');
+
+          if(clean.length){
+            QuestionManagementUI.render(list,{
+              program:'sat-sandarbhas',
+              scope:id,
+              questions:clean,
+              bank:activeBank
+            });
+
+            const save=list.querySelector('#saveQuestions');
+            if(save)save.onclick=()=>{
+              list.querySelectorAll('.qanswer').forEach(el=>
+                QuestionEngine.save('sat-sandarbhas',id,el.dataset.qid,el.value)
+              );
+              const msg=document.getElementById('sandarbhaQuestionMsg');
+              if(msg)msg.textContent='Answers saved in this browser.';
+            };
+          }else{
+            list.innerHTML=`<div class="notice">This question bank is registered, but no verified questions are mapped to <strong>${esc(id)}</strong> yet.</div>`;
+          }
+
+          const selector=document.getElementById('sandarbhaQuestionBank');
+          if(selector)selector.onchange=()=>{
+            const next=new URL(location.href);
+            next.searchParams.set('bank',selector.value);
+            location.href=next.toString();
+          };
+        })().catch(err=>{
+          questionHost.innerHTML=`<div class="notice">Question module unavailable: ${esc(err.message)}</div>`;
+        });
+      }
+
       const panel=document.getElementById('studyPanel');document.getElementById('studyOpen')?.addEventListener('click',()=>panel?.classList.add('open'));document.getElementById('studyClose')?.addEventListener('click',()=>panel?.classList.remove('open'));
       const fields=['understanding','reflection','notes'];
       const saveStatus=document.getElementById('saveStatus');

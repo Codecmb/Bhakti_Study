@@ -85,5 +85,60 @@
     return {answer,revision,...state};
   }
 
-  window.QuestionEngine={normalize:norm,normalizeRecord,similarity,dedupe,scopes,relevant,load,save,work,loadState,markUnderstood,beginReview,loadRevision,saveRevision};
+  // Student question management. Canonical question banks remain immutable;
+  // personal delete/duplicate decisions are stored as reversible question state.
+  function flagDuplicate(program,qid,duplicateOf=''){
+    const state=loadState(program,qid);
+    return saveState(program,qid,{...state,duplicate:true,duplicate_of:duplicateOf||'',duplicate_flagged_at:new Date().toISOString()});
+  }
+  function clearDuplicate(program,qid){
+    const state=loadState(program,qid);
+    const next={...state,duplicate:false,duplicate_of:''};
+    delete next.duplicate_flagged_at;
+    return saveState(program,qid,next);
+  }
+  function deleteQuestion(program,qid,question=null){
+    const state=loadState(program,qid);
+    return saveState(program,qid,{
+      ...state,
+      deleted:true,
+      deleted_at:new Date().toISOString(),
+      deleted_question:question?{
+        id:qid,
+        question:question.question||'',
+        canonical_ref:question.canonical_ref||'',
+        provider:question.provider||''
+      }:(state.deleted_question||null)
+    });
+  }
+  function restoreQuestion(program,qid){
+    const state=loadState(program,qid);
+    const next={...state,deleted:false};
+    delete next.deleted_at;
+    return saveState(program,qid,next);
+  }
+  function deletedQuestions(program){
+    if(!window.StudentStore)return [];
+    const prefix=program+'.';
+    return StudentStore.entries('question-state').flatMap(r=>{
+      if(!r.id.startsWith(prefix))return [];
+      try{
+        const state=JSON.parse(r.value);
+        if(!state?.deleted)return [];
+        const qid=r.id.slice(prefix.length);
+        return [{qid,state,question:state.deleted_question||null}];
+      }catch{return []}
+    });
+  }
+  function isDeleted(program,qid){return !!loadState(program,qid).deleted}
+  function isDuplicate(program,qid){return !!loadState(program,qid).duplicate}
+  function active(items,program){
+    return items.map(normalizeRecord).filter(q=>!isDeleted(program,q.id));
+  }
+
+  window.QuestionEngine={
+    normalize:norm,normalizeRecord,similarity,dedupe,scopes,relevant,
+    load,save,work,loadState,markUnderstood,beginReview,loadRevision,saveRevision,
+    flagDuplicate,clearDuplicate,deleteQuestion,restoreQuestion,deletedQuestions,isDeleted,isDuplicate,active
+  };
 })();
