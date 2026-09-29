@@ -93,5 +93,11 @@
         "status": "registered-with-extraction-gaps"
       }
     }
+  },
+  "languagePolicy": {
+    "v1": "English-first",
+    "sourceLanguage": "Preserve source language independently from UI language",
+    "englishSourceRegistry": "english-source-registry.json",
+    "englishValidation": "english-source-validation.json"
   }
 }

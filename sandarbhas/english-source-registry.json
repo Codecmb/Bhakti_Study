@@ -1,0 +1,92 @@
+{
+  "schema": "bhakti-study.sandarbha-english-source-registry.v1",
+  "language": "en",
+  "policy": {
+    "englishFirst": true,
+    "sourceTextIsEvidenceNotCanonicalIdentity": true,
+    "preserveEditionNumbering": true,
+    "doNotGuessCorruptCharacters": true,
+    "doNotSilentlyReconcileEditions": true,
+    "publicDistribution": "Source files are user-provided study sources. Registry metadata may be committed; source-file redistribution requires separate rights review."
+  },
+  "works": [
+    {
+      "workId": "tattva",
+      "sourceFile": "Sandarbha - Tattva BBT.doc",
+      "format": "doc",
+      "englishSourcePresent": true,
+      "expectedCanonicalUnits": 63,
+      "extractedCharacters": 617840,
+      "replacementCharacters": 203,
+      "observedHeadingNumbers": 63,
+      "observedHeadingMin": 1,
+      "observedHeadingMax": 63,
+      "sha256ExtractedText": "8a40a25fe55f960f6b85a2ec6bdf840579dc5ab4edff28b72f814313860c8b1b"
+    },
+    {
+      "workId": "bhagavat",
+      "sourceFile": "Bhagavat Sandarbha.pdf",
+      "format": "pdf",
+      "englishSourcePresent": true,
+      "expectedCanonicalUnits": 106,
+      "extractedCharacters": 640975,
+      "replacementCharacters": 0,
+      "observedHeadingNumbers": 106,
+      "observedHeadingMin": 1,
+      "observedHeadingMax": 106,
+      "sha256ExtractedText": "e459fa524b83a01a2c45bc7af3fcb0a43608cbb38bab713bec7af221b8418048"
+    },
+    {
+      "workId": "paramatma",
+      "sourceFile": "Paramatma Total with Sanskrit.doc",
+      "format": "doc",
+      "englishSourcePresent": true,
+      "expectedCanonicalUnits": 109,
+      "extractedCharacters": 1363810,
+      "replacementCharacters": 11,
+      "observedHeadingNumbers": 156,
+      "observedHeadingMin": 1,
+      "observedHeadingMax": 156,
+      "sha256ExtractedText": "eb0a575c510082a5fe097c14df84c9ad9640b5f29b33f71b3f109e796025ca4c"
+    },
+    {
+      "workId": "krsna",
+      "sourceFile": "Krsna Sandarbha 1.pdf",
+      "format": "pdf",
+      "englishSourcePresent": true,
+      "expectedCanonicalUnits": 190,
+      "extractedCharacters": 813845,
+      "replacementCharacters": 0,
+      "observedHeadingNumbers": 105,
+      "observedHeadingMin": 1,
+      "observedHeadingMax": 105,
+      "sha256ExtractedText": "30b63dbbd8aa8f3f8e81bb6133b20cc1da86b86dacd8e6c519fd91fa4873522c"
+    },
+    {
+      "workId": "bhakti",
+      "sourceFile": "Bhakti Sandarbha.pdf",
+      "format": "pdf",
+      "englishSourcePresent": true,
+      "expectedCanonicalUnits": 340,
+      "extractedCharacters": 1041018,
+      "replacementCharacters": 0,
+      "observedHeadingNumbers": 332,
+      "observedHeadingMin": 1,
+      "observedHeadingMax": 340,
+      "sha256ExtractedText": "2ad6f847bc896021f1199eb4cd5e555072a8e34579fe35b52a598cc3bce4bccb"
+    },
+    {
+      "workId": "priti",
+      "sourceFile": "Priti Sandarbha 1.pdf",
+      "format": "pdf",
+      "englishSourcePresent": true,
+      "expectedCanonicalUnits": 429,
+      "extractedCharacters": 969670,
+      "replacementCharacters": 0,
+      "observedHeadingNumbers": 292,
+      "observedHeadingMin": 1,
+      "observedHeadingMax": 429,
+      "sha256ExtractedText": "e820f21f85189420f55cf7b8904b278239313486d51f04b705541b7ddf98db00"
+    }
+  ]
+}
