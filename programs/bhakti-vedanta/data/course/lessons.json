@@ -1,22 +1,10 @@
 {
-  "schema": "bhakti-study-lesson-outline-v1",
+  "schema": "bhakti-study.lesson-outline.v1",
   "programId": "bhakti-vedanta",
-  "policy": {
-    "scripture": "canonical-library-reference-only",
-    "studentFlow": [
-      "overview",
-      "read",
-      "understand",
-      "analyze",
-      "apply",
-      "remember",
-      "assess",
-      "explore"
-    ]
-  },
+  "policy": "Lesson metadata points to canonical scripture; scripture text is never duplicated here. Canto 10 follows the documented four-part Bhaktivedanta Vidyapitha/Gauranga Darshan Das division and uses chapter-level lessons inside those divisions.",
   "lessons": [
     {
-      "id": "BVED.U1.L1",
+      "id": "BVED.S001",
       "unitId": "BVED.U1",
       "order": 1,
       "book": "sb7",
@@ -26,10 +14,12 @@
       "title": "Chapter 1: The Supreme Lord Is Equal to Everyone",
       "firstRef": "SB.7.1.1",
       "lastRef": "SB.7.1.48",
-      "recordCount": 45
+      "recordCount": 45,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L2",
+      "id": "BVED.S002",
       "unitId": "BVED.U1",
       "order": 2,
       "book": "sb7",
@@ -39,10 +29,12 @@
       "title": "Chapter 2: Hiraṇyakaśipu, King of the Demons · Part 1",
       "firstRef": "SB.7.2.1",
       "lastRef": "SB.7.2.34",
-      "recordCount": 28
+      "recordCount": 28,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L3",
+      "id": "BVED.S003",
       "unitId": "BVED.U1",
       "order": 3,
       "book": "sb7",
@@ -52,10 +44,12 @@
       "title": "Chapter 2: Hiraṇyakaśipu, King of the Demons · Part 2",
       "firstRef": "SB.7.2.35",
       "lastRef": "SB.7.2.61",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L4",
+      "id": "BVED.S004",
       "unitId": "BVED.U1",
       "order": 4,
       "book": "sb7",
@@ -65,10 +59,12 @@
       "title": "Chapter 3: Hiraṇyakaśipu's Plan to Become Immortal",
       "firstRef": "SB.7.3.1",
       "lastRef": "SB.7.3.37-38",
-      "recordCount": 34
+      "recordCount": 34,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L5",
+      "id": "BVED.S005",
       "unitId": "BVED.U1",
       "order": 5,
       "book": "sb7",
@@ -78,10 +74,12 @@
       "title": "Chapter 4: Hiraṇyakaśipu Terrorizes the Universe",
       "firstRef": "SB.7.4.1",
       "lastRef": "SB.7.4.46",
-      "recordCount": 38
+      "recordCount": 38,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L6",
+      "id": "BVED.S006",
       "unitId": "BVED.U1",
       "order": 6,
       "book": "sb7",
@@ -91,10 +89,12 @@
       "title": "Chapter 5: Prahlāda Mahārāja, the Saintly Son of Hiraṇyakaśipu · Part 1",
       "firstRef": "SB.7.5.1",
       "lastRef": "SB.7.5.28",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L7",
+      "id": "BVED.S007",
       "unitId": "BVED.U1",
       "order": 7,
       "book": "sb7",
@@ -104,10 +104,12 @@
       "title": "Chapter 5: Prahlāda Mahārāja, the Saintly Son of Hiraṇyakaśipu · Part 2",
       "firstRef": "SB.7.5.29",
       "lastRef": "SB.7.5.56-57",
-      "recordCount": 26
+      "recordCount": 26,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L8",
+      "id": "BVED.S008",
       "unitId": "BVED.U1",
       "order": 8,
       "book": "sb7",
@@ -117,10 +119,12 @@
       "title": "Chapter 6: Prahlāda Instructs His Demoniac Schoolmates",
       "firstRef": "SB.7.6.1",
       "lastRef": "SB.7.6.29-30",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L9",
+      "id": "BVED.S009",
       "unitId": "BVED.U1",
       "order": 9,
       "book": "sb7",
@@ -130,10 +134,12 @@
       "title": "Chapter 7: What Prahlāda Learned in the Womb · Part 1",
       "firstRef": "SB.7.7.1",
       "lastRef": "SB.7.7.28",
-      "recordCount": 26
+      "recordCount": 26,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L10",
+      "id": "BVED.S010",
       "unitId": "BVED.U1",
       "order": 10,
       "book": "sb7",
@@ -143,10 +149,12 @@
       "title": "Chapter 7: What Prahlāda Learned in the Womb · Part 2",
       "firstRef": "SB.7.7.29",
       "lastRef": "SB.7.7.55",
-      "recordCount": 25
+      "recordCount": 25,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L11",
+      "id": "BVED.S011",
       "unitId": "BVED.U1",
       "order": 11,
       "book": "sb7",
@@ -156,10 +164,12 @@
       "title": "Chapter 8: Lord Nṛsiṁhadeva Slays the King of the Demons",
       "firstRef": "SB.7.8.1",
       "lastRef": "SB.7.8.56",
-      "recordCount": 50
+      "recordCount": 50,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L12",
+      "id": "BVED.S012",
       "unitId": "BVED.U1",
       "order": 12,
       "book": "sb7",
@@ -169,10 +179,12 @@
       "title": "Chapter 9: Prahlāda Pacifies Lord Nṛsiṁhadeva with Prayers · Part 1",
       "firstRef": "SB.7.9.1",
       "lastRef": "SB.7.9.28",
-      "recordCount": 28
+      "recordCount": 28,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L13",
+      "id": "BVED.S013",
       "unitId": "BVED.U1",
       "order": 13,
       "book": "sb7",
@@ -182,10 +194,12 @@
       "title": "Chapter 9: Prahlāda Pacifies Lord Nṛsiṁhadeva with Prayers · Part 2",
       "firstRef": "SB.7.9.29",
       "lastRef": "SB.7.9.55",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L14",
+      "id": "BVED.S014",
       "unitId": "BVED.U1",
       "order": 14,
       "book": "sb7",
@@ -195,10 +209,12 @@
       "title": "Chapter 10: Prahlāda, the Best Among Exalted Devotees · Part 1",
       "firstRef": "SB.7.10.1",
       "lastRef": "SB.7.10.35",
-      "recordCount": 33
+      "recordCount": 33,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U1.L15",
+      "id": "BVED.S015",
       "unitId": "BVED.U1",
       "order": 15,
       "book": "sb7",
@@ -208,12 +224,14 @@
       "title": "Chapter 10: Prahlāda, the Best Among Exalted Devotees · Part 2",
       "firstRef": "SB.7.10.36",
       "lastRef": "SB.7.10.70",
-      "recordCount": 32
+      "recordCount": 32,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U2.L1",
-      "unitId": "BVED.U2",
-      "order": 1,
+      "id": "BVED.S016",
+      "unitId": "BVED.U1",
+      "order": 16,
       "book": "sb7",
       "chapter": 11,
       "part": 1,
@@ -221,12 +239,14 @@
       "title": "Chapter 11: The Perfect Society: Four Social Classes",
       "firstRef": "SB.7.11.1",
       "lastRef": "SB.7.11.35",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U2.L2",
-      "unitId": "BVED.U2",
-      "order": 2,
+      "id": "BVED.S017",
+      "unitId": "BVED.U1",
+      "order": 17,
       "book": "sb7",
       "chapter": 12,
       "part": 1,
@@ -234,12 +254,14 @@
       "title": "Chapter 12: The Perfect Society: Four Spiritual Classes",
       "firstRef": "SB.7.12.1",
       "lastRef": "SB.7.12.31",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U2.L3",
-      "unitId": "BVED.U2",
-      "order": 3,
+      "id": "BVED.S018",
+      "unitId": "BVED.U1",
+      "order": 18,
       "book": "sb7",
       "chapter": 13,
       "part": 1,
@@ -247,12 +269,14 @@
       "title": "Chapter 13: The Behavior of a Perfect Person · Part 1",
       "firstRef": "SB.7.13.1",
       "lastRef": "SB.7.13.24",
-      "recordCount": 22
+      "recordCount": 22,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U2.L4",
-      "unitId": "BVED.U2",
-      "order": 4,
+      "id": "BVED.S019",
+      "unitId": "BVED.U1",
+      "order": 19,
       "book": "sb7",
       "chapter": 13,
       "part": 2,
@@ -260,12 +284,14 @@
       "title": "Chapter 13: The Behavior of a Perfect Person · Part 2",
       "firstRef": "SB.7.13.25",
       "lastRef": "SB.7.13.46",
-      "recordCount": 22
+      "recordCount": 22,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U2.L5",
-      "unitId": "BVED.U2",
-      "order": 5,
+      "id": "BVED.S020",
+      "unitId": "BVED.U1",
+      "order": 20,
       "book": "sb7",
       "chapter": 14,
       "part": 1,
@@ -273,12 +299,14 @@
       "title": "Chapter 14: Ideal Family Life",
       "firstRef": "SB.7.14.1",
       "lastRef": "SB.7.14.42",
-      "recordCount": 34
+      "recordCount": 34,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U2.L6",
-      "unitId": "BVED.U2",
-      "order": 6,
+      "id": "BVED.S021",
+      "unitId": "BVED.U1",
+      "order": 21,
       "book": "sb7",
       "chapter": 15,
       "part": 1,
@@ -286,12 +314,14 @@
       "title": "Chapter 15: Instructions for Civilized Human Beings · Part 1",
       "firstRef": "SB.7.15.1",
       "lastRef": "SB.7.15.40",
-      "recordCount": 38
+      "recordCount": 38,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U2.L7",
-      "unitId": "BVED.U2",
-      "order": 7,
+      "id": "BVED.S022",
+      "unitId": "BVED.U1",
+      "order": 22,
       "book": "sb7",
       "chapter": 15,
       "part": 2,
@@ -299,12 +329,14 @@
       "title": "Chapter 15: Instructions for Civilized Human Beings · Part 2",
       "firstRef": "SB.7.15.41",
       "lastRef": "SB.7.15.80",
-      "recordCount": 37
+      "recordCount": 37,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L1",
-      "unitId": "BVED.U3",
-      "order": 1,
+      "id": "BVED.S023",
+      "unitId": "BVED.U2",
+      "order": 23,
       "book": "sb8",
       "chapter": 1,
       "part": 1,
@@ -312,12 +344,14 @@
       "title": "Chapter 1: The Manus, Administrators of the Universe",
       "firstRef": "SB.8.1.1",
       "lastRef": "SB.8.1.33",
-      "recordCount": 33
+      "recordCount": 33,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L2",
-      "unitId": "BVED.U3",
-      "order": 2,
+      "id": "BVED.S024",
+      "unitId": "BVED.U2",
+      "order": 24,
       "book": "sb8",
       "chapter": 2,
       "part": 1,
@@ -325,12 +359,14 @@
       "title": "Chapter 2: The Elephant Gajendra's Crisis",
       "firstRef": "SB.8.2.1",
       "lastRef": "SB.8.2.33",
-      "recordCount": 22
+      "recordCount": 22,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L3",
-      "unitId": "BVED.U3",
-      "order": 3,
+      "id": "BVED.S025",
+      "unitId": "BVED.U2",
+      "order": 25,
       "book": "sb8",
       "chapter": 3,
       "part": 1,
@@ -338,12 +374,14 @@
       "title": "Chapter 3: Gajendra's Prayers of Surrender",
       "firstRef": "SB.8.3.1",
       "lastRef": "SB.8.3.33",
-      "recordCount": 29
+      "recordCount": 29,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L4",
-      "unitId": "BVED.U3",
-      "order": 4,
+      "id": "BVED.S026",
+      "unitId": "BVED.U2",
+      "order": 26,
       "book": "sb8",
       "chapter": 4,
       "part": 1,
@@ -351,12 +389,14 @@
       "title": "Chapter 4: Gajendra Returns to the Spiritual World",
       "firstRef": "SB.8.4.1",
       "lastRef": "SB.8.4.26",
-      "recordCount": 17
+      "recordCount": 17,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L5",
-      "unitId": "BVED.U3",
-      "order": 5,
+      "id": "BVED.S027",
+      "unitId": "BVED.U2",
+      "order": 27,
       "book": "sb8",
       "chapter": 5,
       "part": 1,
@@ -364,12 +404,14 @@
       "title": "Chapter 5: The Demigods Appeal to the Lord for Protection · Part 1",
       "firstRef": "SB.8.5.1",
       "lastRef": "SB.8.5.27",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L6",
-      "unitId": "BVED.U3",
-      "order": 6,
+      "id": "BVED.S028",
+      "unitId": "BVED.U2",
+      "order": 28,
       "book": "sb8",
       "chapter": 5,
       "part": 2,
@@ -377,12 +419,14 @@
       "title": "Chapter 5: The Demigods Appeal to the Lord for Protection · Part 2",
       "firstRef": "SB.8.5.28",
       "lastRef": "SB.8.5.50",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L7",
-      "unitId": "BVED.U3",
-      "order": 7,
+      "id": "BVED.S029",
+      "unitId": "BVED.U2",
+      "order": 29,
       "book": "sb8",
       "chapter": 6,
       "part": 1,
@@ -390,12 +434,14 @@
       "title": "Chapter 6: The Demigods and Demons Declare a Truce",
       "firstRef": "SB.8.6.1",
       "lastRef": "SB.8.6.39",
-      "recordCount": 34
+      "recordCount": 34,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L8",
-      "unitId": "BVED.U3",
-      "order": 8,
+      "id": "BVED.S030",
+      "unitId": "BVED.U2",
+      "order": 30,
       "book": "sb8",
       "chapter": 7,
       "part": 1,
@@ -403,12 +449,14 @@
       "title": "Chapter 7: Lord Śiva Saves the Universe by Drinking Poison · Part 1",
       "firstRef": "SB.8.7.1",
       "lastRef": "SB.8.7.23",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L9",
-      "unitId": "BVED.U3",
-      "order": 9,
+      "id": "BVED.S031",
+      "unitId": "BVED.U2",
+      "order": 31,
       "book": "sb8",
       "chapter": 7,
       "part": 2,
@@ -416,12 +464,14 @@
       "title": "Chapter 7: Lord Śiva Saves the Universe by Drinking Poison · Part 2",
       "firstRef": "SB.8.7.24",
       "lastRef": "SB.8.7.46",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L10",
-      "unitId": "BVED.U3",
-      "order": 10,
+      "id": "BVED.S032",
+      "unitId": "BVED.U2",
+      "order": 32,
       "book": "sb8",
       "chapter": 8,
       "part": 1,
@@ -429,12 +479,14 @@
       "title": "Chapter 8: The Churning of the Milk Ocean",
       "firstRef": "SB.8.8.1",
       "lastRef": "SB.8.8.41-46",
-      "recordCount": 40
+      "recordCount": 40,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L11",
-      "unitId": "BVED.U3",
-      "order": 11,
+      "id": "BVED.S033",
+      "unitId": "BVED.U2",
+      "order": 33,
       "book": "sb8",
       "chapter": 9,
       "part": 1,
@@ -442,12 +494,14 @@
       "title": "Chapter 9: The Lord Incarnates as Mohinī-Mūrti",
       "firstRef": "SB.8.9.1",
       "lastRef": "SB.8.9.29",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U3.L12",
-      "unitId": "BVED.U3",
-      "order": 12,
+      "id": "BVED.S034",
+      "unitId": "BVED.U2",
+      "order": 34,
       "book": "sb8",
       "chapter": 10,
       "part": 1,
@@ -455,12 +509,14 @@
       "title": "Chapter 10: The Battle Between the Demigods and the Demons",
       "firstRef": "SB.8.10.1",
       "lastRef": "SB.8.10.57",
-      "recordCount": 43
+      "recordCount": 43,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L1",
-      "unitId": "BVED.U4",
-      "order": 1,
+      "id": "BVED.S035",
+      "unitId": "BVED.U2",
+      "order": 35,
       "book": "sb8",
       "chapter": 11,
       "part": 1,
@@ -468,12 +524,14 @@
       "title": "Chapter 11: King Indra Annihilates the Demons · Part 1",
       "firstRef": "SB.8.11.1",
       "lastRef": "SB.8.11.24",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L2",
-      "unitId": "BVED.U4",
-      "order": 2,
+      "id": "BVED.S036",
+      "unitId": "BVED.U2",
+      "order": 36,
       "book": "sb8",
       "chapter": 11,
       "part": 2,
@@ -481,12 +539,14 @@
       "title": "Chapter 11: King Indra Annihilates the Demons · Part 2",
       "firstRef": "SB.8.11.25",
       "lastRef": "SB.8.11.48",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L3",
-      "unitId": "BVED.U4",
-      "order": 3,
+      "id": "BVED.S037",
+      "unitId": "BVED.U2",
+      "order": 37,
       "book": "sb8",
       "chapter": 12,
       "part": 1,
@@ -494,12 +554,14 @@
       "title": "Chapter 12: The Mohinī-mūrti Incarnation Bewilders Lord Śiva",
       "firstRef": "SB.8.12.1-2",
       "lastRef": "SB.8.12.47",
-      "recordCount": 45
+      "recordCount": 45,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L4",
-      "unitId": "BVED.U4",
-      "order": 4,
+      "id": "BVED.S038",
+      "unitId": "BVED.U2",
+      "order": 38,
       "book": "sb8",
       "chapter": 13,
       "part": 1,
@@ -507,12 +569,14 @@
       "title": "Chapter 13: Description of Future Manus",
       "firstRef": "SB.8.13.1",
       "lastRef": "SB.8.13.36",
-      "recordCount": 34
+      "recordCount": 34,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L5",
-      "unitId": "BVED.U4",
-      "order": 5,
+      "id": "BVED.S039",
+      "unitId": "BVED.U2",
+      "order": 39,
       "book": "sb8",
       "chapter": 14,
       "part": 1,
@@ -520,12 +584,14 @@
       "title": "Chapter 14: The System of Universal Management",
       "firstRef": "SB.8.14.1",
       "lastRef": "SB.8.14.11",
-      "recordCount": 11
+      "recordCount": 11,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L6",
-      "unitId": "BVED.U4",
-      "order": 6,
+      "id": "BVED.S040",
+      "unitId": "BVED.U2",
+      "order": 40,
       "book": "sb8",
       "chapter": 15,
       "part": 1,
@@ -533,12 +599,14 @@
       "title": "Chapter 15: Bali Mahārāja Conquers the Heavenly Planets",
       "firstRef": "SB.8.15.1-2",
       "lastRef": "SB.8.15.36",
-      "recordCount": 33
+      "recordCount": 33,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L7",
-      "unitId": "BVED.U4",
-      "order": 7,
+      "id": "BVED.S041",
+      "unitId": "BVED.U2",
+      "order": 41,
       "book": "sb8",
       "chapter": 16,
       "part": 1,
@@ -546,12 +614,14 @@
       "title": "Chapter 16: Executing the Payo-vrata Process of Worship · Part 1",
       "firstRef": "SB.8.16.1",
       "lastRef": "SB.8.16.30",
-      "recordCount": 30
+      "recordCount": 30,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L8",
-      "unitId": "BVED.U4",
-      "order": 8,
+      "id": "BVED.S042",
+      "unitId": "BVED.U2",
+      "order": 42,
       "book": "sb8",
       "chapter": 16,
       "part": 2,
@@ -559,12 +629,14 @@
       "title": "Chapter 16: Executing the Payo-vrata Process of Worship · Part 2",
       "firstRef": "SB.8.16.31",
       "lastRef": "SB.8.16.62",
-      "recordCount": 30
+      "recordCount": 30,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L9",
-      "unitId": "BVED.U4",
-      "order": 9,
+      "id": "BVED.S043",
+      "unitId": "BVED.U2",
+      "order": 43,
       "book": "sb8",
       "chapter": 17,
       "part": 1,
@@ -572,12 +644,14 @@
       "title": "Chapter 17: The Supreme Lord Agrees to Become Aditi's Son",
       "firstRef": "SB.8.17.1",
       "lastRef": "SB.8.17.28",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L10",
-      "unitId": "BVED.U4",
-      "order": 10,
+      "id": "BVED.S044",
+      "unitId": "BVED.U2",
+      "order": 44,
       "book": "sb8",
       "chapter": 18,
       "part": 1,
@@ -585,12 +659,14 @@
       "title": "Chapter 18: Lord Vāmanadeva, the Dwarf Incarnation",
       "firstRef": "SB.8.18.1",
       "lastRef": "SB.8.18.32",
-      "recordCount": 30
+      "recordCount": 30,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L11",
-      "unitId": "BVED.U4",
-      "order": 11,
+      "id": "BVED.S045",
+      "unitId": "BVED.U2",
+      "order": 45,
       "book": "sb8",
       "chapter": 19,
       "part": 1,
@@ -598,12 +674,14 @@
       "title": "Chapter 19: Lord Vāmanadeva Begs Charity from Bali Mahārāja",
       "firstRef": "SB.8.19.1",
       "lastRef": "SB.8.19.43",
-      "recordCount": 43
+      "recordCount": 43,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U4.L12",
-      "unitId": "BVED.U4",
-      "order": 12,
+      "id": "BVED.S046",
+      "unitId": "BVED.U2",
+      "order": 46,
       "book": "sb8",
       "chapter": 20,
       "part": 1,
@@ -611,12 +689,14 @@
       "title": "Chapter 20: Bali Mahārāja Surrenders the Universe",
       "firstRef": "SB.8.20.1",
       "lastRef": "SB.8.20.34",
-      "recordCount": 29
+      "recordCount": 29,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U5.L1",
-      "unitId": "BVED.U5",
-      "order": 1,
+      "id": "BVED.S047",
+      "unitId": "BVED.U2",
+      "order": 47,
       "book": "sb8",
       "chapter": 21,
       "part": 1,
@@ -624,12 +704,14 @@
       "title": "Chapter 21: Bali Mahārāja Arrested by the Lord",
       "firstRef": "SB.8.21.1",
       "lastRef": "SB.8.21.34",
-      "recordCount": 31
+      "recordCount": 31,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U5.L2",
-      "unitId": "BVED.U5",
-      "order": 2,
+      "id": "BVED.S048",
+      "unitId": "BVED.U2",
+      "order": 48,
       "book": "sb8",
       "chapter": 22,
       "part": 1,
@@ -637,12 +719,14 @@
       "title": "Chapter 22: Bali Mahārāja Surrenders His Life · Part 1",
       "firstRef": "SB.8.22.1",
       "lastRef": "SB.8.22.18",
-      "recordCount": 17
+      "recordCount": 17,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U5.L3",
-      "unitId": "BVED.U5",
-      "order": 3,
+      "id": "BVED.S049",
+      "unitId": "BVED.U2",
+      "order": 49,
       "book": "sb8",
       "chapter": 22,
       "part": 2,
@@ -650,12 +734,14 @@
       "title": "Chapter 22: Bali Mahārāja Surrenders His Life · Part 2",
       "firstRef": "SB.8.22.19",
       "lastRef": "SB.8.22.36",
-      "recordCount": 17
+      "recordCount": 17,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U5.L4",
-      "unitId": "BVED.U5",
-      "order": 4,
+      "id": "BVED.S050",
+      "unitId": "BVED.U2",
+      "order": 50,
       "book": "sb8",
       "chapter": 23,
       "part": 1,
@@ -663,12 +749,14 @@
       "title": "Chapter 23: The Demigods Regain the Heavenly Planets",
       "firstRef": "SB.8.23.1",
       "lastRef": "SB.8.23.31",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U5.L5",
-      "unitId": "BVED.U5",
-      "order": 5,
+      "id": "BVED.S051",
+      "unitId": "BVED.U2",
+      "order": 51,
       "book": "sb8",
       "chapter": 24,
       "part": 1,
@@ -676,12 +764,14 @@
       "title": "Chapter 24: Matsya, the Lord's Fish Incarnation · Part 1",
       "firstRef": "SB.8.24.1",
       "lastRef": "SB.8.24.31",
-      "recordCount": 30
+      "recordCount": 30,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U5.L6",
-      "unitId": "BVED.U5",
-      "order": 6,
+      "id": "BVED.S052",
+      "unitId": "BVED.U2",
+      "order": 52,
       "book": "sb8",
       "chapter": 24,
       "part": 2,
@@ -689,12 +779,14 @@
       "title": "Chapter 24: Matsya, the Lord's Fish Incarnation · Part 2",
       "firstRef": "SB.8.24.32",
       "lastRef": "SB.8.24.61",
-      "recordCount": 29
+      "recordCount": 29,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L1",
-      "unitId": "BVED.U6",
-      "order": 1,
+      "id": "BVED.S053",
+      "unitId": "BVED.U3",
+      "order": 53,
       "book": "sb9",
       "chapter": 1,
       "part": 1,
@@ -702,12 +794,14 @@
       "title": "Chapter 1: King Sudyumna Becomes a Woman",
       "firstRef": "SB.9.1.1",
       "lastRef": "SB.9.1.42",
-      "recordCount": 38
+      "recordCount": 38,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L2",
-      "unitId": "BVED.U6",
-      "order": 2,
+      "id": "BVED.S054",
+      "unitId": "BVED.U3",
+      "order": 54,
       "book": "sb9",
       "chapter": 2,
       "part": 1,
@@ -715,12 +809,14 @@
       "title": "Chapter 2: The Dynasties of the Sons of Manu",
       "firstRef": "SB.9.2.1",
       "lastRef": "SB.9.2.35-36",
-      "recordCount": 31
+      "recordCount": 31,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L3",
-      "unitId": "BVED.U6",
-      "order": 3,
+      "id": "BVED.S055",
+      "unitId": "BVED.U3",
+      "order": 55,
       "book": "sb9",
       "chapter": 3,
       "part": 1,
@@ -728,12 +824,14 @@
       "title": "Chapter 3: The Marriage of Sukanyā and Cyavana Muni",
       "firstRef": "SB.9.3.1",
       "lastRef": "SB.9.3.36",
-      "recordCount": 36
+      "recordCount": 36,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L4",
-      "unitId": "BVED.U6",
-      "order": 4,
+      "id": "BVED.S056",
+      "unitId": "BVED.U3",
+      "order": 56,
       "book": "sb9",
       "chapter": 4,
       "part": 1,
@@ -741,12 +839,14 @@
       "title": "Chapter 4: Ambarīṣa Mahārāja Offended by Durvāsā Muni · Part 1",
       "firstRef": "SB.9.4.1",
       "lastRef": "SB.9.4.37",
-      "recordCount": 30
+      "recordCount": 30,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L5",
-      "unitId": "BVED.U6",
-      "order": 5,
+      "id": "BVED.S057",
+      "unitId": "BVED.U3",
+      "order": 57,
       "book": "sb9",
       "chapter": 4,
       "part": 2,
@@ -754,12 +854,14 @@
       "title": "Chapter 4: Ambarīṣa Mahārāja Offended by Durvāsā Muni · Part 2",
       "firstRef": "SB.9.4.38",
       "lastRef": "SB.9.4.71",
-      "recordCount": 30
+      "recordCount": 30,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L6",
-      "unitId": "BVED.U6",
-      "order": 6,
+      "id": "BVED.S058",
+      "unitId": "BVED.U3",
+      "order": 58,
       "book": "sb9",
       "chapter": 5,
       "part": 1,
@@ -767,12 +869,14 @@
       "title": "Chapter 5: Durvāsā Muni's Life Spared",
       "firstRef": "SB.9.5.1",
       "lastRef": "SB.9.5.28",
-      "recordCount": 28
+      "recordCount": 28,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L7",
-      "unitId": "BVED.U6",
-      "order": 7,
+      "id": "BVED.S059",
+      "unitId": "BVED.U3",
+      "order": 59,
       "book": "sb9",
       "chapter": 6,
       "part": 1,
@@ -780,12 +884,14 @@
       "title": "Chapter 6: The Downfall of Saubhari Muni · Part 1",
       "firstRef": "SB.9.6.1",
       "lastRef": "SB.9.6.26",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L8",
-      "unitId": "BVED.U6",
-      "order": 8,
+      "id": "BVED.S060",
+      "unitId": "BVED.U3",
+      "order": 60,
       "book": "sb9",
       "chapter": 6,
       "part": 2,
@@ -793,12 +899,14 @@
       "title": "Chapter 6: The Downfall of Saubhari Muni · Part 2",
       "firstRef": "SB.9.6.27",
       "lastRef": "SB.9.6.55",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L9",
-      "unitId": "BVED.U6",
-      "order": 9,
+      "id": "BVED.S061",
+      "unitId": "BVED.U3",
+      "order": 61,
       "book": "sb9",
       "chapter": 7,
       "part": 1,
@@ -806,12 +914,14 @@
       "title": "Chapter 7: The Descendants of King Māndhātā",
       "firstRef": "SB.9.7.1",
       "lastRef": "SB.9.7.25-26",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L10",
-      "unitId": "BVED.U6",
-      "order": 10,
+      "id": "BVED.S062",
+      "unitId": "BVED.U3",
+      "order": 62,
       "book": "sb9",
       "chapter": 8,
       "part": 1,
@@ -819,12 +929,14 @@
       "title": "Chapter 8: The Sons of Sagara Meet Lord Kapiladeva",
       "firstRef": "SB.9.8.1",
       "lastRef": "SB.9.8.30",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L11",
-      "unitId": "BVED.U6",
-      "order": 11,
+      "id": "BVED.S063",
+      "unitId": "BVED.U3",
+      "order": 63,
       "book": "sb9",
       "chapter": 9,
       "part": 1,
@@ -832,12 +944,14 @@
       "title": "Chapter 9: The Dynasty of Aṁśumān",
       "firstRef": "SB.9.9.1",
       "lastRef": "SB.9.9.49",
-      "recordCount": 45
+      "recordCount": 45,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L12",
-      "unitId": "BVED.U6",
-      "order": 12,
+      "id": "BVED.S064",
+      "unitId": "BVED.U3",
+      "order": 64,
       "book": "sb9",
       "chapter": 10,
       "part": 1,
@@ -845,12 +959,14 @@
       "title": "Chapter 10: The Pastimes of the Supreme Lord, Rāmacandra · Part 1",
       "firstRef": "SB.9.10.1",
       "lastRef": "SB.9.10.25",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U6.L13",
-      "unitId": "BVED.U6",
-      "order": 13,
+      "id": "BVED.S065",
+      "unitId": "BVED.U3",
+      "order": 65,
       "book": "sb9",
       "chapter": 10,
       "part": 2,
@@ -858,12 +974,14 @@
       "title": "Chapter 10: The Pastimes of the Supreme Lord, Rāmacandra · Part 2",
       "firstRef": "SB.9.10.26",
       "lastRef": "SB.9.10.55",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L1",
-      "unitId": "BVED.U7",
-      "order": 1,
+      "id": "BVED.S066",
+      "unitId": "BVED.U3",
+      "order": 66,
       "book": "sb9",
       "chapter": 11,
       "part": 1,
@@ -871,12 +989,14 @@
       "title": "Chapter 11: Lord Rāmacandra Rules the World",
       "firstRef": "SB.9.11.1",
       "lastRef": "SB.9.11.36",
-      "recordCount": 32
+      "recordCount": 32,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L2",
-      "unitId": "BVED.U7",
-      "order": 2,
+      "id": "BVED.S067",
+      "unitId": "BVED.U3",
+      "order": 67,
       "book": "sb9",
       "chapter": 12,
       "part": 1,
@@ -884,12 +1004,14 @@
       "title": "Chapter 12: The Dynasty of Kuśa, the Son of Lord Rāmacandra",
       "firstRef": "SB.9.12.1",
       "lastRef": "SB.9.12.16",
-      "recordCount": 15
+      "recordCount": 15,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L3",
-      "unitId": "BVED.U7",
-      "order": 3,
+      "id": "BVED.S068",
+      "unitId": "BVED.U3",
+      "order": 68,
       "book": "sb9",
       "chapter": 13,
       "part": 1,
@@ -897,12 +1019,14 @@
       "title": "Chapter 13: The Dynasty of Mahārāja Nimi",
       "firstRef": "SB.9.13.1",
       "lastRef": "SB.9.13.27",
-      "recordCount": 26
+      "recordCount": 26,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L4",
-      "unitId": "BVED.U7",
-      "order": 4,
+      "id": "BVED.S069",
+      "unitId": "BVED.U3",
+      "order": 69,
       "book": "sb9",
       "chapter": 14,
       "part": 1,
@@ -910,12 +1034,14 @@
       "title": "Chapter 14: King Purūravā Enchanted by Urvaśī",
       "firstRef": "SB.9.14.1",
       "lastRef": "SB.9.14.49",
-      "recordCount": 46
+      "recordCount": 46,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L5",
-      "unitId": "BVED.U7",
-      "order": 5,
+      "id": "BVED.S070",
+      "unitId": "BVED.U3",
+      "order": 70,
       "book": "sb9",
       "chapter": 15,
       "part": 1,
@@ -923,12 +1049,14 @@
       "title": "Chapter 15: Paraśurāma, the Lord's Warrior Incarnation",
       "firstRef": "SB.9.15.1",
       "lastRef": "SB.9.15.41",
-      "recordCount": 35
+      "recordCount": 35,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L6",
-      "unitId": "BVED.U7",
-      "order": 6,
+      "id": "BVED.S071",
+      "unitId": "BVED.U3",
+      "order": 71,
       "book": "sb9",
       "chapter": 16,
       "part": 1,
@@ -936,12 +1064,14 @@
       "title": "Chapter 16: Lord Paraśurāma Destroys the World's Ruling Class",
       "firstRef": "SB.9.16.1",
       "lastRef": "SB.9.16.37",
-      "recordCount": 35
+      "recordCount": 35,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L7",
-      "unitId": "BVED.U7",
-      "order": 7,
+      "id": "BVED.S072",
+      "unitId": "BVED.U3",
+      "order": 72,
       "book": "sb9",
       "chapter": 17,
       "part": 1,
@@ -949,12 +1079,14 @@
       "title": "Chapter 17: The Dynasties of the Sons of Purūravā",
       "firstRef": "SB.9.17.1-3",
       "lastRef": "SB.9.17.17",
-      "recordCount": 15
+      "recordCount": 15,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L8",
-      "unitId": "BVED.U7",
-      "order": 8,
+      "id": "BVED.S073",
+      "unitId": "BVED.U3",
+      "order": 73,
       "book": "sb9",
       "chapter": 18,
       "part": 1,
@@ -962,12 +1094,14 @@
       "title": "Chapter 18: King Yayāti Regains His Youth · Part 1",
       "firstRef": "SB.9.18.1",
       "lastRef": "SB.9.18.28",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L9",
-      "unitId": "BVED.U7",
-      "order": 9,
+      "id": "BVED.S074",
+      "unitId": "BVED.U3",
+      "order": 74,
       "book": "sb9",
       "chapter": 18,
       "part": 2,
@@ -975,12 +1109,14 @@
       "title": "Chapter 18: King Yayāti Regains His Youth · Part 2",
       "firstRef": "SB.9.18.29",
       "lastRef": "SB.9.18.51",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L10",
-      "unitId": "BVED.U7",
-      "order": 10,
+      "id": "BVED.S075",
+      "unitId": "BVED.U3",
+      "order": 75,
       "book": "sb9",
       "chapter": 19,
       "part": 1,
@@ -988,12 +1124,14 @@
       "title": "Chapter 19: King Yayāti Achieves Liberation",
       "firstRef": "SB.9.19.1",
       "lastRef": "SB.9.19.29",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U7.L11",
-      "unitId": "BVED.U7",
-      "order": 11,
+      "id": "BVED.S076",
+      "unitId": "BVED.U3",
+      "order": 76,
       "book": "sb9",
       "chapter": 20,
       "part": 1,
@@ -1001,12 +1139,14 @@
       "title": "Chapter 20: The Dynasty of Pūru",
       "firstRef": "SB.9.20.1",
       "lastRef": "SB.9.20.39",
-      "recordCount": 35
+      "recordCount": 35,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U8.L1",
-      "unitId": "BVED.U8",
-      "order": 1,
+      "id": "BVED.S077",
+      "unitId": "BVED.U3",
+      "order": 77,
       "book": "sb9",
       "chapter": 21,
       "part": 1,
@@ -1014,12 +1154,14 @@
       "title": "Chapter 21: The Dynasty of Bharata",
       "firstRef": "SB.9.21.1",
       "lastRef": "SB.9.21.36",
-      "recordCount": 30
+      "recordCount": 30,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U8.L2",
-      "unitId": "BVED.U8",
-      "order": 2,
+      "id": "BVED.S078",
+      "unitId": "BVED.U3",
+      "order": 78,
       "book": "sb9",
       "chapter": 22,
       "part": 1,
@@ -1027,12 +1169,14 @@
       "title": "Chapter 22: The Descendants of Ajamīḍha",
       "firstRef": "SB.9.22.1",
       "lastRef": "SB.9.22.49",
-      "recordCount": 36
+      "recordCount": 36,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U8.L3",
-      "unitId": "BVED.U8",
-      "order": 3,
+      "id": "BVED.S079",
+      "unitId": "BVED.U3",
+      "order": 79,
       "book": "sb9",
       "chapter": 23,
       "part": 1,
@@ -1040,12 +1184,14 @@
       "title": "Chapter 23: The Dynasties of the Sons of Yayāti",
       "firstRef": "SB.9.23.1",
       "lastRef": "SB.9.23.38",
-      "recordCount": 30
+      "recordCount": 30,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U8.L4",
-      "unitId": "BVED.U8",
-      "order": 4,
+      "id": "BVED.S080",
+      "unitId": "BVED.U3",
+      "order": 80,
       "book": "sb9",
       "chapter": 24,
       "part": 1,
@@ -1053,12 +1199,14 @@
       "title": "Chapter 24: Kṛṣṇa the Supreme Personality of Godhead · Part 1",
       "firstRef": "SB.9.24.1",
       "lastRef": "SB.9.24.37",
-      "recordCount": 26
+      "recordCount": 26,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U8.L5",
-      "unitId": "BVED.U8",
-      "order": 5,
+      "id": "BVED.S081",
+      "unitId": "BVED.U3",
+      "order": 81,
       "book": "sb9",
       "chapter": 24,
       "part": 2,
@@ -1066,272 +1214,1004 @@
       "title": "Chapter 24: Kṛṣṇa the Supreme Personality of Godhead · Part 2",
       "firstRef": "SB.9.24.38",
       "lastRef": "SB.9.24.67",
-      "recordCount": 26
+      "recordCount": 26,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U9.L1",
-      "unitId": "BVED.U9",
-      "order": 1,
+      "id": "BVED.S082",
+      "order": 82,
+      "title": "Chapter 1: The Advent of Lord Kṛṣṇa: Introduction",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
       "book": "sb10",
-      "chapter": 1,
-      "part": 1,
-      "parts": 2,
-      "title": "Chapter 1: The Advent of Lord Kṛṣṇa: Introduction · Part 1",
       "firstRef": "SB.10.1.1",
-      "lastRef": "SB.10.1.35",
-      "recordCount": 32
-    },
-    {
-      "id": "BVED.U9.L2",
-      "unitId": "BVED.U9",
-      "order": 2,
-      "book": "sb10",
-      "chapter": 1,
-      "part": 2,
-      "parts": 2,
-      "title": "Chapter 1: The Advent of Lord Kṛṣṇa: Introduction · Part 2",
-      "firstRef": "SB.10.1.36",
       "lastRef": "SB.10.1.69",
-      "recordCount": 31
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U9.L3",
-      "unitId": "BVED.U9",
-      "order": 3,
-      "book": "sb10",
-      "chapter": 2,
-      "part": 1,
-      "parts": 1,
+      "id": "BVED.S083",
+      "order": 83,
       "title": "Chapter 2: Prayers by the Demigods for Lord Kṛṣṇa in the Womb",
-      "firstRef": "SB.10.2.1-2",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.2.1",
       "lastRef": "SB.10.2.42",
-      "recordCount": 39
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U9.L4",
-      "unitId": "BVED.U9",
-      "order": 4,
+      "id": "BVED.S084",
+      "order": 84,
+      "title": "Chapter 3: The Birth of Lord Kṛṣṇa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
       "book": "sb10",
-      "chapter": 3,
-      "part": 1,
-      "parts": 2,
-      "title": "Chapter 3: The Birth of Lord Kṛṣṇa · Part 1",
-      "firstRef": "SB.10.3.1-5",
-      "lastRef": "SB.10.3.29",
-      "recordCount": 21
-    },
-    {
-      "id": "BVED.U9.L5",
-      "unitId": "BVED.U9",
-      "order": 5,
-      "book": "sb10",
-      "chapter": 3,
-      "part": 2,
-      "parts": 2,
-      "title": "Chapter 3: The Birth of Lord Kṛṣṇa · Part 2",
-      "firstRef": "SB.10.3.30",
+      "firstRef": "SB.10.3.1",
       "lastRef": "SB.10.3.53",
-      "recordCount": 21
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U9.L6",
-      "unitId": "BVED.U9",
-      "order": 6,
+      "id": "BVED.S085",
+      "order": 85,
+      "title": "Chapter 4: The Atrocities of King Kaṁsa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
       "book": "sb10",
-      "chapter": 4,
-      "part": 1,
-      "parts": 2,
-      "title": "Chapter 4: The Atrocities of King Kaṁsa · Part 1",
       "firstRef": "SB.10.4.1",
-      "lastRef": "SB.10.4.24",
-      "recordCount": 23
-    },
-    {
-      "id": "BVED.U9.L7",
-      "unitId": "BVED.U9",
-      "order": 7,
-      "book": "sb10",
-      "chapter": 4,
-      "part": 2,
-      "parts": 2,
-      "title": "Chapter 4: The Atrocities of King Kaṁsa · Part 2",
-      "firstRef": "SB.10.4.25",
       "lastRef": "SB.10.4.46",
-      "recordCount": 22
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U9.L8",
-      "unitId": "BVED.U9",
-      "order": 8,
-      "book": "sb10",
-      "chapter": 5,
-      "part": 1,
-      "parts": 1,
+      "id": "BVED.S086",
+      "order": 86,
       "title": "Chapter 5: The Meeting of Nanda Mahārāja and Vasudeva",
-      "firstRef": "SB.10.5.1-2",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.5.1",
       "lastRef": "SB.10.5.32",
-      "recordCount": 30
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U9.L9",
-      "unitId": "BVED.U9",
-      "order": 9,
-      "book": "sb10",
-      "chapter": 6,
-      "part": 1,
-      "parts": 1,
+      "id": "BVED.S087",
+      "order": 87,
       "title": "Chapter 6: The Killing of the Demon Pūtanā",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
       "firstRef": "SB.10.6.1",
       "lastRef": "SB.10.6.44",
-      "recordCount": 34
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U9.L10",
-      "unitId": "BVED.U9",
-      "order": 10,
-      "book": "sb10",
-      "chapter": 7,
-      "part": 1,
-      "parts": 1,
+      "id": "BVED.S088",
+      "order": 88,
       "title": "Chapter 7: The Killing of the Demon Tṛṇāvarta",
-      "firstRef": "SB.10.7.1-2",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.7.1",
       "lastRef": "SB.10.7.37",
-      "recordCount": 33
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U9.L11",
-      "unitId": "BVED.U9",
-      "order": 11,
+      "id": "BVED.S089",
+      "order": 89,
+      "title": "Chapter 8: Lord Kṛṣṇa Shows the Universal Form Within His Mouth",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
       "book": "sb10",
-      "chapter": 8,
-      "part": 1,
-      "parts": 2,
-      "title": "Chapter 8: Lord Kṛṣṇa Shows the Universal Form Within His Mouth · Part 1",
       "firstRef": "SB.10.8.1",
-      "lastRef": "SB.10.8.26",
-      "recordCount": 25
-    },
-    {
-      "id": "BVED.U9.L12",
-      "unitId": "BVED.U9",
-      "order": 12,
-      "book": "sb10",
-      "chapter": 8,
-      "part": 2,
-      "parts": 2,
-      "title": "Chapter 8: Lord Kṛṣṇa Shows the Universal Form Within His Mouth · Part 2",
-      "firstRef": "SB.10.8.27",
       "lastRef": "SB.10.8.52",
-      "recordCount": 24
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U9.L13",
-      "unitId": "BVED.U9",
-      "order": 13,
-      "book": "sb10",
-      "chapter": 9,
-      "part": 1,
-      "parts": 1,
+      "id": "BVED.S090",
+      "order": 90,
       "title": "Chapter 9: Mother Yaśodā Binds Lord Kṛṣṇa",
-      "firstRef": "SB.10.9.1-2",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.9.1",
       "lastRef": "SB.10.9.23",
-      "recordCount": 21
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U9.L14",
-      "unitId": "BVED.U9",
-      "order": 14,
-      "book": "sb10",
-      "chapter": 10,
-      "part": 1,
-      "parts": 1,
+      "id": "BVED.S091",
+      "order": 91,
       "title": "Chapter 10: Deliverance of the Yamala-arjuna Trees",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
       "firstRef": "SB.10.10.1",
       "lastRef": "SB.10.10.43",
-      "recordCount": 38
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U10.L1",
-      "unitId": "BVED.U10",
-      "order": 1,
+      "id": "BVED.S092",
+      "order": 92,
+      "title": "Chapter 11: The Childhood Pastimes of Kṛṣṇa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
       "book": "sb10",
-      "chapter": 11,
-      "part": 1,
-      "parts": 2,
-      "title": "Chapter 11: The Childhood Pastimes of Kṛṣṇa · Part 1",
       "firstRef": "SB.10.11.1",
-      "lastRef": "SB.10.11.29",
-      "recordCount": 29
-    },
-    {
-      "id": "BVED.U10.L2",
-      "unitId": "BVED.U10",
-      "order": 2,
-      "book": "sb10",
-      "chapter": 11,
-      "part": 2,
-      "parts": 2,
-      "title": "Chapter 11: The Childhood Pastimes of Kṛṣṇa · Part 2",
-      "firstRef": "SB.10.11.30",
       "lastRef": "SB.10.11.59",
-      "recordCount": 28
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U10.L3",
-      "unitId": "BVED.U10",
-      "order": 3,
+      "id": "BVED.S093",
+      "order": 93,
+      "title": "Chapter 12: The Killing of the Demon Aghāsura",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
       "book": "sb10",
-      "chapter": 12,
-      "part": 1,
-      "parts": 2,
-      "title": "Chapter 12: The Killing of the Demon Aghāsura · Part 1",
       "firstRef": "SB.10.12.1",
-      "lastRef": "SB.10.12.24",
-      "recordCount": 20
-    },
-    {
-      "id": "BVED.U10.L4",
-      "unitId": "BVED.U10",
-      "order": 4,
-      "book": "sb10",
-      "chapter": 12,
-      "part": 2,
-      "parts": 2,
-      "title": "Chapter 12: The Killing of the Demon Aghāsura · Part 2",
-      "firstRef": "SB.10.12.25",
       "lastRef": "SB.10.12.44",
-      "recordCount": 20
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U10.L5",
-      "unitId": "BVED.U10",
-      "order": 5,
+      "id": "BVED.S094",
+      "order": 94,
+      "title": "Chapter 13: The Stealing of the Boys and Calves by Brahmā",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
       "book": "sb10",
-      "chapter": 13,
-      "part": 1,
-      "parts": 2,
-      "title": "Chapter 13: The Stealing of the Boys and Calves by Brahmā · Part 1",
       "firstRef": "SB.10.13.1",
-      "lastRef": "SB.10.13.32",
-      "recordCount": 32
-    },
-    {
-      "id": "BVED.U10.L6",
-      "unitId": "BVED.U10",
-      "order": 6,
-      "book": "sb10",
-      "chapter": 13,
-      "part": 2,
-      "parts": 2,
-      "title": "Chapter 13: The Stealing of the Boys and Calves by Brahmā · Part 2",
-      "firstRef": "SB.10.13.33",
       "lastRef": "SB.10.13.64",
-      "recordCount": 31
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L1",
-      "unitId": "BVED.U11",
-      "order": 1,
+      "id": "BVED.S095",
+      "order": 95,
+      "title": "Chapter 14: Brahmā's Prayers to Lord Kṛṣṇa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.14.1",
+      "lastRef": "SB.10.14.61",
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S096",
+      "order": 96,
+      "title": "Chapter 15: The Killing of Dhenuka, the Ass Demon",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.15.1",
+      "lastRef": "SB.10.15.52",
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S097",
+      "order": 97,
+      "title": "Chapter 16: Kṛṣṇa Chastises the Serpent Kāliya",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.16.1",
+      "lastRef": "SB.10.16.67",
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S098",
+      "order": 98,
+      "title": "Chapter 17: The History of Kāliya",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.17.1",
+      "lastRef": "SB.10.17.25",
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S099",
+      "order": 99,
+      "title": "Chapter 18: Lord Balarāma Slays the Demon Pralamba",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.18.1",
+      "lastRef": "SB.10.18.32",
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S100",
+      "order": 100,
+      "title": "Chapter 19: Swallowing the Forest Fire",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.19.1",
+      "lastRef": "SB.10.19.16",
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S101",
+      "order": 101,
+      "title": "Chapter 20: The Rainy Season and Autumn in Vṛndāvana",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.20.1",
+      "lastRef": "SB.10.20.49",
+      "unitId": "BVED.U4",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S102",
+      "order": 102,
+      "title": "Chapter 21: The Gopīs Glorify the Song of Kṛṣṇa's Flute",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.21.1",
+      "lastRef": "SB.10.21.20",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S103",
+      "order": 103,
+      "title": "Chapter 22: Kṛṣṇa Steals the Garments of the Unmarried Gopīs",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.22.1",
+      "lastRef": "SB.10.22.38",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S104",
+      "order": 104,
+      "title": "Chapter 23: The Brāhmaṇas' Wives Blessed",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.23.1",
+      "lastRef": "SB.10.23.52",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S105",
+      "order": 105,
+      "title": "Chapter 24: Worshiping Govardhana Hill",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.24.1",
+      "lastRef": "SB.10.24.38",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S106",
+      "order": 106,
+      "title": "Chapter 25: Lord Kṛṣṇa Lifts Govardhana Hill",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.25.1",
+      "lastRef": "SB.10.25.33",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S107",
+      "order": 107,
+      "title": "Chapter 26: Wonderful Kṛṣṇa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.26.1",
+      "lastRef": "SB.10.26.25",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S108",
+      "order": 108,
+      "title": "Chapter 27: Lord Indra and Mother Surabhi Offer Prayers",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.27.1",
+      "lastRef": "SB.10.27.28",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S109",
+      "order": 109,
+      "title": "Chapter 28: Kṛṣṇa Rescues Nanda Mahārāja from the Abode of Varuṇa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.28.1",
+      "lastRef": "SB.10.28.17",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S110",
+      "order": 110,
+      "title": "Chapter 29: Kṛṣṇa and the Gopīs Meet for the Rāsa Dance",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.29.1",
+      "lastRef": "SB.10.29.48",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S111",
+      "order": 111,
+      "title": "Chapter 30: The Gopīs Search for Kṛṣṇa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.30.1",
+      "lastRef": "SB.10.30.44",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S112",
+      "order": 112,
+      "title": "Chapter 31: The Gopīs' Songs of Separation",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.31.1",
+      "lastRef": "SB.10.31.19",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S113",
+      "order": 113,
+      "title": "Chapter 32: The Reunion",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.32.1",
+      "lastRef": "SB.10.32.22",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S114",
+      "order": 114,
+      "title": "Chapter 33: The Rāsa Dance",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.33.1",
+      "lastRef": "SB.10.33.39",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S115",
+      "order": 115,
+      "title": "Chapter 34: Nanda Mahārāja Saved and Śaṅkhacūḍa Slain",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.34.1",
+      "lastRef": "SB.10.34.32",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S116",
+      "order": 116,
+      "title": "Chapter 35: The Gopīs Sing of Kṛṣṇa as He Wanders in the Forest",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.35.1",
+      "lastRef": "SB.10.35.26",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S117",
+      "order": 117,
+      "title": "Chapter 36: The Slaying of Ariṣṭā, the Bull Demon",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.36.1",
+      "lastRef": "SB.10.36.40",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S118",
+      "order": 118,
+      "title": "Chapter 37: The Killing of the Demons Keśi and Vyoma",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.37.1",
+      "lastRef": "SB.10.37.33",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S119",
+      "order": 119,
+      "title": "Chapter 38: Akrūra's Arrival in Vṛndāvana",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.38.1",
+      "lastRef": "SB.10.38.43",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S120",
+      "order": 120,
+      "title": "Chapter 39: Akrūra's Vision",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.39.1",
+      "lastRef": "SB.10.39.57",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S121",
+      "order": 121,
+      "title": "Chapter 40: The Prayers of Akrūra",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.40.1",
+      "lastRef": "SB.10.40.30",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S122",
+      "order": 122,
+      "title": "Chapter 41: Kṛṣṇa and Balarāma Enter Mathurā",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.41.1",
+      "lastRef": "SB.10.41.52",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S123",
+      "order": 123,
+      "title": "Chapter 42: The Breaking of the Sacrificial Bow",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.42.1",
+      "lastRef": "SB.10.42.38",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S124",
+      "order": 124,
+      "title": "Chapter 43: Kṛṣṇa Kills the Elephant Kuvalayāpīḍa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.43.1",
+      "lastRef": "SB.10.43.40",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S125",
+      "order": 125,
+      "title": "Chapter 44: The Killing of Kaṁsa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.44.1",
+      "lastRef": "SB.10.44.51",
+      "unitId": "BVED.U5",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S126",
+      "order": 126,
+      "title": "Chapter 45: Kṛṣṇa Rescues His Teacher's Son",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.45.1",
+      "lastRef": "SB.10.45.50",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S127",
+      "order": 127,
+      "title": "Chapter 46: Uddhava Visits Vṛndāvana",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.46.1",
+      "lastRef": "SB.10.46.49",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S128",
+      "order": 128,
+      "title": "Chapter 47: The Song of the Bee",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.47.1",
+      "lastRef": "SB.10.47.69",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S129",
+      "order": 129,
+      "title": "Chapter 48: Kṛṣṇa Pleases His Devotees",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.48.1",
+      "lastRef": "SB.10.48.36",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S130",
+      "order": 130,
+      "title": "Chapter 49: Akrūra's Mission in Hastināpura",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.49.1",
+      "lastRef": "SB.10.49.31",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S131",
+      "order": 131,
+      "title": "Chapter 50: Kṛṣṇa Establishes the City of Dvārakā",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.50.1",
+      "lastRef": "SB.10.50.57",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S132",
+      "order": 132,
+      "title": "Chapter 51: The Deliverance of Mucukunda",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.51.1",
+      "lastRef": "SB.10.51.63",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S133",
+      "order": 133,
+      "title": "Chapter 52: Rukmiṇī's Message to Lord Kṛṣṇa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.52.1",
+      "lastRef": "SB.10.52.44",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S134",
+      "order": 134,
+      "title": "Chapter 53: Kṛṣṇa Kidnaps Rukmiṇī",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.53.1",
+      "lastRef": "SB.10.53.57",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S135",
+      "order": 135,
+      "title": "Chapter 54: The Marriage of Kṛṣṇa and Rukmiṇī",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.54.1",
+      "lastRef": "SB.10.54.60",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S136",
+      "order": 136,
+      "title": "Chapter 55: The History of Pradyumna",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.55.1",
+      "lastRef": "SB.10.55.40",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S137",
+      "order": 137,
+      "title": "Chapter 56: The Syamantaka Jewel",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.56.1",
+      "lastRef": "SB.10.56.45",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S138",
+      "order": 138,
+      "title": "Chapter 57: Satrājit Murdered, the Jewel Returned",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.57.1",
+      "lastRef": "SB.10.57.42",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S139",
+      "order": 139,
+      "title": "Chapter 58: Kṛṣṇa Marries Five Princesses",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.58.1",
+      "lastRef": "SB.10.58.58",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S140",
+      "order": 140,
+      "title": "Chapter 59: The Killing of the Demon Naraka",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.59.1",
+      "lastRef": "SB.10.59.45",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S141",
+      "order": 141,
+      "title": "Chapter 60: Lord Kṛṣṇa Teases Queen Rukmiṇī",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.60.1",
+      "lastRef": "SB.10.60.59",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S142",
+      "order": 142,
+      "title": "Chapter 61: Lord Balarāma Slays Rukmī",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.61.1",
+      "lastRef": "SB.10.61.40",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S143",
+      "order": 143,
+      "title": "Chapter 62: The Meeting of Ūṣā and Aniruddha",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.62.1",
+      "lastRef": "SB.10.62.33",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S144",
+      "order": 144,
+      "title": "Chapter 63: Lord Kṛṣṇa Fights with Bāṇāsura",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.63.1",
+      "lastRef": "SB.10.63.53",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S145",
+      "order": 145,
+      "title": "Chapter 64: The Deliverance of King Nṛga",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.64.1",
+      "lastRef": "SB.10.64.44",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S146",
+      "order": 146,
+      "title": "Chapter 65: Lord Balarāma Visits Vṛndāvana",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.65.1",
+      "lastRef": "SB.10.65.34",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S147",
+      "order": 147,
+      "title": "Chapter 66: Pauṇḍraka, the False Vāsudeva",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.66.1",
+      "lastRef": "SB.10.66.43",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S148",
+      "order": 148,
+      "title": "Chapter 67: Lord Balarāma Slays Dvivida Gorilla",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.67.1",
+      "lastRef": "SB.10.67.28",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S149",
+      "order": 149,
+      "title": "Chapter 68: The Marriage of Sāmba",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.68.1",
+      "lastRef": "SB.10.68.54",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S150",
+      "order": 150,
+      "title": "Chapter 69: Nārada Muni Visits Lord Kṛṣṇa's Palaces in Dvārakā",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.69.1",
+      "lastRef": "SB.10.69.45",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S151",
+      "order": 151,
+      "title": "Chapter 70: Lord Kṛṣṇa's Daily Activities",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.70.1",
+      "lastRef": "SB.10.70.47",
+      "unitId": "BVED.U6",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S152",
+      "order": 152,
+      "title": "Chapter 71: The Lord Travels to Indraprastha",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.71.1",
+      "lastRef": "SB.10.71.45",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S153",
+      "order": 153,
+      "title": "Chapter 72: The Slaying of the Demon Jarāsandha",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.72.1",
+      "lastRef": "SB.10.72.46",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S154",
+      "order": 154,
+      "title": "Chapter 73: Lord Kṛṣṇa Blesses the Liberated Kings",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.73.1",
+      "lastRef": "SB.10.73.35",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S155",
+      "order": 155,
+      "title": "Chapter 74: The Deliverance of Śiśupāla at the Rājasūya Sacrifice",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.74.1",
+      "lastRef": "SB.10.74.54",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S156",
+      "order": 156,
+      "title": "Chapter 75: Duryodhana Humiliated",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.75.1",
+      "lastRef": "SB.10.75.40",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S157",
+      "order": 157,
+      "title": "Chapter 76: The Battle Between Śālva and the Vṛṣṇis",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.76.1",
+      "lastRef": "SB.10.76.33",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S158",
+      "order": 158,
+      "title": "Chapter 77: Lord Kṛṣṇa Slays the Demon Śālva",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.77.1",
+      "lastRef": "SB.10.77.37",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S159",
+      "order": 159,
+      "title": "Chapter 78: The Killing of Dantavakra, Vidūratha and Romaharṣaṇa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.78.1",
+      "lastRef": "SB.10.78.40",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S160",
+      "order": 160,
+      "title": "Chapter 79: Lord Balarāma Goes on Pilgrimage",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.79.1",
+      "lastRef": "SB.10.79.34",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S161",
+      "order": 161,
+      "title": "Chapter 80: The Brāhmaṇa Sudāmā Visits Lord Kṛṣṇa in Dvārakā",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.80.1",
+      "lastRef": "SB.10.80.45",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S162",
+      "order": 162,
+      "title": "Chapter 81: The Lord Blesses Sudāmā Brāhmaṇa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.81.1",
+      "lastRef": "SB.10.81.41",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S163",
+      "order": 163,
+      "title": "Chapter 82: Kṛṣṇa and Balarāma Meet the Inhabitants of Vṛndāvana",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.82.1",
+      "lastRef": "SB.10.82.48",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S164",
+      "order": 164,
+      "title": "Chapter 83: Draupadī Meets the Queens of Kṛṣṇa",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.83.1",
+      "lastRef": "SB.10.83.43",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S165",
+      "order": 165,
+      "title": "Chapter 84: The Sages' Teachings at Kurukṣetra",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.84.1",
+      "lastRef": "SB.10.84.71",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S166",
+      "order": 166,
+      "title": "Chapter 85: Lord Kṛṣṇa Instructs Vasudeva and Retrieves Devakī's Sons",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.85.1",
+      "lastRef": "SB.10.85.59",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S167",
+      "order": 167,
+      "title": "Chapter 86: Arjuna Kidnaps Subhadrā, and Kṛṣṇa Blesses His Devotees",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.86.1",
+      "lastRef": "SB.10.86.59",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S168",
+      "order": 168,
+      "title": "Chapter 87: The Prayers of the Personified }{\\i\\v\\f0\\fs20\\cf7 Vedas",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.87.1",
+      "lastRef": "SB.10.87.50",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S169",
+      "order": 169,
+      "title": "Chapter 88: Lord Śiva Saved from Vṛkāsura",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.88.1",
+      "lastRef": "SB.10.88.40",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S170",
+      "order": 170,
+      "title": "Chapter 89: Kṛṣṇa and Arjuna Retrieve a Brāhmaṇa's Sons",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.89.1",
+      "lastRef": "SB.10.89.65",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S171",
+      "order": 171,
+      "title": "Chapter 90: Summary of Lord Kṛṣṇa's Glories",
+      "curriculumSource": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das four-part Canto 10 course model; chapter-level Academy lesson",
+      "book": "sb10",
+      "firstRef": "SB.10.90.1",
+      "lastRef": "SB.10.90.50",
+      "unitId": "BVED.U7",
+      "lessonType": "passage"
+    },
+    {
+      "id": "BVED.S172",
+      "unitId": "BVED.U8",
+      "order": 172,
       "book": "sb11",
       "chapter": 1,
       "part": 1,
@@ -1339,12 +2219,14 @@
       "title": "Chapter 1: The Curse Upon the Yadu Dynasty",
       "firstRef": "SB.11.1.1",
       "lastRef": "SB.11.1.24",
-      "recordCount": 20
+      "recordCount": 20,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L2",
-      "unitId": "BVED.U11",
-      "order": 2,
+      "id": "BVED.S173",
+      "unitId": "BVED.U8",
+      "order": 173,
       "book": "sb11",
       "chapter": 2,
       "part": 1,
@@ -1352,12 +2234,14 @@
       "title": "Chapter 2: Mahäräja Nimi Meets the Nine Yogendras · Part 1",
       "firstRef": "SB.11.2.1",
       "lastRef": "SB.11.2.28",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L3",
-      "unitId": "BVED.U11",
-      "order": 3,
+      "id": "BVED.S174",
+      "unitId": "BVED.U8",
+      "order": 174,
       "book": "sb11",
       "chapter": 2,
       "part": 2,
@@ -1365,12 +2249,14 @@
       "title": "Chapter 2: Mahäräja Nimi Meets the Nine Yogendras · Part 2",
       "firstRef": "SB.11.2.29",
       "lastRef": "SB.11.2.55",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L4",
-      "unitId": "BVED.U11",
-      "order": 4,
+      "id": "BVED.S175",
+      "unitId": "BVED.U8",
+      "order": 175,
       "book": "sb11",
       "chapter": 3,
       "part": 1,
@@ -1378,12 +2264,14 @@
       "title": "Chapter 3: Liberation from the Illusory Energy · Part 1",
       "firstRef": "SB.11.3.1",
       "lastRef": "SB.11.3.26",
-      "recordCount": 26
+      "recordCount": 26,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L5",
-      "unitId": "BVED.U11",
-      "order": 5,
+      "id": "BVED.S176",
+      "unitId": "BVED.U8",
+      "order": 176,
       "book": "sb11",
       "chapter": 3,
       "part": 2,
@@ -1391,12 +2279,14 @@
       "title": "Chapter 3: Liberation from the Illusory Energy · Part 2",
       "firstRef": "SB.11.3.27-28",
       "lastRef": "SB.11.3.55",
-      "recordCount": 26
+      "recordCount": 26,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L6",
-      "unitId": "BVED.U11",
-      "order": 6,
+      "id": "BVED.S177",
+      "unitId": "BVED.U8",
+      "order": 177,
       "book": "sb11",
       "chapter": 4,
       "part": 1,
@@ -1404,12 +2294,14 @@
       "title": "Chapter 4: Drumila Explains the Incarnations of Godhead to King Nimi",
       "firstRef": "SB.11.4.1",
       "lastRef": "SB.11.4.23",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L7",
-      "unitId": "BVED.U11",
-      "order": 7,
+      "id": "BVED.S178",
+      "unitId": "BVED.U8",
+      "order": 178,
       "book": "sb11",
       "chapter": 5,
       "part": 1,
@@ -1417,12 +2309,14 @@
       "title": "Chapter 5: Närada Concludes His Teachings to Vasudeva · Part 1",
       "firstRef": "SB.11.5.1",
       "lastRef": "SB.11.5.25",
-      "recordCount": 25
+      "recordCount": 25,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L8",
-      "unitId": "BVED.U11",
-      "order": 8,
+      "id": "BVED.S179",
+      "unitId": "BVED.U8",
+      "order": 179,
       "book": "sb11",
       "chapter": 5,
       "part": 2,
@@ -1430,12 +2324,14 @@
       "title": "Chapter 5: Närada Concludes His Teachings to Vasudeva · Part 2",
       "firstRef": "SB.11.5.26",
       "lastRef": "SB.11.5.52",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L9",
-      "unitId": "BVED.U11",
-      "order": 9,
+      "id": "BVED.S180",
+      "unitId": "BVED.U8",
+      "order": 180,
       "book": "sb11",
       "chapter": 6,
       "part": 1,
@@ -1443,12 +2339,14 @@
       "title": "Chapter 6: The Yadu Dynasty Retires to Prabhäsa · Part 1",
       "firstRef": "SB.11.6.1",
       "lastRef": "SB.11.6.24",
-      "recordCount": 22
+      "recordCount": 22,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L10",
-      "unitId": "BVED.U11",
-      "order": 10,
+      "id": "BVED.S181",
+      "unitId": "BVED.U8",
+      "order": 181,
       "book": "sb11",
       "chapter": 6,
       "part": 2,
@@ -1456,12 +2354,14 @@
       "title": "Chapter 6: The Yadu Dynasty Retires to Prabhäsa · Part 2",
       "firstRef": "SB.11.6.25",
       "lastRef": "SB.11.6.50",
-      "recordCount": 22
+      "recordCount": 22,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L11",
-      "unitId": "BVED.U11",
-      "order": 11,
+      "id": "BVED.S182",
+      "unitId": "BVED.U8",
+      "order": 182,
       "book": "sb11",
       "chapter": 7,
       "part": 1,
@@ -1469,12 +2369,14 @@
       "title": "Chapter 7: Lord Kåñëa Instructs Uddhava · Part 1",
       "firstRef": "SB.11.7.1",
       "lastRef": "SB.11.7.38",
-      "recordCount": 36
+      "recordCount": 36,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L12",
-      "unitId": "BVED.U11",
-      "order": 12,
+      "id": "BVED.S183",
+      "unitId": "BVED.U8",
+      "order": 183,
       "book": "sb11",
       "chapter": 7,
       "part": 2,
@@ -1482,12 +2384,14 @@
       "title": "Chapter 7: Lord Kåñëa Instructs Uddhava · Part 2",
       "firstRef": "SB.11.7.39",
       "lastRef": "SB.11.7.74",
-      "recordCount": 36
+      "recordCount": 36,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L13",
-      "unitId": "BVED.U11",
-      "order": 13,
+      "id": "BVED.S184",
+      "unitId": "BVED.U8",
+      "order": 184,
       "book": "sb11",
       "chapter": 8,
       "part": 1,
@@ -1495,12 +2399,14 @@
       "title": "Chapter 8: The Story of Piìgalä",
       "firstRef": "SB.11.8.1",
       "lastRef": "SB.11.8.44",
-      "recordCount": 43
+      "recordCount": 43,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L14",
-      "unitId": "BVED.U11",
-      "order": 14,
+      "id": "BVED.S185",
+      "unitId": "BVED.U8",
+      "order": 185,
       "book": "sb11",
       "chapter": 9,
       "part": 1,
@@ -1508,12 +2414,14 @@
       "title": "Chapter 9: Detachment from All that Is Material",
       "firstRef": "SB.11.9.1",
       "lastRef": "SB.11.9.33",
-      "recordCount": 32
+      "recordCount": 32,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U11.L15",
-      "unitId": "BVED.U11",
-      "order": 15,
+      "id": "BVED.S186",
+      "unitId": "BVED.U8",
+      "order": 186,
       "book": "sb11",
       "chapter": 10,
       "part": 1,
@@ -1521,12 +2429,14 @@
       "title": "Chapter 10: The Nature of Fruitive Activity",
       "firstRef": "SB.11.10.1",
       "lastRef": "SB.11.10.36-37",
-      "recordCount": 32
+      "recordCount": 32,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L1",
-      "unitId": "BVED.U12",
-      "order": 1,
+      "id": "BVED.S187",
+      "unitId": "BVED.U8",
+      "order": 187,
       "book": "sb11",
       "chapter": 11,
       "part": 1,
@@ -1534,12 +2444,14 @@
       "title": "Chapter 11: The Symptoms of Conditioned and Liberated Living",
       "firstRef": "SB.11.11.1",
       "lastRef": "SB.11.11.49",
-      "recordCount": 34
+      "recordCount": 34,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L2",
-      "unitId": "BVED.U12",
-      "order": 2,
+      "id": "BVED.S188",
+      "unitId": "BVED.U8",
+      "order": 188,
       "book": "sb11",
       "chapter": 12,
       "part": 1,
@@ -1547,12 +2459,14 @@
       "title": "Chapter 12: Beyond Renunciation and Knowledge",
       "firstRef": "SB.11.12.1-2",
       "lastRef": "SB.11.12.24",
-      "recordCount": 18
+      "recordCount": 18,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L3",
-      "unitId": "BVED.U12",
-      "order": 3,
+      "id": "BVED.S189",
+      "unitId": "BVED.U8",
+      "order": 189,
       "book": "sb11",
       "chapter": 13,
       "part": 1,
@@ -1560,12 +2474,14 @@
       "title": "Chapter 13: The Haàsa-avatära Answers the Questions of the Sons",
       "firstRef": "SB.11.13.1",
       "lastRef": "SB.11.13.42",
-      "recordCount": 41
+      "recordCount": 41,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L4",
-      "unitId": "BVED.U12",
-      "order": 4,
+      "id": "BVED.S190",
+      "unitId": "BVED.U8",
+      "order": 190,
       "book": "sb11",
       "chapter": 14,
       "part": 1,
@@ -1573,12 +2489,14 @@
       "title": "Chapter 14: Lord Kåñëa Explains the Yoga System to Çré Uddhava",
       "firstRef": "SB.11.14.1",
       "lastRef": "SB.11.14.46",
-      "recordCount": 37
+      "recordCount": 37,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L5",
-      "unitId": "BVED.U12",
-      "order": 5,
+      "id": "BVED.S191",
+      "unitId": "BVED.U8",
+      "order": 191,
       "book": "sb11",
       "chapter": 15,
       "part": 1,
@@ -1586,12 +2504,14 @@
       "title": "Chapter 15: Lord Kåñëa's Description of Mystic Yoga Perfections",
       "firstRef": "SB.11.15.1",
       "lastRef": "SB.11.15.36",
-      "recordCount": 33
+      "recordCount": 33,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L6",
-      "unitId": "BVED.U12",
-      "order": 6,
+      "id": "BVED.S192",
+      "unitId": "BVED.U8",
+      "order": 192,
       "book": "sb11",
       "chapter": 16,
       "part": 1,
@@ -1599,12 +2519,14 @@
       "title": "Chapter 16: The Lord's Opulence · Part 1",
       "firstRef": "SB.11.16.1",
       "lastRef": "SB.11.16.22",
-      "recordCount": 22
+      "recordCount": 22,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L7",
-      "unitId": "BVED.U12",
-      "order": 7,
+      "id": "BVED.S193",
+      "unitId": "BVED.U8",
+      "order": 193,
       "book": "sb11",
       "chapter": 16,
       "part": 2,
@@ -1612,12 +2534,14 @@
       "title": "Chapter 16: The Lord's Opulence · Part 2",
       "firstRef": "SB.11.16.23",
       "lastRef": "SB.11.16.44",
-      "recordCount": 22
+      "recordCount": 22,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L8",
-      "unitId": "BVED.U12",
-      "order": 8,
+      "id": "BVED.S194",
+      "unitId": "BVED.U8",
+      "order": 194,
       "book": "sb11",
       "chapter": 17,
       "part": 1,
@@ -1625,12 +2549,14 @@
       "title": "Chapter 17: Lord Kåñëa's Description of the Varëäçrama System · Part 1",
       "firstRef": "SB.11.17.1-2",
       "lastRef": "SB.11.17.30",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L9",
-      "unitId": "BVED.U12",
-      "order": 9,
+      "id": "BVED.S195",
+      "unitId": "BVED.U8",
+      "order": 195,
       "book": "sb11",
       "chapter": 17,
       "part": 2,
@@ -1638,12 +2564,14 @@
       "title": "Chapter 17: Lord Kåñëa's Description of the Varëäçrama System · Part 2",
       "firstRef": "SB.11.17.31",
       "lastRef": "SB.11.17.58",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L10",
-      "unitId": "BVED.U12",
-      "order": 10,
+      "id": "BVED.S196",
+      "unitId": "BVED.U8",
+      "order": 196,
       "book": "sb11",
       "chapter": 18,
       "part": 1,
@@ -1651,12 +2579,14 @@
       "title": "Chapter 18: Description of Varëäçrama-dharma · Part 1",
       "firstRef": "SB.11.18.1",
       "lastRef": "SB.11.18.24",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L11",
-      "unitId": "BVED.U12",
-      "order": 11,
+      "id": "BVED.S197",
+      "unitId": "BVED.U8",
+      "order": 197,
       "book": "sb11",
       "chapter": 18,
       "part": 2,
@@ -1664,12 +2594,14 @@
       "title": "Chapter 18: Description of Varëäçrama-dharma · Part 2",
       "firstRef": "SB.11.18.25",
       "lastRef": "SB.11.18.48",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L12",
-      "unitId": "BVED.U12",
-      "order": 12,
+      "id": "BVED.S198",
+      "unitId": "BVED.U8",
+      "order": 198,
       "book": "sb11",
       "chapter": 19,
       "part": 1,
@@ -1677,12 +2609,14 @@
       "title": "Chapter 19: The Perfection of Spiritual Knowledge",
       "firstRef": "SB.11.19.1",
       "lastRef": "SB.11.19.40-45",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U12.L13",
-      "unitId": "BVED.U12",
-      "order": 13,
+      "id": "BVED.S199",
+      "unitId": "BVED.U8",
+      "order": 199,
       "book": "sb11",
       "chapter": 20,
       "part": 1,
@@ -1690,12 +2624,14 @@
       "title": "Chapter 20: Pure Devotional Service Surpasses Knowledge and",
       "firstRef": "SB.11.20.1",
       "lastRef": "SB.11.20.37",
-      "recordCount": 35
+      "recordCount": 35,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L1",
-      "unitId": "BVED.U13",
-      "order": 1,
+      "id": "BVED.S200",
+      "unitId": "BVED.U8",
+      "order": 200,
       "book": "sb11",
       "chapter": 21,
       "part": 1,
@@ -1703,12 +2639,14 @@
       "title": "Chapter 21: Lord Kåñëa's Explanation of the Vedic Path",
       "firstRef": "SB.11.21.1",
       "lastRef": "SB.11.21.43",
-      "recordCount": 39
+      "recordCount": 39,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L2",
-      "unitId": "BVED.U13",
-      "order": 2,
+      "id": "BVED.S201",
+      "unitId": "BVED.U8",
+      "order": 201,
       "book": "sb11",
       "chapter": 22,
       "part": 1,
@@ -1716,12 +2654,14 @@
       "title": "Chapter 22: Enumeration of the Elements of Material Creation · Part 1",
       "firstRef": "SB.11.22.1-3",
       "lastRef": "SB.11.22.30",
-      "recordCount": 28
+      "recordCount": 28,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L3",
-      "unitId": "BVED.U13",
-      "order": 3,
+      "id": "BVED.S202",
+      "unitId": "BVED.U8",
+      "order": 202,
       "book": "sb11",
       "chapter": 22,
       "part": 2,
@@ -1729,12 +2669,14 @@
       "title": "Chapter 22: Enumeration of the Elements of Material Creation · Part 2",
       "firstRef": "SB.11.22.31",
       "lastRef": "SB.11.22.61",
-      "recordCount": 28
+      "recordCount": 28,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L4",
-      "unitId": "BVED.U13",
-      "order": 4,
+      "id": "BVED.S203",
+      "unitId": "BVED.U8",
+      "order": 203,
       "book": "sb11",
       "chapter": 23,
       "part": 1,
@@ -1742,12 +2684,14 @@
       "title": "Chapter 23: The Song of the Avanté Brähmaëa · Part 1",
       "firstRef": "SB.11.23.1",
       "lastRef": "SB.11.23.31",
-      "recordCount": 30
+      "recordCount": 30,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L5",
-      "unitId": "BVED.U13",
-      "order": 5,
+      "id": "BVED.S204",
+      "unitId": "BVED.U8",
+      "order": 204,
       "book": "sb11",
       "chapter": 23,
       "part": 2,
@@ -1755,12 +2699,14 @@
       "title": "Chapter 23: The Song of the Avanté Brähmaëa · Part 2",
       "firstRef": "SB.11.23.32",
       "lastRef": "SB.11.23.61",
-      "recordCount": 29
+      "recordCount": 29,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L6",
-      "unitId": "BVED.U13",
-      "order": 6,
+      "id": "BVED.S205",
+      "unitId": "BVED.U8",
+      "order": 205,
       "book": "sb11",
       "chapter": 24,
       "part": 1,
@@ -1768,12 +2714,14 @@
       "title": "Chapter 24: The Philosophy of Säìkhya",
       "firstRef": "SB.11.24.1",
       "lastRef": "SB.11.24.29",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L7",
-      "unitId": "BVED.U13",
-      "order": 7,
+      "id": "BVED.S206",
+      "unitId": "BVED.U8",
+      "order": 206,
       "book": "sb11",
       "chapter": 25,
       "part": 1,
@@ -1781,12 +2729,14 @@
       "title": "Chapter 25: The Three Modes of Nature and Beyond",
       "firstRef": "SB.11.25.1",
       "lastRef": "SB.11.25.36",
-      "recordCount": 33
+      "recordCount": 33,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L8",
-      "unitId": "BVED.U13",
-      "order": 8,
+      "id": "BVED.S207",
+      "unitId": "BVED.U8",
+      "order": 207,
       "book": "sb11",
       "chapter": 26,
       "part": 1,
@@ -1794,12 +2744,14 @@
       "title": "Chapter 26: The Aila-gétä",
       "firstRef": "SB.11.26.1",
       "lastRef": "SB.11.26.35",
-      "recordCount": 34
+      "recordCount": 34,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L9",
-      "unitId": "BVED.U13",
-      "order": 9,
+      "id": "BVED.S208",
+      "unitId": "BVED.U8",
+      "order": 208,
       "book": "sb11",
       "chapter": 27,
       "part": 1,
@@ -1807,12 +2759,14 @@
       "title": "Chapter 27: Lord Kåñëa's Instructions on the Process of Deity · Part 1",
       "firstRef": "SB.11.27.1",
       "lastRef": "SB.11.27.27",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L10",
-      "unitId": "BVED.U13",
-      "order": 10,
+      "id": "BVED.S209",
+      "unitId": "BVED.U8",
+      "order": 209,
       "book": "sb11",
       "chapter": 27,
       "part": 2,
@@ -1820,12 +2774,14 @@
       "title": "Chapter 27: Lord Kåñëa's Instructions on the Process of Deity · Part 2",
       "firstRef": "SB.11.27.28",
       "lastRef": "SB.11.27.55",
-      "recordCount": 24
+      "recordCount": 24,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L11",
-      "unitId": "BVED.U13",
-      "order": 11,
+      "id": "BVED.S210",
+      "unitId": "BVED.U8",
+      "order": 210,
       "book": "sb11",
       "chapter": 28,
       "part": 1,
@@ -1833,12 +2789,14 @@
       "title": "Chapter 28: Jïäna-yoga",
       "firstRef": "SB.11.28.1",
       "lastRef": "SB.11.28.44",
-      "recordCount": 43
+      "recordCount": 43,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L12",
-      "unitId": "BVED.U13",
-      "order": 12,
+      "id": "BVED.S211",
+      "unitId": "BVED.U8",
+      "order": 211,
       "book": "sb11",
       "chapter": 29,
       "part": 1,
@@ -1846,12 +2804,14 @@
       "title": "Chapter 29: Bhakti-yoga · Part 1",
       "firstRef": "SB.11.29.1",
       "lastRef": "SB.11.29.24",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L13",
-      "unitId": "BVED.U13",
-      "order": 13,
+      "id": "BVED.S212",
+      "unitId": "BVED.U8",
+      "order": 212,
       "book": "sb11",
       "chapter": 29,
       "part": 2,
@@ -1859,12 +2819,14 @@
       "title": "Chapter 29: Bhakti-yoga · Part 2",
       "firstRef": "SB.11.29.25",
       "lastRef": "SB.11.29.49",
-      "recordCount": 22
+      "recordCount": 22,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L14",
-      "unitId": "BVED.U13",
-      "order": 14,
+      "id": "BVED.S213",
+      "unitId": "BVED.U8",
+      "order": 213,
       "book": "sb11",
       "chapter": 30,
       "part": 1,
@@ -1872,12 +2834,14 @@
       "title": "Chapter 30: The Disappearance of the Yadu Dynasty · Part 1",
       "firstRef": "SB.11.30.1",
       "lastRef": "SB.11.30.23",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U13.L15",
-      "unitId": "BVED.U13",
-      "order": 15,
+      "id": "BVED.S214",
+      "unitId": "BVED.U8",
+      "order": 214,
       "book": "sb11",
       "chapter": 30,
       "part": 2,
@@ -1885,12 +2849,14 @@
       "title": "Chapter 30: The Disappearance of the Yadu Dynasty · Part 2",
       "firstRef": "SB.11.30.24",
       "lastRef": "SB.11.30.50",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U14.L1",
-      "unitId": "BVED.U14",
-      "order": 1,
+      "id": "BVED.S215",
+      "unitId": "BVED.U8",
+      "order": 215,
       "book": "sb11",
       "chapter": 31,
       "part": 1,
@@ -1898,12 +2864,14 @@
       "title": "Chapter 31: The Disappearance of Lord Çré Kåñëa",
       "firstRef": "SB.11.31.1",
       "lastRef": "SB.11.31.28",
-      "recordCount": 26
+      "recordCount": 26,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L1",
-      "unitId": "BVED.U15",
-      "order": 1,
+      "id": "BVED.S216",
+      "unitId": "BVED.U9",
+      "order": 216,
       "book": "sb12",
       "chapter": 1,
       "part": 1,
@@ -1911,12 +2879,14 @@
       "title": "Chapter 1: The Degraded Dynasties of Kali-yuga",
       "firstRef": "SB.12.1.1-2",
       "lastRef": "SB.12.1.41",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L2",
-      "unitId": "BVED.U15",
-      "order": 2,
+      "id": "BVED.S217",
+      "unitId": "BVED.U9",
+      "order": 217,
       "book": "sb12",
       "chapter": 2,
       "part": 1,
@@ -1924,12 +2894,14 @@
       "title": "Chapter 2: The Symptoms of Kali-yuga",
       "firstRef": "SB.12.2.1",
       "lastRef": "SB.12.2.44",
-      "recordCount": 38
+      "recordCount": 38,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L3",
-      "unitId": "BVED.U15",
-      "order": 3,
+      "id": "BVED.S218",
+      "unitId": "BVED.U9",
+      "order": 218,
       "book": "sb12",
       "chapter": 3,
       "part": 1,
@@ -1937,12 +2909,14 @@
       "title": "Chapter 3: The Bhümi-gétä · Part 1",
       "firstRef": "SB.12.3.1",
       "lastRef": "SB.12.3.28",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L4",
-      "unitId": "BVED.U15",
-      "order": 4,
+      "id": "BVED.S219",
+      "unitId": "BVED.U9",
+      "order": 219,
       "book": "sb12",
       "chapter": 3,
       "part": 2,
@@ -1950,12 +2924,14 @@
       "title": "Chapter 3: The Bhümi-gétä · Part 2",
       "firstRef": "SB.12.3.29",
       "lastRef": "SB.12.3.52",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L5",
-      "unitId": "BVED.U15",
-      "order": 5,
+      "id": "BVED.S220",
+      "unitId": "BVED.U9",
+      "order": 220,
       "book": "sb12",
       "chapter": 4,
       "part": 1,
@@ -1963,12 +2939,14 @@
       "title": "Chapter 4: The Four Categories of Universal Annihilation",
       "firstRef": "SB.12.4.1",
       "lastRef": "SB.12.4.43",
-      "recordCount": 38
+      "recordCount": 38,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L6",
-      "unitId": "BVED.U15",
-      "order": 6,
+      "id": "BVED.S221",
+      "unitId": "BVED.U9",
+      "order": 221,
       "book": "sb12",
       "chapter": 5,
       "part": 1,
@@ -1976,12 +2954,14 @@
       "title": "Chapter 5: Çukadeva Gosvämé's Final Instructions to Mahäräja Parékñit",
       "firstRef": "SB.12.5.1",
       "lastRef": "SB.12.5.13",
-      "recordCount": 12
+      "recordCount": 12,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L7",
-      "unitId": "BVED.U15",
-      "order": 7,
+      "id": "BVED.S222",
+      "unitId": "BVED.U9",
+      "order": 222,
       "book": "sb12",
       "chapter": 6,
       "part": 1,
@@ -1989,12 +2969,14 @@
       "title": "Chapter 6: Mahäräja Parékñit Passes Away · Part 1",
       "firstRef": "SB.12.6.1",
       "lastRef": "SB.12.6.38",
-      "recordCount": 36
+      "recordCount": 36,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L8",
-      "unitId": "BVED.U15",
-      "order": 8,
+      "id": "BVED.S223",
+      "unitId": "BVED.U9",
+      "order": 223,
       "book": "sb12",
       "chapter": 6,
       "part": 2,
@@ -2002,12 +2984,14 @@
       "title": "Chapter 6: Mahäräja Parékñit Passes Away · Part 2",
       "firstRef": "SB.12.6.39",
       "lastRef": "SB.12.6.80",
-      "recordCount": 35
+      "recordCount": 35,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L9",
-      "unitId": "BVED.U15",
-      "order": 9,
+      "id": "BVED.S224",
+      "unitId": "BVED.U9",
+      "order": 224,
       "book": "sb12",
       "chapter": 7,
       "part": 1,
@@ -2015,12 +2999,14 @@
       "title": "Chapter 7: The Puräëic Literatures",
       "firstRef": "SB.12.7.1",
       "lastRef": "SB.12.7.25",
-      "recordCount": 23
+      "recordCount": 23,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L10",
-      "unitId": "BVED.U15",
-      "order": 10,
+      "id": "BVED.S225",
+      "unitId": "BVED.U9",
+      "order": 225,
       "book": "sb12",
       "chapter": 8,
       "part": 1,
@@ -2028,12 +3014,14 @@
       "title": "Chapter 8: Märkaëòeya's Prayers to Nara-Näräyaëa Åñi",
       "firstRef": "SB.12.8.1",
       "lastRef": "SB.12.8.49",
-      "recordCount": 38
+      "recordCount": 38,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L11",
-      "unitId": "BVED.U15",
-      "order": 11,
+      "id": "BVED.S226",
+      "unitId": "BVED.U9",
+      "order": 226,
       "book": "sb12",
       "chapter": 9,
       "part": 1,
@@ -2041,12 +3029,14 @@
       "title": "Chapter 9: Märkaëòeya Åñi Sees the Illusory Potency of the Lord",
       "firstRef": "SB.12.9.1",
       "lastRef": "SB.12.9.34",
-      "recordCount": 27
+      "recordCount": 27,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U15.L12",
-      "unitId": "BVED.U15",
-      "order": 12,
+      "id": "BVED.S227",
+      "unitId": "BVED.U9",
+      "order": 227,
       "book": "sb12",
       "chapter": 10,
       "part": 1,
@@ -2054,12 +3044,14 @@
       "title": "Chapter 10: Lord Çiva and Umä Glorify Märkaëòeya Åñi",
       "firstRef": "SB.12.10.1",
       "lastRef": "SB.12.10.42",
-      "recordCount": 38
+      "recordCount": 38,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U16.L1",
-      "unitId": "BVED.U16",
-      "order": 1,
+      "id": "BVED.S228",
+      "unitId": "BVED.U9",
+      "order": 228,
       "book": "sb12",
       "chapter": 11,
       "part": 1,
@@ -2067,12 +3059,14 @@
       "title": "Chapter 11: Summary Description of the Mahäpuruña · Part 1",
       "firstRef": "SB.12.11.1",
       "lastRef": "SB.12.11.27-28",
-      "recordCount": 22
+      "recordCount": 22,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U16.L2",
-      "unitId": "BVED.U16",
-      "order": 2,
+      "id": "BVED.S229",
+      "unitId": "BVED.U9",
+      "order": 229,
       "book": "sb12",
       "chapter": 11,
       "part": 2,
@@ -2080,12 +3074,14 @@
       "title": "Chapter 11: Summary Description of the Mahäpuruña · Part 2",
       "firstRef": "SB.12.11.29",
       "lastRef": "SB.12.11.50",
-      "recordCount": 21
+      "recordCount": 21,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U16.L3",
-      "unitId": "BVED.U16",
-      "order": 3,
+      "id": "BVED.S230",
+      "unitId": "BVED.U9",
+      "order": 230,
       "book": "sb12",
       "chapter": 12,
       "part": 1,
@@ -2093,12 +3089,14 @@
       "title": "Chapter 12: The Topics of Çrémad-Bhägavatam Summarized · Part 1",
       "firstRef": "SB.12.12.1",
       "lastRef": "SB.12.12.36",
-      "recordCount": 31
+      "recordCount": 31,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U16.L4",
-      "unitId": "BVED.U16",
-      "order": 4,
+      "id": "BVED.S231",
+      "unitId": "BVED.U9",
+      "order": 231,
       "book": "sb12",
       "chapter": 12,
       "part": 2,
@@ -2106,12 +3104,14 @@
       "title": "Chapter 12: The Topics of Çrémad-Bhägavatam Summarized · Part 2",
       "firstRef": "SB.12.12.37",
       "lastRef": "SB.12.12.69",
-      "recordCount": 31
+      "recordCount": 31,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     },
     {
-      "id": "BVED.U16.L5",
-      "unitId": "BVED.U16",
-      "order": 5,
+      "id": "BVED.S232",
+      "unitId": "BVED.U9",
+      "order": 232,
       "book": "sb12",
       "chapter": 13,
       "part": 1,
@@ -2119,7 +3119,9 @@
       "title": "Chapter 13: The Glories of Çrémad-Bhägavatam",
       "firstRef": "SB.12.13.1",
       "lastRef": "SB.12.13.23",
-      "recordCount": 17
+      "recordCount": 17,
+      "curriculumSource": "Bhakti Study existing pedagogical ranges; organized within official Bhakti Vedanta scope",
+      "lessonType": "passage"
     }
   ]
 }

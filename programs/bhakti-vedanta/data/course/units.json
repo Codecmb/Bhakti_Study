@@ -1,132 +1,106 @@
 {
+  "schema": "bhakti-study.course-units.v1",
+  "programId": "bhakti-vedanta",
+  "source": "ISKCON Bhakti Vedanta scope; Bhaktivedanta Vidyapitha / Gauranga Darshan Das practical curriculum model",
   "units": [
     {
       "id": "BVED.U1",
+      "title": "Śrīmad-Bhāgavatam Canto 7",
       "book": "sb7",
-      "title": "Śrīmad-Bhāgavatam Canto 7, Chapters 1–10",
-      "range": "SB.7.1–SB.7.10",
-      "chapterCount": 10,
-      "status": "available-source-range"
+      "range": "SB.7.1–SB.7.15",
+      "canto": 7,
+      "chapterStart": 1,
+      "chapterEnd": 15,
+      "chapterCount": 15,
+      "alignment": "Bhakti Vedanta canonical canto study"
     },
     {
       "id": "BVED.U2",
-      "book": "sb7",
-      "title": "Śrīmad-Bhāgavatam Canto 7, Chapters 11–15",
-      "range": "SB.7.11–SB.7.15",
-      "chapterCount": 5,
-      "status": "available-source-range"
+      "title": "Śrīmad-Bhāgavatam Canto 8",
+      "book": "sb8",
+      "range": "SB.8.1–SB.8.24",
+      "canto": 8,
+      "chapterStart": 1,
+      "chapterEnd": 24,
+      "chapterCount": 24,
+      "alignment": "Bhakti Vedanta canonical canto study"
     },
     {
       "id": "BVED.U3",
-      "book": "sb8",
-      "title": "Śrīmad-Bhāgavatam Canto 8, Chapters 1–10",
-      "range": "SB.8.1–SB.8.10",
-      "chapterCount": 10,
-      "status": "available-source-range"
+      "title": "Śrīmad-Bhāgavatam Canto 9",
+      "book": "sb9",
+      "range": "SB.9.1–SB.9.24",
+      "canto": 9,
+      "chapterStart": 1,
+      "chapterEnd": 24,
+      "chapterCount": 24,
+      "alignment": "Bhakti Vedanta canonical canto study"
     },
     {
       "id": "BVED.U4",
-      "book": "sb8",
-      "title": "Śrīmad-Bhāgavatam Canto 8, Chapters 11–20",
-      "range": "SB.8.11–SB.8.20",
-      "chapterCount": 10,
-      "status": "available-source-range"
+      "title": "Śrīmad-Bhāgavatam Canto 10, Chapters 1–20",
+      "book": "sb10",
+      "range": "SB.10.1–SB.10.20",
+      "canto": 10,
+      "chapterStart": 1,
+      "chapterEnd": 20,
+      "chapterCount": 20,
+      "alignment": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das course model"
     },
     {
       "id": "BVED.U5",
-      "book": "sb8",
-      "title": "Śrīmad-Bhāgavatam Canto 8, Chapters 21–24",
-      "range": "SB.8.21–SB.8.24",
-      "chapterCount": 4,
-      "status": "available-source-range"
+      "title": "Śrīmad-Bhāgavatam Canto 10, Chapters 21–44",
+      "book": "sb10",
+      "range": "SB.10.21–SB.10.44",
+      "canto": 10,
+      "chapterStart": 21,
+      "chapterEnd": 44,
+      "chapterCount": 24,
+      "alignment": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das course model"
     },
     {
       "id": "BVED.U6",
-      "book": "sb9",
-      "title": "Śrīmad-Bhāgavatam Canto 9, Chapters 1–10",
-      "range": "SB.9.1–SB.9.10",
-      "chapterCount": 10,
-      "status": "available-source-range"
+      "title": "Śrīmad-Bhāgavatam Canto 10, Chapters 45–70",
+      "book": "sb10",
+      "range": "SB.10.45–SB.10.70",
+      "canto": 10,
+      "chapterStart": 45,
+      "chapterEnd": 70,
+      "chapterCount": 26,
+      "alignment": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das course model"
     },
     {
       "id": "BVED.U7",
-      "book": "sb9",
-      "title": "Śrīmad-Bhāgavatam Canto 9, Chapters 11–20",
-      "range": "SB.9.11–SB.9.20",
-      "chapterCount": 10,
-      "status": "available-source-range"
+      "title": "Śrīmad-Bhāgavatam Canto 10, Chapters 71–90",
+      "book": "sb10",
+      "range": "SB.10.71–SB.10.90",
+      "canto": 10,
+      "chapterStart": 71,
+      "chapterEnd": 90,
+      "chapterCount": 20,
+      "alignment": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das course model"
     },
     {
       "id": "BVED.U8",
-      "book": "sb9",
-      "title": "Śrīmad-Bhāgavatam Canto 9, Chapters 21–24",
-      "range": "SB.9.21–SB.9.24",
-      "chapterCount": 4,
-      "status": "available-source-range"
+      "title": "Śrīmad-Bhāgavatam Canto 11",
+      "book": "sb11",
+      "range": "SB.11.1–SB.11.31",
+      "canto": 11,
+      "chapterStart": 1,
+      "chapterEnd": 31,
+      "chapterCount": 31,
+      "alignment": "Bhakti Vedanta canonical canto study"
     },
     {
       "id": "BVED.U9",
-      "book": "sb10",
-      "title": "Śrīmad-Bhāgavatam Canto 10, Chapters 1–10",
-      "range": "SB.10.1–SB.10.10",
-      "chapterCount": 10,
-      "status": "partial-source-range"
-    },
-    {
-      "id": "BVED.U10",
-      "book": "sb10",
-      "title": "Śrīmad-Bhāgavatam Canto 10, Chapters 11–13",
-      "range": "SB.10.11–SB.10.13",
-      "chapterCount": 3,
-      "status": "partial-source-range"
-    },
-    {
-      "id": "BVED.U11",
-      "book": "sb11",
-      "title": "Śrīmad-Bhāgavatam Canto 11, Chapters 1–10",
-      "range": "SB.11.1–SB.11.10",
-      "chapterCount": 10,
-      "status": "available-source-range"
-    },
-    {
-      "id": "BVED.U12",
-      "book": "sb11",
-      "title": "Śrīmad-Bhāgavatam Canto 11, Chapters 11–20",
-      "range": "SB.11.11–SB.11.20",
-      "chapterCount": 10,
-      "status": "available-source-range"
-    },
-    {
-      "id": "BVED.U13",
-      "book": "sb11",
-      "title": "Śrīmad-Bhāgavatam Canto 11, Chapters 21–30",
-      "range": "SB.11.21–SB.11.30",
-      "chapterCount": 10,
-      "status": "available-source-range"
-    },
-    {
-      "id": "BVED.U14",
-      "book": "sb11",
-      "title": "Śrīmad-Bhāgavatam Canto 11, Chapters 31–31",
-      "range": "SB.11.31–SB.11.31",
-      "chapterCount": 1,
-      "status": "available-source-range"
-    },
-    {
-      "id": "BVED.U15",
+      "title": "Śrīmad-Bhāgavatam Canto 12",
       "book": "sb12",
-      "title": "Śrīmad-Bhāgavatam Canto 12, Chapters 1–10",
-      "range": "SB.12.1–SB.12.10",
-      "chapterCount": 10,
-      "status": "available-source-range"
-    },
-    {
-      "id": "BVED.U16",
-      "book": "sb12",
-      "title": "Śrīmad-Bhāgavatam Canto 12, Chapters 11–13",
-      "range": "SB.12.11–SB.12.13",
-      "chapterCount": 3,
-      "status": "available-source-range"
+      "range": "SB.12.1–SB.12.13",
+      "canto": 12,
+      "chapterStart": 1,
+      "chapterEnd": 13,
+      "chapterCount": 13,
+      "alignment": "Bhakti Vedanta canonical canto study"
     }
   ]
 }

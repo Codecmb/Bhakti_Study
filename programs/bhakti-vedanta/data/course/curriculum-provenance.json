@@ -1,0 +1,15 @@
+{
+  "schema": "bhakti-study.curriculum-provenance.v1",
+  "programId": "bhakti-vedanta",
+  "officialScope": {
+    "source": "ISKCON Ministry of Education scriptural degrees overview",
+    "scope": "Śrīmad-Bhāgavatam Cantos 7–12"
+  },
+  "practicalModel": {
+    "source": "Bhaktivedanta Vidyapitha / Gauranga Darshan Das",
+    "usage": "Course organization model. Canto 10 is divided 1–20, 21–44, 45–70, 71–90. Chapter-level Academy lessons are used within those divisions; they are not represented as a verbatim official session list."
+  },
+  "cantos11and12": {
+    "policy": "Organized by canto while preserving existing pedagogical passage ranges; no undocumented external module boundaries are claimed."
+  }
+}
