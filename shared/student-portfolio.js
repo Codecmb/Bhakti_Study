@@ -1,6 +1,6 @@
 (function(global){
   const S=global.StudentStore;
-  const WORK_TYPES={understanding:'My Understanding',reflection:'Revised Understanding',notes:'Notes',answer:'Answer','my-question':'My Question',assessment:'Assessment'};
+  const WORK_TYPES={understanding:'My Understanding',reflection:'Revised Understanding',notes:'Notes',answer:'Answer','question-answer':'Question Answer','question-revision':'Revised Question Answer','my-question':'My Question',assessment:'Assessment'};
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function records(){
     if(!S)return[];

@@ -2,26 +2,36 @@
   const norm=s=>(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/^\s*(question\s*)?\d+[.)-]?\s*/i,'').replace(/[^a-z0-9\s]/g,' ').replace(/\s+/g,' ').trim();
   const hash=s=>{let h=2166136261;for(const c of s){h^=c.charCodeAt(0);h=Math.imul(h,16777619)}return (h>>>0).toString(36)};
   const tokens=s=>new Set(norm(s).split(' ').filter(x=>x.length>2));
+  const arr=v=>Array.isArray(v)?v.filter(Boolean):(v?[v]:[]);
   function similarity(a,b){const A=tokens(a),B=tokens(b);if(!A.size||!B.size)return 0;let inter=0;for(const x of A)if(B.has(x))inter++;return inter/(A.size+B.size-inter)}
+  function normalizeRecord(q={}){
+    const provider=q.provider||'academy';
+    const canonicalSources=arr(q.canonical_sources||q.refs).map(String);
+    if(!canonicalSources.length&&q.canonical_ref&&!/^[A-Z]+\.U\d+$/i.test(q.canonical_ref))canonicalSources.push(q.canonical_ref);
+    const provenance=q.provenance||{
+      provider,
+      title:q.source_title||q.source||'',
+      source_file:q.source_file||'',
+      source_url:q.source_url||'',
+      source_question_id:q.source_question_id||''
+    };
+    const id=q.id||`${provider}-${hash((q.canonical_ref||'')+'|'+norm(q.question))}`;
+    return {...q,id,provider,canonical_sources:[...new Set(canonicalSources)],concepts:arr(q.concepts),study_sources:arr(q.study_sources),provenance};
+  }
   function dedupe(items){
     const seenSource=new Set(),seenText=new Map(),out=[],near=[];
-    for(const q of items){
-      const sk=[q.provider,q.source_url,q.source_question_id].filter(Boolean).join('|');
-      if(sk&&seenSource.has(sk))continue;
-      if(sk)seenSource.add(sk);
+    for(const raw of items){
+      const q=normalizeRecord(raw),sk=[q.provider,q.source_url,q.source_question_id].filter(Boolean).join('|');
+      if(sk&&seenSource.has(sk))continue;if(sk)seenSource.add(sk);
       const n=norm(q.question);if(!n)continue;
-      if(seenText.has(n)){
-        const prev=seenText.get(n);prev.duplicate_sources=prev.duplicate_sources||[];
-        prev.duplicate_sources.push({provider:q.provider,url:q.source_url,id:q.source_question_id});continue;
-      }
-      const x={...q,id:q.id||`${q.provider||'q'}-${hash((q.canonical_ref||'')+'|'+n)}`};
-      for(const prior of out){const score=similarity(prior.question,x.question);if(score>=0.82)near.push({a:prior.id,b:x.id,score:+score.toFixed(3),canonical_ref:x.canonical_ref||prior.canonical_ref||''})}
-      seenText.set(n,x);out.push(x);
+      if(seenText.has(n)){const prev=seenText.get(n);prev.duplicate_sources=prev.duplicate_sources||[];prev.duplicate_sources.push({provider:q.provider,url:q.source_url,id:q.source_question_id});continue}
+      for(const prior of out){const score=similarity(prior.question,q.question);if(score>=0.82)near.push({a:prior.id,b:q.id,score:+score.toFixed(3),canonical_ref:q.canonical_ref||prior.canonical_ref||''})}
+      seenText.set(n,q);out.push(q);
     }
     return {items:out,near_duplicates:near};
   }
   function scopes(canonical,unit){
-    const out=[]; if(canonical){out.push(canonical);const p=canonical.split('.');
+    const out=[];if(canonical){out.push(canonical);const p=canonical.split('.');
       if(p[0]==='BG'&&p.length>=3)out.push(`BG.${p[1]}`);
       if(p[0]==='SB'&&p.length>=4)out.push(`SB.${p[1]}.${p[2]}`);
       if(p[0]==='CC'&&p.length>=4)out.push(`CC.${p[1]}.${p[2]}`);
@@ -29,25 +39,51 @@
     }
     if(unit)out.push(unit);return [...new Set(out)];
   }
-  function relevant(items,canonical,unit){const ss=scopes(canonical,unit);const rank=r=>{const i=ss.indexOf(r);return i<0?999:i};return items.filter(q=>!q.canonical_ref||ss.includes(q.canonical_ref)).sort((a,b)=>rank(a.canonical_ref)-rank(b.canonical_ref))}
-  // Question responses belong to the stable question identity, not to the page/verse
-  // from which the learner happened to open the question. This prevents the same
-  // chapter/unit question from creating separate answers on adjacent verse pages.
+  function relevant(items,canonical,unit){const ss=scopes(canonical,unit),rank=r=>{const i=ss.indexOf(r);return i<0?999:i};return items.map(normalizeRecord).filter(q=>!q.canonical_ref||ss.includes(q.canonical_ref)).sort((a,b)=>rank(a.canonical_ref)-rank(b.canonical_ref))}
+
+  // Legacy answer API remains intact. Answers belong to stable question identity.
   function storageKey(program,qid){return `bhakti-study.questions.${program}.${qid}`}
   function legacyStorageKey(program,scope,qid){return `bhakti-study.questions.${program}.${scope}.${qid}`}
+  function workId(program,qid){return `${program}.${qid}`}
   function load(program,scope,qid){
-    const modern=window.StudentStore?.get('question-answer',`${program}.${qid}`,null);
+    const modern=window.StudentStore?.get('question-answer',workId(program,qid),null);
     if(modern!==null&&modern!==undefined)return modern;
     const stable=localStorage.getItem(storageKey(program,qid));
-    if(stable!==null){window.StudentStore?.set('question-answer',`${program}.${qid}`,stable);return stable;}
-    // One-way compatibility with checkpoints that stored answers under page scope.
+    if(stable!==null){window.StudentStore?.set('question-answer',workId(program,qid),stable);return stable}
     const legacy=localStorage.getItem(legacyStorageKey(program,scope,qid));
-    if(legacy!==null){localStorage.setItem(storageKey(program,qid),legacy);return legacy}
+    if(legacy!==null){localStorage.setItem(storageKey(program,qid),legacy);window.StudentStore?.set('question-answer',workId(program,qid),legacy);return legacy}
     return '';
   }
   function save(program,scope,qid,value){
-    if(window.StudentStore)StudentStore.set('question-answer',`${program}.${qid}`,value);
+    if(window.StudentStore)StudentStore.set('question-answer',workId(program,qid),value);
     else localStorage.setItem(storageKey(program,qid),value);
+    const state=loadState(program,qid);if(!state.completed)saveState(program,qid,{...state,status:String(value||'').trim()?'answered':'unanswered'});
   }
-  window.QuestionEngine={normalize:norm,similarity,dedupe,scopes,relevant,load,save};
+
+  // Finite learning lifecycle: answer -> optional guided review -> one revision -> complete.
+  // A completed response never starts another remediation cycle automatically.
+  function loadState(program,qid){
+    const fallback={schema:'bhakti-study.question-work.v1',status:'unanswered',completed:false,completion_reason:'',revision_count:0};
+    return window.StudentStore?.getJSON('question-state',workId(program,qid),fallback)||fallback;
+  }
+  function saveState(program,qid,state){window.StudentStore?.setJSON('question-state',workId(program,qid),state);return state}
+  function markUnderstood(program,qid){
+    const state=loadState(program,qid);return saveState(program,qid,{...state,status:'complete',completed:true,completion_reason:'understood',completed_at:new Date().toISOString()});
+  }
+  function beginReview(program,qid){
+    const state=loadState(program,qid);if(state.completed)return state;
+    return saveState(program,qid,{...state,status:'review',review_started_at:state.review_started_at||new Date().toISOString()});
+  }
+  function saveRevision(program,qid,value){
+    if(window.StudentStore)StudentStore.set('question-revision',workId(program,qid),value);
+    const state=loadState(program,qid);
+    return saveState(program,qid,{...state,status:'complete',completed:true,completion_reason:'revised',revision_count:1,completed_at:state.completed_at||new Date().toISOString()});
+  }
+  function loadRevision(program,qid){return window.StudentStore?.get('question-revision',workId(program,qid),'')||''}
+  function work(program,scope,qid){
+    const answer=load(program,scope,qid),revision=loadRevision(program,qid),state=loadState(program,qid);
+    return {answer,revision,...state};
+  }
+
+  window.QuestionEngine={normalize:norm,normalizeRecord,similarity,dedupe,scopes,relevant,load,save,work,loadState,markUnderstood,beginReview,loadRevision,saveRevision};
 })();
