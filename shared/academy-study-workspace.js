@@ -26,7 +26,12 @@
       <label><strong>Notes</strong><textarea id="academyNotes" rows="6" placeholder="Personal notes…">${esc(notes)}</textarea></label>
       <div class="academy-study-save"><button class="button" id="academySave" type="button">Save</button><span id="academySaveStatus" class="muted" role="status" aria-live="polite">${Object.keys(draft).length?'Unsaved draft':'Saved'}</span></div>
       <div class="academy-study-links"><a class="button secondary" href="${qs}">Study Questions</a><a class="button secondary" href="${myq}">My Questions</a></div>`;
-    let area=host.parentElement?.querySelector(':scope > .academy-reading-area');
+    // Reuse the existing reading wrapper when navigating between passages.
+    // Without this check, every passage change nests another .academy-reading-area
+    // inside the previous one, progressively collapsing the source-text pane.
+    let area=host.parentElement?.classList?.contains('academy-reading-area')
+      ? host.parentElement
+      : host.parentElement?.querySelector(':scope > .academy-reading-area');
     if(!area){
       area=document.createElement('div');
       area.className='academy-reading-area';

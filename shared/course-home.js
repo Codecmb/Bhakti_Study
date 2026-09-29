@@ -30,7 +30,11 @@
         g.lessons.push(l);
       });
 
-      const chapterContent=groups.length>1
+      // Chapter accordions are useful only when they actually group multiple lessons.
+      // If every chapter is already a single lesson (for example Caitanya-caritāmṛta),
+      // render the lesson outline directly instead of adding a redundant dropdown layer.
+      const useChapterGroups=groups.length>1 && groups.some(g=>g.lessons.length>1);
+      const chapterContent=useChapterGroups
         ? `<div class="chapter-groups">${groups.map(g=>`
             <section class="chapter-group">
               <button class="chapter-toggle" type="button" aria-expanded="false">
