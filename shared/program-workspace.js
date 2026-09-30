@@ -36,12 +36,27 @@
     }else if(mode==='understanding'){
       const old=`bhakti-study.${programId}.${scope}.${mode}`;StudentStore.migrate(old,mode,studentId);
       content.innerHTML=`<h2>My Understanding</h2><p>Write first, then return to the primary source and revise your understanding.</p><textarea id="entry" class="field" placeholder="What do I understand from this study unit${canonical?' / '+esc(canonical):''}?"></textarea><button id="save" class="button lotus">Save Understanding</button> ${returnSource}<p id="msg" class="small"></p>`;
-      entry.value=StudentStore.get(mode,studentId,'');save.onclick=()=>{StudentStore.set(mode,studentId,entry.value);msg.textContent='Saved in this browser.'};
+      entry.value=StudentStore.get(mode,studentId,'');
+      const understandingDraft=StudentWorkDraft.attach({
+        id:studentId,
+        field:entry,
+        status:msg,
+        onSave:value=>StudentStore.set(mode,studentId,value)
+      });
+      save.onclick=()=>understandingDraft?.save();
     }else if(mode==='my-questions'){
       MyQuestionsUI.render(content,{program:programId,unit:unit.id,canonical,bookIds:unit.books||[unit.book].filter(Boolean)});
     }else if(mode==='notes'){
       content.innerHTML=`<h2>Notes</h2><p>Notes remain independent of the book files and are attached to ${canonical?'the canonical passage':'this study unit'}.</p><textarea id="entry" class="field" placeholder="Study notes"></textarea><button id="save" class="button">Save Notes</button> ${returnSource}<p id="msg" class="small"></p>`;
-      entry.value=StudentStore.get('notes',`${programId}.${scope}`,'');save.onclick=()=>{StudentStore.set('notes',`${programId}.${scope}`,entry.value);msg.textContent='Saved in this browser.'};
+      const notesId=`${programId}.${scope}`;
+      entry.value=StudentStore.get('notes',notesId,'');
+      const notesDraft=StudentWorkDraft.attach({
+        id:`notes.${notesId}`,
+        field:entry,
+        status:msg,
+        onSave:value=>StudentStore.set('notes',notesId,value)
+      });
+      save.onclick=()=>notesDraft?.save();
     }else if(mode==='questions'){
       let banks=[];
       try{
