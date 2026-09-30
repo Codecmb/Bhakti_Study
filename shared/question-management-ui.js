@@ -22,6 +22,11 @@
           <button class="button secondary deleteQuestion" data-qid="${x.id}">Delete Question</button>
         </p>
       </article>`).join('')+
+      (active.length?`<p class="question-navigation">
+        <button id="previousQuestion" type="button" class="button secondary">← Previous Question</button>
+        <button id="nextUnanswered" type="button" class="button secondary">Next Unanswered</button>
+        <button id="nextQuestion" type="button" class="button secondary">Next Question →</button>
+      </p>`:'')+
       '<p><button id="saveQuestions" class="button">Save Answers</button></p>'+
       (deleted.length?`<details>
         <summary><strong>Deleted Questions (${deleted.length})</strong></summary>
@@ -48,6 +53,54 @@
       if(!confirm('Clear this answer? The saved answer will remain unchanged until you save answers.'))return;
       answer.value='';
       answer.focus();
+    });
+
+    const cards=[...container.querySelectorAll('.question-card[data-qid]')];
+
+    function currentIndex(){
+      const focused=document.activeElement?.closest?.('.question-card[data-qid]');
+      if(focused){
+        const ix=cards.indexOf(focused);
+        if(ix>=0)return ix;
+      }
+
+      const visible=cards.findIndex(card=>{
+        const r=card.getBoundingClientRect();
+        return r.bottom>0 && r.top<window.innerHeight;
+      });
+      return visible>=0?visible:0;
+    }
+
+    function goTo(ix){
+      if(ix<0 || ix>=cards.length)return;
+      cards[ix].scrollIntoView({behavior:'smooth',block:'center'});
+      cards[ix].querySelector('.qanswer')?.focus({preventScroll:true});
+    }
+
+    container.querySelector('#previousQuestion')?.addEventListener('click',()=>{
+      goTo(Math.max(0,currentIndex()-1));
+    });
+
+    container.querySelector('#nextQuestion')?.addEventListener('click',()=>{
+      goTo(Math.min(cards.length-1,currentIndex()+1));
+    });
+
+    container.querySelector('#nextUnanswered')?.addEventListener('click',()=>{
+      if(!cards.length)return;
+
+      const start=currentIndex();
+      const unanswered=card=>{
+        const field=card.querySelector('.qanswer');
+        return !String(field?.value||'').trim();
+      };
+
+      for(let offset=1;offset<=cards.length;offset++){
+        const ix=(start+offset)%cards.length;
+        if(unanswered(cards[ix])){
+          goTo(ix);
+          return;
+        }
+      }
     });
 
     container.querySelectorAll('.flagDuplicate').forEach(btn=>btn.onclick=()=>{
