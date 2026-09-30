@@ -21,24 +21,34 @@
       const first=ls[0];
       const continueHref=first?`../../library/reader.html?${params({book:first.book,ref:first.firstRef,program:programId,unit:u.id})}`:`tools.html?${params({unit:u.id,mode:'read'})}`;
       const groups=[];
+      const multiBook=Array.isArray(u.books) && u.books.length>1;
+      const bookLabels={
+        iso:'Śrī Īśopaniṣad',
+        noi:'Nectar of Instruction'
+      };
       ls.forEach(l=>{
         const ref=String(l.firstRef||'');
-        const m=ref.match(/^(?:BG|SB|CC(?:\.ADI|\.MADHYA|\.ANTYA)?)[. ]?(\d+)/i);
-        const key=m?m[1]:'Other';
+        const bg=ref.match(/^BG[. ](\d+)/i);
+        const sb=ref.match(/^SB[. ]\d+[. ](\d+)/i);
+        const cc=ref.match(/^CC[. ](?:ADI|MADHYA|ANTYA)[. ](\d+)/i);
+        const nod=ref.match(/^NOD[. ](\d+)/i);
+        const chapter=bg?bg[1]:sb?sb[1]:cc?cc[1]:nod?nod[1]:'Other';
+        const book=String(l.book||'').toLowerCase();
+        const key=multiBook?book:chapter;
+        const label=multiBook?(bookLabels[book]||book.toUpperCase()):`Chapter ${chapter}`;
         let g=groups.find(x=>x.key===key);
-        if(!g){g={key,lessons:[]};groups.push(g)}
+        if(!g){g={key,label,lessons:[]};groups.push(g)}
         g.lessons.push(l);
       });
 
-      // Chapter accordions are useful only when they actually group multiple lessons.
-      // If every chapter is already a single lesson (for example Caitanya-caritāmṛta),
-      // render the lesson outline directly instead of adding a redundant dropdown layer.
-      const useChapterGroups=groups.length>1 && groups.some(g=>g.lessons.length>1);
+      // Preserve the shared Academy hierarchy for every standard course:
+      // Unit → Chapter/Book → Lessons. Multi-book units group by book.
+      const useChapterGroups=groups.length>0;
       const chapterContent=useChapterGroups
         ? `<div class="chapter-groups">${groups.map(g=>`
             <section class="chapter-group">
               <button class="chapter-toggle" type="button" aria-expanded="false">
-                <span><strong>Chapter ${esc(g.key)}</strong><small>${g.lessons.length} lesson${g.lessons.length===1?'':'s'}</small></span>
+                <span><strong>${esc(g.label)}</strong><small>${g.lessons.length} lesson${g.lessons.length===1?'':'s'}</small></span>
                 <span class="chapter-chevron">⌄</span>
               </button>
               <div class="chapter-lessons" hidden>
