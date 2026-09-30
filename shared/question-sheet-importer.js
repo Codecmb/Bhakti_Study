@@ -1,0 +1,75 @@
+(function(){
+  const PREFIX='bhakti-study.imported-questions.';
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const uid=()=>`IQ.${Date.now().toString(36)}.${Math.random().toString(36).slice(2,8)}`;
+  const key=program=>PREFIX+program;
+  const readAll=program=>{try{return JSON.parse(localStorage.getItem(key(program))||'[]')}catch{return []}};
+  const writeAll=(program,items)=>localStorage.setItem(key(program),JSON.stringify(items));
+  const rtfToText=s=>s.replace(/\\par[d]?\b/g,'\n').replace(/\\'[0-9a-fA-F]{2}/g,' ').replace(/\\[a-zA-Z]+-?\d* ?/g,'').replace(/[{}]/g,'').replace(/\r/g,'');
+  function detect(text){
+    const src=String(text||'').replace(/\r/g,'\n').replace(/\n{3,}/g,'\n\n').trim(); if(!src)return [];
+    const lines=src.split(/\n+/).map(x=>x.trim()).filter(Boolean),out=[];let current='';
+    const starts=/^(?:question\s*)?(?:\d{1,4}|[A-Za-z])[.)\-:]\s+(.+)/i;
+    for(const line of lines){const m=line.match(starts);if(m){if(current)out.push(current.trim());current=m[1].trim();continue}if(current){current+=' '+line;if(/[?]$/.test(line)){out.push(current.trim());current=''};continue}if(/[?]$/.test(line))out.push(line)}
+    if(current)out.push(current.trim());return [...new Set(out.map(x=>x.replace(/^[-•]\s*/,'')))].filter(x=>x.length>=8);
+  }
+  function parseCSV(raw){
+    const rows=[];let row=[],cell='',quoted=false;
+    for(let i=0;i<raw.length;i++){const c=raw[i],n=raw[i+1];if(c==='"'){if(quoted&&n==='"'){cell+='"';i++}else quoted=!quoted}else if(c===','&&!quoted){row.push(cell);cell=''}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&n==='\n')i++;row.push(cell);if(row.some(x=>x.trim()))rows.push(row);row=[];cell=''}else cell+=c}
+    row.push(cell);if(row.some(x=>x.trim()))rows.push(row);return rows;
+  }
+  function csvQuestions(raw){
+    const rows=parseCSV(raw);if(!rows.length)return [];
+    const headers=rows[0].map(x=>x.trim().toLowerCase());
+    const aliases=['question','questions','prompt','study question','study_question','question_text','text'];
+    let qi=headers.findIndex(h=>aliases.includes(h));let start=1;
+    if(qi<0){const firstLooksHeader=headers.some(h=>/question|prompt|chapter|canto|verse|id|answer/.test(h));start=firstLooksHeader?1:0;qi=rows.reduce((best,r)=>r.length>best? r.length:best,0)===1?0:-1}
+    let qs=[];
+    if(qi>=0)qs=rows.slice(start).map(r=>(r[qi]||'').trim()).filter(Boolean);
+    else qs=rows.slice(start).flatMap(r=>r.map(x=>x.trim()).filter(x=>x.endsWith('?')));
+    return [...new Set(qs)].filter(x=>x.length>=8);
+  }
+  async function pdfText(file){
+    const pdfjsLib=await import('./vendor/pdfjs/pdf.mjs');
+    const worker='../../shared/vendor/pdfjs/pdf.worker.mjs';
+    pdfjsLib.GlobalWorkerOptions.workerSrc=worker;
+    const pdf=await pdfjsLib.getDocument({data:await file.arrayBuffer()}).promise;const pages=[];
+    for(let n=1;n<=pdf.numPages;n++){const page=await pdf.getPage(n),content=await page.getTextContent();pages.push(content.items.map(x=>x.str).join(' '))}
+    return pages.join('\n');
+  }
+  async function odtText(file){
+    if(!window.JSZip)throw new Error('JSZip is not loaded.');
+    const zip=await JSZip.loadAsync(await file.arrayBuffer());
+    const entry=zip.file('content.xml');
+    if(!entry)throw new Error('ODT content.xml was not found.');
+
+    const xml=await entry.async('string');
+    const doc=new DOMParser().parseFromString(xml,'application/xml');
+    if(doc.querySelector('parsererror'))throw new Error('ODT content.xml could not be parsed.');
+
+    return Array.from(doc.getElementsByTagName('*'))
+      .filter(el=>el.localName==='p'||el.localName==='h')
+      .map(el=>el.textContent.trim())
+      .filter(Boolean)
+      .join('\n');
+  }
+
+  async function fileText(file){
+    const ext=(file.name.split('.').pop()||'').toLowerCase();
+    if(ext==='csv'){const raw=await file.text(),questions=csvQuestions(raw);return {text:questions.map((q,i)=>`${i+1}. ${q}`).join('\n'),automatic:true,questions,note:`Read ${questions.length} question${questions.length===1?'':'s'} from CSV.`}}
+    if(['txt','md','rtf'].includes(ext)){const raw=await file.text();return {text:ext==='rtf'?rtfToText(raw):raw,automatic:true}}
+    if(ext==='pdf'){try{const text=await pdfText(file);return {text,automatic:true,note:'PDF text extracted locally in your browser.'}}catch(e){return {text:'',automatic:false,reason:e.message+' The file was not uploaded. Install the bundled PDF.js files, then drop it again.'}}}
+    if(ext==='odt'){try{const text=await odtText(file);return {text,automatic:true,note:'LibreOffice ODT text extracted locally in your browser.'}}catch(e){return {text:'',automatic:false,reason:'Unable to read this ODT file: '+e.message}}}
+    return {text:'',automatic:false,reason:`${ext.toUpperCase()||'This file type'} extraction is not installed yet. The source filename is retained; paste question text below if you want to continue.`};
+  }
+  function list(program,scopes=[]){const S=new Set(scopes.filter(Boolean));return readAll(program).filter(q=>!q.canonical_ref||S.has(q.canonical_ref)||S.has(q.unit));}
+  function render(host,opts={}){
+    const program=opts.program,unit=opts.unit||'',canonical=opts.canonical||'',onImported=opts.onImported||(()=>location.reload());
+    host.innerHTML=`<details class="question-importer"><summary><strong>Import Question Sheet</strong></summary><div style="padding-top:.75rem"><p class="small">Drag and drop a question sheet or choose a file. CSV, PDF, TXT, Markdown and RTF are extracted locally in the browser. Nothing is uploaded.</p><div id="qsiDrop" class="notice" style="border:2px dashed currentColor;text-align:center;padding:1.25rem;cursor:pointer">Drop question sheet here<br><span class="small">or click to choose a file</span><input id="qsiFile" type="file" accept=".csv,.txt,.md,.rtf,.pdf,.odt,.docx" hidden></div><p id="qsiFileName" class="small"></p><label class="small">Source title</label><input id="qsiTitle" class="field" placeholder="e.g. Bhakti Vaibhava Study Guide"><label class="small">Teacher / author (leave blank if unknown)</label><input id="qsiAuthor" class="field" placeholder="Name"><label class="small">Question text</label><textarea id="qsiText" class="field" rows="8" placeholder="Extracted text appears here. You may also paste questions here."></textarea><p><button id="qsiPreview" class="button secondary" type="button">Preview Questions</button></p><div id="qsiPreviewBox"></div><p id="qsiMsg" class="small"></p></div></details>`;
+    const $=s=>host.querySelector(s),drop=$('#qsiDrop'),fileInput=$('#qsiFile'),text=$('#qsiText'),msg=$('#qsiMsg'),preview=$('#qsiPreviewBox');let sourceFile='',found=[],preDetected=[];
+    async function take(file){if(!file)return;sourceFile=file.name;preDetected=[];$('#qsiFileName').textContent=`Source file: ${file.name}`;if(!$('#qsiTitle').value)$('#qsiTitle').value=file.name.replace(/\.[^.]+$/,'');msg.textContent='Reading file locally…';const got=await fileText(file);if(got.automatic){text.value=got.text;preDetected=got.questions||[];msg.textContent=got.note||'Text extracted locally. Review it, then preview the questions.'}else{msg.textContent=got.reason}}
+    drop.onclick=()=>fileInput.click();fileInput.onchange=()=>take(fileInput.files[0]);['dragenter','dragover'].forEach(e=>drop.addEventListener(e,x=>{x.preventDefault();drop.style.opacity='.75'}));['dragleave','drop'].forEach(e=>drop.addEventListener(e,x=>{x.preventDefault();drop.style.opacity='1'}));drop.addEventListener('drop',e=>take(e.dataTransfer.files[0]));
+    $('#qsiPreview').onclick=()=>{found=preDetected.length?preDetected:detect(text.value);if(!found.length){preview.innerHTML='';msg.textContent='No questions detected. The source was kept intact; no questions were imported.';return}preview.innerHTML=`<h4>Preview — ${found.length} question${found.length===1?'':'s'}</h4><ol>${found.map(q=>`<li>${esc(q)}</li>`).join('')}</ol><p><button id="qsiImport" class="button" type="button">Import ${found.length} Question${found.length===1?'':'s'}</button></p>`;msg.textContent='Review before importing. Nothing has been saved yet.';$('#qsiImport').onclick=()=>{const title=$('#qsiTitle').value.trim()||sourceFile||'Imported question sheet',author=$('#qsiAuthor').value.trim(),now=new Date().toISOString();const records=found.map((question,i)=>({id:uid(),provider:'student-import',source_question_id:String(i+1),question,kind:'imported study question',canonical_ref:canonical||null,unit:unit||null,canonical_sources:canonical?[canonical]:[],provenance:{provider:'student-import',title,author,source_file:sourceFile,imported_at:now}}));const all=readAll(program);writeAll(program,all.concat(records));msg.textContent=`Imported ${records.length} questions.`;onImported(records)}};
+  }
+  window.QuestionSheetImporter={render,list,detect,csvQuestions};
+})();

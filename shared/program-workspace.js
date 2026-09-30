@@ -51,7 +51,7 @@
       }
 
       if(!banks.length){
-        content.innerHTML=`<h2>Study Questions</h2><p>Questions are loaded only from verified, attributed question modules. No questions are invented when a provider/unit has not been mapped.</p><div class="notice">This study area is ready for question banks. No verified question bank is registered yet for <strong>${esc(scope)}</strong>.</div>${returnSource}`;
+        content.innerHTML=`<h2>Study Questions</h2><p>Questions are loaded only from verified, attributed question modules. No questions are invented when a provider/unit has not been mapped.</p><div class="notice">This study area is ready for question banks. No verified question bank is registered yet for <strong>${esc(scope)}</strong>.</div><div id="importedQuestionList"></div><div id="questionSheetImporter"></div>${returnSource}`;
       }else{
         const requestedBank=q.get('bank');
         const activeBank=(requestedBank&&banks.find(b=>b.id===requestedBank))||banks.find(b=>b.default)||banks[0];
@@ -78,6 +78,8 @@
             ${activeBank.description?`<p class="small">${esc(activeBank.description)}</p>`:''}
           </div>
           <div id="questionList"></div>
+          <div id="importedQuestionList"></div>
+          <div id="questionSheetImporter"></div>
           ${returnSource}
           <p id="msg" class="small"></p>`;
 
@@ -107,6 +109,42 @@
           next.searchParams.set('bank',selector.value);
           location.href=next.toString();
         };
+      }
+
+      const importedHost=document.querySelector('#importedQuestionList');
+      if(importedHost&&window.QuestionSheetImporter){
+        const imported=QuestionSheetImporter.list(
+          programId,
+          QuestionEngine.scopes(canonical,unit.id)
+        );
+
+        if(imported.length){
+          importedHost.innerHTML=`<details class="imported-questions"><summary><strong>Imported Questions (${imported.length})</strong></summary><div id="importedQuestions" style="padding-top:.75rem"></div></details>`;
+
+          QuestionManagementUI.render(
+            importedHost.querySelector('#importedQuestions'),
+            {
+              program:programId,
+              scope,
+              questions:imported,
+              bank:{
+                id:'student-import',
+                label:'Imported Questions',
+                description:'Questions imported locally from your own study sheets.'
+              }
+            }
+          );
+        }
+      }
+
+      const importerHost=document.querySelector('#questionSheetImporter');
+      if(importerHost&&window.QuestionSheetImporter){
+        QuestionSheetImporter.render(importerHost,{
+          program:programId,
+          unit:unit.id,
+          canonical,
+          onImported:()=>location.reload()
+        });
       }
     }else if(mode==='assessment'){
       const rules=course['completion-rules']?.academyUnitCompletion;

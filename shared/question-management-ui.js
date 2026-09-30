@@ -13,7 +13,7 @@
       active.map((x,i)=>`<article class="question-card" data-qid="${x.id}">
         <p><strong>${i+1}. ${x.question}</strong></p>
         <textarea class="field qanswer" data-qid="${x.id}" placeholder="Answer from the primary source…"></textarea>
-        <div class="small">${x.canonical_ref||''}${bank?.provenance_label?' · '+bank.provenance_label:''}${x.kind?' · '+x.kind:''}</div>
+        <div class="small">${x.canonical_ref||''}${bank?.provenance_label?' · '+bank.provenance_label:''}${x.kind?' · '+x.kind:''}${x.provenance?.title?' · Source: '+x.provenance.title:''}${x.provenance?.author?' · '+x.provenance.author:''}</div>
         <p>
           <button class="button secondary flagDuplicate" data-qid="${x.id}">
             ${QuestionEngine.isDuplicate(program,x.id)?'Unflag Duplicate':'Flag Duplicate'}
