@@ -33,6 +33,13 @@
 
     container.querySelectorAll('.qanswer').forEach(el=>{
       el.value=QuestionEngine.load(program,scope,el.dataset.qid);
+
+      if(global.StudentWorkDraft){
+        StudentWorkDraft.track({
+          id:`question.${program}.${scope}.${el.dataset.qid}`,
+          field:el
+        });
+      }
     });
 
     container.querySelectorAll('.clearAnswer').forEach(btn=>btn.onclick=()=>{
@@ -66,5 +73,13 @@
     });
   }
 
-  global.QuestionManagementUI={render};
+  function clearAnswerDrafts(container,{program,scope}={}){
+    if(!container||!global.StudentWorkDraft)return;
+
+    container.querySelectorAll('.qanswer').forEach(el=>{
+      StudentWorkDraft.clear(`question.${program}.${scope}.${el.dataset.qid}`);
+    });
+  }
+
+  global.QuestionManagementUI={render,clearAnswerDrafts};
 })(window);

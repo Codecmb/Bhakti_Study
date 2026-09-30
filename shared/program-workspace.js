@@ -111,6 +111,10 @@
             document.querySelectorAll('.qanswer').forEach(el=>
               QuestionEngine.save(programId,scope,el.dataset.qid,el.value)
             );
+            QuestionManagementUI.clearAnswerDrafts?.(
+              document.querySelector('#questionList'),
+              {program:programId,scope}
+            );
             const msg=document.querySelector('#msg');
             if(msg)msg.textContent='Answers saved in this browser.';
           };

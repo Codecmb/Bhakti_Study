@@ -27,7 +27,7 @@
     }catch{}
   }
 
-  function attach({id,field,status,onSave}){
+  function track({id,field,status}){
     if(!id || !field)return null;
 
     const draft=read(id,null);
@@ -41,14 +41,21 @@
       if(status)status.textContent='Unsaved changes';
     });
 
+    return {clear:()=>clear(id)};
+  }
+
+  function attach({id,field,status,onSave}){
+    const tracked=track({id,field,status});
+    if(!tracked)return null;
+
     function save(){
       if(typeof onSave==='function')onSave(field.value);
-      clear(id);
+      tracked.clear();
       if(status)status.textContent='Saved in this browser.';
     }
 
-    return {save,clear:()=>clear(id)};
+    return {save,clear:tracked.clear};
   }
 
-  global.StudentWorkDraft={read,write,clear,attach};
+  global.StudentWorkDraft={read,write,clear,track,attach};
 })(window);
