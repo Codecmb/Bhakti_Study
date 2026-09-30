@@ -151,7 +151,7 @@
       if(!rules?.enabled){content.innerHTML=`<h2>Assessment</h2><div class="notice">Academy completion requirements for this program have not been configured yet. Official framework information remains separate and is not converted into Academy requirements automatically.</div>${returnSource}`}
       else content.innerHTML=`<h2>Assessment</h2><p>Assessment requirements are configured by this program's completion-rules module.</p>${returnSource}`;
     }
-    if(canonical)StudyContext?.set?.({program:programId,unit:unit.id,canonical});
+    if(canonical)StudyContext?.set?.({program:programId,unit:unit.id,canonical,mode});
     SourceResolver.linkify(content);
   }
   global.ProgramWorkspace={init};

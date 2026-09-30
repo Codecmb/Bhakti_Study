@@ -90,7 +90,33 @@
         b.setAttribute('aria-expanded','true');
       }
     });
-    const first=lessons[0]; if(first){document.querySelector('#continueStudy').href=`../../library/reader.html?${params({book:first.book,ref:first.firstRef,program:programId,unit:first.unitId})}`}
+    const first=lessons[0];
+  const continueStudy=document.querySelector('#continueStudy');
+  const saved=global.StudyContext?.read?.(programId);
+
+  if(continueStudy){
+    if(saved?.unit && saved?.canonical && saved?.mode){
+      continueStudy.href=`tools.html?${params({
+        unit:saved.unit,
+        mode:saved.mode,
+        ref:saved.canonical
+      })}`;
+    }else if(saved?.unit && saved?.canonical){
+      continueStudy.href=`../../library/reader.html?${params({
+        book:saved.book,
+        ref:saved.canonical,
+        program:programId,
+        unit:saved.unit
+      })}`;
+    }else if(first){
+      continueStudy.href=`../../library/reader.html?${params({
+        book:first.book,
+        ref:first.firstRef,
+        program:programId,
+        unit:first.unitId
+      })}`;
+    }
+  }
   }
   global.CourseHome={init};
 })(window);
