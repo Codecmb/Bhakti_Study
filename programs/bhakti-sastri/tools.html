@@ -19,5 +19,16 @@ saveQuestions.onclick=()=>{document.querySelectorAll('.qanswer').forEach(el=>Que
 else if(mode==='my-questions'){MyQuestionsUI.render(content,{program:'bhakti-sastri',unit:u.id,canonical,bookIds:u.books||[u.book].filter(Boolean)});return}
 else if(mode==='notes'){content.innerHTML=`<h2>Notes</h2><p class="small">Private study notes stored only in this browser.</p><textarea id="entry" class="field" placeholder="Notes, references, questions to revisit…"></textarea><button id="save" class="button">Save Notes</button>${canonical&&sourceHref?` <a class="button secondary" href="${sourceHref}"${sourceTarget?.kind==='external'?' target="_blank" rel="noopener"':''}>Study ${canonical}${sourceTarget?.kind==='external'?' ↗':''}</a>`:''}<p id="msg" class="small"></p>`}
 else {const req=ProgressEngine.requirementState('bhakti-sastri',u,course),assessmentId=req.assessmentId,assessment=req.assessment,requirements=req.requirements;if(!req.config.enabled){content.innerHTML=`<h2>Assessment</h2><div class="notice">Academy completion rules are not configured for this program/unit yet.</div>`;return}content.innerHTML=`<h2>Assessment</h2><div class="notice">Academy self-study assessment. Official BOEX assessment remains a separate process.</div>${requirements.map((r,i)=>`<div class="check-row"><input type="checkbox" id="req${i}" data-requirement="${r.id}" ${r.checked?'checked':''}><label for="req${i}">${r.label}</label></div>`).join('')}<p><button id="saveAssessment" class="button secondary">Save Assessment</button> <button id="mark" class="button saffron">Mark Academy Unit Complete</button></p><p id="msg" class="small"></p>`;const state=()=>Object.fromEntries([...content.querySelectorAll('[data-requirement]')].map(el=>[el.dataset.requirement,el.checked]));saveAssessment.onclick=()=>{StudentStore.setJSON('assessment',assessmentId,state());msg.textContent='Assessment saved in this browser.'};mark.onclick=()=>{const current=state();StudentStore.setJSON('assessment',assessmentId,current);const missing=requirements.filter(r=>!current[r.id]);if(missing.length){msg.textContent=`Complete all ${requirements.length} configured Academy checks before marking this unit complete.`;return}StudentStore.set('completion',assessmentId,'1');msg.textContent='Academy unit marked complete in this browser.'};return}
-const entry=document.querySelector('#entry');if(entry)entry.value=StudentStore.migrate(legacyKey,mode,studentId)||'';document.querySelector('#save')?.addEventListener('click',()=>save());VoiceInput?.attachAll(content);})();
+const entry=document.querySelector('#entry');
+if(entry){
+  entry.value=StudentStore.migrate(legacyKey,mode,studentId)||'';
+  const draft=globalThis.StudentWorkDraft?.attach?.({
+    id:mode==='notes'?`notes.${studentId}`:studentId,
+    field:entry,
+    status:document.querySelector('#msg'),
+    onSave:value=>StudentStore.set(mode,studentId,value)
+  });
+  document.querySelector('#save')?.addEventListener('click',()=>draft?draft.save():save());
+}
+VoiceInput?.attachAll(content);})();
 </script></body></html>
