@@ -13,6 +13,7 @@
       active.map((x,i)=>`<article class="question-card" data-qid="${x.id}">
         <p><strong>${i+1}. ${x.question}</strong></p>
         <textarea class="field qanswer" data-qid="${x.id}" placeholder="Answer from the primary source…"></textarea>
+        <p><button class="button secondary clearAnswer" type="button" data-qid="${x.id}">Clear Answer</button></p>
         <div class="small">${x.canonical_ref||''}${bank?.provenance_label?' · '+bank.provenance_label:''}${x.kind?' · '+x.kind:''}${x.provenance?.title?' · Source: '+x.provenance.title:''}${x.provenance?.author?' · '+x.provenance.author:''}</div>
         <p>
           <button class="button secondary flagDuplicate" data-qid="${x.id}">
@@ -32,6 +33,14 @@
 
     container.querySelectorAll('.qanswer').forEach(el=>{
       el.value=QuestionEngine.load(program,scope,el.dataset.qid);
+    });
+
+    container.querySelectorAll('.clearAnswer').forEach(btn=>btn.onclick=()=>{
+      const answer=container.querySelector(`.qanswer[data-qid="${btn.dataset.qid}"]`);
+      if(!answer || !answer.value)return;
+      if(!confirm('Clear this answer? The saved answer will remain unchanged until you save answers.'))return;
+      answer.value='';
+      answer.focus();
     });
 
     container.querySelectorAll('.flagDuplicate').forEach(btn=>btn.onclick=()=>{
