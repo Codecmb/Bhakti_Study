@@ -17,6 +17,7 @@
         <div class="small">${x.canonical_ref||''}${bank?.provenance_label?' · '+bank.provenance_label:''}${x.kind?' · '+x.kind:''}${x.provenance?.title?' · Source: '+x.provenance.title:''}${x.provenance?.author?' · '+x.provenance.author:''}</div>
         <p>
           ${x.canonical_ref?`<button class="button secondary studyQuestionSource" type="button" data-qid="${x.id}" data-ref="${x.canonical_ref}">Study Source</button>`:''}
+          ${x.provider==='student-import'?`<button class="button secondary editImportedQuestion" type="button" data-qid="${x.id}">Edit Question</button>`:''}
           <button class="button secondary flagDuplicate" data-qid="${x.id}">
             ${QuestionEngine.isDuplicate(program,x.id)?'Unflag Duplicate':'Flag Duplicate'}
           </button>
@@ -154,6 +155,26 @@
           return;
         }
       }
+    });
+
+    container.querySelectorAll('.editImportedQuestion').forEach(btn=>btn.onclick=()=>{
+      const item=questions.find(x=>x.id===btn.dataset.qid);
+      if(!item || item.provider!=='student-import' || !global.QuestionSheetImporter?.update)return;
+
+      const revised=prompt('Edit this imported question:',item.question||'');
+      if(revised===null)return;
+
+      const question=revised.trim();
+      if(!question){
+        alert('Question text cannot be empty.');
+        return;
+      }
+
+      const updated=QuestionSheetImporter.update(program,item.id,{question});
+      if(!updated)return;
+
+      item.question=updated.question;
+      render(container,{program,unit,scope,questions,bank});
     });
 
     container.querySelectorAll('.flagDuplicate').forEach(btn=>btn.onclick=()=>{

@@ -6,6 +6,26 @@
   const readAll=program=>{try{return JSON.parse(localStorage.getItem(key(program))||'[]')}catch{return []}};
   const writeAll=(program,items)=>localStorage.setItem(key(program),JSON.stringify(items));
   const rtfToText=s=>s.replace(/\\par[d]?\b/g,'\n').replace(/\\'[0-9a-fA-F]{2}/g,' ').replace(/\\[a-zA-Z]+-?\d* ?/g,'').replace(/[{}]/g,'').replace(/\r/g,'');
+  function update(program,id,patch={}){
+    if(!program||!id)return null;
+    const items=readAll(program);
+    const index=items.findIndex(x=>x.id===id&&x.provider==='student-import');
+    if(index<0)return null;
+
+    const current=items[index];
+    const next={
+      ...current,
+      ...patch,
+      id:current.id,
+      provider:current.provider,
+      provenance:current.provenance
+    };
+
+    items[index]=next;
+    writeAll(program,items);
+    return next;
+  }
+
   function detect(text){
     const src=String(text||'').replace(/\r/g,'\n').replace(/\n{3,}/g,'\n\n').trim(); if(!src)return [];
     const lines=src.split(/\n+/).map(x=>x.trim()).filter(Boolean),out=[];let current='';
@@ -71,5 +91,5 @@
     drop.onclick=()=>fileInput.click();fileInput.onchange=()=>take(fileInput.files[0]);['dragenter','dragover'].forEach(e=>drop.addEventListener(e,x=>{x.preventDefault();drop.style.opacity='.75'}));['dragleave','drop'].forEach(e=>drop.addEventListener(e,x=>{x.preventDefault();drop.style.opacity='1'}));drop.addEventListener('drop',e=>take(e.dataTransfer.files[0]));
     $('#qsiPreview').onclick=()=>{found=preDetected.length?preDetected:detect(text.value);if(!found.length){preview.innerHTML='';msg.textContent='No questions detected. The source was kept intact; no questions were imported.';return}preview.innerHTML=`<h4>Preview — ${found.length} question${found.length===1?'':'s'}</h4><ol>${found.map(q=>`<li>${esc(q)}</li>`).join('')}</ol><p><button id="qsiImport" class="button" type="button">Import ${found.length} Question${found.length===1?'':'s'}</button></p>`;msg.textContent='Review before importing. Nothing has been saved yet.';$('#qsiImport').onclick=()=>{const title=$('#qsiTitle').value.trim()||sourceFile||'Imported question sheet',author=$('#qsiAuthor').value.trim(),now=new Date().toISOString();const records=found.map((question,i)=>({id:uid(),provider:'student-import',source_question_id:String(i+1),question,kind:'imported study question',canonical_ref:canonical||null,unit:unit||null,canonical_sources:canonical?[canonical]:[],provenance:{provider:'student-import',title,author,source_file:sourceFile,imported_at:now}}));const all=readAll(program);writeAll(program,all.concat(records));msg.textContent=`Imported ${records.length} questions.`;onImported(records)}};
   }
-  window.QuestionSheetImporter={render,list,detect,csvQuestions};
+  window.QuestionSheetImporter={render,list,update,detect,csvQuestions};
 })();
