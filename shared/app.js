@@ -23,11 +23,34 @@ async function renderProgram(id){
 (function installQuickNav(){
   function add(){
     if(document.querySelector('.academy-quick-nav')) return;
-    const box=document.createElement('div'); box.className='academy-quick-nav';
+
+    const box=document.createElement('div');
+    box.className='academy-quick-nav';
     box.style.cssText='position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end;background:rgba(255,255,255,.96);padding:8px;border:1px solid #ddd3c2;border-radius:12px;box-shadow:0 5px 18px rgba(0,0,0,.12)';
-    const home=document.createElement('a');home.className='button secondary';home.href=R+'index.html';home.textContent='🏠 Academy Home';box.appendChild(home);
-    if(location.pathname.includes('/programs/bhakti-sastri/')){const program=document.createElement('a');program.className='button secondary';program.href='index.html';program.textContent='↑ Bhakti Śāstrī Program';box.insertBefore(program,home)}
+
+    const path=location.pathname.replace(/\\/g,'/');
+    const match=path.match(/\/programs\/([^/]+)\//);
+
+    if(match){
+      const program=document.createElement('a');
+      program.className='button secondary';
+      program.href=ROOT+'programs/'+encodeURIComponent(match[1])+'/index.html';
+      program.textContent='↑ Program Home';
+      box.appendChild(program);
+    }
+
+    const home=document.createElement('a');
+    home.className='button secondary';
+    home.href=ROOT+'index.html';
+    home.textContent='🏠 Academy Home';
+    box.appendChild(home);
+
     document.body.appendChild(box);
   }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',add);else add();
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',add);
+  }else{
+    add();
+  }
 })();
