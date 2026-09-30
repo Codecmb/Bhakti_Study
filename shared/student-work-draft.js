@@ -57,5 +57,19 @@
     return {save,clear:tracked.clear};
   }
 
-  global.StudentWorkDraft={read,write,clear,track,attach};
+  function clearWork({id,field,status,onClear,message='Clear this work? This cannot be undone.'}){
+    if(!id || !field)return false;
+    if(!field.value)return false;
+    if(!confirm(message))return false;
+
+    if(typeof onClear==='function')onClear();
+    clear(id);
+    field.value='';
+
+    if(status)status.textContent='Cleared.';
+    field.focus();
+    return true;
+  }
+
+  global.StudentWorkDraft={read,write,clear,track,attach,clearWork};
 })(window);
