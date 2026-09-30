@@ -1,5 +1,5 @@
 (function(global){
-  function render(container,{program,scope,questions=[],bank=null}={}){
+  function render(container,{program,unit='',scope,questions=[],bank=null}={}){
     if(!container||!global.QuestionEngine)return;
 
     const active=QuestionEngine.active(questions,program);
@@ -16,6 +16,7 @@
         <p><button class="button secondary clearAnswer" type="button" data-qid="${x.id}">Clear Answer</button></p>
         <div class="small">${x.canonical_ref||''}${bank?.provenance_label?' · '+bank.provenance_label:''}${x.kind?' · '+x.kind:''}${x.provenance?.title?' · Source: '+x.provenance.title:''}${x.provenance?.author?' · '+x.provenance.author:''}</div>
         <p>
+          ${x.canonical_ref?`<button class="button secondary studyQuestionSource" type="button" data-qid="${x.id}" data-ref="${x.canonical_ref}">Study Source</button>`:''}
           <button class="button secondary flagDuplicate" data-qid="${x.id}">
             ${QuestionEngine.isDuplicate(program,x.id)?'Unflag Duplicate':'Flag Duplicate'}
           </button>
@@ -47,6 +48,30 @@
       }
     });
 
+    container.querySelectorAll('.studyQuestionSource').forEach(btn=>btn.onclick=async()=>{
+      const canonical=global.SourceResolver?.canon?.(btn.dataset.ref)||btn.dataset.ref;
+      if(!canonical || !global.SourceResolver)return;
+
+      const target=await SourceResolver.resolve(canonical);
+      if(!target?.href)return;
+
+      global.StudyReturnContext?.set?.(program,{
+        unit,
+        scope,
+        mode:'questions',
+        questionId:btn.dataset.qid,
+        canonical
+      });
+
+      rememberQuestion(btn.dataset.qid);
+
+      location.href=target.href+(
+        target.kind==='internal'
+          ? `${target.href.includes('?')?'&':'?'}program=${encodeURIComponent(program)}&unit=${encodeURIComponent(unit)}`
+          : ''
+      );
+    });
+
     container.querySelectorAll('.clearAnswer').forEach(btn=>btn.onclick=()=>{
       const answer=container.querySelector(`.qanswer[data-qid="${btn.dataset.qid}"]`);
       if(!answer || !answer.value)return;
@@ -56,6 +81,22 @@
     });
 
     const cards=[...container.querySelectorAll('.question-card[data-qid]')];
+
+    function rememberQuestion(qid){
+      if(!qid || !global.StudyContext)return;
+      StudyContext.set({
+        program,
+        unit,
+        mode:'questions',
+        questionId:qid
+      });
+    }
+
+    cards.forEach(card=>{
+      card.querySelector('.qanswer')?.addEventListener('focus',()=>{
+        rememberQuestion(card.dataset.qid);
+      });
+    });
 
     function currentIndex(){
       const focused=document.activeElement?.closest?.('.question-card[data-qid]');
@@ -73,8 +114,20 @@
 
     function goTo(ix){
       if(ix<0 || ix>=cards.length)return;
+      rememberQuestion(cards[ix].dataset.qid);
       cards[ix].scrollIntoView({behavior:'smooth',block:'center'});
       cards[ix].querySelector('.qanswer')?.focus({preventScroll:true});
+    }
+
+    const requestedQuestion=new URLSearchParams(location.search).get('question');
+    if(requestedQuestion){
+      const ix=cards.findIndex(card=>card.dataset.qid===requestedQuestion);
+      if(ix>=0){
+        requestAnimationFrame(()=>{
+          cards[ix].scrollIntoView({block:'center'});
+          cards[ix].querySelector('.qanswer')?.focus({preventScroll:true});
+        });
+      }
     }
 
     container.querySelector('#previousQuestion')?.addEventListener('click',()=>{
@@ -117,12 +170,12 @@
       if(!confirm('Delete this question from your study collection? You can restore it later.'))return;
       const item=questions.find(x=>x.id===btn.dataset.qid);
       QuestionEngine.deleteQuestion(program,btn.dataset.qid,item||null);
-      render(container,{program,scope,questions,bank});
+      render(container,{program,unit,scope,questions,bank});
     });
 
     container.querySelectorAll('.restoreQuestion').forEach(btn=>btn.onclick=()=>{
       QuestionEngine.restoreQuestion(program,btn.dataset.qid);
-      render(container,{program,scope,questions,bank});
+      render(container,{program,unit,scope,questions,bank});
     });
   }
 

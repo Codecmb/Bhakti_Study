@@ -127,6 +127,7 @@
         if(clean.length){
           QuestionManagementUI.render(document.querySelector('#questionList'),{
             program:programId,
+            unit:unit.id,
             scope,
             questions:clean,
             bank:activeBank
