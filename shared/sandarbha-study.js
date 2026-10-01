@@ -95,8 +95,17 @@
       const host=document.getElementById('sandarbhaMyQuestions');if(!host||!window.MyQuestionsUI)return;
       MyQuestionsUI.render(host,{program:'sat-sandarbhas',unit,canonical,bookIds:[]});
     }
+    function sourceFor(n){
+      const exact=sourceByNum.get(n);
+      if(exact?.sourceHeadingVerified&&exact?.content)return {...exact,sharedSource:false};
+      const shared=(source.sharedSegments||[]).find(s=>
+        s?.sourceHeadingVerified&&s?.content&&Array.isArray(s.canonicalNumbers)&&s.canonicalNumbers.includes(n)
+      );
+      if(shared)return {...shared,number:n,canonicalId:`${prefixes[work]}.${n}`,sharedSource:true};
+      return exact;
+    }
     function render(){
-      const r=sourceByNum.get(selected),u=unitFor(selected),id=u.id||`${prefixes[work]}.${selected}`;migrateLegacy(id);
+      const r=sourceFor(selected),u=unitFor(selected),id=u.id||`${prefixes[work]}.${selected}`;migrateLegacy(id);
       const verified=!!r?.sourceHeadingVerified&&!!r?.content;
       const draftKey=`bhakti-study:sandarbha-draft:${id}`;
       let draft={};try{draft=JSON.parse(sessionStorage.getItem(draftKey)||'{}')}catch{}
@@ -119,7 +128,7 @@ ${verified?'<span class="source-state verified">English source segment verified<
 ${lens.length?`<div class="lens">${lens.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}
 </section>
 ${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div><h2>Source text</h2><p class="muted">${esc(source.sourceFile)} · English study source · ${esc(id)}</p><div style="white-space:pre-wrap;line-height:1.65">${esc(r.content)}</div></section>`:''}
-<section class="card"><div class="eyebrow">Provenance</div><p><b>Author:</b> Śrī Jīva Gosvāmī</p><p><b>Study source:</b> ${esc(source.sourceFile)}</p><p><b>Canonical identity:</b> ${esc(id)}</p><p><b>Segmentation:</b> ${verified?'Source heading/boundary independently detected.':'Canonical placeholder only; no source boundary guessed.'}</p><p class="muted">Bhakti Study reflections and summaries are student/application synthesis and are not quotations from the source.</p></section>
+<section class="card"><div class="eyebrow">Provenance</div><p><b>Author:</b> Śrī Jīva Gosvāmī</p><p><b>Study source:</b> ${esc(source.sourceFile)}</p><p><b>Canonical identity:</b> ${esc(id)}</p><p><b>Segmentation:</b> ${verified?(r?.sharedSource?'Verified shared source segment; canonical student identity remains separate.':'Source heading/boundary independently detected.'):'Canonical placeholder only; no source boundary guessed.'}</p><p class="muted">Bhakti Study reflections and summaries are student/application synthesis and are not quotations from the source.</p></section>
 </main>
 <aside class="sandarbha-study-panel card" id="studyPanel"><button class="study-close" id="studyClose" aria-label="Close study panel">×</button><div class="eyebrow">Study Workspace</div><h2>Study</h2><h3>My Understanding</h3><p>${esc(u.studyMethod?.beforeReading?.[0]||'What is Jīva Gosvāmī establishing here?')}</p><textarea id="understanding" rows="6" placeholder="Write your understanding before consulting additional notes…">${esc(before)}</textarea><h3>Source Study</h3><ul>${(u.studyMethod?.sourceStudy||['Identify the principal claim, scriptural evidence, and conclusion.']).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h3>Revised Understanding</h3><p>${esc(u.studyMethod?.afterReading?.[0]||'State the siddhānta in your own words and cite the supporting source.')}</p><textarea id="reflection" rows="6" placeholder="After returning to the source…">${esc(after)}</textarea><h3>Notes</h3><textarea id="notes" rows="6" placeholder="Personal notes…">${esc(notes)}</textarea>
 <h3>Study Questions</h3>
