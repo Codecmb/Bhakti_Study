@@ -1,10 +1,34 @@
 (function(global){
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const params=o=>{const p=new URLSearchParams();Object.entries(o).forEach(([k,v])=>{if(v)p.set(k,v)});return p.toString()};
+
+  function readerHref(program,{book,ref,unit}={}){
+    const canonical=String(ref||'');
+    const b=String(book||'').toLowerCase();
+
+    if(program==='bhakti-sastri' && (b==='bg'||/^BG[. ]/i.test(canonical))){
+      return `bg-1-6.html?ref=${encodeURIComponent(canonical)}`;
+    }
+
+    if((program==='bhakti-vaibhava'||program==='bhakti-vedanta') &&
+       (b.startsWith('sb')||/^SB[. ]/i.test(canonical))){
+      return `sb.html?ref=${encodeURIComponent(canonical)}${unit?`&unit=${encodeURIComponent(unit)}`:''}`;
+    }
+
+    if(program==='bhakti-sarvabhauma' &&
+       (b.startsWith('cc')||/^CC[. ]/i.test(canonical))){
+      return `cc.html?ref=${encodeURIComponent(canonical)}${unit?`&unit=${encodeURIComponent(unit)}`:''}`;
+    }
+
+    return `../../library/reader.html?${params({book,ref:canonical,program,unit})}`;
+  }
+
   function lessonCard(program,course,l){
-    const read=(program==='bhakti-sastri' && l.book==='bg')
-      ? `bg-1-6.html?ref=${encodeURIComponent(l.firstRef)}`
-      : `../../library/reader.html?${params({book:l.book,ref:l.firstRef,program,unit:l.unitId})}`;
+    const read=readerHref(program,{
+      book:l.book,
+      ref:l.firstRef,
+      unit:l.unitId
+    });
     const study=`tools.html?${params({unit:l.unitId,mode:'understanding',ref:l.firstRef})}`;
     const questions=`tools.html?${params({unit:l.unitId,mode:'questions',ref:l.firstRef})}`;
     return `<article class="lesson-card"><div class="lesson-number">Lesson ${l.order}</div><h4>${esc(l.title)}</h4><p class="small"><strong>${esc(l.firstRef)}</strong>${l.lastRef&&l.lastRef!==l.firstRef?' → '+esc(l.lastRef):''} · ${l.recordCount} study record${l.recordCount===1?'':'s'}</p><div class="lesson-actions"><a class="button" href="${read}">Read</a><a class="button secondary" href="${study}">Study</a>${StudyWorkflow.hasMode(course,'questions')?`<a class="button secondary" href="${questions}">Questions</a>`:''}</div></article>`;
@@ -19,7 +43,9 @@
     host.innerHTML=units.map((u,ui)=>{
       const ls=lessons.filter(l=>l.unitId===u.id);
       const first=ls[0];
-      const continueHref=first?`../../library/reader.html?${params({book:first.book,ref:first.firstRef,program:programId,unit:u.id})}`:`tools.html?${params({unit:u.id,mode:'read'})}`;
+      const continueHref=first
+        ? readerHref(programId,{book:first.book,ref:first.firstRef,unit:u.id})
+        : `tools.html?${params({unit:u.id,mode:'read'})}`;
       const groups=[];
       const multiBook=Array.isArray(u.books) && u.books.length>1;
       const bookLabels={
@@ -102,19 +128,17 @@
         ref:saved.canonical
       })}`;
     }else if(saved?.unit && saved?.canonical){
-      continueStudy.href=`../../library/reader.html?${params({
+      continueStudy.href=readerHref(programId,{
         book:saved.book,
         ref:saved.canonical,
-        program:programId,
         unit:saved.unit
-      })}`;
+      });
     }else if(first){
-      continueStudy.href=`../../library/reader.html?${params({
+      continueStudy.href=readerHref(programId,{
         book:first.book,
         ref:first.firstRef,
-        program:programId,
         unit:first.unitId
-      })}`;
+      });
     }
   }
   }
