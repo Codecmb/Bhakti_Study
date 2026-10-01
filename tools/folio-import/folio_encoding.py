@@ -26,6 +26,24 @@ FOLIO_TRANSLITERATION_MAP = {
 # with the proven Folio legacy mapping where applicable.
 
 FOLIO_PROSE_MAP = {
+    # Legacy Sanskrit-Times encoding found in VedaBase prose.
+    "80": "ā",
+    "83": "ḥ",
+    "85": "ī",
+    "88": "ṁ",
+    "89": "ṅ",
+    "8a": "ṇ",
+    "8e": "ṭ",
+    "98": "ṭ",
+    "ae": "Ś",
+    "b5": "Ṭ",
+    "99": "ū",
+    "81": "ḍ",
+    "8d": "ṛ",
+    "8f": "ś",
+    "90": "ṣ",
+
+    # Uppercase transliteration characters.
     "c7": "Ś",
     "c9": "Ī",
     "d1": "Ṣ",

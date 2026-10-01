@@ -7,7 +7,12 @@ function appRoot(){
   return './';
 }
 const ROOT=appRoot();
-async function json(p){let r=await fetch(p);if(!r.ok)throw Error(p);return r.json()}
+async function json(p){
+  const local=location.hostname==='localhost'||location.hostname==='127.0.0.1';
+  let r=await fetch(p,local?{cache:'no-store'}:undefined);
+  if(!r.ok)throw Error(p);
+  return r.json()
+}
 function sidebar(a='home',rootOverride=null){
  const R=rootOverride||ROOT;
  let x=[['home','Academy Home',R+'index.html'],['bhakti-sastri','Bhakti Śāstrī',R+'programs/bhakti-sastri/index.html'],['bhakti-vaibhava','Bhakti Vaibhava',R+'programs/bhakti-vaibhava/index.html'],['bhakti-vedanta','Bhakti Vedānta',R+'programs/bhakti-vedanta/index.html'],['bhakti-sarvabhauma','Bhakti Sārvabhauma',R+'programs/bhakti-sarvabhauma/index.html'],['sat-sandarbhas','Ṣaṭ Sandarbhas',R+'programs/sat-sandarbhas/index.html'],['library','Books & Library',R+'library/index.html'],['slokas','Śloka Lab',R+'slokas/index.html'],['portfolio','My Work',R+'student/portfolio.html'],['progress','My Progress',R+'student/progress.html'],['certificates','Certificates',R+'certificates/index.html'],['manage','Manage Academy',R+'admin/index.html']];
