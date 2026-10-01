@@ -187,4 +187,43 @@
   function render(host,opts={}){
     const program=opts.program,unit=opts.unit||'',canonical=opts.canonical||'',onImported=opts.onImported||(()=>location.reload());
     host.innerHTML=`<details class="question-importer"><summary><strong>Import Question Sheet</strong></summary><div style="padding-top:.75rem"><p class="small">Drag and drop a question sheet or choose a file. CSV, PDF, TXT, Markdown and RTF are extracted locally in the browser. Nothing is uploaded.</p><div id="qsiDrop" class="notice" style="border:2px dashed currentColor;text-align:center;padding:1.25rem;cursor:pointer">Drop question sheet here<br><span class="small">or click to choose a file</span><input id="qsiFile" type="file" accept=".csv,.txt,.md,.rtf,.pdf,.odt,.docx" hidden></div><p id="qsiFileName" class="small"></p><label class="small">Source title</label><input id="qsiTitle" class="field" placeholder="e.g. Bhakti Vaibhava Study Guide"><label class="small">Teacher / author (leave blank if unknown)</label><input id="qsiAuthor" class="field" placeholder="Name"><label class="small">Question text</label><textarea id="qsiText" class="field" rows="8" placeholder="Extracted text appears here. You may also paste questions here."></textarea><p><button id="qsiPreview" class="button secondary" type="button">Preview Questions</button></p><div id="qsiPreviewBox"></div><p id="qsiMsg" class="small"></p><div id="qsiBatches"></div></div></details>`;
-    const $=s=>host.querySelector(s),drop=$('#qsiDrop'),fileInput=$('#qsiFile'),text=$('#qsiText'),msg=$('#qsiMsg'),preview=$('#qsiPreviewBox'),batchBox=$('#qsiBatches');
+    const $=s=>host.querySelector(s),drop=$('#qsiDrop'),fileInput=$('#qsiFile'),text=$('#qsiText'),msg=$('#qsiMsg'),preview=$('#qsiPreviewBox'),batchBox=$('#qsiBatches');let sourceFile='',found=[],preDetected=[];
+
+    function renderBatches(){
+      const items=batches(program);
+
+      if(!items.length){
+        batchBox.innerHTML='';
+        return;
+      }
+
+      batchBox.innerHTML=`<hr><h4>Imported Sheets</h4>${items.map(batch=>`
+        <div class="notice" style="margin:.5rem 0">
+          <strong>${esc(batch.title)}</strong>
+          <div class="small">${batch.questions.length} question${batch.questions.length===1?'':'s'}${batch.source_file?` · ${esc(batch.source_file)}`:''}</div>
+          <p><button class="button secondary qsiRemoveBatch" type="button" data-import-id="${esc(batch.id)}">Remove Imported Sheet</button></p>
+        </div>
+      `).join('')}`;
+
+      batchBox.querySelectorAll('.qsiRemoveBatch').forEach(btn=>btn.onclick=()=>{
+        const batch=items.find(x=>x.id===btn.dataset.importId);
+        if(!batch)return;
+
+        if(!confirm(`Remove "${batch.title}" and its ${batch.questions.length} imported question${batch.questions.length===1?'':'s'}?`))return;
+
+        const removed=removeBatch(program,batch.id);
+        if(!removed)return;
+
+        msg.textContent=`Removed ${removed} imported question${removed===1?'':'s'} from "${batch.title}".`;
+        renderBatches();
+        onImported([]);
+      });
+    }
+
+    renderBatches();
+    async function take(file){if(!file)return;sourceFile=file.name;preDetected=[];$('#qsiFileName').textContent=`Source file: ${file.name}`;if(!$('#qsiTitle').value)$('#qsiTitle').value=file.name.replace(/\.[^.]+$/,'');msg.textContent='Reading file locally…';const got=await fileText(file);if(got.automatic){text.value=got.text;preDetected=got.questions||[];msg.textContent=got.note||'Text extracted locally. Review it, then preview the questions.'}else{msg.textContent=got.reason}}
+    drop.onclick=()=>fileInput.click();fileInput.onchange=()=>take(fileInput.files[0]);['dragenter','dragover'].forEach(e=>drop.addEventListener(e,x=>{x.preventDefault();drop.style.opacity='.75'}));['dragleave','drop'].forEach(e=>drop.addEventListener(e,x=>{x.preventDefault();drop.style.opacity='1'}));drop.addEventListener('drop',e=>take(e.dataTransfer.files[0]));
+    $('#qsiPreview').onclick=()=>{found=preDetected.length?preDetected:detect(text.value);if(!found.length){preview.innerHTML='';msg.textContent='No questions detected. The source was kept intact; no questions were imported.';return}preview.innerHTML=`<h4>Preview — ${found.length} question${found.length===1?'':'s'}</h4><ol>${found.map(q=>`<li>${esc(q)}</li>`).join('')}</ol><p><button id="qsiImport" class="button" type="button">Import ${found.length} Question${found.length===1?'':'s'}</button></p>`;msg.textContent='Review before importing. Nothing has been saved yet.';$('#qsiImport').onclick=()=>{const title=$('#qsiTitle').value.trim()||sourceFile||'Imported question sheet',author=$('#qsiAuthor').value.trim(),now=new Date().toISOString(),importId=`IMPORT.${Date.now().toString(36)}.${Math.random().toString(36).slice(2,8)}`;const records=found.map((question,i)=>({id:uid(),import_id:importId,provider:'student-import',source_question_id:String(i+1),question,kind:'imported study question',canonical_ref:canonical||null,unit:unit||null,canonical_sources:canonical?[canonical]:[],provenance:{provider:'student-import',title,author,source_file:sourceFile,imported_at:now}}));const all=readAll(program);writeAll(program,all.concat(records));msg.textContent=`Imported ${records.length} questions.`;onImported(records)}};
+  }
+  window.QuestionSheetImporter={render,renderBatchManagement,list,batches,removeBatch,update,detect,csvQuestions};
+})();

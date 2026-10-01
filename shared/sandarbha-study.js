@@ -4,7 +4,7 @@
   const ROOT='../../../';
   const prefixes={tattva:'TS',bhagavat:'BGS',paramatma:'PAS',krsna:'KS',bhakti:'BHS',priti:'PS'};
   const legacyKey=id=>`bhakti:sandarbha:${work}:${id}`;
-  const loadScript=src=>new Promise((ok,fail)=>{if(window.StudentStore)return ok();const s=document.createElement('script');s.src=src;s.onload=ok;s.onerror=fail;document.head.appendChild(s)});
+  const loadScript=(src,ready)=>new Promise((ok,fail)=>{if(ready?.())return ok();const existing=[...document.scripts].find(s=>s.src&&new URL(s.src,location.href).href===new URL(src,location.href).href);if(existing){if(ready?.())return ok();existing.addEventListener('load',ok,{once:true});existing.addEventListener('error',fail,{once:true});return}const s=document.createElement('script');s.src=src;s.onload=ok;s.onerror=fail;document.head.appendChild(s)});
   const readJSON=async url=>{const r=await fetch(url);if(!r.ok)throw new Error(`${r.status} ${url}`);return r.json()};
   function storeGet(type,id,fallback=''){
     if(window.StudentStore)return StudentStore.get(type,id,fallback);
@@ -22,12 +22,17 @@
   async function init(){
     if(!work)throw new Error('Missing SANDARBHA_WORK');
     await Promise.all([
-      loadScript(ROOT+'shared/app.js').catch(()=>{}),
-      loadScript(ROOT+'shared/student-store.js').catch(()=>{}),
-      loadScript(ROOT+'shared/data-registry.js'),
-      loadScript(ROOT+'shared/question-engine.js')
+      loadScript(ROOT+'shared/app.js',()=>typeof window.sidebar==='function').catch(()=>{}),
+      loadScript(ROOT+'shared/student-store.js',()=>!!window.StudentStore).catch(()=>{}),
+      loadScript(ROOT+'shared/data-registry.js',()=>!!window.DataRegistry),
+      loadScript(ROOT+'shared/question-engine.js',()=>!!window.QuestionEngine)
     ]);
-    await loadScript(ROOT+'shared/question-management-ui.js');
+    await loadScript(ROOT+'shared/question-management-ui.js',()=>!!window.QuestionManagementUI);
+    await loadScript(ROOT+'shared/vendor/jszip/jszip.min.js',()=>!!window.JSZip).catch(()=>{});
+    await loadScript(ROOT+'shared/question-sheet-importer.js',()=>!!window.QuestionSheetImporter);
+    await loadScript(ROOT+'shared/student-questions.js',()=>!!window.StudentQuestions);
+    await loadScript(ROOT+'shared/internal-source-search.js',()=>!!window.InternalSourceSearch);
+    await loadScript(ROOT+'shared/my-questions-ui.js',()=>!!window.MyQuestionsUI);
     if(!document.querySelector('.sidebar')){
       const layout=document.createElement('div');layout.className='layout';
       const side=document.createElement('aside');side.className='sidebar';
@@ -68,6 +73,28 @@
     const units=course.units||[];
     let selected=Math.max(1,Math.min(source.unitCount,+new URLSearchParams(location.search).get('n')||1));
     function unitFor(n){return units.find(u=>canonicalNumber(u.id)===n)||units[n-1]||{id:`${prefixes[work]}.${n}`,number:n,studyMethod:{advancedLens:[],beforeReading:['What is Jīva Gosvāmī establishing here?'],sourceStudy:['Read the source carefully and identify the claim and evidence.'],afterReading:['State the siddhānta in your own words and cite the supporting source.']}}}
+    function importedFor(canonical,unit){
+      if(!window.QuestionSheetImporter?.list)return [];
+      return QuestionSheetImporter.list('sat-sandarbhas').filter(q=>q.canonical_ref===canonical||q.unit===unit);
+    }
+    function renderImportedQuestions(canonical,unit){
+      const host=document.getElementById('sandarbhaImportedQuestions');if(!host)return;
+      const items=importedFor(canonical,unit);
+      if(!items.length){host.innerHTML='';return}
+      host.innerHTML='<h4>Imported Questions</h4><div id="sandarbhaImportedQuestionList"></div>';
+      const list=host.querySelector('#sandarbhaImportedQuestionList');
+      QuestionManagementUI.render(list,{program:'sat-sandarbhas',unit,scope:canonical,questions:items,bank:{id:'student-import',label:'Imported Questions',description:'Questions imported by the student with source provenance preserved.'}});
+      const save=list.querySelector('#saveQuestions');
+      if(save)save.onclick=()=>{list.querySelectorAll('.qanswer').forEach(el=>QuestionEngine.save('sat-sandarbhas',canonical,el.dataset.qid,el.value));QuestionManagementUI.clearAnswerDrafts?.(list,{program:'sat-sandarbhas',scope:canonical})};
+    }
+    function renderQuestionImporter(canonical,unit){
+      const host=document.getElementById('sandarbhaQuestionImporter');if(!host||!window.QuestionSheetImporter)return;
+      QuestionSheetImporter.render(host,{program:'sat-sandarbhas',unit,canonical,onImported:()=>render()});
+    }
+    function renderMyQuestions(canonical,unit){
+      const host=document.getElementById('sandarbhaMyQuestions');if(!host||!window.MyQuestionsUI)return;
+      MyQuestionsUI.render(host,{program:'sat-sandarbhas',unit,canonical,bookIds:[]});
+    }
     function render(){
       const r=sourceByNum.get(selected),u=unitFor(selected),id=u.id||`${prefixes[work]}.${selected}`;migrateLegacy(id);
       const verified=!!r?.sourceHeadingVerified&&!!r?.content;
@@ -96,8 +123,9 @@ ${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div
 </main>
 <aside class="sandarbha-study-panel card" id="studyPanel"><button class="study-close" id="studyClose" aria-label="Close study panel">×</button><div class="eyebrow">Study Workspace</div><h2>Study</h2><h3>My Understanding</h3><p>${esc(u.studyMethod?.beforeReading?.[0]||'What is Jīva Gosvāmī establishing here?')}</p><textarea id="understanding" rows="6" placeholder="Write your understanding before consulting additional notes…">${esc(before)}</textarea><h3>Source Study</h3><ul>${(u.studyMethod?.sourceStudy||['Identify the principal claim, scriptural evidence, and conclusion.']).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h3>Revised Understanding</h3><p>${esc(u.studyMethod?.afterReading?.[0]||'State the siddhānta in your own words and cite the supporting source.')}</p><textarea id="reflection" rows="6" placeholder="After returning to the source…">${esc(after)}</textarea><h3>Notes</h3><textarea id="notes" rows="6" placeholder="Personal notes…">${esc(notes)}</textarea>
 <h3>Study Questions</h3>
-<div id="sandarbhaQuestions"><p class="muted">Loading question bank…</p></div><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;flex-wrap:wrap"><button class="button" id="saveStudy" type="button">Save</button><span id="saveStatus" class="muted" role="status" aria-live="polite">${Object.keys(draft).length?'Unsaved draft':'Saved'}</span></div><label style="display:block;margin-top:1rem"><input type="checkbox" id="completed" ${done?'checked':''}> Study unit completed</label></aside>
+<div id="sandarbhaQuestions"><p class="muted">Loading question bank…</p></div><div id="sandarbhaMyQuestions" style="margin-top:1rem"></div><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;flex-wrap:wrap"><button class="button" id="saveStudy" type="button">Save</button><span id="saveStatus" class="muted" role="status" aria-live="polite">${Object.keys(draft).length?'Unsaved draft':'Saved'}</span></div><label style="display:block;margin-top:1rem"><input type="checkbox" id="completed" ${done?'checked':''}> Study unit completed</label></aside>
 </div><button class="button sandarbha-study-fab" id="studyOpen" aria-controls="studyPanel">Study</button>`
+      renderMyQuestions(id,u.id);
       const questionHost=document.getElementById('sandarbhaQuestions');
       if(questionHost){
         (async()=>{
@@ -110,7 +138,9 @@ ${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div
           }
 
           if(!banks.length){
-            questionHost.innerHTML='<div class="notice">This Sandarbha is ready for question banks. No verified question bank is registered yet.</div>';
+            questionHost.innerHTML='<div class="notice">No verified question bank is registered for this Sandarbha. You can still import your own attributed question sheet below.</div><div id="sandarbhaImportedQuestions"></div><div id="sandarbhaQuestionImporter"></div>';
+            renderImportedQuestions(id,u.id);
+            renderQuestionImporter(id,u.id);
             return;
           }
 
@@ -135,7 +165,7 @@ ${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div
               ${banks.map(b=>`<option value="${esc(b.id)}"${b.id===activeBank.id?' selected':''}>${esc(b.label||b.id)}</option>`).join('')}
             </select>
             ${activeBank.description?`<p class="small">${esc(activeBank.description)}</p>`:''}
-          </div><div id="sandarbhaQuestionList"></div><p id="sandarbhaQuestionMsg" class="small"></p>`;
+          </div><div id="sandarbhaQuestionList"></div><div id="sandarbhaImportedQuestions"></div><div id="sandarbhaQuestionImporter"></div><p id="sandarbhaQuestionMsg" class="small"></p>`;
 
           const list=document.getElementById('sandarbhaQuestionList');
 
@@ -166,6 +196,8 @@ ${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div
             next.searchParams.set('bank',selector.value);
             location.href=next.toString();
           };
+          renderImportedQuestions(id,u.id);
+          renderQuestionImporter(id,u.id);
         })().catch(err=>{
           questionHost.innerHTML=`<div class="notice">Question module unavailable: ${esc(err.message)}</div>`;
         });
