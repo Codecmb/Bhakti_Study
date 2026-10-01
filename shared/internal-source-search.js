@@ -1,5 +1,5 @@
 (function(global){
-  const root=()=>location.pathname.includes('/programs/')?'../../':location.pathname.includes('/library/')||location.pathname.includes('/student/')?'../':'./';
+  const root=()=>location.pathname.includes('/programs/sat-sandarbhas/')?'../../../':location.pathname.includes('/programs/')?'../../':location.pathname.includes('/library/')||location.pathname.includes('/student/')?'../':'./';
   const stop=new Set('the a an and or but of to in on for with from by is are was were be been being what why how who when where which does do did this that these those it its as at into about can could should would krishna krsna lord'.split(' '));
   const tokens=s=>[...new Set(String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\s-]/g,' ').split(/\s+/).filter(x=>x.length>2&&!stop.has(x)))];
   const bookKey=id=>String(id||'').toLowerCase().replace(/^sb(?:-canto)?-?(\d+)$/,'sb$1');
