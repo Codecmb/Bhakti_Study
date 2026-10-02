@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>References & Further Study — Bhakti Study</title>
+  <link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar"></aside>
+
+  <main class="main">
+    <div class="eyebrow">Academy Resources</div>
+    <h1>References & Further Study</h1>
+
+    <p class="lead">
+      Supplementary resources for broader academic and comparative study.
+      These materials remain separate from canonical Academy scripture,
+      siddhānta authorities, assessments, progress, and completion requirements.
+    </p>
+
+    <section id="scholars"></section>
+    <section id="comparativePhilosophy"></section>
+    <section id="additionalReferences"></section>
+  </main>
+</div>
+
+  <script src="../shared/app.js"></script>
+  <script src="../shared/academy-references.js"></script>
+
+  <script>
+  (function(){
+    sidebar('references');
+
+    const esc=s=>String(s??'').replace(
+      /[&<>"']/g,
+      c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])
+    );
+
+    const localItems=window.AcademyReferences
+      ? window.AcademyReferences.load()
+      : [];
+
+    async function loadReferences(){
+      let canonical=[];
+      let scholars=[];
+
+      try{
+        const response=await fetch('../scholars/scholars.json',{cache:'no-store'});
+        if(!response.ok) throw new Error('scholars.json');
+        const data=await response.json();
+        scholars=Array.isArray(data)?data.filter(s=>s.enabled!==false):[];
+      }catch(err){
+        console.warn('Scholar registry unavailable:',err);
+      }
+
+      try{
+        const response=await fetch('references.json',{cache:'no-store'});
+        if(!response.ok) throw new Error('references.json');
+        const data=await response.json();
+        canonical=Array.isArray(data.items)?data.items:[];
+      }catch(err){
+        console.warn('Canonical Academy references unavailable:',err);
+      }
+
+      const canonicalUrls=new Set(
+        canonical.map(r=>String(r.url||'').trim()).filter(Boolean)
+      );
+
+      const administrator=localItems.filter(
+        r=>!r.url || !canonicalUrls.has(String(r.url).trim())
+      );
+
+      const items=[...canonical,...administrator];
+
+      const philosophy=items.filter(
+        r=>r.category==='comparative-philosophy'
+      );
+
+      const additional=items.filter(
+        r=>r.category!=='comparative-philosophy'
+      );
+
+      renderReferences(scholars,philosophy,additional);
+    }
+
+    function renderReferences(scholars,philosophy,additional){
+      const scholarsHost=document.getElementById('scholars');
+
+      if(scholars.length){
+        scholarsHost.innerHTML=`
+          <div class="eyebrow">Gauḍīya Further Study</div>
+          <h2>Scholars & Commentaries</h2>
+          <p class="small">
+            Optional scholarly resources for deeper study. Attribution remains
+            visible and these resources do not replace canonical Academy source material.
+          </p>
+          <div class="grid">
+            ${scholars.map(s=>`<article class="card">
+              <h3>${esc(s.name)}</h3>
+              ${s.role?`<p class="small">${esc(s.role)}</p>`:''}
+              ${(Array.isArray(s.links)?s.links:[]).map(link=>`
+                <p><a href="${esc(link.url)}" target="_blank" rel="noopener noreferrer">${esc(link.label)}</a></p>
+              `).join('')}
+            </article>`).join('')}
+          </div>
+        `;
+      }
+
+    const resource=r=>`<article class="card">
+      <h3>${
+        r.url
+          ? `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a>`
+          : esc(r.title)
+      }</h3>
+      ${r.author
+        ? `<p class="small"><strong>Reference:</strong> ${esc(r.author)}</p>`
+        : ''}
+      ${r.purpose
+        ? `<p>${esc(r.purpose)}</p>`
+        : ''}
+    </article>`;
+
+    const philosophyHost=document.getElementById('comparativePhilosophy');
+
+    if(philosophy.length){
+      philosophyHost.innerHTML=`
+        <div class="eyebrow">Further Study</div>
+        <h2>Comparative Philosophy — Western Philosophy</h2>
+        <p class="small">
+          Optional resources for comparative philosophical study.
+          These materials are not Gauḍīya siddhānta authorities.
+        </p>
+        <div class="grid">
+          ${philosophy.map(resource).join('')}
+        </div>
+      `;
+    }
+
+    const additionalHost=document.getElementById('additionalReferences');
+
+    if(additional.length){
+      additionalHost.innerHTML=`
+        <div class="eyebrow">Supplementary</div>
+        <h2>Additional References</h2>
+        <div class="grid">
+          ${additional.map(resource).join('')}
+        </div>
+      `;
+    }
+    }
+
+    loadReferences();
+  })();
+  </script>
+</body>
+</html>

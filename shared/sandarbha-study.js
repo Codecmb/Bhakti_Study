@@ -234,7 +234,21 @@ ${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div
       setNav(navCollapsed);navToggle?.addEventListener('click',()=>setNav(!shell?.classList.contains('nav-collapsed')));
     }
     render();
-    const refBox=document.getElementById('references');if(refBox)refBox.innerHTML='<div class="notice"><b>Internal-first:</b> canonical BG/SB cross-reference linking and the full Study Inspector will attach to this same canonical Sandarbha identity; source text is not duplicated into those systems.</div>';
+    const refBox=document.getElementById('references');
+    if(refBox && window.ReferenceRegistry){
+      try{
+        const references=await window.ReferenceRegistry.sandarbha(id);
+
+        if(references.length){
+          refBox.innerHTML=`<div class="card"><div class="eyebrow">Further Study</div><h2>References & Resources</h2>${references.map(r=>`<p>${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer"><strong>${esc(r.title)}</strong></a>`:`<strong>${esc(r.title)}</strong>`}${r.author?`<br><span class="small">Author: ${esc(r.author)}</span>`:''}${r.source?`<br><span class="small">Source: ${esc(r.source)}</span>`:''}${r.purpose?`<br><span class="small">${esc(r.purpose)}</span>`:''}</p>`).join('')}</div>`;
+        }else{
+          refBox.innerHTML='';
+        }
+      }catch(err){
+        refBox.innerHTML='';
+        console.warn('Sandarbha references unavailable:',err);
+      }
+    }
   }
   init().catch(err=>{const app=document.getElementById('app');if(app)app.innerHTML=`<p class="notice"><b>Sandarbha reader error:</b> ${esc(err.message)}</p>`;console.error(err)});
 })();

@@ -1,1 +1,170 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Certificates</title><link rel="stylesheet" href="../shared/styles.css"></head><body><div class="layout"><aside class="sidebar"></aside><main class="main"><div class="eyebrow">Academy Completion</div><h1>Certificates</h1><div class="notice"><b>Important:</b> These are Academy completion certificates, not BOEX/ISKCON śāstric degrees.</div><article class="card"><label>Name for certificate</label><input id="name" class="field" autocomplete="off" placeholder="Student name"><label>Program</label><select id="program" class="field"></select><button class="button" onclick="makeCert()">Preview certificate</button><p class="small">The name is used only in this browser page to render/print the certificate. This module does not write the name to localStorage, course progress, analytics or a server.</p></article><div id="cert" class="card" style="display:none;margin-top:20px;text-align:center;padding:50px"><div class="eyebrow">Academia Master Siddhānta Gauḍīya</div><h1>Certificate of Completion</h1><p>This certifies that</p><h2 id="cname"></h2><p>has completed the Academy study program</p><h2 id="cprogram"></h2><p id="cdate" class="small"></p><button class="button secondary" onclick="window.print()">Print / Save PDF</button></div></main></div><script src="../shared/app.js"></script><script>sidebar('certificates');json('../data/programs.json').then(ps=>program.innerHTML=ps.map(p=>`<option value="${p.title}">${p.title}</option>`).join(''));function makeCert(){if(!name.value.trim())return alert('Enter a name for the certificate.');cname.textContent=name.value.trim();cprogram.textContent=program.value;cdate.textContent=new Date().toLocaleDateString();cert.style.display='block'}</script></body></html>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Certificates</title>
+  <link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar"></aside>
+
+  <main class="main">
+    <div class="eyebrow">Academy Completion</div>
+    <h1>Certificates</h1>
+
+    <div class="notice">
+      <b>Important:</b> These are Academy completion certificates,
+      not BOEX/ISKCON śāstric degrees.
+    </div>
+
+    <article class="card">
+      <label>Name for certificate</label>
+      <input id="name" class="field" autocomplete="off" placeholder="Student name">
+
+      <label>Program</label>
+      <select id="program" class="field"></select>
+
+      <div id="eligibility" class="notice" style="margin-top:16px">
+        Loading Academy completion status…
+      </div>
+
+      <button id="preview" class="button" disabled>
+        Preview certificate
+      </button>
+
+      <p class="small">
+        The name is used only in this browser page to render/print the
+        certificate. This module does not write the name to localStorage,
+        course progress, analytics or a server.
+      </p>
+    </article>
+
+    <div id="cert" class="card"
+         style="display:none;margin-top:20px;text-align:center;padding:50px">
+      <div class="eyebrow">Academia Master Siddhānta Gauḍīya</div>
+      <h1>Certificate of Completion</h1>
+      <p>This certifies that</p>
+      <h2 id="cname"></h2>
+      <p>has completed the Academy study program</p>
+      <h2 id="cprogram"></h2>
+      <p id="cdate" class="small"></p>
+      <button class="button secondary" onclick="window.print()">
+        Print / Save PDF
+      </button>
+    </div>
+  </main>
+</div>
+
+<script src="../shared/app.js"></script>
+<script src="../shared/data-registry.js"></script>
+<script src="../shared/program-data.js"></script>
+<script src="../shared/student-store.js"></script>
+<script src="../shared/progress-engine.js"></script>
+
+<script>
+sidebar('certificates');
+
+const STANDARD_PROGRAMS=[
+  'bhakti-sastri',
+  'bhakti-vaibhava',
+  'bhakti-vedanta',
+  'bhakti-sarvabhauma'
+];
+
+let programs=[];
+let currentSummary=null;
+
+async function loadEligibility(){
+  const p=programs.find(x=>x.id===program.value);
+
+  cert.style.display='none';
+  preview.disabled=true;
+  currentSummary=null;
+
+  if(!p){
+    eligibility.textContent='Unable to determine Academy completion status.';
+    return;
+  }
+
+  try{
+    const course=await BhaktiProgramData.loadCourse(
+      `../programs/${p.id}/data/`
+    );
+
+    const units=course.units||course.studyUnits||[];
+    const summary=ProgressEngine.programSummary(p.id,units,course);
+    currentSummary=summary;
+
+    if(!summary.completionEnabled){
+      eligibility.innerHTML=
+        '<b>Certificate not yet available.</b> '+
+        'Academy completion requirements are not configured for this program yet.';
+      return;
+    }
+
+    if(summary.total===0){
+      eligibility.innerHTML=
+        '<b>Certificate not yet available.</b> '+
+        'No trackable Academy completion units were found.';
+      return;
+    }
+
+    if(summary.complete!==summary.total){
+      eligibility.innerHTML=
+        `<b>Academy completion:</b> ${summary.complete}/${summary.total} units `+
+        `complete (${summary.pct}%). Complete all Academy units before `+
+        `generating the certificate.`;
+      return;
+    }
+
+    eligibility.innerHTML=
+      `<b>Eligible for Academy completion certificate.</b> `+
+      `${summary.complete}/${summary.total} Academy units complete.`;
+
+    preview.disabled=false;
+
+  }catch(e){
+    eligibility.textContent='Unable to load Academy completion status.';
+  }
+}
+
+function makeCert(){
+  if(!name.value.trim()){
+    alert('Enter a name for the certificate.');
+    return;
+  }
+
+  if(!currentSummary ||
+     !currentSummary.completionEnabled ||
+     currentSummary.total===0 ||
+     currentSummary.complete!==currentSummary.total){
+    alert('This program is not yet eligible for an Academy completion certificate.');
+    return;
+  }
+
+  const p=programs.find(x=>x.id===program.value);
+  if(!p)return;
+
+  cname.textContent=name.value.trim();
+  cprogram.textContent=p.title;
+  cdate.textContent=new Date().toLocaleDateString();
+  cert.style.display='block';
+}
+
+preview.addEventListener('click',makeCert);
+program.addEventListener('change',loadEligibility);
+
+json('../data/programs.json').then(ps=>{
+  programs=ps.filter(p=>STANDARD_PROGRAMS.includes(p.id));
+
+  program.innerHTML=programs.map(p=>
+    `<option value="${p.id}">${p.title}</option>`
+  ).join('');
+
+  loadEligibility();
+});
+</script>
+</body>
+</html>

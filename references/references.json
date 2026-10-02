@@ -1,0 +1,75 @@
+{
+  "schema": "bhakti-study.academy-references.v1",
+  "items": [
+    {
+      "id": "comparative-plato",
+      "title": "Plato",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/plato/",
+      "purpose": "Ancient Greek philosophy — Forms, knowledge, soul, ethics, and metaphysics.",
+      "scope": "academy",
+      "category": "comparative-philosophy",
+      "provenance": "Academy Reference"
+    },
+    {
+      "id": "comparative-aristotle",
+      "title": "Aristotle",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/aristotle/",
+      "purpose": "Ancient Greek philosophy — metaphysics, causation, soul, ethics, and logic.",
+      "scope": "academy",
+      "category": "comparative-philosophy",
+      "provenance": "Academy Reference"
+    },
+    {
+      "id": "comparative-aquinas",
+      "title": "Thomas Aquinas",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/aquinas/",
+      "purpose": "Medieval philosophy — being, God, soul, natural theology, and Aristotelian philosophy.",
+      "scope": "academy",
+      "category": "comparative-philosophy",
+      "provenance": "Academy Reference"
+    },
+    {
+      "id": "comparative-descartes",
+      "title": "René Descartes",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/descartes/",
+      "purpose": "Early modern philosophy — mind and body, knowledge, doubt, and metaphysics.",
+      "scope": "academy",
+      "category": "comparative-philosophy",
+      "provenance": "Academy Reference"
+    },
+    {
+      "id": "comparative-hume",
+      "title": "David Hume",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/hume/",
+      "purpose": "Empiricism — knowledge, causation, self, skepticism, ethics, and religion.",
+      "scope": "academy",
+      "category": "comparative-philosophy",
+      "provenance": "Academy Reference"
+    },
+    {
+      "id": "comparative-kant",
+      "title": "Immanuel Kant",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/kant/",
+      "purpose": "Modern philosophy — knowledge, metaphysics, reason, ethics, and human experience.",
+      "scope": "academy",
+      "category": "comparative-philosophy",
+      "provenance": "Academy Reference"
+    },
+    {
+      "id": "comparative-nietzsche",
+      "title": "Friedrich Nietzsche",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/nietzsche/",
+      "purpose": "Modern philosophy — morality, values, religion, selfhood, and critique of traditional metaphysics.",
+      "scope": "academy",
+      "category": "comparative-philosophy",
+      "provenance": "Academy Reference"
+    }
+  ]
+}

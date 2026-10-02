@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Academy References</title>
+  <link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar"></aside>
+
+  <main class="main">
+    <div class="eyebrow">Manage Academy</div>
+    <h1>References & Resources</h1>
+    <p class="lead">Add optional Academy resources without changing canonical scripture or official course resources.</p>
+
+    <div class="notice">
+      <b>Safe separation:</b> Resources added here are labeled as Academy Administrator resources.
+      Official resources and registered scholars remain separate and are not modified here.
+    </div>
+
+    <div class="card">
+      <h2>Add Optional Resource</h2>
+
+      <label>Title</label>
+      <input id="title" class="field" placeholder="Resource title">
+
+      <label>Author / Scholar</label>
+      <input id="author" class="field" placeholder="Optional">
+
+      <label>URL</label>
+      <input id="url" class="field" placeholder="https://...">
+
+      <label>Purpose / Description</label>
+      <textarea id="purpose" class="field" placeholder="Why this resource is useful"></textarea>
+
+      <label>Scope</label>
+      <select id="scope" class="field">
+        <option value="academy">Entire Academy</option>
+        <option value="bhakti-sastri">Bhakti Śāstrī</option>
+        <option value="bhakti-vaibhava">Bhakti Vaibhava</option>
+        <option value="bhakti-vedanta">Bhakti Vedānta</option>
+        <option value="bhakti-sarvabhauma">Bhakti Sārvabhauma</option>
+        <option value="tattva">Tattva Sandarbha</option>
+        <option value="bhagavat">Bhagavat Sandarbha</option>
+        <option value="paramatma">Paramātmā Sandarbha</option>
+        <option value="krsna">Kṛṣṇa Sandarbha</option>
+        <option value="bhakti">Bhakti Sandarbha</option>
+        <option value="priti">Prīti Sandarbha</option>
+      </select>
+
+      <button id="add" class="button">Add Resource</button>
+      <div id="message" class="small"></div>
+    </div>
+
+    <h2 class="section-title">Academy-Added Resources</h2>
+    <div id="list"></div>
+  </main>
+</div>
+
+<script src="../shared/app.js"></script>
+<script src="../shared/academy-references.js"></script>
+<script>
+sidebar('manage');
+
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({
+  '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+}[c]));
+
+const title=document.getElementById('title');
+const author=document.getElementById('author');
+const url=document.getElementById('url');
+const purpose=document.getElementById('purpose');
+const scope=document.getElementById('scope');
+const message=document.getElementById('message');
+const list=document.getElementById('list');
+
+function render(){
+  const items=AcademyReferences.load();
+
+  if(!items.length){
+    list.innerHTML='<div class="notice">No Academy-added references yet.</div>';
+    return;
+  }
+
+  list.innerHTML=items.map(item=>`
+    <article class="card">
+      <div class="eyebrow">Academy Administrator</div>
+      <h3>${esc(item.title)}</h3>
+      ${item.author?`<p><b>Author / Scholar:</b> ${esc(item.author)}</p>`:''}
+      ${item.url?`<p><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(item.url)}</a></p>`:''}
+      ${item.purpose?`<p>${esc(item.purpose)}</p>`:''}
+      <p class="small"><b>Scope:</b> ${esc(item.scope)}</p>
+      <button class="button secondary" data-remove="${esc(item.id)}">Remove</button>
+    </article>
+  `).join('');
+
+  list.querySelectorAll('[data-remove]').forEach(button=>{
+    button.onclick=()=>{
+      AcademyReferences.remove(button.dataset.remove);
+      render();
+    };
+  });
+}
+
+document.getElementById('add').onclick=()=>{
+  const resourceTitle=title.value.trim();
+
+  if(!resourceTitle){
+    message.textContent='Title is required.';
+    return;
+  }
+
+  AcademyReferences.add({
+    title:resourceTitle,
+    author:author.value,
+    url:url.value,
+    purpose:purpose.value,
+    scope:scope.value
+  });
+
+  title.value='';
+  author.value='';
+  url.value='';
+  purpose.value='';
+  message.textContent='Resource added.';
+  render();
+};
+
+render();
+</script>
+</body>
+</html>

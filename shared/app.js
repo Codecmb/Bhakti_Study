@@ -3,7 +3,7 @@ function appRoot(){
   if(p.includes('/programs/')) return '../../';
   if(p.includes('/library/books/')) return '../../';
   if(p.includes('/library/')) return '../';
-  if(p.includes('/student/')||p.includes('/admin/')||p.includes('/certificates/')||p.includes('/slokas/')) return '../';
+  if(p.includes('/student/')||p.includes('/admin/')||p.includes('/certificates/')||p.includes('/slokas/')||p.includes('/references/')) return '../';
   return './';
 }
 const ROOT=appRoot();
@@ -15,8 +15,8 @@ async function json(p){
 }
 function sidebar(a='home',rootOverride=null){
  const R=rootOverride||ROOT;
- let x=[['home','Academy Home',R+'index.html'],['bhakti-sastri','Bhakti Śāstrī',R+'programs/bhakti-sastri/index.html'],['bhakti-vaibhava','Bhakti Vaibhava',R+'programs/bhakti-vaibhava/index.html'],['bhakti-vedanta','Bhakti Vedānta',R+'programs/bhakti-vedanta/index.html'],['bhakti-sarvabhauma','Bhakti Sārvabhauma',R+'programs/bhakti-sarvabhauma/index.html'],['sat-sandarbhas','Ṣaṭ Sandarbhas',R+'programs/sat-sandarbhas/index.html'],['library','Books & Library',R+'library/index.html'],['slokas','Śloka Lab',R+'slokas/index.html'],['portfolio','My Work',R+'student/portfolio.html'],['progress','My Progress',R+'student/progress.html'],['certificates','Certificates',R+'certificates/index.html'],['manage','Manage Academy',R+'admin/index.html']];
- document.querySelector('.sidebar').innerHTML='<div class="brand">Bhakti Study</div><nav class="nav">'+x.map(i=>`<a class="${i[0]===a?'active':''}" href="${i[2]}">${i[1]}</a>`).join('')+'</nav>'
+ let x=[['home','Academy Home',R+'index.html'],['bhakti-sastri','Bhakti Śāstrī',R+'programs/bhakti-sastri/index.html'],['bhakti-vaibhava','Bhakti Vaibhava',R+'programs/bhakti-vaibhava/index.html'],['bhakti-vedanta','Bhakti Vedānta',R+'programs/bhakti-vedanta/index.html'],['bhakti-sarvabhauma','Bhakti Sārvabhauma',R+'programs/bhakti-sarvabhauma/index.html'],['sat-sandarbhas','Ṣaṭ Sandarbhas',R+'programs/sat-sandarbhas/index.html'],['library','Books & Library',R+'library/index.html'],['references','References & Further Study',R+'references/index.html'],['slokas','Śloka Lab',R+'slokas/index.html'],['portfolio','My Work',R+'student/portfolio.html'],['progress','My Progress',R+'student/progress.html'],['certificates','Certificates',R+'certificates/index.html'],['manage','Manage Academy',R+'admin/index.html']];
+ document.querySelector('.sidebar').innerHTML=`<div class="brand"><img src="${R}assets/bhakti-study-logo.png" alt="Bhakti Study Academy" style="display:block;width:118px;height:118px;object-fit:contain;margin:0 auto 10px"><div>Bhakti Study</div></div><nav class="nav">`+x.map(i=>`<a class="${i[0]===a?'active':''}" href="${i[2]}">${i[1]}</a>`).join('')+'</nav>'
 }
 async function renderProgram(id){
  sidebar(id);let [ps,bs]=await Promise.all([json('../../data/programs.json'),json('../../data/books.json')]),p=ps.find(x=>x.id===id),m=Object.fromEntries(bs.map(b=>[b.id,b]));

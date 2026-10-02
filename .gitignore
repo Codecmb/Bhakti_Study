@@ -12,3 +12,6 @@ tools/folio-import/*.rtf
 # Folio importer working files
 tools/folio-import/generated/
 tools/folio-import/backups/
+
+# Local pre-change safety backups
+*.before-*

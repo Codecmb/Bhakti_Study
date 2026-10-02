@@ -37,6 +37,8 @@
     sidebar(programId);
     const course=await BhaktiProgramData.loadCourse(dataBase), units=course.units||[], lessons=course.lessons?.lessons||course.lessons||[];
     document.querySelector('#courseTitle').textContent=course.title||programId;
+
+
     const meta=document.querySelector('#courseMeta');
     meta.textContent=`${units.length} study units · ${lessons.length} lessons · canonical-library source model`;
     const host=document.querySelector('#lessonOutline');
@@ -116,8 +118,29 @@
         b.setAttribute('aria-expanded','true');
       }
     });
+    const referencesHost=document.querySelector('#courseReferences');
+    if(referencesHost && global.ReferenceRegistry){
+      const resources=await global.ReferenceRegistry.official(programId);
+
+      if(resources.length){
+        referencesHost.innerHTML=`<div class="card"><div class="eyebrow">Official Resources</div><h2>References & Resources</h2><p class="small">Supplementary and official resources remain separate from canonical Academy scripture, study questions, progress, and Academy completion requirements.</p>${resources.map(r=>`<p><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer"><strong>${esc(r.title)}</strong></a>${r.purpose?`<br><span class="small">${esc(r.purpose)}</span>`:''}${r.provenance?`<br><span class="small">Source: ${esc(r.provenance)}</span>`:''}</p>`).join('')}</div>`;
+      }else{
+        referencesHost.innerHTML='';
+      }
+    }
+
     const first=lessons[0];
   const continueStudy=document.querySelector('#continueStudy');
+
+  if(continueStudy && !document.querySelector('#studyGuidesLink')){
+    const link=document.createElement('a');
+    link.id='studyGuidesLink';
+    link.className='button secondary';
+    link.href='study-guides.html';
+    link.textContent='Study Guides';
+    continueStudy.parentElement.appendChild(link);
+  }
+
   const saved=global.StudyContext?.read?.(programId);
 
   if(continueStudy){
