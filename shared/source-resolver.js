@@ -1,6 +1,6 @@
 (function(){
   let manifest=null; const shardCache=new Map();
-  const rootFromPath=()=>{const p=location.pathname; if(p.includes('/programs/'))return '../../'; if(p.includes('/library/')||p.includes('/student/')||p.includes('/slokas/')||p.includes('/certificates/')||p.includes('/admin/'))return '../'; return './'};
+  const rootFromPath=()=>{const p=location.pathname; if(p.includes('/programs/'))return '../../'; if(p.includes('/library/')||p.includes('/student/')||p.includes('/slokas/')||p.includes('/certificates/')||p.includes('/admin/')||p.includes('/references/')||p.includes('/question-bank/'))return '../'; return './'};
   function canon(raw){let s=String(raw||'').trim().replace(/[–—]/g,'-').replace(/\s+/g,' '),m;
     m=s.match(/^(?:BG|Bhagavad[- ]g[iī]t[aā])\s*[ .]?(\d+)\s*[.:]\s*(\d+(?:-\d+)?)$/i);if(m)return `BG.${m[1]}.${m[2]}`;
     m=s.match(/^(?:SB|Śrīmad[- ]Bhāgavatam|Srimad[- ]Bhagavatam)\s*[ .]?(\d+)\s*[.:]\s*(\d+)\s*[.:]\s*(\d+(?:-\d+)?)$/i);if(m)return `SB.${m[1]}.${m[2]}.${m[3]}`;

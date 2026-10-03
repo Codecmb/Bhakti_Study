@@ -234,14 +234,20 @@
     const bookLabel=BOOK_LABELS[record.book]||record.book||'Imported / General';
     const provenance=data.provider||'Question Bank';
 
+    const sheetHref=record.imported
+      ? 'index.html'
+      : `sheet.html?sheet=${encodeURIComponent(sheetId)}${ref
+          ? `&ref=${encodeURIComponent(ref)}`
+          : ''}`;
+
     host.innerHTML=`
-      <p>
-        <a href="${record.imported
-          ? 'index.html'
-          : `sheet.html?sheet=${encodeURIComponent(sheetId)}`}">
-          ← ${record.imported?'Question Bank':esc(title)}
+      <div class="reader-actions" style="margin:0 0 18px">
+        <a class="button secondary" href="${sheetHref}">
+          ← ${record.imported?'Question Bank':'Question Sheet'}
         </a>
-      </p>
+        ${record.imported?'':`<a class="button secondary" href="index.html">Question Bank</a>`}
+        <a class="button secondary" href="../index.html">Academy Home</a>
+      </div>
 
       <section class="card">
         <div class="eyebrow">

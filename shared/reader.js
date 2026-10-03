@@ -4,8 +4,6 @@ let book,meta,sectionIndex=0,verseIndex=0;
 const el={status:document.getElementById('status'),reader:document.getElementById('reader'),bookTitle:document.getElementById('bookTitle'),bookMeta:document.getElementById('bookMeta'),chapters:document.getElementById('chapters'),sectionHeader:document.getElementById('sectionHeader'),verses:document.getElementById('verses'),passage:document.getElementById('passage'),back:document.getElementById('back')};
 const cleanText=s=>(s??'').toString().replace(/\\n/g,'\n');
 const esc=s=>cleanText(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function noteKey(v){return canonicalOf(v)}
-function reflectionLoad(v){const id=noteKey(v),legacy=`bhakti-study.reflection.${id}`;return StudentStore?.migrate?StudentStore.migrate(legacy,'reflection',id)||'':localStorage.getItem(legacy)||''}
 function canonicalOf(v){let r=String(v.reference||'');if(meta.canonicalId==='BG')return 'BG.'+r;if(meta.canonicalId?.startsWith('SB.'))return 'SB.'+r;if(meta.canonicalId?.startsWith('CC.')){let m=r.match(/(adi|madhya|antya)\.(\d+)\.(\d+(?:-\d+)?)/i);if(m)return `CC.${m[1].toUpperCase()}.${m[2]}.${m[3]}`}if(meta.canonicalId==='ISO'||meta.canonicalId==='NOI'){let m=r.match(/(\d+)/);if(m)return `${meta.canonicalId}.${m[1]}`}if(meta.canonicalId==='NOD'){if(/^NOD\.(?:Dedication|Preface|Introduction|\d+)$/i.test(v.id||''))return v.id;let m=r.match(/^\s*(\d+)/);if(m)return `NOD.${m[1]}`}return v.id||r}
 async function load(){
  if(!bookId){el.status.textContent='No book selected.';return}
@@ -23,38 +21,55 @@ function neighbor(delta){let si=sectionIndex,vi=verseIndex+delta;while(si>=0&&si
 function jump(n){if(!n)return;if(n.si!==sectionIndex)openSection(n.si,false);openVerse(n.vi)}
 
 function returnToQuestion(){
- const ctx=window.StudyReturnContext?.get?.(programId);
- if(!ctx || ctx.mode!=='questions' || !ctx.questionId || !ctx.unit)return '';
+ const ctx=
+   window.StudyReturnContext?.get?.(programId) ||
+   window.StudyReturnContext?.latest?.();
 
- const q=new URLSearchParams({
-   unit:ctx.unit,
-   mode:'questions',
-   question:ctx.questionId
- });
+ if(!ctx?.returnHref)return '';
 
- if(ctx.scope && ctx.scope!==ctx.unit)q.set('ref',ctx.scope);
-
- const tools=`../programs/${encodeURIComponent(programId)}/tools.html`;
- return `<a class="button lotus" href="${tools}?${q.toString()}">← Return to Question</a>`;
+ return `<a class="button lotus" href="${esc(ctx.returnHref)}">← Return to Question Bank</a>`;
 }
 
 function renderStudyContext(canonical){
- const host=document.querySelector('#studyContext'); if(!host)return;
- if(programId&&unitId){
-   const q=`unit=${encodeURIComponent(unitId)}&ref=${encodeURIComponent(canonical)}`;
-   const tools=`../programs/${encodeURIComponent(programId)}/tools.html`;
-   host.innerHTML=`<div class="card"><div class="eyebrow">Study this passage</div><div class="action-grid"><a class="button lotus" href="${tools}?${q}&mode=understanding">My Understanding</a><a class="button secondary" href="${tools}?${q}&mode=questions">Study Questions</a><a class="button secondary" href="${tools}?${q}&mode=my-questions">My Questions</a><a class="button secondary" href="${tools}?${q}&mode=notes">Notes</a><a class="button secondary" href="${tools}?${q}&mode=assessment">Assessment</a></div></div>`;
- } else host.innerHTML='';
+ const host=document.querySelector('#studyContext');
+ if(!host)return;
+
+ const study=programId&&unitId
+   ? `<a class="button lotus" href="../programs/${encodeURIComponent(programId)}/tools.html?unit=${encodeURIComponent(unitId)}&ref=${encodeURIComponent(canonical)}&mode=understanding">Study</a>`
+   : '';
+
+ const studied=window.StudentStore
+   ? `<button id="markPassageStudied" class="button secondary" type="button">Mark passage studied</button>`
+   : '';
+
+ host.innerHTML=(study||studied)
+   ? `<div class="reader-actions" style="margin:10px 0 18px">${study}${studied}<span id="studyProgressMessage" class="small"></span></div>`
+   : '';
+
+ const mark=document.getElementById('markPassageStudied');
+
+ if(mark){
+   const already=StudentStore.get('reading',canonical)==='1';
+
+   if(already){
+     mark.textContent='✓ Passage studied';
+   }
+
+   mark.onclick=()=>{
+     StudentStore.set('reading',canonical,'1');
+     mark.textContent='✓ Passage studied';
+
+     const message=document.getElementById('studyProgressMessage');
+     if(message)message.textContent='Saved to your reading progress.';
+   };
+ }
 }
 
-async function openVerse(i){verseIndex=i;let s=book.sections[sectionIndex],v=s.verses[i];[...el.verses.children].forEach((b,j)=>b.classList.toggle('active',j===i));let saved=reflectionLoad(v),prev=neighbor(-1),next=neighbor(1),canonical=canonicalOf(v);
+async function openVerse(i){verseIndex=i;let s=book.sections[sectionIndex],v=s.verses[i];[...el.verses.children].forEach((b,j)=>b.classList.toggle('active',j===i));let prev=neighbor(-1),next=neighbor(1),canonical=canonicalOf(v);
  renderStudyContext(canonical);
  if(window.StudyContext)StudyContext.write({program:programId,unit:unitId,canonical,book:bookId});
- el.passage.innerHTML=`<div class="study-nav">${returnToQuestion()}<span>${prev?'<button id="prevVerse" class="button secondary">← Previous Verse</button>':'<button class="button secondary" disabled>← Previous Verse</button>'}</span>${programId&&unitId?`<a class="button secondary" href="../programs/${encodeURIComponent(programId)}/index.html#${encodeURIComponent(unitId)}">Back to Study Unit</a>`:''}<a class="button secondary" href="../programs/${encodeURIComponent(programId||'bhakti-sastri')}/index.html">↑ Program</a><a class="button secondary" href="../index.html">Academy Home</a>${SourceResolver.external(canonical)?`<a class="button secondary" href="${SourceResolver.external(canonical)}" target="_blank" rel="noopener">Vedabase ↗</a>`:''}${/^BG\.\d+\.\d+$/.test(canonical)?`<a class="button secondary" href="https://vanipedia.org/wiki/ES/${canonical.replaceAll('.', '_')}" target="_blank" rel="noopener">Vanipedia ↗</a>`:''}<span>${next?'<button id="nextVerse" class="button secondary">Next Verse →</button>':'<button class="button secondary" disabled>Next Verse →</button>'}</span></div><div class="eyebrow">Internal Academy Source</div><h2>${esc(canonical)}</h2>${v.source_text?`<h3>Source Text</h3><div class="scripture source-linkable">${esc(v.source_text)}</div>`:''}${v.devanagari?`<h3>Text</h3><div class="scripture">${esc(v.devanagari)}</div>`:''}${v.transliteration?`<h3>Transliteration</h3><div class="scripture">${esc(v.transliteration)}</div>`:''}${v.synonyms?`<h3>Word-for-word</h3><div class="purport source-linkable">${esc(v.synonyms).replace(/\n/g,' ')}</div>`:''}${v.translation?`<h3>Translation</h3><div class="purport source-linkable">${esc(v.translation)}</div>`:''}${v.purport?`<h3>${/Bhaktivedanta Swami Prabhup/i.test(book.creator||'')?"Śrīla Prabhupāda's Purport":'Purport'}</h3><div class="purport source-linkable">${esc(v.purport).replace(/\n/g,' ')}</div>`:''}${v.content?`<div class="purport source-linkable">${esc(v.content)}</div>`:''}<hr><h3>My Understanding</h3><p class="small">Write your own understanding after studying the internal source. This note is stored only in this browser.</p><textarea id="reflection" class="reflection" placeholder="My understanding…">${esc(saved)}</textarea><div class="reader-actions"><button id="saveReflection" class="button secondary">Save reflection</button><button id="markStudied" class="button saffron">Mark passage studied</button><button id="clearReflection" class="button secondary">Clear</button></div><p id="saveMsg" class="small muted"></p>`;
- document.querySelector('#prevVerse')?.addEventListener('click',()=>jump(prev));document.querySelector('#nextVerse')?.addEventListener('click',()=>jump(next));const reflection=document.getElementById('reflection'),saveMsg=document.getElementById('saveMsg'); if(window.VoiceInput)VoiceInput.attach(reflection);
- document.getElementById('saveReflection')?.addEventListener('click',()=>{StudentStore.set('reflection',noteKey(v),reflection.value);saveMsg.textContent='Saved in this browser.'});
- document.getElementById('markStudied')?.addEventListener('click',()=>{StudentStore.set('reading',canonical,'1');saveMsg.textContent=canonical+' marked studied.'});
- document.getElementById('clearReflection')?.addEventListener('click',()=>{reflection.value='';StudentStore.remove('reflection',noteKey(v));saveMsg.textContent='Reflection cleared.'});
+ el.passage.innerHTML=`<div class="study-nav">${returnToQuestion()}<span>${prev?'<button id="prevVerse" class="button secondary">← Previous Verse</button>':'<button class="button secondary" disabled>← Previous Verse</button>'}</span>${programId&&unitId?`<a class="button secondary" href="../programs/${encodeURIComponent(programId)}/index.html#${encodeURIComponent(unitId)}">Back to Study Unit</a>`:''}<a class="button secondary" href="../programs/${encodeURIComponent(programId||'bhakti-sastri')}/index.html">↑ Program</a><a class="button secondary" href="../index.html">Academy Home</a>${SourceResolver.external(canonical)?`<a class="button secondary" href="${SourceResolver.external(canonical)}" target="_blank" rel="noopener">Vedabase ↗</a>`:''}${/^BG\.\d+\.\d+$/.test(canonical)?`<a class="button secondary" href="https://vanipedia.org/wiki/ES/${canonical.replaceAll('.', '_')}" target="_blank" rel="noopener">Vanipedia ↗</a>`:''}<span>${next?'<button id="nextVerse" class="button secondary">Next Verse →</button>':'<button class="button secondary" disabled>Next Verse →</button>'}</span></div><div class="eyebrow">Internal Academy Source</div><h2>${esc(canonical)}</h2>${v.source_text?`<h3>Source Text</h3><div class="scripture source-linkable">${esc(v.source_text)}</div>`:''}${v.devanagari?`<h3>Text</h3><div class="scripture">${esc(v.devanagari)}</div>`:''}${v.transliteration?`<h3>Transliteration</h3><div class="scripture">${esc(v.transliteration)}</div>`:''}${v.synonyms?`<h3>Word-for-word</h3><div class="purport source-linkable">${esc(v.synonyms).replace(/\n/g,' ')}</div>`:''}${v.translation?`<h3>Translation</h3><div class="purport source-linkable">${esc(v.translation)}</div>`:''}${v.purport?`<h3>${/Bhaktivedanta Swami Prabhup/i.test(book.creator||'')?"Śrīla Prabhupāda's Purport":'Purport'}</h3><div class="purport source-linkable">${esc(v.purport).replace(/\n/g,' ')}</div>`:''}${v.content?`<div class="purport source-linkable">${esc(v.content)}</div>`:''}`;
+ document.querySelector('#prevVerse')?.addEventListener('click',()=>jump(prev));document.querySelector('#nextVerse')?.addEventListener('click',()=>jump(next));
  await SourceResolver.linkify(el.passage);
  const keep=new URLSearchParams({book:bookId,ref:canonical});if(programId)keep.set('program',programId);if(unitId)keep.set('unit',unitId);history.replaceState(null,'',`reader.html?${keep.toString()}`);
 }

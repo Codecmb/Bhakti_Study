@@ -4,7 +4,7 @@ function appRoot(){
   if(p.includes('/programs/')) return '../../';
   if(p.includes('/library/books/')) return '../../';
   if(p.includes('/library/')) return '../';
-  if(p.includes('/student/')||p.includes('/admin/')||p.includes('/certificates/')||p.includes('/slokas/')||p.includes('/references/')) return '../';
+  if(p.includes('/student/')||p.includes('/admin/')||p.includes('/certificates/')||p.includes('/slokas/')||p.includes('/references/')||p.includes('/question-bank/')) return '../';
   return './';
 }
 const ROOT=appRoot();

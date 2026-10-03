@@ -53,24 +53,47 @@
       const canonical=global.SourceResolver?.canon?.(btn.dataset.ref)||btn.dataset.ref;
       if(!canonical || !global.SourceResolver)return;
 
-      const target=await SourceResolver.resolve(canonical);
+      let target=await SourceResolver.resolve(canonical);
+      let sourceCanonical=canonical;
+
+      // A question may correctly cite an entire SB chapter,
+      // e.g. SB.1.2. The internal reader is verse-based.
+      const sbChapter=canonical.match(/^SB\.(\d+)\.(\d+)$/i);
+
+      if(sbChapter && target?.kind!=='internal'){
+        const firstVerse=`SB.${Number(sbChapter[1])}.${Number(sbChapter[2])}.1`;
+        const firstTarget=await SourceResolver.resolve(firstVerse);
+
+        if(firstTarget?.kind==='internal'){
+          target=firstTarget;
+          sourceCanonical=firstVerse;
+        }
+      }
+
       if(!target?.href)return;
 
       global.StudyReturnContext?.set?.(program,{
+        returnHref:location.href,
         unit,
         scope,
         mode:'questions',
         questionId:btn.dataset.qid,
-        canonical
+        canonical,
+        sourceCanonical
       });
 
       rememberQuestion(btn.dataset.qid);
 
-      location.href=target.href+(
-        target.kind==='internal'
-          ? `${target.href.includes('?')?'&':'?'}program=${encodeURIComponent(program)}&unit=${encodeURIComponent(unit)}`
-          : ''
-      );
+      if(target.kind==='internal'){
+        const sourceUrl=new URL(target.href,location.href);
+
+        if(program)sourceUrl.searchParams.set('program',program);
+        if(unit)sourceUrl.searchParams.set('unit',unit);
+
+        location.href=sourceUrl.href;
+      }else{
+        location.href=target.href;
+      }
     });
 
     container.querySelectorAll('.clearAnswer').forEach(btn=>btn.onclick=()=>{

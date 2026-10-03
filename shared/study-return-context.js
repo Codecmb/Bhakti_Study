@@ -32,6 +32,30 @@
     }
   }
 
+  function latest(){
+    try{
+      let best=null;
+
+      for(let i=0;i<sessionStorage.length;i++){
+        const storageKey=sessionStorage.key(i);
+        if(!storageKey?.startsWith(PREFIX+'.'))continue;
+
+        try{
+          const value=JSON.parse(sessionStorage.getItem(storageKey));
+          if(!value?.returnHref)continue;
+
+          if(!best || String(value.created_at||'')>String(best.created_at||'')){
+            best=value;
+          }
+        }catch{}
+      }
+
+      return best;
+    }catch{
+      return null;
+    }
+  }
+
   function clear(program){
     if(!program)return;
     try{
@@ -39,5 +63,5 @@
     }catch{}
   }
 
-  global.StudyReturnContext={set,get,clear};
+  global.StudyReturnContext={set,get,latest,clear};
 })(window);

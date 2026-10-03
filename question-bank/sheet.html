@@ -12,7 +12,10 @@
 
   <main class="main">
     <div class="eyebrow">Central Question Bank</div>
-    <p><a href="index.html">← Question Bank</a></p>
+    <div class="reader-actions" style="margin:0 0 18px">
+      <a class="button secondary" href="index.html">← Question Bank</a>
+      <a class="button secondary" href="../index.html">Academy Home</a>
+    </div>
 
     <div id="sheet">
       <div class="card">Loading question sheet…</div>
@@ -21,6 +24,7 @@
 </div>
 
 <script src="../shared/app.js"></script>
+<script>sidebar('question-bank');</script>
 <script>
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({
   '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
