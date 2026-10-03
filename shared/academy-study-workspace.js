@@ -60,10 +60,28 @@
       S.set('notes',ref,shell.querySelector(fields.notes)?.value||'');
       sessionStorage.removeItem(draftKey); status.textContent='Saved ✓';
     });
-    const open=()=>{shell.classList.add('open');backdrop.classList.add('open')};
-    const close=()=>{shell.classList.remove('open');backdrop.classList.remove('open')};
+    const stateKey='bhakti-study:workspace-open';
+    const desktop=()=>window.matchMedia('(min-width:1201px)').matches;
+    const open=()=>{
+      shell.classList.add('open');
+      area.classList.add('study-open');
+      if(desktop()) localStorage.setItem(stateKey,'1');
+      else backdrop.classList.add('open');
+    };
+    const close=()=>{
+      shell.classList.remove('open');
+      area.classList.remove('study-open');
+      backdrop.classList.remove('open');
+      if(desktop()) localStorage.setItem(stateKey,'0');
+    };
     fab.addEventListener('click',open); backdrop.addEventListener('click',close);
     shell.querySelector('.academy-study-close')?.addEventListener('click',close);
+    if(desktop()){
+      if(localStorage.getItem(stateKey)!=='0') open();
+      else close();
+    } else {
+      close();
+    }
   }
   global.AcademyStudyWorkspace={mount};
 })(window);

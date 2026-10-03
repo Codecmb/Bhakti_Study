@@ -29,9 +29,7 @@
       ref:l.firstRef,
       unit:l.unitId
     });
-    const study=`tools.html?${params({unit:l.unitId,mode:'understanding',ref:l.firstRef})}`;
-    const questions=`tools.html?${params({unit:l.unitId,mode:'questions',ref:l.firstRef})}`;
-    return `<article class="lesson-card"><div class="lesson-number">Lesson ${l.order}</div><h4>${esc(l.title)}</h4><p class="small"><strong>${esc(l.firstRef)}</strong>${l.lastRef&&l.lastRef!==l.firstRef?' → '+esc(l.lastRef):''} · ${l.recordCount} study record${l.recordCount===1?'':'s'}</p><div class="lesson-actions"><a class="button" href="${read}">Read</a><a class="button secondary" href="${study}">Study</a>${StudyWorkflow.hasMode(course,'questions')?`<a class="button secondary" href="${questions}">Questions</a>`:''}</div></article>`;
+    return `<article class="lesson-card"><div class="lesson-number">Lesson ${l.order}</div><h4>${esc(l.title)}</h4><p class="small"><strong>${esc(l.firstRef)}</strong>${l.lastRef&&l.lastRef!==l.firstRef?' → '+esc(l.lastRef):''} · ${l.recordCount} passage${l.recordCount===1?'':'s'}</p><div class="lesson-actions"><a class="button" href="${read}">Open Lesson</a></div></article>`;
   }
   async function init({programId,dataBase='data/'}){
     sidebar(programId);
@@ -40,7 +38,7 @@
 
 
     const meta=document.querySelector('#courseMeta');
-    meta.textContent=`${units.length} study units · ${lessons.length} lessons · canonical-library source model`;
+    meta.textContent=`${units.length} study units · ${lessons.length} lessons`;
     const host=document.querySelector('#lessonOutline');
     host.innerHTML=units.map((u,ui)=>{
       const ls=lessons.filter(l=>l.unitId===u.id);
@@ -85,7 +83,7 @@
             </section>`).join('')}</div>`
         : `<div class="lesson-grid">${ls.map(l=>lessonCard(programId,course,l)).join('')||'<div class="notice">Lesson outline is not configured for this unit yet.</div>'}</div>`;
 
-      return `<section class="course-unit" id="${esc(u.id)}"><button class="unit-toggle" type="button" aria-expanded="false"><span><span class="eyebrow">${esc(u.id)}</span><strong>${esc(u.title)}</strong><small>${esc(u.range||'')} · ${ls.length} lessons</small></span><span class="unit-chevron">⌄</span></button><div class="unit-lessons" hidden><div class="unit-intro"><p>Follow the lesson outline in order, or open any lesson directly. Scripture remains in the canonical library; the course stores only curriculum references.</p><a class="button saffron" href="${continueHref}">Begin / Continue Unit</a> ${StudyWorkflow.buttons(course,{program:programId,unit:u.id})}</div>${chapterContent}</div></section>`;
+      return `<section class="course-unit" id="${esc(u.id)}"><button class="unit-toggle" type="button" aria-expanded="false"><span><span class="eyebrow">${esc(u.id)}</span><strong>${esc(u.title)}</strong><small>${esc(u.range||'')} · ${ls.length} lessons</small></span><span class="unit-chevron">⌄</span></button><div class="unit-lessons" hidden><div class="unit-intro"><p>Follow the lessons in order, or open any lesson directly. Each lesson connects you to its assigned primary reading.</p><a class="button saffron" href="${continueHref}">Start Unit</a> ${StudyWorkflow.buttons(course,{program:programId,unit:u.id})}</div>${chapterContent}</div></section>`;
     }).join('');
     host.addEventListener('click',e=>{
       const chapter=e.target.closest('.chapter-toggle');
