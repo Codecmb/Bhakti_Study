@@ -1,5 +1,6 @@
 function appRoot(){
   const p=location.pathname.replace(/\\/g,'/');
+  if(p.includes('/programs/sat-sandarbhas/') && /\/programs\/sat-sandarbhas\/[^/]+\//.test(p)) return '../../../';
   if(p.includes('/programs/')) return '../../';
   if(p.includes('/library/books/')) return '../../';
   if(p.includes('/library/')) return '../';

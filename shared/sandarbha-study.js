@@ -1,5 +1,6 @@
 (function(){
-  const esc=s=>String(s??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
+  const cleanText=s=>String(s??'').replace(/\\n/g,'\n');
+  const esc=s=>cleanText(s).replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
   const work=window.SANDARBHA_WORK;
   const ROOT='../../../';
   const prefixes={tattva:'TS',bhagavat:'BGS',paramatma:'PAS',krsna:'KS',bhakti:'BHS',priti:'PS'};
