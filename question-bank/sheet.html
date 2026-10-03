@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Question Sheet · Bhakti Study Academy</title>
+  <link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar"></aside>
+
+  <main class="main">
+    <div class="eyebrow">Central Question Bank</div>
+    <p><a href="index.html">← Question Bank</a></p>
+
+    <div id="sheet">
+      <div class="card">Loading question sheet…</div>
+    </div>
+  </main>
+</div>
+
+<script src="../shared/app.js"></script>
+<script>
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({
+  '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+}[c]));
+
+const params=new URLSearchParams(location.search);
+const id=params.get('sheet');
+const targetRef=params.get('ref')||'';
+
+const PROGRAM_LABELS={
+  'bhakti-sastri':'Bhakti Śāstrī',
+  'bhakti-vaibhava':'Bhakti Vaibhava',
+  'bhakti-vedanta':'Bhakti Vedānta',
+  'bhakti-sarvabhauma':'Bhakti Sārvabhauma'
+};
+
+const BOOK_LABELS={
+  bg:'Bhagavad-gītā',
+  sb1:'Śrīmad-Bhāgavatam · Canto 1',
+  sb2:'Śrīmad-Bhāgavatam · Canto 2',
+  sb3:'Śrīmad-Bhāgavatam · Canto 3',
+  sb4:'Śrīmad-Bhāgavatam · Canto 4',
+  sb5:'Śrīmad-Bhāgavatam · Canto 5',
+  sb6:'Śrīmad-Bhāgavatam · Canto 6'
+};
+
+const KIND_LABELS={
+  'closed-book-short':'Closed Book Short',
+  'closed-book':'Closed Book Questions',
+  'open-book-essay':'Open Book Essays',
+  'open-book':'Open Book Questions'
+};
+
+async function loadRecord(){
+  const response=await fetch('../data/question-sheet-registry.json');
+  if(!response.ok)throw new Error(`Registry HTTP ${response.status}`);
+
+  const registry=await response.json();
+  const record=(registry.sheets||[]).find(x=>x.id===id);
+
+  if(!record)throw new Error('Question sheet not found.');
+
+  const dataResponse=await fetch('../'+record.data);
+  if(!dataResponse.ok)throw new Error(`Question sheet HTTP ${dataResponse.status}`);
+
+  return {record,data:await dataResponse.json()};
+}
+
+function structured(record,data){
+  const total=data.groups.reduce(
+    (n,g)=>n+g.sections.reduce((m,s)=>m+s.questions.length,0),0
+  );
+
+  return `
+    <section class="card">
+      <div class="eyebrow">
+        ${esc(PROGRAM_LABELS[record.program]||record.program)} ·
+        ${esc(BOOK_LABELS[record.book]||record.book)}
+      </div>
+      <h1>${esc(data.title||data.source_title||record.id)}</h1>
+      <p class="lead">${esc(data.provider||'')}</p>
+      <p><strong>${total} questions</strong></p>
+    </section>
+
+    ${data.groups.map(g=>{
+      const thematic=String(g.chapter)==='1-6';
+
+      return `
+        <section class="card"${thematic?'':` data-question-ref="BG.${esc(g.chapter)}"`}>
+          <div class="eyebrow">
+            ${thematic?'Bhagavad-gītā 1–6':'Bhagavad-gītā'}
+          </div>
+
+          <h2>${thematic?'Thematic Questions':'Chapter '+esc(g.chapter)}</h2>
+
+          ${g.sections.map((section,sectionIndex)=>`
+            <p>
+              <a class="button secondary"
+                 href="questions.html?sheet=${encodeURIComponent(id)}&group=${encodeURIComponent(g.chapter)}&section=${sectionIndex}">
+                ${esc(section.type)} ·
+                ${section.questions.length} question${section.questions.length===1?'':'s'}
+              </a>
+            </p>
+          `).join('')}
+        </section>
+      `;
+    }).join('')}
+  `;
+}
+
+function flatCanonical(record,data){
+  const groups=new Map();
+
+  for(const q of data.questions||[]){
+    const ref=q.canonical_ref||record.scope||'General';
+
+    if(!groups.has(ref))groups.set(ref,new Map());
+    const kinds=groups.get(ref);
+
+    const kind=q.kind||'study-question';
+    if(!kinds.has(kind))kinds.set(kind,[]);
+    kinds.get(kind).push(q);
+  }
+
+  const groupLabel=ref=>{
+    const m=String(ref).match(/^SB\.(\d+)\.(\d+)$/);
+    if(m)return `Chapter ${m[2]}`;
+    if(ref===record.scope)return 'Introduction / General';
+    return ref;
+  };
+
+  return `
+    <section class="card">
+      <div class="eyebrow">
+        ${esc(PROGRAM_LABELS[record.program]||record.program)} ·
+        ${esc(BOOK_LABELS[record.book]||record.book)}
+      </div>
+      <h1>${esc(data.title||data.source_title||record.id)}</h1>
+      <p class="lead">${esc(data.provider||'')}</p>
+      <p><strong>${(data.questions||[]).length} questions</strong></p>
+    </section>
+
+    ${[...groups.entries()].map(([ref,kinds])=>`
+      <section class="card" data-question-ref="${esc(ref)}">
+        <div class="eyebrow">${esc(ref)}</div>
+        <h2>${esc(groupLabel(ref))}</h2>
+
+        ${[...kinds.entries()].map(([kind,questions])=>`
+          <p>
+            <a class="button secondary"
+               href="questions.html?sheet=${encodeURIComponent(id)}&ref=${encodeURIComponent(ref)}&kind=${encodeURIComponent(kind)}">
+              ${esc(KIND_LABELS[kind]||kind)} ·
+              ${questions.length} question${questions.length===1?'':'s'}
+            </a>
+          </p>
+        `).join('')}
+      </section>
+    `).join('')}
+  `;
+}
+
+async function init(){
+  const host=document.getElementById('sheet');
+
+  try{
+    const {record,data}=await loadRecord();
+
+    host.innerHTML=record.adapter==='flat-canonical'
+      ? flatCanonical(record,data)
+      : structured(record,data);
+
+    if(targetRef){
+      const target=[...host.querySelectorAll('[data-question-ref]')]
+        .find(el=>el.dataset.questionRef===targetRef);
+
+      target?.scrollIntoView({block:'start'});
+    }
+
+  }catch(error){
+    host.innerHTML=
+      `<div class="card missing">Could not load question sheet: ${esc(error.message)}</div>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>

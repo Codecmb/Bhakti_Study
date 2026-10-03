@@ -41,6 +41,58 @@
   }
   function relevant(items,canonical,unit){const ss=scopes(canonical,unit),rank=r=>{const i=ss.indexOf(r);return i<0?999:i};return items.map(normalizeRecord).filter(q=>!q.canonical_ref||ss.includes(q.canonical_ref)).sort((a,b)=>rank(a.canonical_ref)-rank(b.canonical_ref))}
 
+  // Migrate answers from the retired standalone BG 1–6 BOEX workspace.
+  // Legacy:
+  //   bhaktiStudy:boex:<chapter>:<section-type>:<zero-based-index>:answer|revised
+  // Modern qid:
+  //   boex-bg-1-6.<chapter>.<zero-based-section-index>.<one-based-question-number>
+  //
+  // The section order below is the order in the canonical BOEX JSON.
+  // Existing modern work always wins; migration never overwrites it.
+  function migrateLegacyBgBoex(){
+    if(!window.StudentStore)return;
+
+    const program='bhakti-sastri';
+    const sheet='boex-bg-1-6';
+    const sectionTypes=[
+      'Closed Book Short',
+      'Closed Book Questions',
+      'Open Book Essays'
+    ];
+
+    const chapters=['1','2','3','4','5','6','1-6'];
+
+    chapters.forEach(chapter=>{
+      sectionTypes.forEach((type,sectionIndex)=>{
+        for(let i=0;i<500;i++){
+          const base=`bhaktiStudy:boex:${chapter}:${type}:${i}`;
+          const oldAnswer=localStorage.getItem(`${base}:answer`);
+          const oldRevision=localStorage.getItem(`${base}:revised`);
+
+          if(oldAnswer===null && oldRevision===null){
+            if(i===0)break;
+            break;
+          }
+
+          const qid=`${sheet}.${chapter}.${sectionIndex}.${i+1}`;
+          const wid=`${program}.${qid}`;
+
+          if(oldAnswer!==null &&
+             !StudentStore.has('question-answer',wid)){
+            StudentStore.set('question-answer',wid,oldAnswer);
+          }
+
+          if(oldRevision!==null &&
+             !StudentStore.has('question-revision',wid)){
+            StudentStore.set('question-revision',wid,oldRevision);
+          }
+        }
+      });
+    });
+  }
+
+  migrateLegacyBgBoex();
+
   // Legacy answer API remains intact. Answers belong to stable question identity.
   function storageKey(program,qid){return `bhakti-study.questions.${program}.${qid}`}
   function legacyStorageKey(program,scope,qid){return `bhakti-study.questions.${program}.${scope}.${qid}`}

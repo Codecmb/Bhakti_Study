@@ -287,5 +287,11 @@
   "./slokas/index.html",
   "./slokas/integration.json",
   "./student/portfolio.html",
-  "./student/progress.html"
+  "./student/progress.html",
+  "question-bank/index.html",
+  "question-bank/sheet.html",
+  "question-bank/questions.html",
+  "question-bank/questions.js",
+  "shared/question-bank.js",
+  "data/question-sheet-registry.json"
 ]

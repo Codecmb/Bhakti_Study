@@ -17,6 +17,7 @@
     const notes=draft.notes??S.get('notes',ref,'');
     const qs=`${tools}?unit=${encodeURIComponent(unit)}&mode=questions&ref=${encodeURIComponent(ref)}`;
     const myq=`${tools}?unit=${encodeURIComponent(unit)}&mode=my-questions&ref=${encodeURIComponent(ref)}`;
+    const questionBank=opts.questionBankUrl||'';
 
     const shell=document.createElement('aside');
     shell.className='academy-study-shell card';
@@ -25,7 +26,7 @@
       <label><strong>Revised Understanding</strong><textarea id="academyReflection" rows="5" placeholder="What changed after further study?">${esc(reflection)}</textarea></label>
       <label><strong>Notes</strong><textarea id="academyNotes" rows="6" placeholder="Personal notes…">${esc(notes)}</textarea></label>
       <div class="academy-study-save"><button class="button" id="academySave" type="button">Save</button><span id="academySaveStatus" class="muted" role="status" aria-live="polite">${Object.keys(draft).length?'Unsaved draft':'Saved'}</span></div>
-      <div class="academy-study-links"><a class="button secondary" href="${qs}">Study Questions</a><a class="button secondary" href="${myq}">My Questions</a></div>`;
+      <div class="academy-study-links">${questionBank?`<a class="button secondary" href="${questionBank}">Question Bank</a>`:`<a class="button secondary" href="${qs}">Study Questions</a>`}<a class="button secondary" href="${myq}">My Questions</a></div>`;
     // Reuse the existing reading wrapper when navigating between passages.
     // Without this check, every passage change nests another .academy-reading-area
     // inside the previous one, progressively collapsing the source-text pane.

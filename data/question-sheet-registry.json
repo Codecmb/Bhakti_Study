@@ -1,0 +1,104 @@
+{
+  "schema": "bhakti-study.question-sheet-registry.v1",
+  "sheets": [
+    {
+      "id": "boex-bg-1-6",
+      "program": "bhakti-sastri",
+      "book": "bg",
+      "coverage": {
+        "type": "chapter-range",
+        "start": 1,
+        "end": 6
+      },
+      "data": "programs/bhakti-sastri/data/questions/boex-bg-1-6.json"
+    },
+    {
+      "id": "boex-bv-u1",
+      "program": "bhakti-vaibhava",
+      "book": "sb1",
+      "scope": "BV.U1",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vaibhava/data/questions/boex/bv-u1.json"
+    },
+    {
+      "id": "boex-bv-u2",
+      "program": "bhakti-vaibhava",
+      "book": "sb1",
+      "scope": "BV.U2",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vaibhava/data/questions/boex/bv-u2.json"
+    },
+    {
+      "id": "boex-bv-u3",
+      "program": "bhakti-vaibhava",
+      "book": "sb2",
+      "scope": "BV.U3",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vaibhava/data/questions/boex/bv-u3.json"
+    },
+    {
+      "id": "boex-bv-u4",
+      "program": "bhakti-vaibhava",
+      "book": "sb3",
+      "scope": "BV.U4",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vaibhava/data/questions/boex/bv-u4.json"
+    },
+    {
+      "id": "boex-bv-u5",
+      "program": "bhakti-vaibhava",
+      "book": "sb3",
+      "scope": "BV.U5",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vaibhava/data/questions/boex/bv-u5.json"
+    },
+    {
+      "id": "boex-bv-u6",
+      "program": "bhakti-vaibhava",
+      "book": "sb4",
+      "scope": "BV.U6",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vaibhava/data/questions/boex/bv-u6.json"
+    },
+    {
+      "id": "boex-bv-u7",
+      "program": "bhakti-vaibhava",
+      "book": "sb4",
+      "scope": "BV.U7",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vaibhava/data/questions/boex/bv-u7.json"
+    },
+    {
+      "id": "boex-bv-u8",
+      "program": "bhakti-vaibhava",
+      "book": "sb5",
+      "scope": "BV.U8",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vaibhava/data/questions/boex/bv-u8.json"
+    },
+    {
+      "id": "boex-bv-u9",
+      "program": "bhakti-vaibhava",
+      "book": "sb6",
+      "scope": "BV.U9",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vaibhava/data/questions/boex/bv-u9.json"
+    },
+    {
+      "id": "collected-bved-u2",
+      "program": "bhakti-vedanta",
+      "book": "sb8",
+      "scope": "BVED.U2",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vedanta/data/questions/collected-sources/bved-u2.json"
+    },
+    {
+      "id": "collected-bved-u3",
+      "program": "bhakti-vedanta",
+      "book": "sb9",
+      "scope": "BVED.U3",
+      "adapter": "flat-canonical",
+      "data": "programs/bhakti-vedanta/data/questions/collected-sources/bved-u3.json"
+    }
+  ]
+}
