@@ -1,25 +1,44 @@
-const CACHE = 'bhakti-study-shell-v4';
+const CACHE = 'bhakti-study-offline-v5';
+const MANIFEST = './offline-files.json';
 
-const SHELL = [
-  './',
-  './index.html',
-  './shared/styles.css',
-  './shared/app.js',
-  './shared/course-home.js',
-  './shared/program-data.js',
-  './shared/study-workflow.js',
-  './data/programs.json',
-  './data/books.json',
-  './manifest.webmanifest',
-  './assets/bhakti-study-logo.png',
-  './assets/bhakti-study-icon-192.png',
-  './assets/bhakti-study-icon-512.png'
-];
+async function cacheAcademy() {
+  const cache = await caches.open(CACHE);
+
+  const manifestResponse = await fetch(MANIFEST, { cache: 'no-store' });
+  if (!manifestResponse.ok) {
+    throw new Error(`Offline manifest failed: ${manifestResponse.status}`);
+  }
+
+  const files = await manifestResponse.json();
+  const urls = [...new Set(['./', MANIFEST, ...files])];
+
+  const failures = [];
+
+  for (const url of urls) {
+    try {
+      const response = await fetch(url, { cache: 'no-store' });
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      await cache.put(url, response);
+    } catch (error) {
+      failures.push(`${url}: ${error.message}`);
+    }
+  }
+
+  if (failures.length) {
+    throw new Error(
+      `Academy offline download incomplete (${failures.length} failed):\n` +
+      failures.join('\n')
+    );
+  }
+}
 
 self.addEventListener('install', event => {
-  self.skipWaiting();
   event.waitUntil(
-    caches.open(CACHE).then(cache => cache.addAll(SHELL))
+    cacheAcademy().then(() => self.skipWaiting())
   );
 });
 
@@ -28,7 +47,10 @@ self.addEventListener('activate', event => {
     caches.keys()
       .then(keys => Promise.all(
         keys
-          .filter(key => key.startsWith('bhakti-study-shell-') && key !== CACHE)
+          .filter(key =>
+            key.startsWith('bhakti-study-') &&
+            key !== CACHE
+          )
           .map(key => caches.delete(key))
       ))
       .then(() => self.clients.claim())
@@ -47,6 +69,16 @@ self.addEventListener('fetch', event => {
         }
         return response;
       })
-      .catch(() => caches.match(event.request))
+      .catch(async () => {
+        const cached = await caches.match(event.request);
+        if (cached) return cached;
+
+        if (event.request.mode === 'navigate') {
+          const home = await caches.match('./index.html');
+          if (home) return home;
+        }
+
+        throw new Error('Offline resource unavailable');
+      })
   );
 });
