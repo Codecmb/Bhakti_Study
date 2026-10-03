@@ -61,6 +61,71 @@
     return response.json();
   }
 
+  function importedBooks(program,batch){
+    const books=new Set();
+
+    (batch.questions||[]).forEach(q=>{
+      const ref=String(q.canonical_ref||'').toUpperCase();
+      const unit=String(q.unit||'');
+
+      if(program==='bhakti-sastri'){
+        if(/^BG[. ]/.test(ref))books.add('bg');
+        else if(/^ISO[. ]/.test(ref))books.add('iso');
+        else if(/^NOD[. ]/.test(ref))books.add('nod');
+        else if(/^NOI[. ]/.test(ref))books.add('noi');
+      }
+
+      if(program==='bhakti-vaibhava' ||
+         program==='bhakti-vedanta'){
+        const m=ref.match(/^SB[. ](\d+)/);
+        if(m)books.add('sb'+m[1]);
+      }
+
+      if(program==='bhakti-sarvabhauma'){
+        const m=ref.match(/^CC[. ](ADI|MADHYA|ANTYA)/);
+        if(m)books.add('cc-'+m[1].toLowerCase());
+      }
+
+      // Conservative unit fallback only where the existing
+      // curriculum mapping is unambiguous.
+      if(!ref){
+        const maps={
+          'BV.U1':'sb1','BV.U2':'sb1','BV.U3':'sb2',
+          'BV.U4':'sb3','BV.U5':'sb3',
+          'BV.U6':'sb4','BV.U7':'sb4',
+          'BV.U8':'sb5','BV.U9':'sb6',
+          'BVED.U1':'sb7','BVED.U2':'sb8',
+          'BVED.U3':'sb9','BVED.U4':'sb10',
+          'BVED.U5':'sb11','BVED.U6':'sb12'
+        };
+        if(maps[unit])books.add(maps[unit]);
+      }
+    });
+
+    return [...books];
+  }
+
+  function importedSheets(){
+    if(!global.QuestionSheetImporter)return [];
+
+    return PROGRAMS.flatMap(program=>
+      QuestionSheetImporter.batches(program.id).map(batch=>({
+        record:{
+          id:batch.id,
+          program:program.id,
+          imported:true,
+          books:importedBooks(program.id,batch)
+        },
+        data:{
+          title:batch.title||'Imported question sheet',
+          provider:batch.author||'Imported',
+          source_file:batch.source_file||'',
+          questions:batch.questions||[]
+        }
+      }))
+    );
+  }
+
   function coverageLabel(record){
     const c=record.coverage||{};
     if(c.type==='chapter-range' && c.start && c.end){
@@ -76,7 +141,9 @@
           ${sheets.map(x=>`
             <p>
               <a class="button secondary"
-                 href="sheet.html?sheet=${encodeURIComponent(x.record.id)}">
+                 href="${x.record.imported
+                   ? `questions.html?import=${encodeURIComponent(x.record.id)}&program=${encodeURIComponent(x.record.program)}`
+                   : `sheet.html?sheet=${encodeURIComponent(x.record.id)}`}">
                 ${esc(x.data.title||x.data.source_title||x.record.id)}
               </a>
               <span class="small">
@@ -109,12 +176,15 @@
 
       const registry=await loadRegistry();
 
-      const loaded=await Promise.all(
+      const staticSheets=await Promise.all(
         (registry.sheets||[]).map(async record=>({
           record,
           data:await loadSheet(record)
         }))
       );
+
+      const imported=importedSheets();
+      const loaded=[...staticSheets,...imported];
 
       host.innerHTML=PROGRAMS.map(program=>{
         const programSheets=loaded.filter(
@@ -127,10 +197,20 @@
             ${program.books.map(book=>
               renderBook(
                 book,
-                programSheets.filter(x=>x.record.book===book.id),
+                programSheets.filter(x=>
+                  x.record.book===book.id ||
+                  (x.record.imported && x.record.books?.includes(book.id))
+                ),
                 {...context,programId:program.id}
               )
             ).join('')}
+            ${renderBook(
+              {id:'general',label:'Imported / General'},
+              programSheets.filter(x=>
+                x.record.imported && !(x.record.books||[]).length
+              ),
+              {...context,programId:program.id}
+            )}
           </section>
         `;
       }).join('');
@@ -154,6 +234,8 @@
     programs:PROGRAMS,
     loadRegistry,
     loadSheet,
+    importedBooks,
+    importedSheets,
     init
   };
 

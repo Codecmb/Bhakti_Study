@@ -3,6 +3,8 @@
   const params=new URLSearchParams(location.search);
 
   const sheetId=params.get('sheet');
+  const importId=params.get('import');
+  const importProgram=params.get('program');
   const groupId=params.get('group');
   const sectionParam=params.get('section');
   const ref=params.get('ref');
@@ -36,6 +38,32 @@
     'open-book':'Open Book Questions',
     'study-question':'Study Questions'
   };
+
+  function loadImported(){
+    if(!importId || !importProgram || !window.QuestionSheetImporter){
+      return null;
+    }
+
+    const batch=QuestionSheetImporter
+      .batches(importProgram)
+      .find(x=>x.id===importId);
+
+    if(!batch)return null;
+
+    return {
+      record:{
+        id:batch.id,
+        program:importProgram,
+        imported:true
+      },
+      data:{
+        title:batch.title||'Imported question sheet',
+        provider:batch.author||'Imported',
+        source_file:batch.source_file||'',
+        questions:batch.questions||[]
+      }
+    };
+  }
 
   async function loadSheet(){
     const registryResponse=await fetch('../data/question-sheet-registry.json');
@@ -100,6 +128,40 @@
     };
   }
 
+  function importedBatch(record,data){
+    const source=data.questions||[];
+    if(!source.length)return null;
+
+    const questions=source.map((q,i)=>
+      QuestionEngine.normalizeRecord({
+        ...q,
+        id:q.id || q.source_question_id ||
+          `${record.id}.${i+1}`,
+        provider:q.provider || 'student-import',
+        source_question_id:q.source_question_id ||
+          q.id || `${i+1}`,
+        question:q.question || q.q || '',
+        canonical_ref:q.canonical_ref || '',
+        canonical_sources:q.canonical_sources ||
+          (q.canonical_ref ? [q.canonical_ref] : []),
+        kind:q.kind || 'study-question',
+        provenance:q.provenance || {
+          title:data.title || 'Imported question sheet',
+          author:data.provider || ''
+        }
+      })
+    ).filter(q=>q.question);
+
+    if(!questions.length)return null;
+
+    return {
+      scope:`import.${record.id}`,
+      questions,
+      heading:data.title || 'Imported question sheet',
+      type:'Imported Questions'
+    };
+  }
+
   function flatCanonical(record,data){
     if(!ref || !kind)return null;
 
@@ -148,16 +210,19 @@
   }
 
   try{
-    if(!sheetId){
+    if(!sheetId && !(importId && importProgram)){
       host.innerHTML='<div class="card missing">Question section not found.</div>';
       return;
     }
 
-    const {record,data}=await loadSheet();
+    const imported=loadImported();
+    const {record,data}=imported || await loadSheet();
 
-    const section=record.adapter==='flat-canonical'
-      ? flatCanonical(record,data)
-      : structured(record,data);
+    const section=record.imported
+      ? importedBatch(record,data)
+      : record.adapter==='flat-canonical'
+        ? flatCanonical(record,data)
+        : structured(record,data);
 
     if(!section){
       host.innerHTML='<div class="card missing">Question section not found.</div>';
@@ -166,13 +231,15 @@
 
     const title=data.title||data.source_title||record.id;
     const programLabel=PROGRAM_LABELS[record.program]||record.program;
-    const bookLabel=BOOK_LABELS[record.book]||record.book;
+    const bookLabel=BOOK_LABELS[record.book]||record.book||'Imported / General';
     const provenance=data.provider||'Question Bank';
 
     host.innerHTML=`
       <p>
-        <a href="sheet.html?sheet=${encodeURIComponent(sheetId)}">
-          ← ${esc(title)}
+        <a href="${record.imported
+          ? 'index.html'
+          : `sheet.html?sheet=${encodeURIComponent(sheetId)}`}">
+          ← ${record.imported?'Question Bank':esc(title)}
         </a>
       </p>
 
@@ -203,7 +270,7 @@
       scope:section.scope,
       questions:section.questions,
       bank:{
-        id:sheetId,
+        id:record.id,
         label:section.type,
         provenance_label:provenance
       }
