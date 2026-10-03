@@ -1,4 +1,4 @@
-const CACHE = 'bhakti-study-offline-v5';
+const CACHE = 'bhakti-study-offline-v7';
 const MANIFEST = './offline-files.json';
 
 async function cacheAcademy() {
@@ -70,7 +70,10 @@ self.addEventListener('fetch', event => {
         return response;
       })
       .catch(async () => {
-        const cached = await caches.match(event.request);
+        const cached = await caches.match(
+          event.request,
+          event.request.mode === 'navigate' ? { ignoreSearch: true } : undefined
+        );
         if (cached) return cached;
 
         if (event.request.mode === 'navigate') {
