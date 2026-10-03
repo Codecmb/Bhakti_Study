@@ -24,16 +24,16 @@
         "mode": "questions",
         "label": "Study Questions",
         "className": "secondary",
-        "showInUnit": true,
-        "showInWorkspace": true
+        "showInUnit": false,
+        "showInWorkspace": false
       },
       {
         "id": "my-questions",
         "mode": "my-questions",
         "label": "My Questions",
         "className": "secondary",
-        "showInUnit": true,
-        "showInWorkspace": true
+        "showInUnit": false,
+        "showInWorkspace": false
       },
       {
         "id": "notes",

@@ -249,8 +249,6 @@
   "./service-worker.js",
   "./shared/academy-guides.js",
   "./shared/academy-references.js",
-  "./shared/academy-study-workspace.css",
-  "./shared/academy-study-workspace.js",
   "./shared/app.js",
   "./shared/bhakti-sastri.js",
   "./shared/course-home.js",
