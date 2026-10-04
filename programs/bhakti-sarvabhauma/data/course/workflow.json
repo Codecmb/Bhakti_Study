@@ -28,14 +28,6 @@
         "showInWorkspace": true
       },
       {
-        "id": "assessment",
-        "mode": "assessment",
-        "label": "Assessment",
-        "className": "secondary",
-        "showInUnit": true,
-        "showInWorkspace": true
-      },
-      {
         "id": "progress",
         "route": "progress",
         "label": "Progress",

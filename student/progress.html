@@ -1,7 +1,26 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>My Progress</title><link rel="stylesheet" href="../shared/styles.css"></head><body><div class="layout"><aside class="sidebar"></aside><main class="main"><div class="eyebrow">Local student data</div><h1>My Progress</h1><p class="lead">Progress is derived from the same modular records created while you study. Source books remain untouched.</p><section id="cards" class="grid"></section><div class="notice"><b>Privacy:</b> This page does not require a student account or name. Progress stays in this browser.</div></main></div><script src="../shared/app.js"></script><script src="../shared/data-registry.js"></script><script src="../shared/program-data.js"></script><script src="../shared/student-store.js"></script><script src="../shared/progress-engine.js"></script><script>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>My Progress</title><link rel="stylesheet" href="../shared/styles.css"></head><body><div class="layout"><aside class="sidebar"></aside><main class="main"><div class="eyebrow">Local student data</div><h1>My Progress</h1><p class="lead">Progress is derived from the same modular records created while you study. Source books remain untouched.</p><section id="cards" class="grid"></section><div class="notice"><b>Privacy:</b> This page does not require a student account or name. Progress stays in this browser.</div></main></div><script src="../shared/app.js"></script><script src="../shared/data-registry.js"></script><script src="../shared/program-data.js"></script><script src="../shared/student-store.js"></script><script src="../shared/study-context.js"></script><script src="../shared/progress-engine.js"></script><script>
 sidebar('progress');
+
+function continueHref(programId){
+  const fallback=`../programs/${programId}/index.html`;
+
+  if(!window.StudyContext)return fallback;
+
+  const ctx=StudyContext.read(programId);
+  if(!ctx)return fallback;
+
+  const q=new URLSearchParams();
+
+  if(ctx.unit)q.set('unit',ctx.unit);
+  if(ctx.canonical)q.set('ref',ctx.canonical);
+
+  if(!q.toString())return fallback;
+
+  return `../programs/${programId}/tools.html?mode=read&${q}`;
+}
+
 json('../data/programs.json').then(async ps=>{
  const rows=await Promise.all(ps.map(async p=>{let c=null;try{c=await BhaktiProgramData.loadCourse(`../programs/${p.id}/data/`)}catch(e){};return {p,c,s:c?ProgressEngine.programSummary(p.id,c.units||c.studyUnits||[],c):null}}));
- cards.innerHTML=rows.map(({p,c,s})=>{if(!s)return `<article class="card"><h3>${p.title}</h3><p class="small">Progress modules are not wired for this program yet.</p><a class="button secondary" href="../programs/${p.id}/index.html">Open program</a></article>`;return `<article class="card"><h3>${p.title}</h3>${s.completionEnabled?`<p><b>${s.complete}/${s.total}</b> Academy units complete · <b>${s.pct}%</b></p><div class="progressbar"><i style="width:${s.pct}%"></i></div>`:`<p class="small">Academy unit-completion rules are not configured for this program yet. Study activity is still tracked below.</p>`}<p class="small">${s.reading} passages studied · ${s.reflections} passage reflections · ${s.notes} notes · ${s.answered} saved question answers.</p><details><summary>Unit details</summary>${s.units.map(u=>`<p class="small"><b>${u.complete?'✓':'○'} ${u.title}</b><br>${u.reading} passages · ${u.answered} question answers · ${u.notes} notes${u.completionEnabled?` · ${u.assessmentChecks}/${u.assessmentTotal} assessment checks`:''}</p>`).join('')}</details><a class="button secondary" href="../programs/${p.id}/index.html">Continue</a></article>`}).join('');
+ cards.innerHTML=rows.map(({p,c,s})=>{if(!s)return `<article class="card"><h3>${p.title}</h3><p class="small">Progress modules are not wired for this program yet.</p><a class="button secondary" href="../programs/${p.id}/index.html">Open program</a></article>`;return `<article class="card"><h3>${p.title}</h3>${s.completionEnabled?`<p><b>${s.complete}/${s.total}</b> Academy units complete · <b>${s.pct}%</b></p><div class="progressbar"><i style="width:${s.pct}%"></i></div>`:`<p class="small">Academy unit-completion rules are not configured for this program yet. Study activity is still tracked below.</p>`}<p class="small">${s.reading} passages studied · ${s.reflections} passage reflections · ${s.notes} notes · ${s.answered} saved question answers.</p><details><summary>Unit details</summary>${s.units.map(u=>`<p class="small"><b>${u.complete?'✓':'○'} ${u.title}</b><br>${u.reading} passages · ${u.answered} question answers · ${u.notes} notes${u.completionEnabled?` · ${u.assessmentChecks}/${u.assessmentTotal} assessment checks`:''}</p>`).join('')}</details><a class="button secondary" href="${continueHref(p.id)}">Continue Study</a></article>`}).join('');
 });
 </script></body></html>
