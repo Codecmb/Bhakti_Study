@@ -8,7 +8,7 @@
 .portfolio-toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.portfolio-list{display:grid;gap:12px}
 .work-card{border:1px solid var(--line,#ddd3c2);border-radius:12px;padding:16px;background:#fff}
 .work-card h3{margin:0 0 6px}.work-card .meta{font-size:.86rem;opacity:.7;margin-bottom:10px}
-.work-card pre{white-space:pre-wrap;font:inherit;margin:0}.portfolio-empty{padding:28px;text-align:center}
+.work-card pre{white-space:pre-wrap;font:inherit;margin:0}.work-actions{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}.portfolio-empty{padding:28px;text-align:center}
 #importBackup{display:none}.status{margin-left:8px}
 </style>
 </head>
@@ -38,9 +38,9 @@
 <script>
 sidebar('portfolio');
 const work=document.getElementById('work'),filter=document.getElementById('filter'),status=document.getElementById('status');
-function render(){
- const q=filter.value.trim().toLowerCase(),rows=StudentPortfolio.records().filter(r=>!q||`${r.ref} ${r.label} ${r.value}`.toLowerCase().includes(q));
- work.innerHTML=rows.length?rows.map(r=>`<article class="work-card"><div class="meta">${StudentPortfolio.esc(r.label)}</div><h3>${StudentPortfolio.esc(r.ref)}</h3><pre>${StudentPortfolio.esc(r.value)}</pre></article>`).join(''):`<div class="card portfolio-empty">No saved student writing matches this view yet.</div>`;
+async function render(){
+ const q=filter.value.trim().toLowerCase(),rows=(await StudentPortfolio.resolveRecords()).filter(r=>!q||`${r.ref} ${r.label} ${r.value}`.toLowerCase().includes(q));
+ work.innerHTML=rows.length?rows.map(r=>`<article class="work-card"><div class="meta">${StudentPortfolio.esc(r.label)}</div><h3>${StudentPortfolio.esc(r.ref)}</h3><pre>${StudentPortfolio.esc(r.value)}</pre>${r.context?`<div class="work-actions"><a class="button secondary" href="${StudentPortfolio.esc(r.context.href)}">${StudentPortfolio.esc(r.context.label)}</a></div>`:''}</article>`).join(''):`<div class="card portfolio-empty">No saved student writing matches this view yet.</div>`;
 }
 filter.addEventListener('input',render);
 document.getElementById('exportRtf').onclick=()=>StudentPortfolio.exportRTF();
