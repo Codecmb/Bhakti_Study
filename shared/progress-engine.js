@@ -33,7 +33,22 @@
     const reflections=nonEmpty('reflection',x=>inUnit(x.id,unit)).length;
     const understandings=nonEmpty('understanding',x=>x.id.startsWith(`${programId}.`)&&(x.id.includes(`.${unit.id}.`)||inUnit(x.id.split('.')[1]||'',unit))).length;
     const notes=nonEmpty('notes',x=>x.id.startsWith(`${programId}.`)&&(x.id.includes(`.${unit.id}.`)||[...StudentStore.entries('reading')].some(r=>x.id.includes(r.id)&&inUnit(r.id,unit)))).length;
-    const answered=nonEmpty('question-answer',x=>x.id.startsWith(`${programId}.`)).length;
+    const answered=nonEmpty('question-answer',x=>{
+      if(!x.id.startsWith(`${programId}.`))return false;
+
+      const meta=StudentStore.getJSON('question-meta',x.id,{})||{};
+
+      if(meta.unit===unit.id)return true;
+
+      const refs=[
+        meta.canonical_ref,
+        ...(Array.isArray(meta.canonical_sources)
+          ? meta.canonical_sources
+          : [])
+      ].filter(Boolean);
+
+      return refs.some(ref=>inUnit(ref,unit));
+    }).length;
     const storedComplete=StudentStore.get('completion',req.assessmentId,'')==='1'||localStorage.getItem('bhakti-study.complete.'+unit.id)==='1';
     const complete=req.config.enabled?storedComplete&&req.all:false;
     return {unitId:unit.id,title:unit.title,complete,completionEnabled:!!req.config.enabled,assessmentChecks:req.checked,assessmentTotal:req.total,reading,reflections,understandings,notes,answered};

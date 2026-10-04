@@ -97,6 +97,24 @@
   function storageKey(program,qid){return `bhakti-study.questions.${program}.${qid}`}
   function legacyStorageKey(program,scope,qid){return `bhakti-study.questions.${program}.${scope}.${qid}`}
   function workId(program,qid){return `${program}.${qid}`}
+  function saveMeta(program,qid,meta={}){
+    if(!window.StudentStore)return;
+    const id=workId(program,qid);
+    const current=StudentStore.getJSON('question-meta',id,{})||{};
+    StudentStore.setJSON('question-meta',id,{
+      ...current,
+      ...meta,
+      program,
+      question_id:qid
+    });
+  }
+  function loadMeta(program,qid){
+    return window.StudentStore?.getJSON(
+      'question-meta',
+      workId(program,qid),
+      {}
+    )||{};
+  }
   function load(program,scope,qid){
     const modern=window.StudentStore?.get('question-answer',workId(program,qid),null);
     if(modern!==null&&modern!==undefined)return modern;
@@ -106,9 +124,13 @@
     if(legacy!==null){localStorage.setItem(storageKey(program,qid),legacy);window.StudentStore?.set('question-answer',workId(program,qid),legacy);return legacy}
     return '';
   }
-  function save(program,scope,qid,value){
-    if(window.StudentStore)StudentStore.set('question-answer',workId(program,qid),value);
-    else localStorage.setItem(storageKey(program,qid),value);
+  function save(program,scope,qid,value,meta={}){
+    if(window.StudentStore){
+      StudentStore.set('question-answer',workId(program,qid),value);
+      saveMeta(program,qid,{scope,...meta});
+    }else{
+      localStorage.setItem(storageKey(program,qid),value);
+    }
     const state=loadState(program,qid);if(!state.completed)saveState(program,qid,{...state,status:String(value||'').trim()?'answered':'unanswered'});
   }
 
@@ -190,7 +212,7 @@
 
   window.QuestionEngine={
     normalize:norm,normalizeRecord,similarity,dedupe,scopes,relevant,
-    load,save,work,loadState,markUnderstood,beginReview,loadRevision,saveRevision,
+    load,save,saveMeta,loadMeta,work,loadState,markUnderstood,beginReview,loadRevision,saveRevision,
     flagDuplicate,clearDuplicate,deleteQuestion,restoreQuestion,deletedQuestions,isDeleted,isDuplicate,active
   };
 })();

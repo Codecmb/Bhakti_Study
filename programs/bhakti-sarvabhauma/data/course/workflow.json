@@ -20,22 +20,6 @@
         "showInWorkspace": true
       },
       {
-        "id": "questions",
-        "mode": "questions",
-        "label": "Study Questions",
-        "className": "secondary",
-        "showInUnit": false,
-        "showInWorkspace": false
-      },
-      {
-        "id": "my-questions",
-        "mode": "my-questions",
-        "label": "My Questions",
-        "className": "secondary",
-        "showInUnit": false,
-        "showInWorkspace": false
-      },
-      {
         "id": "notes",
         "mode": "notes",
         "label": "Notes",

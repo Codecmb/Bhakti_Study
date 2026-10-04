@@ -287,11 +287,20 @@
     if(save){
       save.onclick=()=>{
         list.querySelectorAll('.qanswer').forEach(el=>{
+          const question=section.questions.find(
+            q=>q.id===el.dataset.qid
+          );
+
           QuestionEngine.save(
             record.program,
             section.scope,
             el.dataset.qid,
-            el.value
+            el.value,
+            {
+              unit:record.scope||'',
+              canonical_ref:question?.canonical_ref||'',
+              canonical_sources:question?.canonical_sources||[]
+            }
           );
         });
 
