@@ -6,3 +6,5 @@
 
 .nav-group{margin-top:18px}
 .nav-label{padding:0 12px 6px;font:700 10px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+
+[hidden]{display:none!important}

@@ -127,6 +127,21 @@ global.AcademyGuides={
     return save(a);
   },
 
+  update(gid,patch={}){
+    const items=load();
+    const index=items.findIndex(x=>x.id===gid);
+    if(index<0)return null;
+
+    items[index]={
+      ...items[index],
+      ...patch,
+      id:items[index].id
+    };
+
+    save(items);
+    return items[index];
+  },
+
   remove(gid){
     return save(load().filter(x=>x.id!==gid));
   },

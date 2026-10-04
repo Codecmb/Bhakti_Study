@@ -37,6 +37,25 @@
     return item;
   }
 
+  function update(referenceId,patch={}){
+    const items=load();
+    const index=items.findIndex(item=>item.id===referenceId);
+    if(index<0)return null;
+
+    const current=items[index];
+
+    items[index]={
+      ...current,
+      ...patch,
+      id:current.id,
+      provenance:current.provenance,
+      created_at:current.created_at
+    };
+
+    save(items);
+    return items[index];
+  }
+
   function remove(referenceId){
     return save(load().filter(item=>item.id!==referenceId));
   }
@@ -49,5 +68,5 @@
     return load().filter(item=>item.scope==='academy'||item.scope===scope);
   }
 
-  global.AcademyReferences={load,save,add,remove,get,forScope};
+  global.AcademyReferences={load,save,add,update,remove,get,forScope};
 })(window);

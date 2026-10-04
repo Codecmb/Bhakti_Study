@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Manage Question Sheets · Bhakti Study</title>
+  <link rel="stylesheet" href="../shared/styles.css">
+  <style>
+    .admin-toolbar{
+      display:flex;
+      gap:.75rem;
+      align-items:end;
+      flex-wrap:wrap;
+      margin:1.25rem 0;
+    }
+    .admin-toolbar label{font-weight:700}
+    .admin-toolbar .field{min-width:260px;margin:0}
+    .admin-section{margin-top:1.5rem}
+    .admin-help{max-width:760px}
+    .admin-count{margin:.5rem 0 0}
+  </style>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar"></aside>
+
+  <main class="main">
+    <div class="eyebrow">Manage Academy</div>
+    <h1>Question Sheets</h1>
+
+    <p class="lead admin-help">
+      Add and manage question sheets used by the Academy.
+      Imported sheets automatically become available in the Question Bank.
+    </p>
+
+    <p>
+      <a class="button secondary" href="index.html">← Manage Academy</a>
+      <a class="button secondary" href="../question-bank/index.html">View Question Bank</a>
+    </p>
+
+    <section class="card">
+      <h2>Choose Program</h2>
+
+      <div class="admin-toolbar">
+        <div>
+          <label for="program">Program</label>
+          <select id="program" class="field">
+            <option value="bhakti-sastri">Bhakti Śāstrī</option>
+            <option value="bhakti-vaibhava">Bhakti Vaibhava</option>
+            <option value="bhakti-vedanta">Bhakti Vedānta</option>
+            <option value="bhakti-sarvabhauma">Bhakti Sārvabhauma</option>
+            <option value="sat-sandarbhas">Ṣaṭ Sandarbhas</option>
+          </select>
+        </div>
+      </div>
+
+      <p id="summary" class="small admin-count"></p>
+    </section>
+
+    <section class="card admin-section">
+      <h2>Add a Question Sheet</h2>
+      <p class="small">
+        Import a prepared question sheet or paste its questions.
+        You can review the detected questions before anything is saved.
+      </p>
+      <div id="importer"></div>
+    </section>
+
+    <section class="card admin-section">
+      <h2>Imported Question Sheets</h2>
+      <p class="small">
+        These are Academy-added sheets for the selected program.
+        Removing a sheet removes its imported questions from the Question Bank.
+      </p>
+      <div id="sheets"></div>
+      <p id="empty" class="muted"></p>
+    </section>
+
+    <div class="notice admin-section">
+      <strong>Source protection:</strong>
+      official and built-in question sources are not changed here.
+      This page manages only question sheets added to the Academy.
+    </div>
+  </main>
+</div>
+
+<script src="../shared/app.js"></script>
+<script src="../shared/vendor/jszip/jszip.min.js"></script>
+<script src="../shared/question-sheet-importer.js"></script>
+
+<script>
+sidebar('manage');
+
+const program=document.getElementById('program');
+const importer=document.getElementById('importer');
+const sheets=document.getElementById('sheets');
+const summary=document.getElementById('summary');
+const empty=document.getElementById('empty');
+
+function refreshManagement(){
+  const batches=QuestionSheetImporter.batches(program.value);
+  const count=batches.reduce((n,b)=>n+b.questions.length,0);
+
+  summary.textContent=batches.length
+    ? `${batches.length} imported sheet${batches.length===1?'':'s'} · ${count} question${count===1?'':'s'}`
+    : 'No imported question sheets for this program yet.';
+
+  empty.textContent=batches.length
+    ? ''
+    : 'Nothing has been added yet. Use “Add a Question Sheet” above.';
+
+  QuestionSheetImporter.renderBatchManagement(sheets,{
+    program:program.value,
+    onRemoved:()=>{
+      render();
+    }
+  });
+}
+
+function render(){
+  importer.innerHTML='';
+
+  QuestionSheetImporter.render(importer,{
+    program:program.value,
+    onImported:()=>{
+      render();
+    }
+  });
+
+  refreshManagement();
+}
+
+program.addEventListener('change',render);
+render();
+</script>
+</body>
+</html>

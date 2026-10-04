@@ -1,0 +1,567 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Manage Books · Bhakti Study</title>
+<link rel="stylesheet" href="../shared/styles.css">
+
+<style>
+.book-toolbar{
+  display:flex;
+  gap:.75rem;
+  align-items:end;
+  flex-wrap:wrap;
+  margin:1rem 0;
+}
+
+.book-toolbar .field{
+  min-width:280px;
+  margin:0;
+}
+
+.book-meta{
+  display:flex;
+  gap:.5rem 1rem;
+  flex-wrap:wrap;
+  margin:.6rem 0;
+}
+
+.book-actions{
+  display:flex;
+  gap:.5rem;
+  flex-wrap:wrap;
+  margin-top:.8rem;
+}
+
+.book-status{
+  display:inline-block;
+  font-size:.8rem;
+  font-weight:700;
+}
+
+#bookList{
+  display:grid;
+  gap:1rem;
+}
+
+.service-warning{
+  margin-top:1rem;
+}
+</style>
+</head>
+
+<body>
+<div class="layout">
+<aside class="sidebar"></aside>
+
+<main class="main">
+
+<div class="eyebrow">Manage Academy</div>
+<h1>Books</h1>
+
+<p class="lead">
+View and manage the canonical books installed in this Academy.
+</p>
+
+<p>
+<a class="button secondary" href="index.html">← Manage Academy</a>
+<a class="button secondary" href="../library/index.html">View Library</a>
+</p>
+
+<section class="card">
+<h2>Add a Book</h2>
+
+<p>
+Add an EPUB to the Academy. The book will be processed,
+registered and added to the Library automatically.
+</p>
+
+<form id="importForm">
+  <div class="book-toolbar">
+
+    <div>
+      <label for="bookFile">
+        <strong>Book file</strong>
+      </label>
+      <input
+        id="bookFile"
+        name="book"
+        class="field"
+        type="file"
+        accept=".epub,application/epub+zip"
+        required>
+      <div class="small">
+        EPUB is supported right now.
+      </div>
+    </div>
+
+    <div>
+      <label for="canonicalId">
+        <strong>Canonical ID</strong>
+      </label>
+      <input
+        id="canonicalId"
+        name="canonical_id"
+        class="field"
+        type="text"
+        placeholder="Optional — e.g. BS">
+      <div class="small">
+        Optional. Leave blank to use the book's metadata.
+      </div>
+    </div>
+
+  </div>
+
+  <button
+    id="importButton"
+    class="button"
+    type="submit">
+    Import Book
+  </button>
+
+  <span id="importStatus" class="small"></span>
+</form>
+
+<div id="importResult" style="margin-top:1rem"></div>
+</section>
+
+<section class="card">
+<h2>Installed Books</h2>
+
+<p id="summary" class="small">
+Loading canonical book registry…
+</p>
+
+<div class="book-toolbar">
+<div>
+<label for="search"><strong>Find a book</strong></label>
+<input
+  id="search"
+  class="field"
+  type="search"
+  placeholder="Search title, author or ID">
+</div>
+
+<div>
+<label for="status"><strong>Status</strong></label>
+<select id="status" class="field">
+<option value="all">All</option>
+<option value="imported">Imported</option>
+<option value="disabled">Disabled</option>
+</select>
+</div>
+</div>
+</section>
+
+<section id="bookList" style="margin-top:1.5rem"></section>
+
+<div id="serviceWarning"
+     class="notice service-warning"
+     hidden>
+<strong>Local management service unavailable.</strong>
+The Academy can still be used normally, but book administration
+requires the local Academy service.
+</div>
+
+</main>
+</div>
+
+<script src="../shared/app.js"></script>
+
+<script>
+sidebar('manage');
+
+const $=id=>document.getElementById(id);
+
+let books=[];
+
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({
+  '&':'&amp;',
+  '<':'&lt;',
+  '>':'&gt;',
+  '"':'&quot;',
+  "'":'&#39;'
+}[c]));
+
+function openPath(book){
+  const path=String(book.dataPath||'');
+  if(!path)return '#';
+
+  return '../library/reader.html?book='+
+    encodeURIComponent(book.id||book.canonicalId||'');
+}
+
+function render(){
+  const query=$('search').value.trim().toLowerCase();
+  const status=$('status').value;
+
+  const visible=books.filter(book=>{
+    const haystack=[
+      book.title,
+      book.author,
+      book.id,
+      book.canonicalId
+    ].join(' ').toLowerCase();
+
+    const matchesQuery=!query||haystack.includes(query);
+    const matchesStatus=status==='all'||book.status===status;
+
+    return matchesQuery&&matchesStatus;
+  });
+
+  $('summary').textContent=
+    `${books.length} registered book${books.length===1?'':'s'} · `+
+    `${visible.length} shown`;
+
+  $('bookList').innerHTML=visible.length
+    ? visible.map(book=>`
+      <article class="card">
+        <div class="eyebrow">
+          ${esc(book.canonicalId||book.id||'Canonical Book')}
+        </div>
+
+        <h2>${esc(book.title||book.id||'Untitled Book')}</h2>
+
+        ${book.author
+          ? `<p>${esc(book.author)}</p>`
+          : ''}
+
+        <div class="book-meta small">
+          <span>
+            <strong>Status:</strong>
+            ${esc(book.status||'registered')}
+          </span>
+
+          ${book.sourceFormat
+            ? `<span><strong>Source:</strong>
+               ${esc(book.sourceFormat.toUpperCase())}</span>`
+            : ''}
+
+          ${Number.isFinite(Number(book.sections))
+            ? `<span><strong>Sections:</strong>
+               ${esc(book.sections)}</span>`
+            : ''}
+
+          ${Number.isFinite(Number(book.records))
+            ? `<span><strong>Records:</strong>
+               ${esc(book.records)}</span>`
+            : ''}
+        </div>
+
+        ${book.publisher
+          ? `<p class="small"><strong>Publisher:</strong>
+             ${esc(book.publisher)}</p>`
+          : ''}
+
+        <div class="book-actions">
+          <a class="button secondary"
+             href="${openPath(book)}">
+             Open Book
+          </a>
+
+          <button class="button secondary book-status-button"
+                  type="button"
+                  data-book-id="${esc(book.id||'')}"
+                  data-next-status="${book.status==='disabled'?'imported':'disabled'}">
+            ${book.status==='disabled'?'Enable':'Disable'}
+          </button>
+
+          <button class="button secondary edit-book-button"
+                  type="button"
+                  data-book-id="${esc(book.id||'')}">
+            Edit Metadata
+          </button>
+
+          <button class="button secondary replace-source-button"
+                  type="button"
+                  data-book-id="${esc(book.id||'')}">
+            Replace Source
+          </button>
+
+          <input class="replace-source-file"
+                 data-book-id="${esc(book.id||'')}"
+                 type="file"
+                 accept=".epub,application/epub+zip"
+                 hidden>
+        </div>
+      </article>
+    `).join('')
+    : '<p class="muted">No books match this view.</p>';
+}
+
+async function loadBooks(){
+  try{
+    const response=await fetch('/__academy/books',{
+      cache:'no-store'
+    });
+
+    if(!response.ok)
+      throw new Error('HTTP '+response.status);
+
+    const data=await response.json();
+
+    if(!data.ok||!Array.isArray(data.books))
+      throw new Error('Invalid registry response');
+
+    books=data.books;
+    $('serviceWarning').hidden=true;
+    render();
+
+  }catch(error){
+    console.error(error);
+
+    $('summary').textContent=
+      'Could not load the canonical book registry.';
+
+    $('bookList').innerHTML='';
+    $('serviceWarning').hidden=false;
+  }
+}
+
+$('search').addEventListener('input',render);
+$('status').addEventListener('change',render);
+
+$('bookList').addEventListener('click',async event=>{
+  const editButton=event.target.closest('.edit-book-button');
+
+  if(editButton){
+    const bookId=editButton.dataset.bookId;
+    const book=books.find(item=>item.id===bookId);
+
+    if(!book)return;
+
+    const title=prompt('Book title:',book.title||'');
+    if(title===null)return;
+
+    if(!title.trim()){
+      alert('Book title cannot be empty.');
+      return;
+    }
+
+    const author=prompt('Author:',book.author||'');
+    if(author===null)return;
+
+    const publisher=prompt('Publisher:',book.publisher||'');
+    if(publisher===null)return;
+
+    const source=prompt('Source:',book.source||'');
+    if(source===null)return;
+
+    editButton.disabled=true;
+
+    try{
+      const response=await fetch('/__academy/books/metadata',{
+        method:'POST',
+        headers:{
+          'Content-Type':'application/json'
+        },
+        body:JSON.stringify({
+          id:bookId,
+          title:title.trim(),
+          author:author.trim(),
+          publisher:publisher.trim(),
+          source:source.trim()
+        })
+      });
+
+      const data=await response.json();
+
+      if(!response.ok||!data.ok)
+        throw new Error(
+          data.detail||data.error||`HTTP ${response.status}`
+        );
+
+      await loadBooks();
+
+    }catch(error){
+      console.error(error);
+      alert(
+        'The book metadata could not be changed.\n\n'+
+        error.message
+      );
+      editButton.disabled=false;
+    }
+
+    return;
+  }
+
+  const replaceButton=event.target.closest('.replace-source-button');
+
+  if(replaceButton){
+    const bookId=replaceButton.dataset.bookId;
+
+    const input=[...document.querySelectorAll('.replace-source-file')]
+      .find(item=>item.dataset.bookId===bookId);
+
+    if(input){
+      input.value='';
+      input.click();
+    }
+
+    return;
+  }
+
+  const button=event.target.closest('.book-status-button');
+  if(!button)return;
+
+  const bookId=button.dataset.bookId;
+  const nextStatus=button.dataset.nextStatus;
+
+  if(!bookId||!['imported','disabled'].includes(nextStatus))
+    return;
+
+  button.disabled=true;
+
+  try{
+    const response=await fetch('/__academy/books/status',{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json'
+      },
+      body:JSON.stringify({
+        id:bookId,
+        status:nextStatus
+      })
+    });
+
+    const data=await response.json();
+
+    if(!response.ok||!data.ok)
+      throw new Error(data.error||`HTTP ${response.status}`);
+
+    await loadBooks();
+
+  }catch(error){
+    console.error(error);
+    alert(
+      'The book status could not be changed.\n\n'+
+      error.message
+    );
+    button.disabled=false;
+  }
+});
+
+$('bookList').addEventListener('change',async event=>{
+  const input=event.target.closest('.replace-source-file');
+  if(!input)return;
+
+  const file=input.files[0];
+  const bookId=input.dataset.bookId;
+
+  if(!file||!bookId)return;
+
+  if(!file.name.toLowerCase().endsWith('.epub')){
+    alert('Choose an EPUB file.');
+    input.value='';
+    return;
+  }
+
+  const formData=new FormData();
+  formData.append('book_id',bookId);
+  formData.append('book',file);
+
+  try{
+    const response=await fetch('/__academy/books/replace',{
+      method:'POST',
+      body:formData
+    });
+
+    const data=await response.json();
+
+    if(!response.ok||!data.ok)
+      throw new Error(
+        data.detail||data.error||`HTTP ${response.status}`
+      );
+
+    alert('Book source replaced successfully.');
+    await loadBooks();
+
+  }catch(error){
+    console.error(error);
+
+    alert(
+      'The book source could not be replaced.\n\n'+
+      error.message
+    );
+  }finally{
+    input.value='';
+  }
+});
+
+$('importForm').addEventListener('submit',async event=>{
+  event.preventDefault();
+
+  const file=$('bookFile').files[0];
+
+  if(!file){
+    $('importResult').innerHTML=
+      '<div class="notice">Choose an EPUB file first.</div>';
+    return;
+  }
+
+  if(!file.name.toLowerCase().endsWith('.epub')){
+    $('importResult').innerHTML=
+      '<div class="notice">Please choose an EPUB file.</div>';
+    return;
+  }
+
+  const formData=new FormData();
+  formData.append('book',file);
+
+  const canonicalId=$('canonicalId').value.trim();
+  if(canonicalId)
+    formData.append('canonical_id',canonicalId);
+
+  $('importButton').disabled=true;
+  $('importStatus').textContent=' Importing…';
+  $('importResult').innerHTML='';
+
+  try{
+    const response=await fetch('/__academy/books/import',{
+      method:'POST',
+      body:formData
+    });
+
+    const data=await response.json();
+
+    if(!response.ok||!data.ok)
+      throw new Error(
+        data.error+
+        (data.detail?' '+data.detail:'')
+      );
+
+    const book=data.book||{};
+
+    $('importResult').innerHTML=`
+      <div class="notice">
+        <strong>Book added successfully.</strong><br>
+        ${esc(book.title||book.id||'Imported book')}
+        is now registered in the Academy Library.
+      </div>
+    `;
+
+    $('importForm').reset();
+
+    await loadBooks();
+
+  }catch(error){
+    console.error(error);
+
+    $('importResult').innerHTML=`
+      <div class="notice">
+        <strong>Book was not added.</strong><br>
+        ${esc(error.message)}
+      </div>
+    `;
+  }finally{
+    $('importButton').disabled=false;
+    $('importStatus').textContent='';
+  }
+});
+
+loadBooks();
+</script>
+
+</body>
+</html>

@@ -1,132 +1,252 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Academy References</title>
-  <link rel="stylesheet" href="../shared/styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Manage References · Bhakti Study</title>
+<link rel="stylesheet" href="../shared/styles.css">
+<style>
+.admin-section{margin-top:1.5rem}
+.reference-actions{display:flex;gap:.5rem;flex-wrap:wrap}
+</style>
 </head>
+
 <body>
 <div class="layout">
-  <aside class="sidebar"></aside>
+<aside class="sidebar"></aside>
 
-  <main class="main">
-    <div class="eyebrow">Manage Academy</div>
-    <h1>References & Resources</h1>
-    <p class="lead">Add optional Academy resources without changing canonical scripture or official course resources.</p>
+<main class="main">
+<div class="eyebrow">Manage Academy</div>
+<h1>References & Resources</h1>
 
-    <div class="notice">
-      <b>Safe separation:</b> Resources added here are labeled as Academy Administrator resources.
-      Official resources and registered scholars remain separate and are not modified here.
-    </div>
+<p class="lead">
+Add supplementary resources for the entire Academy, a course,
+or an individual Sandarbha.
+</p>
 
-    <div class="card">
-      <h2>Add Optional Resource</h2>
+<p>
+<a class="button secondary" href="index.html">← Manage Academy</a>
+<a class="button secondary" href="../references/index.html">View References</a>
+</p>
 
-      <label>Title</label>
-      <input id="title" class="field" placeholder="Resource title">
+<section class="card">
+<h2 id="formTitle">Add a Resource</h2>
 
-      <label>Author / Scholar</label>
-      <input id="author" class="field" placeholder="Optional">
+<label for="title">Title</label>
+<input id="title" class="field" placeholder="Resource title">
 
-      <label>URL</label>
-      <input id="url" class="field" placeholder="https://...">
+<label for="author">Author / Scholar</label>
+<input id="author" class="field" placeholder="Optional">
 
-      <label>Purpose / Description</label>
-      <textarea id="purpose" class="field" placeholder="Why this resource is useful"></textarea>
+<label for="url">URL</label>
+<input id="url" class="field" placeholder="https://...">
 
-      <label>Scope</label>
-      <select id="scope" class="field">
-        <option value="academy">Entire Academy</option>
-        <option value="bhakti-sastri">Bhakti Śāstrī</option>
-        <option value="bhakti-vaibhava">Bhakti Vaibhava</option>
-        <option value="bhakti-vedanta">Bhakti Vedānta</option>
-        <option value="bhakti-sarvabhauma">Bhakti Sārvabhauma</option>
-        <option value="tattva">Tattva Sandarbha</option>
-        <option value="bhagavat">Bhagavat Sandarbha</option>
-        <option value="paramatma">Paramātmā Sandarbha</option>
-        <option value="krsna">Kṛṣṇa Sandarbha</option>
-        <option value="bhakti">Bhakti Sandarbha</option>
-        <option value="priti">Prīti Sandarbha</option>
-      </select>
+<label for="purpose">Purpose / Description</label>
+<textarea id="purpose" class="field"
+ placeholder="Why this resource is useful"></textarea>
 
-      <button id="add" class="button">Add Resource</button>
-      <div id="message" class="small"></div>
-    </div>
+<label for="scope">Where should it apply?</label>
+<select id="scope" class="field">
+<option value="academy">Entire Academy</option>
+<option value="bhakti-sastri">Bhakti Śāstrī</option>
+<option value="bhakti-vaibhava">Bhakti Vaibhava</option>
+<option value="bhakti-vedanta">Bhakti Vedānta</option>
+<option value="bhakti-sarvabhauma">Bhakti Sārvabhauma</option>
+<option value="tattva">Tattva Sandarbha</option>
+<option value="bhagavat">Bhagavat Sandarbha</option>
+<option value="paramatma">Paramātmā Sandarbha</option>
+<option value="krsna">Kṛṣṇa Sandarbha</option>
+<option value="bhakti">Bhakti Sandarbha</option>
+<option value="priti">Prīti Sandarbha</option>
+</select>
 
-    <h2 class="section-title">Academy-Added Resources</h2>
-    <div id="list"></div>
-  </main>
+<div class="reference-actions">
+<button id="save" class="button" type="button">Add Resource</button>
+<button id="cancel" class="button secondary" type="button" hidden>
+Cancel Edit
+</button>
+</div>
+
+<p id="message" class="small"></p>
+</section>
+
+<section class="admin-section">
+<h2>Academy-Added Resources</h2>
+
+<label for="filterScope">Show</label>
+<select id="filterScope" class="field">
+<option value="all">All Resources</option>
+<option value="academy">Entire Academy</option>
+<option value="bhakti-sastri">Bhakti Śāstrī</option>
+<option value="bhakti-vaibhava">Bhakti Vaibhava</option>
+<option value="bhakti-vedanta">Bhakti Vedānta</option>
+<option value="bhakti-sarvabhauma">Bhakti Sārvabhauma</option>
+<option value="tattva">Tattva Sandarbha</option>
+<option value="bhagavat">Bhagavat Sandarbha</option>
+<option value="paramatma">Paramātmā Sandarbha</option>
+<option value="krsna">Kṛṣṇa Sandarbha</option>
+<option value="bhakti">Bhakti Sandarbha</option>
+<option value="priti">Prīti Sandarbha</option>
+</select>
+
+<div id="list"></div>
+</section>
+
+<div class="notice admin-section">
+<strong>Source protection:</strong>
+resources added here remain separate from canonical scripture,
+registered scholars, and official course resources.
+</div>
+</main>
 </div>
 
 <script src="../shared/app.js"></script>
 <script src="../shared/academy-references.js"></script>
+
 <script>
 sidebar('manage');
 
+const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({
   '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
 }[c]));
 
-const title=document.getElementById('title');
-const author=document.getElementById('author');
-const url=document.getElementById('url');
-const purpose=document.getElementById('purpose');
-const scope=document.getElementById('scope');
-const message=document.getElementById('message');
-const list=document.getElementById('list');
+let editing=null;
 
-function render(){
-  const items=AcademyReferences.load();
+const scopeNames={
+  academy:'Entire Academy',
+  'bhakti-sastri':'Bhakti Śāstrī',
+  'bhakti-vaibhava':'Bhakti Vaibhava',
+  'bhakti-vedanta':'Bhakti Vedānta',
+  'bhakti-sarvabhauma':'Bhakti Sārvabhauma',
+  tattva:'Tattva Sandarbha',
+  bhagavat:'Bhagavat Sandarbha',
+  paramatma:'Paramātmā Sandarbha',
+  krsna:'Kṛṣṇa Sandarbha',
+  bhakti:'Bhakti Sandarbha',
+  priti:'Prīti Sandarbha'
+};
 
-  if(!items.length){
-    list.innerHTML='<div class="notice">No Academy-added references yet.</div>';
-    return;
-  }
-
-  list.innerHTML=items.map(item=>`
-    <article class="card">
-      <div class="eyebrow">Academy Administrator</div>
-      <h3>${esc(item.title)}</h3>
-      ${item.author?`<p><b>Author / Scholar:</b> ${esc(item.author)}</p>`:''}
-      ${item.url?`<p><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(item.url)}</a></p>`:''}
-      ${item.purpose?`<p>${esc(item.purpose)}</p>`:''}
-      <p class="small"><b>Scope:</b> ${esc(item.scope)}</p>
-      <button class="button secondary" data-remove="${esc(item.id)}">Remove</button>
-    </article>
-  `).join('');
-
-  list.querySelectorAll('[data-remove]').forEach(button=>{
-    button.onclick=()=>{
-      AcademyReferences.remove(button.dataset.remove);
-      render();
-    };
-  });
+function clearForm(){
+  editing=null;
+  $('title').value='';
+  $('author').value='';
+  $('url').value='';
+  $('purpose').value='';
+  $('scope').value='academy';
+  $('formTitle').textContent='Add a Resource';
+  $('save').textContent='Add Resource';
+  $('cancel').hidden=true;
 }
 
-document.getElementById('add').onclick=()=>{
-  const resourceTitle=title.value.trim();
+function editResource(id){
+  const item=AcademyReferences.get(id);
+  if(!item)return;
 
-  if(!resourceTitle){
-    message.textContent='Title is required.';
+  editing=id;
+  $('title').value=item.title||'';
+  $('author').value=item.author||'';
+  $('url').value=item.url||'';
+  $('purpose').value=item.purpose||'';
+  $('scope').value=item.scope||'academy';
+
+  $('formTitle').textContent='Edit Resource';
+  $('save').textContent='Save Changes';
+  $('cancel').hidden=false;
+  $('message').textContent='';
+
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function removeResource(id){
+  const item=AcademyReferences.get(id);
+  if(!item)return;
+
+  if(!confirm('Remove "'+(item.title||'this resource')+'"?'))return;
+
+  AcademyReferences.remove(id);
+
+  if(editing===id)clearForm();
+
+  render();
+}
+
+$('save').onclick=()=>{
+  const title=$('title').value.trim();
+
+  if(!title){
+    $('message').textContent='Title is required.';
     return;
   }
 
-  AcademyReferences.add({
-    title:resourceTitle,
-    author:author.value,
-    url:url.value,
-    purpose:purpose.value,
-    scope:scope.value
-  });
+  const data={
+    title,
+    author:$('author').value.trim(),
+    url:$('url').value.trim(),
+    purpose:$('purpose').value.trim(),
+    scope:$('scope').value
+  };
 
-  title.value='';
-  author.value='';
-  url.value='';
-  purpose.value='';
-  message.textContent='Resource added.';
+  if(editing){
+    AcademyReferences.update(editing,data);
+    $('message').textContent='Resource updated.';
+  }else{
+    AcademyReferences.add(data);
+    $('message').textContent='Resource added.';
+  }
+
+  clearForm();
   render();
 };
+
+$('cancel').onclick=()=>{
+  clearForm();
+  $('message').textContent='';
+};
+
+$('filterScope').onchange=render;
+
+function render(){
+  const filter=$('filterScope').value;
+
+  const items=AcademyReferences.load().filter(item=>
+    filter==='all'||item.scope===filter
+  );
+
+  $('list').innerHTML=items.length
+    ? items.map(item=>`
+      <article class="card">
+        <div class="eyebrow">Academy Administrator</div>
+        <h3>${esc(item.title)}</h3>
+
+        ${item.author
+          ? `<p><strong>Author / Scholar:</strong> ${esc(item.author)}</p>`
+          : ''}
+
+        ${item.url
+          ? `<p><a href="${esc(item.url)}" target="_blank"
+             rel="noopener noreferrer">${esc(item.url)}</a></p>`
+          : ''}
+
+        ${item.purpose
+          ? `<p>${esc(item.purpose)}</p>`
+          : ''}
+
+        <p class="small">
+          <strong>Applies to:</strong>
+          ${esc(scopeNames[item.scope]||item.scope)}
+        </p>
+
+        <div class="reference-actions">
+          <button class="button secondary"
+            onclick="editResource('${esc(item.id)}')">Edit</button>
+          <button class="button secondary"
+            onclick="removeResource('${esc(item.id)}')">Remove</button>
+        </div>
+      </article>
+    `).join('')
+    : '<p class="muted">No Academy-added resources in this view.</p>';
+}
 
 render();
 </script>
