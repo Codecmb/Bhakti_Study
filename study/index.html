@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study — Bhakti Study Academy</title>
+<link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar"></aside>
+
+  <main class="main">
+    <div class="eyebrow">My Study</div>
+    <h1>Study</h1>
+    <p class="lead">
+      Continue your studies or choose a study program.
+    </p>
+
+    <section id="studyPrograms" class="grid"></section>
+  </main>
+</div>
+
+<script src="../shared/app.js"></script>
+<script src="../shared/study-context.js"></script>
+<script>
+sidebar('study');
+
+const programs = [
+  {
+    id:'bhakti-sastri',
+    title:'Bhakti Śāstrī',
+    subtitle:'Bhagavad-gītā · Śrī Īśopaniṣad · Nectar of Instruction · Nectar of Devotion'
+  },
+  {
+    id:'bhakti-vaibhava',
+    title:'Bhakti Vaibhava',
+    subtitle:'Śrīmad-Bhāgavatam · Cantos 1–6'
+  },
+  {
+    id:'bhakti-vedanta',
+    title:'Bhakti Vedānta',
+    subtitle:'Śrīmad-Bhāgavatam · Cantos 7–12'
+  },
+  {
+    id:'bhakti-sarvabhauma',
+    title:'Bhakti Sārvabhauma',
+    subtitle:'Śrī Caitanya-caritāmṛta'
+  },
+  {
+    id:'sat-sandarbhas',
+    title:'Ṣaṭ Sandarbhas',
+    subtitle:'Advanced siddhānta study'
+  }
+];
+
+function standardStudyHref(program){
+  const ctx=window.StudyContext?.read?.(program)||{};
+  const q=new URLSearchParams();
+
+  if(ctx.unit)q.set('unit',ctx.unit);
+  q.set('mode','understanding');
+  if(ctx.canonical)q.set('ref',ctx.canonical);
+
+  return `../programs/${program}/tools.html?${q.toString()}`;
+}
+
+studyPrograms.innerHTML=programs.map(p=>{
+  const sandarbhas=p.id==='sat-sandarbhas';
+
+  const continueHref=sandarbhas
+    ? '../programs/sat-sandarbhas/index.html'
+    : standardStudyHref(p.id);
+
+  const programHref=`../programs/${p.id}/index.html`;
+
+  return `
+    <article class="card">
+      <div class="eyebrow">Area of Study</div>
+      <h2>${p.title}</h2>
+      <p>${p.subtitle}</p>
+      <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+        <a class="button" href="${continueHref}">Continue Study</a>
+        ${sandarbhas ? '' : `<a class="button secondary" href="${programHref}">Choose Unit</a>`}
+      </div>
+    </article>
+  `;
+}).join('');
+</script>
+</body>
+</html>

@@ -8,3 +8,63 @@
 .nav-label{padding:0 12px 6px;font:700 10px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.62)}
 
 [hidden]{display:none!important}
+
+/* Student global highlighter */
+.student-highlight{
+  background:#ffe88a;
+  color:inherit;
+  padding:0 .05em;
+  border-radius:2px;
+  cursor:pointer;
+}
+.student-highlight-action{
+  box-shadow:0 4px 14px rgba(0,0,0,.18);
+}
+
+/* Academy creator, dedication, and purpose */
+.academy-creator-credit{
+  margin:0 0 1rem;
+  padding:0 0 .7rem;
+  border-bottom:1px solid rgba(120,100,70,.18);
+  display:flex;
+  align-items:baseline;
+  gap:.55rem;
+  flex-wrap:wrap;
+  font-size:.86rem;
+}
+
+.academy-creator-credit span{
+  opacity:.68;
+  font-size:.78rem;
+}
+
+.academy-purpose{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:1rem;
+  margin:1.5rem 0 2rem;
+}
+
+.academy-purpose .card{
+  margin:0;
+}
+
+.academy-purpose h2{
+  margin-top:.3rem;
+}
+
+.academy-verse{
+  margin-top:1.25rem;
+  padding-top:1.15rem;
+  border-top:1px solid rgba(120,100,70,.18);
+}
+
+.academy-verse em{
+  line-height:1.8;
+}
+
+@media(max-width:850px){
+  .academy-purpose{
+    grid-template-columns:1fr;
+  }
+}

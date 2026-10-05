@@ -10,5 +10,17 @@
         "url": "https://bhanuswamiarchives.net/"
       }
     ]
+  },
+  {
+    "id": "hridayananda-dasa-goswami",
+    "name": "Hridayananda Dasa Goswami",
+    "role": "Further Study — Optional",
+    "enabled": true,
+    "links": [
+      {
+        "label": "Hridayananda Dasa Goswami — Official Website",
+        "url": "https://www.hdgoswami.com/"
+      }
+    ]
   }
 ]
