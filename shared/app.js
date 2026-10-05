@@ -4,7 +4,7 @@ function appRoot(){
   if(p.includes('/programs/')) return '../../';
   if(p.includes('/library/books/')) return '../../';
   if(p.includes('/library/')) return '../';
-  if(p.includes('/student/')||p.includes('/admin/')||p.includes('/certificates/')||p.includes('/slokas/')||p.includes('/references/')||p.includes('/question-bank/')) return '../';
+  if(p.includes('/student/')||p.includes('/admin/')||p.includes('/certificates/')||p.includes('/slokas/')||p.includes('/references/')||p.includes('/question-bank/')||p.includes('/study/')) return '../';
   return './';
 }
 const ROOT=appRoot();
@@ -27,6 +27,7 @@ function sidebar(a='home',rootOverride=null){
      ['sat-sandarbhas','Ṣaṭ Sandarbhas',R+'programs/sat-sandarbhas/index.html']
    ]],
    ['My Study',[
+     ['study','Study',R+'study/index.html'],
      ['portfolio','My Work',R+'student/portfolio.html'],
      ['question-bank','Question Bank',R+'question-bank/index.html'],
      ['progress','My Progress',R+'student/progress.html'],
@@ -42,7 +43,15 @@ function sidebar(a='home',rootOverride=null){
    ]]
  ];
  const grouped=groups.map(([label,items])=>`<div class="nav-group"><div class="nav-label">${label}</div>${items.map(link).join('')}</div>`).join('');
- document.querySelector('.sidebar').innerHTML=`<div class="brand"><img src="${R}assets/bhakti-study-logo.png" alt="Bhakti Study Academy" style="display:block;width:118px;height:118px;object-fit:contain;margin:0 auto 10px"><div>Bhakti Study</div></div><nav class="nav">${link(home)}${grouped}</nav>`
+ document.querySelector('.sidebar').innerHTML=`<div class="brand"><img src="${R}assets/bhakti-study-logo.png" alt="Bhakti Study Academy" style="display:block;width:118px;height:118px;object-fit:contain;margin:0 auto 10px"><div>Bhakti Study</div></div><nav class="nav">${link(home)}${grouped}</nav>`;
+
+ const main=document.querySelector('.main');
+ if(main && !main.querySelector('.academy-creator-credit')){
+   const credit=document.createElement('div');
+   credit.className='academy-creator-credit';
+   credit.innerHTML='<strong>Madhuha Dasa A. (HDG)</strong><span>Academia Master Siddhānta Gauḍīya</span>';
+   main.prepend(credit);
+ }
 }
 async function renderProgram(id){
  sidebar(id);let [ps,bs]=await Promise.all([json('../../data/programs.json'),json('../../data/books.json')]),p=ps.find(x=>x.id===id),m=Object.fromEntries(bs.map(b=>[b.id,b]));

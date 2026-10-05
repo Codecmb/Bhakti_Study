@@ -290,5 +290,7 @@
   "./slokas/index.html",
   "./slokas/integration.json",
   "./student/portfolio.html",
-  "./student/progress.html"
+  "./student/progress.html",
+  "shared/highlighter.js",
+  "study/index.html"
 ]

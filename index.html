@@ -1,1 +1,58 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="theme-color" content="#292720"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/png" href="assets/bhakti-study-icon-192.png"><link rel="apple-touch-icon" href="assets/bhakti-study-icon-192.png"><title>Academia Master Siddhānta Gauḍīya</title><link rel="stylesheet" href="shared/styles.css"></head><body><div class="layout"><aside class="sidebar"></aside><main class="main"><div class="hero"><div class="eyebrow">Academia Master Siddhānta Gauḍīya</div><h1>Study from the source.</h1><p class="lead">A systematic study environment for Śrīla Prabhupāda's books and advanced Gauḍīya siddhānta. Study the primary texts, deepen your understanding, answer questions, and track your progress.</p><div class="statbar"><span class="stat">4 śāstric study tracks</span><span class="stat">Ṣaṭ Sandarbhas advanced track</span><span class="stat">SB Cantos 1–12 registered</span><span class="stat">Śloka app integration</span></div><div class="notice"><b>Study from the source:</b> Each program guides you through the assigned primary texts. Academy completion is distinct from official BOEX degree certification.</div></div><h2 class="section-title">Study Programs</h2><section id="programs" class="grid"></section><h2 class="section-title">Study Tools</h2><section class="grid"><article class="card"><h3>Śloka Lab</h3><p>Practice and review important ślokas connected to your studies.</p><a class="button secondary" href="slokas/index.html">Open Śloka Lab</a></article><article class="card"><h3>Books & Library</h3><p>Read the primary books and explore supporting reference material.</p><a class="button secondary" href="library/index.html">Browse books</a></article><article class="card"><h3>My Progress</h3><p>See what you have studied, review your activity, and continue your courses.</p><a class="button secondary" href="student/progress.html">View progress</a></article><article class="card"><h3>Certificates</h3><p>View eligibility and generate available Academy completion certificates.</p><a class="button secondary" href="certificates/index.html">Certificates</a></article></section><div class="footer-note">Independent study application. Official ISKCON śāstric degrees require the applicable BOEX/Ministry authorization and assessment process.</div></main></div><script src="shared/app.js"></script><script>sidebar('home');json('data/programs.json').then(ps=>programs.innerHTML=ps.map(p=>`<article class="card"><div class="eyebrow">Study Program</div><h2>${p.title}</h2><p>${p.subtitle}</p><a class="button" href="programs/${p.id}/index.html">Enter Program</a></article>`).join(''))</script><script>if('serviceWorker'in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(console.error))}</script></body></html>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="theme-color" content="#292720"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/png" href="assets/bhakti-study-icon-192.png"><link rel="apple-touch-icon" href="assets/bhakti-study-icon-192.png"><title>Academia Master Siddhānta Gauḍīya</title><link rel="stylesheet" href="shared/styles.css"></head><body><div class="layout"><aside class="sidebar"></aside><main class="main"><div class="hero"><div class="eyebrow">Academia Master Siddhānta Gauḍīya</div><h1>Study from the source.</h1><p class="lead">A systematic study environment for Śrīla Prabhupāda's books and advanced Gauḍīya siddhānta. Study the primary texts, deepen your understanding, answer questions, and track your progress.</p><div class="statbar"><span class="stat">4 śāstric study tracks</span><span class="stat">Ṣaṭ Sandarbhas advanced track</span><span class="stat">SB Cantos 1–12 registered</span><span class="stat">Śloka app integration</span></div><div class="notice"><b>Study from the source:</b> Each program guides you through the assigned primary texts. Academy completion is distinct from official BOEX degree certification.</div></div>
+
+<section class="academy-purpose">
+
+  <article class="card academy-dedication">
+    <div class="eyebrow">Dedication &amp; Acknowledgment</div>
+    <h2>With Gratitude</h2>
+
+    <p>This Academy was created by <strong>Madhuha Dasa A. (HDG)</strong>
+    with gratitude to his spiritual master,
+    <strong>Hridayananda Dasa Goswami Maharaja</strong>,
+    whose instruction, encouragement, and example inspired and motivated
+    the development of this project.</p>
+
+    <p>The Academy is offered as an educational tool to help students
+    systematically study Śrīla Prabhupāda's books and become increasingly
+    proficient in the science of Kṛṣṇa consciousness.</p>
+  </article>
+
+  <article class="card academy-mission">
+    <div class="eyebrow">Purpose of the Academy</div>
+    <h2>Study · Remember · Realize</h2>
+
+    <p>The purpose of Academia Master Siddhānta Gauḍīya is to provide a
+    systematic environment for studying, remembering, understanding, and
+    applying the teachings presented by Śrīla Prabhupāda, with the goal
+    of developing a mature understanding of Gauḍīya Vaiṣṇava siddhānta
+    and becoming proficient in the science of Kṛṣṇa consciousness.</p>
+
+    <div class="academy-verse">
+      <div class="eyebrow">
+        Śrī Caitanya-caritāmṛta · Madhya-līlā 8.128
+      </div>
+
+      <p>
+        <em>
+          kibā vipra, kibā nyāsī, śūdra kene naya<br>
+          yei kṛṣṇa-tattva-vettā, sei 'guru' haya
+        </em>
+      </p>
+
+      <p>
+        <strong>Translation:</strong>
+        “Whether one is a brāhmaṇa, a sannyāsī or a śūdra—regardless of
+        what he is—he can become a spiritual master if he knows the
+        science of Kṛṣṇa.”
+      </p>
+
+      <a class="button secondary"
+         href="library/reader.html?book=cc-madhya&amp;ref=CC.Madhya.8.128">
+        Study CC Madhya 8.128
+      </a>
+    </div>
+  </article>
+
+</section>
+
+<h2 class="section-title">Study Programs</h2><section id="programs" class="grid"></section><div class="footer-note">Independent study application. Official ISKCON śāstric degrees require the applicable BOEX/Ministry authorization and assessment process.</div></main></div><script src="shared/app.js"></script><script>sidebar('home');json('data/programs.json').then(ps=>programs.innerHTML=ps.map(p=>`<article class="card"><div class="eyebrow">Study Program</div><h2>${p.title}</h2><p>${p.subtitle}</p><a class="button" href="programs/${p.id}/index.html">Enter Program</a></article>`).join(''))</script><script>if('serviceWorker'in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(console.error))}</script></body></html>

@@ -25,6 +25,7 @@
     await Promise.all([
       loadScript(ROOT+'shared/app.js',()=>typeof window.sidebar==='function').catch(()=>{}),
       loadScript(ROOT+'shared/student-store.js',()=>!!window.StudentStore).catch(()=>{}),
+      loadScript(ROOT+'shared/highlighter.js',()=>!!window.AcademyHighlighter).catch(()=>{}),
       loadScript(ROOT+'shared/data-registry.js',()=>!!window.DataRegistry),
       loadScript(ROOT+'shared/question-engine.js',()=>!!window.QuestionEngine)
     ]);
@@ -54,18 +55,18 @@
     const oldNotice=document.querySelector('.notice');if(oldNotice)oldNotice.innerHTML='<b>Method:</b> Viṣaya → Saṁśaya → Pūrvapakṣa → Siddhānta → Pramāṇa → Samanvaya → Application. Source text and student synthesis remain visibly separate.';
     const app=document.getElementById('app');
     if(!document.getElementById('sandarbha-reader-layout')){const style=document.createElement('style');style.id='sandarbha-reader-layout';style.textContent=`
-.sandarbha-reader-shell{display:grid;grid-template-columns:250px minmax(0,1fr) minmax(300px,380px);gap:1rem;align-items:start}
+.sandarbha-reader-shell{display:grid;grid-template-columns:250px minmax(0,1fr);gap:1rem;align-items:start}
 .sandarbha-nav-panel{position:sticky;top:1rem;min-width:0}
 .sandarbha-nav-panel .unit-list{display:flex;gap:.45rem;flex-wrap:wrap;max-height:58vh;overflow:auto}
 .sandarbha-nav-panel .unit-list button{border:1px solid #d8d0c2;background:#fff;border-radius:8px;padding:7px 9px;cursor:pointer}
 .sandarbha-nav-panel .unit-list button.active{font-weight:700;border-color:#f59e0b}
 .sandarbha-nav-toggle{display:block;margin:0 0 .7rem auto;min-width:36px;padding:5px 10px;font-size:1.2rem;line-height:1}
-.sandarbha-reader-shell.nav-collapsed{grid-template-columns:52px minmax(0,1fr) minmax(300px,380px)}
+.sandarbha-reader-shell.nav-collapsed{grid-template-columns:52px minmax(0,1fr)}
 .sandarbha-reader-shell.nav-collapsed>.sandarbha-nav-panel{padding:8px 6px;overflow:hidden}
 .sandarbha-reader-shell.nav-collapsed>.sandarbha-nav-panel>*:not(.sandarbha-nav-toggle){display:none!important}
 .sandarbha-reader-shell.nav-collapsed>.sandarbha-nav-panel .sandarbha-nav-toggle{margin:0 auto}
-.sandarbha-source-column{min-width:0}.sandarbha-study-panel{position:sticky;top:1rem;max-height:calc(100vh - 2rem);overflow:auto}
-.sandarbha-study-panel textarea{width:100%;box-sizing:border-box}.sandarbha-study-fab,.study-close{display:none}
+.sandarbha-source-column{min-width:0}.sandarbha-study-panel{display:none;position:fixed;z-index:10002;right:1rem;top:1rem;bottom:1rem;width:min(420px,calc(100vw - 2rem));max-height:calc(100vh - 2rem);overflow:auto;margin:0}.sandarbha-study-panel.open{display:block}
+.sandarbha-study-panel textarea{width:100%;box-sizing:border-box}.sandarbha-study-fab{display:block;position:fixed;z-index:10001;right:1rem;bottom:1rem;box-shadow:0 4px 18px rgba(0,0,0,.2)}.study-close{display:block;float:right;border:0;background:transparent;font-size:2rem;line-height:1;cursor:pointer}
 .sandarbha-passage-nav{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem}
 @media(max-width:1200px){.sandarbha-reader-shell{grid-template-columns:220px minmax(0,1fr)}.sandarbha-study-panel{display:none;position:fixed;z-index:10002;inset:auto 0 0 0;top:12vh;max-height:88vh;overflow:auto;border-radius:18px 18px 0 0;margin:0}.sandarbha-study-panel.open{display:block}.sandarbha-study-fab{display:block;position:fixed;z-index:10001;right:1rem;bottom:1rem;box-shadow:0 4px 18px rgba(0,0,0,.2)}.study-close{display:block;float:right;border:0;background:transparent;font-size:2rem;line-height:1;cursor:pointer}.sandarbha-reader-shell.nav-collapsed{grid-template-columns:52px minmax(0,1fr)}}
 @media(max-width:850px){.sandarbha-reader-shell,.sandarbha-reader-shell.nav-collapsed{grid-template-columns:1fr}.sandarbha-nav-panel{position:static}.sandarbha-reader-shell.nav-collapsed>.sandarbha-nav-panel{display:none}}
@@ -128,13 +129,15 @@
 ${verified?'<span class="source-state verified">English source segment verified</span>':'<p class="notice"><b>Canonical identity preserved.</b> This edition does not expose an independently verified heading boundary for this unit, so Bhakti Study does not invent a source segment.</p>'}
 ${lens.length?`<div class="lens">${lens.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}
 </section>
-${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div><h2>Source text</h2><p class="muted">${esc(source.sourceFile)} · English study source · ${esc(id)}</p><div style="line-height:1.65">${esc(r.content).replace(/\n/g,' ')}</div></section>`:''}
+${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div><h2>Source text</h2><p class="muted">${esc(source.sourceFile)} · English study source · ${esc(id)}</p><div id="sandarbhaSourceText" style="line-height:1.65">${esc(r.content).replace(/\n/g,' ')}</div></section>`:''}
 <section class="card"><div class="eyebrow">Provenance</div><p><b>Author:</b> Śrī Jīva Gosvāmī</p><p><b>Study source:</b> ${esc(source.sourceFile)}</p><p><b>Canonical identity:</b> ${esc(id)}</p><p><b>Segmentation:</b> ${verified?(r?.sharedSource?'Verified shared source segment; canonical student identity remains separate.':'Source heading/boundary independently detected.'):'Canonical placeholder only; no source boundary guessed.'}</p><p class="muted">Bhakti Study reflections and summaries are student/application synthesis and are not quotations from the source.</p></section>
 </main>
 <aside class="sandarbha-study-panel card" id="studyPanel"><button class="study-close" id="studyClose" aria-label="Close study panel">×</button><div class="eyebrow">Study Workspace</div><h2>Study</h2><h3>My Understanding</h3><p>${esc(u.studyMethod?.beforeReading?.[0]||'What is Jīva Gosvāmī establishing here?')}</p><textarea id="understanding" rows="6" placeholder="Write your understanding before consulting additional notes…">${esc(before)}</textarea><h3>Source Study</h3><ul>${(u.studyMethod?.sourceStudy||['Identify the principal claim, scriptural evidence, and conclusion.']).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h3>Revised Understanding</h3><p>${esc(u.studyMethod?.afterReading?.[0]||'State the siddhānta in your own words and cite the supporting source.')}</p><textarea id="reflection" rows="6" placeholder="After returning to the source…">${esc(after)}</textarea><h3>Notes</h3><textarea id="notes" rows="6" placeholder="Personal notes…">${esc(notes)}</textarea>
 <h3>Study Questions</h3>
 <div id="sandarbhaQuestions"><p class="muted">Loading question bank…</p></div><div id="sandarbhaMyQuestions" style="margin-top:1rem"></div><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;flex-wrap:wrap"><button class="button" id="saveStudy" type="button">Save</button><span id="saveStatus" class="muted" role="status" aria-live="polite">${Object.keys(draft).length?'Unsaved draft':'Saved'}</span></div><label style="display:block;margin-top:1rem"><input type="checkbox" id="completed" ${done?'checked':''}> Study unit completed</label></aside>
 </div><button class="button sandarbha-study-fab" id="studyOpen" aria-controls="studyPanel">Study</button>`
+      const highlightSource=document.getElementById('sandarbhaSourceText');
+      if(highlightSource&&window.AcademyHighlighter)AcademyHighlighter.attach(highlightSource,id);
       renderMyQuestions(id,u.id);
       const questionHost=document.getElementById('sandarbhaQuestions');
       if(questionHost){
