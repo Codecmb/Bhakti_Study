@@ -1,7 +1,7 @@
 {
   "schema": "bhakti-study.study-course.v2",
   "courseId": "sat-sandarbhas-tattva",
-  "title": "Tattva Sandarbha — Estudio avanzado",
+  "title": "Tattva Sandarbha — Advanced Study",
   "displayTitle": "Tattva Sandarbha",
   "primaryWork": "tattva",
   "canonicalPrefix": "TS",
@@ -11,7 +11,7 @@
     "aiRequired": false,
     "generatedAnswerKeys": false,
     "studentReflectionStoredSeparately": true,
-    "instruction": "Las herramientas de estudio remiten al estudiante a la fuente primaria; no sustituyen el texto ni presentan respuestas generadas como siddhānta."
+    "instruction": "Study tools direct the student to the primary source; they do not replace the text or present generated answers as siddhānta."
   },
   "unitCount": 63,
   "units": [
@@ -21,18 +21,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la invocación inicial y la identificación de Śrī Kṛṣṇa Caitanya mediante Śrīmad-Bhāgavatam 11.5.32.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the initial invocation and the identification of Śrī Kṛṣṇa Caitanya through Śrīmad-Bhāgavatam 11.5.32.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la invocación inicial y la identificación de Śrī Kṛṣṇa Caitanya mediante Śrīmad-Bhāgavatam 11.5.32.",
-          "Identifica el pramāṇa, cita o razonamiento que Jīva Gosvāmī usa para sostener esa afirmación.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the initial invocation and the identification of Śrī Kṛṣṇa Caitanya through Śrīmad-Bhāgavatam 11.5.32.",
+          "Identify the pramāṇa, quotation, or reasoning Jīva Gosvāmī uses to support that claim.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la invocación inicial y la identificación de Śrī Kṛṣṇa Caitanya mediante Śrīmad-Bhāgavatam 11.5.32.",
-          "Cita o identifica la evidencia concreta del texto que sostiene tu conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the initial invocation and the identification of Śrī Kṛṣṇa Caitanya through Śrīmad-Bhāgavatam 11.5.32.",
+          "Cite or identify the specific evidence from the text that supports your conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -41,7 +41,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 1",
@@ -49,7 +49,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 19
       },
-      "academicFocus": "la invocación inicial y la identificación de Śrī Kṛṣṇa Caitanya mediante Śrīmad-Bhāgavatam 11.5.32"
+      "academicFocus": "the initial invocation and the identification of Śrī Kṛṣṇa Caitanya through Śrīmad-Bhāgavatam 11.5.32"
     },
     {
       "id": "TS.2",
@@ -57,18 +57,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la identidad de Śrī Kṛṣṇa Caitanya: Kṛṣṇa interiormente y de tez dorada exteriormente.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the identity of Śrī Kṛṣṇa Caitanya: Kṛṣṇa internally and golden-complexioned externally.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la identidad de Śrī Kṛṣṇa Caitanya: Kṛṣṇa interiormente y de tez dorada exteriormente.",
-          "Identifica el pramāṇa, cita o razonamiento que Jīva Gosvāmī usa para sostener esa afirmación.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the identity of Śrī Kṛṣṇa Caitanya: Kṛṣṇa internally and golden-complexioned externally.",
+          "Identify the pramāṇa, quotation, or reasoning Jīva Gosvāmī uses to support that claim.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la identidad de Śrī Kṛṣṇa Caitanya: Kṛṣṇa interiormente y de tez dorada exteriormente.",
-          "Cita o identifica la evidencia concreta del texto que sostiene tu conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the identity of Śrī Kṛṣṇa Caitanya: Kṛṣṇa internally and golden-complexioned externally.",
+          "Cite or identify the specific evidence from the text that supports your conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -77,7 +77,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 2",
@@ -85,7 +85,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 190
       },
-      "academicFocus": "la identidad de Śrī Kṛṣṇa Caitanya: Kṛṣṇa interiormente y de tez dorada exteriormente"
+      "academicFocus": "the identity of Śrī Kṛṣṇa Caitanya: Kṛṣṇa internally and golden-complexioned externally"
     },
     {
       "id": "TS.3",
@@ -93,18 +93,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer el mandato de Rūpa y Sanātana Gosvāmīs y el propósito de exponer tattva.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the instruction of Rūpa and Sanātana Gosvāmīs and the purpose of explaining tattva.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre el mandato de Rūpa y Sanātana Gosvāmīs y el propósito de exponer tattva.",
-          "Identifica el pramāṇa, cita o razonamiento que Jīva Gosvāmī usa para sostener esa afirmación.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the instruction of Rūpa and Sanātana Gosvāmīs and the purpose of explaining tattva.",
+          "Identify the pramāṇa, quotation, or reasoning Jīva Gosvāmī uses to support that claim.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de el mandato de Rūpa y Sanātana Gosvāmīs y el propósito de exponer tattva.",
-          "Cita o identifica la evidencia concreta del texto que sostiene tu conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the instruction of Rūpa and Sanātana Gosvāmīs and the purpose of explaining tattva.",
+          "Cite or identify the specific evidence from the text that supports your conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -113,7 +113,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 3",
@@ -121,7 +121,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 233
       },
-      "academicFocus": "el mandato de Rūpa y Sanātana Gosvāmīs y el propósito de exponer tattva"
+      "academicFocus": "the instruction of Rūpa and Sanātana Gosvāmīs and the purpose of explaining tattva"
     },
     {
       "id": "TS.4",
@@ -129,18 +129,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la contribución de Gopāla Bhaṭṭa Gosvāmī como fuente previa del Ṣaṭ-sandarbha.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the contribution of Gopāla Bhaṭṭa Gosvāmī as a prior source for the Ṣaṭ-sandarbha.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la contribución de Gopāla Bhaṭṭa Gosvāmī como fuente previa del Ṣaṭ-sandarbha.",
-          "Identifica el pramāṇa, cita o razonamiento que Jīva Gosvāmī usa para sostener esa afirmación.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the contribution of Gopāla Bhaṭṭa Gosvāmī as a prior source for the Ṣaṭ-sandarbha.",
+          "Identify the pramāṇa, quotation, or reasoning Jīva Gosvāmī uses to support that claim.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la contribución de Gopāla Bhaṭṭa Gosvāmī como fuente previa del Ṣaṭ-sandarbha.",
-          "Cita o identifica la evidencia concreta del texto que sostiene tu conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the contribution of Gopāla Bhaṭṭa Gosvāmī as a prior source for the Ṣaṭ-sandarbha.",
+          "Cite or identify the specific evidence from the text that supports your conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -149,7 +149,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 4",
@@ -157,7 +157,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 269
       },
-      "academicFocus": "la contribución de Gopāla Bhaṭṭa Gosvāmī como fuente previa del Ṣaṭ-sandarbha"
+      "academicFocus": "the contribution of Gopāla Bhaṭṭa Gosvāmī as a prior source for the Ṣaṭ-sandarbha"
     },
     {
       "id": "TS.5",
@@ -165,18 +165,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la labor de Jīva Gosvāmī de ordenar y completar el material recibido.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish Jīva Gosvāmī's work of arranging and completing the material he received.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la labor de Jīva Gosvāmī de ordenar y completar el material recibido.",
-          "Identifica el pramāṇa, cita o razonamiento que Jīva Gosvāmī usa para sostener esa afirmación.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning Jīva Gosvāmī's work of arranging and completing the material he received.",
+          "Identify the pramāṇa, quotation, or reasoning Jīva Gosvāmī uses to support that claim.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la labor de Jīva Gosvāmī de ordenar y completar el material recibido.",
-          "Cita o identifica la evidencia concreta del texto que sostiene tu conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning Jīva Gosvāmī's work of arranging and completing the material he received.",
+          "Cite or identify the specific evidence from the text that supports your conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -185,7 +185,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 5",
@@ -193,7 +193,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 304
       },
-      "academicFocus": "la labor de Jīva Gosvāmī de ordenar y completar el material recibido"
+      "academicFocus": "Jīva Gosvāmī's work of arranging and completing the material he received"
     },
     {
       "id": "TS.6",
@@ -201,18 +201,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer el adhikārī del Ṣaṭ-sandarbha y la disposición devocional exigida al lector.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the adhikārī of the Ṣaṭ-sandarbha and the devotional disposition required of the reader.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre el adhikārī del Ṣaṭ-sandarbha y la disposición devocional exigida al lector.",
-          "Identifica el pramāṇa, cita o razonamiento que Jīva Gosvāmī usa para sostener esa afirmación.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the adhikārī of the Ṣaṭ-sandarbha and the devotional disposition required of the reader.",
+          "Identify the pramāṇa, quotation, or reasoning Jīva Gosvāmī uses to support that claim.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de el adhikārī del Ṣaṭ-sandarbha y la disposición devocional exigida al lector.",
-          "Cita o identifica la evidencia concreta del texto que sostiene tu conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the adhikārī of the Ṣaṭ-sandarbha and the devotional disposition required of the reader.",
+          "Cite or identify the specific evidence from the text that supports your conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -221,7 +221,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 6",
@@ -229,7 +229,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 346
       },
-      "academicFocus": "el adhikārī del Ṣaṭ-sandarbha y la disposición devocional exigida al lector"
+      "academicFocus": "the adhikārī of the Ṣaṭ-sandarbha and the devotional disposition required of the reader"
     },
     {
       "id": "TS.7",
@@ -237,18 +237,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la reverencia a los maestros y el propósito de explicar el significado del Bhāgavata.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish reverence for the teachers and the purpose of explaining the meaning of the Bhāgavata.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la reverencia a los maestros y el propósito de explicar el significado del Bhāgavata.",
-          "Identifica el pramāṇa, cita o razonamiento que Jīva Gosvāmī usa para sostener esa afirmación.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning reverence for the teachers and the purpose of explaining the meaning of the Bhāgavata.",
+          "Identify the pramāṇa, quotation, or reasoning Jīva Gosvāmī uses to support that claim.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la reverencia a los maestros y el propósito de explicar el significado del Bhāgavata.",
-          "Cita o identifica la evidencia concreta del texto que sostiene tu conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning reverence for the teachers and the purpose of explaining the meaning of the Bhāgavata.",
+          "Cite or identify the specific evidence from the text that supports your conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -257,7 +257,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 7",
@@ -265,7 +265,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 393
       },
-      "academicFocus": "la reverencia a los maestros y el propósito de explicar el significado del Bhāgavata"
+      "academicFocus": "reverence for the teachers and the purpose of explaining the meaning of the Bhāgavata"
     },
     {
       "id": "TS.8",
@@ -273,18 +273,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la síntesis del Ṣaṭ-sandarbha: Brahman, Paramātmā, Nārāyaṇa, Kṛṣṇa y prema.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the synthesis of the Ṣaṭ-sandarbha: Brahman, Paramātmā, Nārāyaṇa, Kṛṣṇa, and prema.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la síntesis del Ṣaṭ-sandarbha: Brahman, Paramātmā, Nārāyaṇa, Kṛṣṇa y prema.",
-          "Identifica el pramāṇa, cita o razonamiento que Jīva Gosvāmī usa para sostener esa afirmación.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the synthesis of the Ṣaṭ-sandarbha: Brahman, Paramātmā, Nārāyaṇa, Kṛṣṇa, and prema.",
+          "Identify the pramāṇa, quotation, or reasoning Jīva Gosvāmī uses to support that claim.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la síntesis del Ṣaṭ-sandarbha: Brahman, Paramātmā, Nārāyaṇa, Kṛṣṇa y prema.",
-          "Cita o identifica la evidencia concreta del texto que sostiene tu conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the synthesis of the Ṣaṭ-sandarbha: Brahman, Paramātmā, Nārāyaṇa, Kṛṣṇa, and prema.",
+          "Cite or identify the specific evidence from the text that supports your conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -293,7 +293,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 8",
@@ -301,7 +301,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 440
       },
-      "academicFocus": "la síntesis del Ṣaṭ-sandarbha: Brahman, Paramātmā, Nārāyaṇa, Kṛṣṇa y prema"
+      "academicFocus": "the synthesis of the Ṣaṭ-sandarbha: Brahman, Paramātmā, Nārāyaṇa, Kṛṣṇa, and prema"
     },
     {
       "id": "TS.9",
@@ -309,18 +309,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la epistemología vaiṣṇava, los cuatro defectos humanos y la necesidad de establecer pramāṇa.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish Vaiṣṇava epistemology, the four human defects, and the need to establish pramāṇa.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la epistemología vaiṣṇava, los cuatro defectos humanos y la necesidad de establecer pramāṇa.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning Vaiṣṇava epistemology, the four human defects, and the need to establish pramāṇa.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la epistemología vaiṣṇava, los cuatro defectos humanos y la necesidad de establecer pramāṇa.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning Vaiṣṇava epistemology, the four human defects, and the need to establish pramāṇa.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -329,7 +329,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 9",
@@ -337,7 +337,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 532
       },
-      "academicFocus": "la epistemología vaiṣṇava, los cuatro defectos humanos y la necesidad de establecer pramāṇa"
+      "academicFocus": "Vaiṣṇava epistemology, the four human defects, and the need to establish pramāṇa"
     },
     {
       "id": "TS.10",
@@ -345,18 +345,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer el Veda como pramāṇa para conocer la realidad trascendente e inconcebible.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the Veda as pramāṇa for knowing transcendent and inconceivable reality.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre el Veda como pramāṇa para conocer la realidad trascendente e inconcebible.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the Veda as pramāṇa for knowing transcendent and inconceivable reality.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de el Veda como pramāṇa para conocer la realidad trascendente e inconcebible.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the Veda as pramāṇa for knowing transcendent and inconceivable reality.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -365,7 +365,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 10",
@@ -373,7 +373,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 833
       },
-      "academicFocus": "el Veda como pramāṇa para conocer la realidad trascendente e inconcebible"
+      "academicFocus": "the Veda as pramāṇa for knowing transcendent and inconceivable reality"
     },
     {
       "id": "TS.11",
@@ -381,18 +381,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la autoridad del Veda frente a los límites del razonamiento independiente.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the authority of the Veda in contrast to the limitations of independent reasoning.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la autoridad del Veda frente a los límites del razonamiento independiente.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the authority of the Veda in contrast to the limitations of independent reasoning.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la autoridad del Veda frente a los límites del razonamiento independiente.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the authority of the Veda in contrast to the limitations of independent reasoning.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -401,7 +401,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 11",
@@ -409,7 +409,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 1059
       },
-      "academicFocus": "la autoridad del Veda frente a los límites del razonamiento independiente"
+      "academicFocus": "the authority of the Veda in contrast to the limitations of independent reasoning"
     },
     {
       "id": "TS.12",
@@ -417,18 +417,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer las dificultades prácticas de estudiar y determinar el sentido del Veda.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the practical difficulties of studying and determining the meaning of the Veda.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre las dificultades prácticas de estudiar y determinar el sentido del Veda.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the practical difficulties of studying and determining the meaning of the Veda.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de las dificultades prácticas de estudiar y determinar el sentido del Veda.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the practical difficulties of studying and determining the meaning of the Veda.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -437,7 +437,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 12.1",
@@ -445,7 +445,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 1193
       },
-      "academicFocus": "las dificultades prácticas de estudiar y determinar el sentido del Veda"
+      "academicFocus": "the practical difficulties of studying and determining the meaning of the Veda"
     },
     {
       "id": "TS.13",
@@ -453,18 +453,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer el carácter védico de los Itihāsas y Purāṇas.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the Vedic status of the Itihāsas and Purāṇas.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre el carácter védico de los Itihāsas y Purāṇas.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the Vedic status of the Itihāsas and Purāṇas.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de el carácter védico de los Itihāsas y Purāṇas.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the Vedic status of the Itihāsas and Purāṇas.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -473,7 +473,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 13.1",
@@ -481,7 +481,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 1383
       },
-      "academicFocus": "el carácter védico de los Itihāsas y Purāṇas"
+      "academicFocus": "the Vedic status of the Itihāsas and Purāṇas"
     },
     {
       "id": "TS.14",
@@ -489,18 +489,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer los Itihāsas y Purāṇas como el quinto Veda.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the Itihāsas and Purāṇas as the fifth Veda.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre los Itihāsas y Purāṇas como el quinto Veda.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the Itihāsas and Purāṇas as the fifth Veda.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de los Itihāsas y Purāṇas como el quinto Veda.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the Itihāsas and Purāṇas as the fifth Veda.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -509,7 +509,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 14.1",
@@ -517,7 +517,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 1545
       },
-      "academicFocus": "los Itihāsas y Purāṇas como el quinto Veda"
+      "academicFocus": "the Itihāsas and Purāṇas as the fifth Veda"
     },
     {
       "id": "TS.15",
@@ -525,18 +525,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer el origen común de Vedas, Itihāsas y Purāṇas.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the common origin of the Vedas, Itihāsas, and Purāṇas.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre el origen común de Vedas, Itihāsas y Purāṇas.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the common origin of the Vedas, Itihāsas, and Purāṇas.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de el origen común de Vedas, Itihāsas y Purāṇas.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the common origin of the Vedas, Itihāsas, and Purāṇas.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -545,7 +545,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 15.1",
@@ -553,7 +553,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 1700
       },
-      "academicFocus": "el origen común de Vedas, Itihāsas y Purāṇas"
+      "academicFocus": "the common origin of the Vedas, Itihāsas, and Purāṇas"
     },
     {
       "id": "TS.16",
@@ -561,18 +561,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la posición singular del compilador de los Itihāsas y Purāṇas.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the unique position of the compiler of the Itihāsas and Purāṇas.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la posición singular del compilador de los Itihāsas y Purāṇas.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the unique position of the compiler of the Itihāsas and Purāṇas.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la posición singular del compilador de los Itihāsas y Purāṇas.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the unique position of the compiler of the Itihāsas and Purāṇas.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -581,7 +581,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 16.1",
@@ -589,7 +589,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 1862
       },
-      "academicFocus": "la posición singular del compilador de los Itihāsas y Purāṇas"
+      "academicFocus": "the unique position of the compiler of the Itihāsas and Purāṇas"
     },
     {
       "id": "TS.17",
@@ -597,18 +597,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer las tres divisiones de los Purāṇas y su función en la evaluación de autoridad.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the three divisions of the Purāṇas and their function in evaluating authority.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre las tres divisiones de los Purāṇas y su función en la evaluación de autoridad.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the three divisions of the Purāṇas and their function in evaluating authority.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de las tres divisiones de los Purāṇas y su función en la evaluación de autoridad.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the three divisions of the Purāṇas and their function in evaluating authority.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -617,7 +617,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 17.1",
@@ -625,7 +625,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 2018
       },
-      "academicFocus": "las tres divisiones de los Purāṇas y su función en la evaluación de autoridad"
+      "academicFocus": "the three divisions of the Purāṇas and their function in evaluating authority"
     },
     {
       "id": "TS.18",
@@ -633,18 +633,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la superioridad de Śrīmad-Bhāgavatam entre los Purāṇas.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the superiority of Śrīmad-Bhāgavatam among the Purāṇas.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la superioridad de Śrīmad-Bhāgavatam entre los Purāṇas.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the superiority of Śrīmad-Bhāgavatam among the Purāṇas.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la superioridad de Śrīmad-Bhāgavatam entre los Purāṇas.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the superiority of Śrīmad-Bhāgavatam among the Purāṇas.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -653,7 +653,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 18.1",
@@ -661,7 +661,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 2162
       },
-      "academicFocus": "la superioridad de Śrīmad-Bhāgavatam entre los Purāṇas"
+      "academicFocus": "the superiority of Śrīmad-Bhāgavatam among the Purāṇas"
     },
     {
       "id": "TS.19",
@@ -669,18 +669,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer Śrīmad-Bhāgavatam como explicación natural de la intención de Vyāsa y del Vedānta.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish Śrīmad-Bhāgavatam as the natural explanation of Vyāsa's intention and the Vedānta.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre Śrīmad-Bhāgavatam como explicación natural de la intención de Vyāsa y del Vedānta.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning Śrīmad-Bhāgavatam as the natural explanation of Vyāsa's intention and the Vedānta.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de Śrīmad-Bhāgavatam como explicación natural de la intención de Vyāsa y del Vedānta.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning Śrīmad-Bhāgavatam as the natural explanation of Vyāsa's intention and the Vedānta.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -689,7 +689,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 19.1",
@@ -697,7 +697,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 2333
       },
-      "academicFocus": "Śrīmad-Bhāgavatam como explicación natural de la intención de Vyāsa y del Vedānta"
+      "academicFocus": "Śrīmad-Bhāgavatam as the natural explanation of Vyāsa's intention and the Vedānta"
     },
     {
       "id": "TS.20",
@@ -705,18 +705,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer las características que identifican a Śrīmad-Bhāgavatam.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the characteristics that identify Śrīmad-Bhāgavatam.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre las características que identifican a Śrīmad-Bhāgavatam.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the characteristics that identify Śrīmad-Bhāgavatam.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de las características que identifican a Śrīmad-Bhāgavatam.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the characteristics that identify Śrīmad-Bhāgavatam.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -725,7 +725,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 20.1",
@@ -733,7 +733,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 2478
       },
-      "academicFocus": "las características que identifican a Śrīmad-Bhāgavatam"
+      "academicFocus": "the characteristics that identify Śrīmad-Bhāgavatam"
     },
     {
       "id": "TS.21",
@@ -741,18 +741,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer Śrīmad-Bhāgavatam como explicación del Brahma-sūtra, Gāyatrī y el sentido védico.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish Śrīmad-Bhāgavatam as the explanation of the Brahma-sūtra, Gāyatrī, and the meaning of the Veda.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre Śrīmad-Bhāgavatam como explicación del Brahma-sūtra, Gāyatrī y el sentido védico.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning Śrīmad-Bhāgavatam as the explanation of the Brahma-sūtra, Gāyatrī, and the meaning of the Veda.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de Śrīmad-Bhāgavatam como explicación del Brahma-sūtra, Gāyatrī y el sentido védico.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning Śrīmad-Bhāgavatam as the explanation of the Brahma-sūtra, Gāyatrī, and the meaning of the Veda.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -761,7 +761,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 21",
@@ -769,7 +769,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 2745
       },
-      "academicFocus": "Śrīmad-Bhāgavatam como explicación del Brahma-sūtra, Gāyatrī y el sentido védico"
+      "academicFocus": "Śrīmad-Bhāgavatam as the explanation of the Brahma-sūtra, Gāyatrī, and the meaning of the Veda"
     },
     {
       "id": "TS.22",
@@ -777,18 +777,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer Śrīmad-Bhāgavatam como esencia de la literatura védica.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish Śrīmad-Bhāgavatam as the essence of Vedic literature.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre Śrīmad-Bhāgavatam como esencia de la literatura védica.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning Śrīmad-Bhāgavatam as the essence of Vedic literature.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de Śrīmad-Bhāgavatam como esencia de la literatura védica.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning Śrīmad-Bhāgavatam as the essence of Vedic literature.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -797,7 +797,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 22.1",
@@ -805,7 +805,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 2920
       },
-      "academicFocus": "Śrīmad-Bhāgavatam como esencia de la literatura védica"
+      "academicFocus": "Śrīmad-Bhāgavatam as the essence of Vedic literature"
     },
     {
       "id": "TS.23",
@@ -813,18 +813,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la analogía del Bhāgavatam como sol que ilumina la realidad en Kali-yuga.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the analogy of the Bhāgavatam as the sun that illuminates reality in Kali-yuga.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la analogía del Bhāgavatam como sol que ilumina la realidad en Kali-yuga.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the analogy of the Bhāgavatam as the sun that illuminates reality in Kali-yuga.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la analogía del Bhāgavatam como sol que ilumina la realidad en Kali-yuga.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the analogy of the Bhāgavatam as the sun that illuminates reality in Kali-yuga.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -833,7 +833,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 23.1",
@@ -841,7 +841,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 3404
       },
-      "academicFocus": "la analogía del Bhāgavatam como sol que ilumina la realidad en Kali-yuga"
+      "academicFocus": "the analogy of the Bhāgavatam as the sun that illuminates reality in Kali-yuga"
     },
     {
       "id": "TS.24",
@@ -849,18 +849,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la posición de Śrīmad-Bhāgavatam como escritura védica suprema dentro del argumento presentado.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the position of Śrīmad-Bhāgavatam as the supreme Vedic scripture within the argument presented.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la posición de Śrīmad-Bhāgavatam como escritura védica suprema dentro del argumento presentado.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the position of Śrīmad-Bhāgavatam as the supreme Vedic scripture within the argument presented.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la posición de Śrīmad-Bhāgavatam como escritura védica suprema dentro del argumento presentado.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the position of Śrīmad-Bhāgavatam as the supreme Vedic scripture within the argument presented.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -869,7 +869,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 24.1",
@@ -877,7 +877,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 3718
       },
-      "academicFocus": "la posición de Śrīmad-Bhāgavatam como escritura védica suprema dentro del argumento presentado"
+      "academicFocus": "the position of Śrīmad-Bhāgavatam as the supreme Vedic scripture within the argument presented"
     },
     {
       "id": "TS.25",
@@ -885,18 +885,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la cualificación de Śrī Śukadeva Gosvāmī como expositor del Bhāgavatam.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the qualification of Śrī Śukadeva Gosvāmī as the speaker of the Bhāgavatam.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la cualificación de Śrī Śukadeva Gosvāmī como expositor del Bhāgavatam.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the qualification of Śrī Śukadeva Gosvāmī as the speaker of the Bhāgavatam.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la cualificación de Śrī Śukadeva Gosvāmī como expositor del Bhāgavatam.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the qualification of Śrī Śukadeva Gosvāmī as the speaker of the Bhāgavatam.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -905,7 +905,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 25.1",
@@ -913,7 +913,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 3829
       },
-      "academicFocus": "la cualificación de Śrī Śukadeva Gosvāmī como expositor del Bhāgavatam"
+      "academicFocus": "the qualification of Śrī Śukadeva Gosvāmī as the speaker of the Bhāgavatam"
     },
     {
       "id": "TS.26",
@@ -921,18 +921,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la autosuficiencia de Śrīmad-Bhāgavatam como fuente de siddhānta.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the self-sufficiency of Śrīmad-Bhāgavatam as a source of siddhānta.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la autosuficiencia de Śrīmad-Bhāgavatam como fuente de siddhānta.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the self-sufficiency of Śrīmad-Bhāgavatam as a source of siddhānta.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la autosuficiencia de Śrīmad-Bhāgavatam como fuente de siddhānta.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the self-sufficiency of Śrīmad-Bhāgavatam as a source of siddhānta.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -941,7 +941,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 26.1",
@@ -949,7 +949,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 3926
       },
-      "academicFocus": "la autosuficiencia de Śrīmad-Bhāgavatam como fuente de siddhānta"
+      "academicFocus": "the self-sufficiency of Śrīmad-Bhāgavatam as a source of siddhānta"
     },
     {
       "id": "TS.27",
@@ -957,18 +957,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la metodología del Ṣaṭ-sandarbha y la relación entre texto fuente, explicación y conclusión.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the methodology of the Ṣaṭ-sandarbha and the relationship between source text, explanation, and conclusion.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la metodología del Ṣaṭ-sandarbha y la relación entre texto fuente, explicación y conclusión.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the methodology of the Ṣaṭ-sandarbha and the relationship between source text, explanation, and conclusion.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la metodología del Ṣaṭ-sandarbha y la relación entre texto fuente, explicación y conclusión.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the methodology of the Ṣaṭ-sandarbha and the relationship between source text, explanation, and conclusion.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -977,7 +977,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 27.1",
@@ -985,7 +985,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 4060
       },
-      "academicFocus": "la metodología del Ṣaṭ-sandarbha y la relación entre texto fuente, explicación y conclusión"
+      "academicFocus": "the methodology of the Ṣaṭ-sandarbha and the relationship between source text, explanation, and conclusion"
     },
     {
       "id": "TS.28",
@@ -993,18 +993,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer el uso de referencias de śruti, Purāṇas y autoridades previas para corroborar las conclusiones.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the use of references from śruti, the Purāṇas, and previous authorities to corroborate the conclusions.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre el uso de referencias de śruti, Purāṇas y autoridades previas para corroborar las conclusiones.",
-          "Identifica qué fuente de conocimiento o autoridad se acepta, limita, jerarquiza o emplea aquí, y señala el razonamiento textual que justifica esa decisión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the use of references from śruti, the Purāṇas, and previous authorities to corroborate the conclusions.",
+          "Identify what source of knowledge or authority is accepted, limited, ranked, or employed here, and identify the textual reasoning that justifies that decision.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de el uso de referencias de śruti, Purāṇas y autoridades previas para corroborar las conclusiones.",
-          "Explica cómo este anuccheda contribuye al argumento acumulativo por el cual Jīva Gosvāmī establece la autoridad que usará en el resto del Ṣaṭ-sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the use of references from śruti, the Purāṇas, and previous authorities to corroborate the conclusions.",
+          "Explain how this anuccheda contributes to the cumulative argument by which Jīva Gosvāmī establishes the authority he will use throughout the rest of the Ṣaṭ-sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1013,7 +1013,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 28.1",
@@ -1021,7 +1021,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 4201
       },
-      "academicFocus": "el uso de referencias de śruti, Purāṇas y autoridades previas para corroborar las conclusiones"
+      "academicFocus": "the use of references from śruti, the Purāṇas, and previous authorities to corroborate the conclusions"
     },
     {
       "id": "TS.29",
@@ -1029,18 +1029,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la disposición y fe de Śrī Śukadeva Gosvāmī hacia el Bhāgavatam.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish Śrī Śukadeva Gosvāmī's disposition and faith toward the Bhāgavatam.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la disposición y fe de Śrī Śukadeva Gosvāmī hacia el Bhāgavatam.",
-          "Identifica el pramāṇa, cita o razonamiento que Jīva Gosvāmī usa para sostener esa afirmación.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning Śrī Śukadeva Gosvāmī's disposition and faith toward the Bhāgavatam.",
+          "Identify the pramāṇa, quotation, or reasoning Jīva Gosvāmī uses to support that claim.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la disposición y fe de Śrī Śukadeva Gosvāmī hacia el Bhāgavatam.",
-          "Cita o identifica la evidencia concreta del texto que sostiene tu conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning Śrī Śukadeva Gosvāmī's disposition and faith toward the Bhāgavatam.",
+          "Cite or identify the specific evidence from the text that supports your conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1049,7 +1049,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 29.1",
@@ -1057,7 +1057,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 4295
       },
-      "academicFocus": "la disposición y fe de Śrī Śukadeva Gosvāmī hacia el Bhāgavatam"
+      "academicFocus": "Śrī Śukadeva Gosvāmī's disposition and faith toward the Bhāgavatam"
     },
     {
       "id": "TS.30",
@@ -1065,18 +1065,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la primera parte del análisis del samādhi de Vyāsadeva: el Señor, māyā y la jīva.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the first part of the analysis of Vyāsadeva's samādhi: the Lord, māyā, and the jīva.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la primera parte del análisis del samādhi de Vyāsadeva: el Señor, māyā y la jīva.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the first part of the analysis of Vyāsadeva's samādhi: the Lord, māyā, and the jīva.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la primera parte del análisis del samādhi de Vyāsadeva: el Señor, māyā y la jīva.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the first part of the analysis of Vyāsadeva's samādhi: the Lord, māyā, and the jīva.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1085,7 +1085,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 30.1",
@@ -1093,7 +1093,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 4439
       },
-      "academicFocus": "la primera parte del análisis del samādhi de Vyāsadeva: el Señor, māyā y la jīva"
+      "academicFocus": "the first part of the analysis of Vyāsadeva's samādhi: the Lord, māyā, and the jīva"
     },
     {
       "id": "TS.31",
@@ -1101,18 +1101,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la segunda parte del análisis del samādhi de Vyāsadeva y sus implicaciones ontológicas.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the second part of the analysis of Vyāsadeva's samādhi and its ontological implications.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la segunda parte del análisis del samādhi de Vyāsadeva y sus implicaciones ontológicas.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the second part of the analysis of Vyāsadeva's samādhi and its ontological implications.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la segunda parte del análisis del samādhi de Vyāsadeva y sus implicaciones ontológicas.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the second part of the analysis of Vyāsadeva's samādhi and its ontological implications.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1121,7 +1121,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 31.1",
@@ -1129,7 +1129,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 4718
       },
-      "academicFocus": "la segunda parte del análisis del samādhi de Vyāsadeva y sus implicaciones ontológicas"
+      "academicFocus": "the second part of the analysis of Vyāsadeva's samādhi and its ontological implications"
     },
     {
       "id": "TS.32",
@@ -1137,18 +1137,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la distinción ontológica entre la entidad viviente y el Señor.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the ontological distinction between the living entity and the Lord.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la distinción ontológica entre la entidad viviente y el Señor.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the ontological distinction between the living entity and the Lord.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la distinción ontológica entre la entidad viviente y el Señor.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the ontological distinction between the living entity and the Lord.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1157,7 +1157,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 32.1",
@@ -1165,7 +1165,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 4915
       },
-      "academicFocus": "la distinción ontológica entre la entidad viviente y el Señor"
+      "academicFocus": "the ontological distinction between the living entity and the Lord"
     },
     {
       "id": "TS.33",
@@ -1173,18 +1173,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la relación de māyā con el Señor y su posición subordinada.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish māyā's relationship with the Lord and its subordinate position.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la relación de māyā con el Señor y su posición subordinada.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning māyā's relationship with the Lord and its subordinate position.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la relación de māyā con el Señor y su posición subordinada.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning māyā's relationship with the Lord and its subordinate position.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1193,7 +1193,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 33.1",
@@ -1201,7 +1201,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 5081
       },
-      "academicFocus": "la relación de māyā con el Señor y su posición subordinada"
+      "academicFocus": "māyā's relationship with the Lord and its subordinate position"
     },
     {
       "id": "TS.34",
@@ -1209,18 +1209,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la naturaleza consciente de la jīva y su diferencia respecto del Señor.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the conscious nature of the jīva and its distinction from the Lord.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la naturaleza consciente de la jīva y su diferencia respecto del Señor.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the conscious nature of the jīva and its distinction from the Lord.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la naturaleza consciente de la jīva y su diferencia respecto del Señor.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the conscious nature of the jīva and its distinction from the Lord.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1229,7 +1229,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 34",
@@ -1237,7 +1237,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 5293
       },
-      "academicFocus": "la naturaleza consciente de la jīva y su diferencia respecto del Señor"
+      "academicFocus": "the conscious nature of the jīva and its distinction from the Lord"
     },
     {
       "id": "TS.35",
@@ -1245,18 +1245,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer por qué la jīva no puede identificarse con el Brahman Supremo.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish why the jīva cannot be identified with the Supreme Brahman.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre por qué la jīva no puede identificarse con el Brahman Supremo.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning why the jīva cannot be identified with the Supreme Brahman.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de por qué la jīva no puede identificarse con el Brahman Supremo.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning why the jīva cannot be identified with the Supreme Brahman.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1265,7 +1265,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 35",
@@ -1273,7 +1273,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 5374
       },
-      "academicFocus": "por qué la jīva no puede identificarse con el Brahman Supremo"
+      "academicFocus": "why the jīva cannot be identified with the Supreme Brahman"
     },
     {
       "id": "TS.36",
@@ -1281,18 +1281,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer por qué la jīva no puede explicarse simplemente como un upādhi.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish why the jīva cannot be explained simply as an upādhi.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre por qué la jīva no puede explicarse simplemente como un upādhi.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning why the jīva cannot be explained simply as an upādhi.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de por qué la jīva no puede explicarse simplemente como un upādhi.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning why the jīva cannot be explained simply as an upādhi.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1301,7 +1301,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 36",
@@ -1309,7 +1309,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 5505
       },
-      "academicFocus": "por qué la jīva no puede explicarse simplemente como un upādhi"
+      "academicFocus": "why the jīva cannot be explained simply as an upādhi"
     },
     {
       "id": "TS.37",
@@ -1317,18 +1317,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer los defectos de pratibimba-vāda y pariccheda-vāda.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the defects of pratibimba-vāda and pariccheda-vāda.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre los defectos de pratibimba-vāda y pariccheda-vāda.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the defects of pratibimba-vāda and pariccheda-vāda.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de los defectos de pratibimba-vāda y pariccheda-vāda.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the defects of pratibimba-vāda and pariccheda-vāda.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1337,7 +1337,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 37",
@@ -1345,7 +1345,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 5589
       },
-      "academicFocus": "los defectos de pratibimba-vāda y pariccheda-vāda"
+      "academicFocus": "the defects of pratibimba-vāda and pariccheda-vāda"
     },
     {
       "id": "TS.38",
@@ -1353,18 +1353,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la refutación de pratibimba-vāda y pariccheda-vāda mediante sus consecuencias lógicas.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the refutation of pratibimba-vāda and pariccheda-vāda through their logical consequences.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la refutación de pratibimba-vāda y pariccheda-vāda mediante sus consecuencias lógicas.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the refutation of pratibimba-vāda and pariccheda-vāda through their logical consequences.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la refutación de pratibimba-vāda y pariccheda-vāda mediante sus consecuencias lógicas.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the refutation of pratibimba-vāda and pariccheda-vāda through their logical consequences.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1373,7 +1373,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 38",
@@ -1381,7 +1381,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 5785
       },
-      "academicFocus": "la refutación de pratibimba-vāda y pariccheda-vāda mediante sus consecuencias lógicas"
+      "academicFocus": "the refutation of pratibimba-vāda and pariccheda-vāda through their logical consequences"
     },
     {
       "id": "TS.39",
@@ -1389,18 +1389,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer las refutaciones adicionales de pratibimba-vāda y pariccheda-vāda.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the additional refutations of pratibimba-vāda and pariccheda-vāda.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre las refutaciones adicionales de pratibimba-vāda y pariccheda-vāda.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the additional refutations of pratibimba-vāda and pariccheda-vāda.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de las refutaciones adicionales de pratibimba-vāda y pariccheda-vāda.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the additional refutations of pratibimba-vāda and pariccheda-vāda.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1409,7 +1409,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 39",
@@ -1417,7 +1417,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 5978
       },
-      "academicFocus": "las refutaciones adicionales de pratibimba-vāda y pariccheda-vāda"
+      "academicFocus": "the additional refutations of pratibimba-vāda and pariccheda-vāda"
     },
     {
       "id": "TS.40",
@@ -1425,18 +1425,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer las contradicciones que Jīva Gosvāmī identifica en el monismo advaita.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the contradictions Jīva Gosvāmī identifies in Advaita monism.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre las contradicciones que Jīva Gosvāmī identifica en el monismo advaita.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the contradictions Jīva Gosvāmī identifies in Advaita monism.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de las contradicciones que Jīva Gosvāmī identifica en el monismo advaita.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the contradictions Jīva Gosvāmī identifies in Advaita monism.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1445,7 +1445,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 40",
@@ -1453,7 +1453,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 6079
       },
-      "academicFocus": "las contradicciones que Jīva Gosvāmī identifica en el monismo advaita"
+      "academicFocus": "the contradictions Jīva Gosvāmī identifies in Advaita monism"
     },
     {
       "id": "TS.41",
@@ -1461,18 +1461,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer por qué la experiencia de Vyāsadeva en samādhi no sostiene una lectura advaita monista.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish why Vyāsadeva's experience in samādhi does not support a monistic Advaita reading.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre por qué la experiencia de Vyāsadeva en samādhi no sostiene una lectura advaita monista.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning why Vyāsadeva's experience in samādhi does not support a monistic Advaita reading.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de por qué la experiencia de Vyāsadeva en samādhi no sostiene una lectura advaita monista.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning why Vyāsadeva's experience in samādhi does not support a monistic Advaita reading.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1481,7 +1481,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 41",
@@ -1489,7 +1489,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 6264
       },
-      "academicFocus": "por qué la experiencia de Vyāsadeva en samādhi no sostiene una lectura advaita monista"
+      "academicFocus": "why Vyāsadeva's experience in samādhi does not support a monistic Advaita reading"
     },
     {
       "id": "TS.42",
@@ -1497,18 +1497,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer cómo deben entenderse las declaraciones védicas de apariencia monista.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish how apparently monistic Vedic statements should be understood.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre cómo deben entenderse las declaraciones védicas de apariencia monista.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning how apparently monistic Vedic statements should be understood.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de cómo deben entenderse las declaraciones védicas de apariencia monista.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning how apparently monistic Vedic statements should be understood.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1517,7 +1517,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 42",
@@ -1525,7 +1525,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 6336
       },
-      "academicFocus": "cómo deben entenderse las declaraciones védicas de apariencia monista"
+      "academicFocus": "how apparently monistic Vedic statements should be understood"
     },
     {
       "id": "TS.43",
@@ -1533,18 +1533,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la necesidad de interpretar las declaraciones monistas sin borrar la distinción entre jīva y Señor.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the need to interpret monistic statements without erasing the distinction between the jīva and the Lord.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la necesidad de interpretar las declaraciones monistas sin borrar la distinción entre jīva y Señor.",
-          "Reconstruye el argumento: identifica la tesis, la posición que se rechaza o limita y la evidencia o inferencia empleada para establecer la distinción ontológica.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the need to interpret monistic statements without erasing the distinction between the jīva and the Lord.",
+          "Reconstruct the argument: identify the thesis, the position being rejected or limited, and the evidence or inference used to establish the ontological distinction.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la necesidad de interpretar las declaraciones monistas sin borrar la distinción entre jīva y Señor.",
-          "Explica qué consecuencia tendría aceptar la posición examinada y por qué Jīva Gosvāmī considera que la fuente no permite esa conclusión.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the need to interpret monistic statements without erasing the distinction between the jīva and the Lord.",
+          "Explain what consequence would follow from accepting the position under examination and why Jīva Gosvāmī considers that the source does not permit that conclusion.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1553,7 +1553,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 43",
@@ -1561,7 +1561,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 6464
       },
-      "academicFocus": "la necesidad de interpretar las declaraciones monistas sin borrar la distinción entre jīva y Señor"
+      "academicFocus": "the need to interpret monistic statements without erasing the distinction between the jīva and the Lord"
     },
     {
       "id": "TS.44",
@@ -1569,18 +1569,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer bhakti como abhidheya a partir de la distinción entre el Señor, la jīva y māyā.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish bhakti as abhidheya based on the distinction between the Lord, the jīva, and māyā.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre bhakti como abhidheya a partir de la distinción entre el Señor, la jīva y māyā.",
-          "Identifica cómo el anuccheda conecta la ontología ya establecida con abhidheya o prayojana, y qué pasaje sostiene esa conexión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning bhakti as abhidheya based on the distinction between the Lord, the jīva, and māyā.",
+          "Identify how the anuccheda connects the already established ontology with abhidheya or prayojana, and what passage supports that connection.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de bhakti como abhidheya a partir de la distinción entre el Señor, la jīva y māyā.",
-          "Explica la transición lógica desde sambandha hacia práctica devocional o prema que este anuccheda establece.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning bhakti as abhidheya based on the distinction between the Lord, the jīva, and māyā.",
+          "Explain the logical transition from sambandha toward devotional practice or prema that this anuccheda establishes.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1589,7 +1589,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 44",
@@ -1597,7 +1597,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 6593
       },
-      "academicFocus": "bhakti como abhidheya a partir de la distinción entre el Señor, la jīva y māyā"
+      "academicFocus": "bhakti as abhidheya based on the distinction between the Lord, the jīva, and māyā"
     },
     {
       "id": "TS.45",
@@ -1605,18 +1605,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer prema, amor por Dios, como prayojana o meta de la vida.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish prema, love of God, as prayojana or the goal of life.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre prema, amor por Dios, como prayojana o meta de la vida.",
-          "Identifica cómo el anuccheda conecta la ontología ya establecida con abhidheya o prayojana, y qué pasaje sostiene esa conexión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning prema, love of God, as prayojana or the goal of life.",
+          "Identify how the anuccheda connects the already established ontology with abhidheya or prayojana, and what passage supports that connection.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de prema, amor por Dios, como prayojana o meta de la vida.",
-          "Explica la transición lógica desde sambandha hacia práctica devocional o prema que este anuccheda establece.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning prema, love of God, as prayojana or the goal of life.",
+          "Explain the logical transition from sambandha toward devotional practice or prema that this anuccheda establishes.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1625,7 +1625,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 45",
@@ -1633,7 +1633,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 6663
       },
-      "academicFocus": "prema, amor por Dios, como prayojana o meta de la vida"
+      "academicFocus": "prema, love of God, as prayojana or the goal of life"
     },
     {
       "id": "TS.46",
@@ -1641,18 +1641,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la definición de abhidheya y la función de sādhana-bhakti.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the definition of abhidheya and the function of sādhana-bhakti.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la definición de abhidheya y la función de sādhana-bhakti.",
-          "Identifica cómo el anuccheda conecta la ontología ya establecida con abhidheya o prayojana, y qué pasaje sostiene esa conexión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the definition of abhidheya and the function of sādhana-bhakti.",
+          "Identify how the anuccheda connects the already established ontology with abhidheya or prayojana, and what passage supports that connection.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la definición de abhidheya y la función de sādhana-bhakti.",
-          "Explica la transición lógica desde sambandha hacia práctica devocional o prema que este anuccheda establece.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the definition of abhidheya and the function of sādhana-bhakti.",
+          "Explain the logical transition from sambandha toward devotional practice or prema that this anuccheda establishes.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1661,7 +1661,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 46.1",
@@ -1669,7 +1669,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 6812
       },
-      "academicFocus": "la definición de abhidheya y la función de sādhana-bhakti"
+      "academicFocus": "the definition of abhidheya and the function of sādhana-bhakti"
     },
     {
       "id": "TS.47",
@@ -1677,18 +1677,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer cómo el servicio devocional elimina los anarthas y miserias materiales.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish how devotional service removes anarthas and material miseries.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre cómo el servicio devocional elimina los anarthas y miserias materiales.",
-          "Identifica cómo el anuccheda conecta la ontología ya establecida con abhidheya o prayojana, y qué pasaje sostiene esa conexión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning how devotional service removes anarthas and material miseries.",
+          "Identify how the anuccheda connects the already established ontology with abhidheya or prayojana, and what passage supports that connection.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de cómo el servicio devocional elimina los anarthas y miserias materiales.",
-          "Explica la transición lógica desde sambandha hacia práctica devocional o prema que este anuccheda establece.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning how devotional service removes anarthas and material miseries.",
+          "Explain the logical transition from sambandha toward devotional practice or prema that this anuccheda establishes.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1697,7 +1697,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 47.1",
@@ -1705,7 +1705,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 6945
       },
-      "academicFocus": "cómo el servicio devocional elimina los anarthas y miserias materiales"
+      "academicFocus": "how devotional service removes anarthas and material miseries"
     },
     {
       "id": "TS.48",
@@ -1713,18 +1713,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la superioridad de prema sobre la experiencia de brahmānanda.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the superiority of prema over the experience of brahmānanda.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la superioridad de prema sobre la experiencia de brahmānanda.",
-          "Identifica cómo el anuccheda conecta la ontología ya establecida con abhidheya o prayojana, y qué pasaje sostiene esa conexión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the superiority of prema over the experience of brahmānanda.",
+          "Identify how the anuccheda connects the already established ontology with abhidheya or prayojana, and what passage supports that connection.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la superioridad de prema sobre la experiencia de brahmānanda.",
-          "Explica la transición lógica desde sambandha hacia práctica devocional o prema que este anuccheda establece.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the superiority of prema over the experience of brahmānanda.",
+          "Explain the logical transition from sambandha toward devotional practice or prema that this anuccheda establishes.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1733,7 +1733,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 48",
@@ -1741,7 +1741,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 7111
       },
-      "academicFocus": "la superioridad de prema sobre la experiencia de brahmānanda"
+      "academicFocus": "the superiority of prema over the experience of brahmānanda"
     },
     {
       "id": "TS.49",
@@ -1749,18 +1749,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer el poder del Bhāgavatam para atraer incluso a los ātmārāmas.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the power of the Bhāgavatam to attract even the ātmārāmas.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre el poder del Bhāgavatam para atraer incluso a los ātmārāmas.",
-          "Identifica cómo el anuccheda conecta la ontología ya establecida con abhidheya o prayojana, y qué pasaje sostiene esa conexión.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the power of the Bhāgavatam to attract even the ātmārāmas.",
+          "Identify how the anuccheda connects the already established ontology with abhidheya or prayojana, and what passage supports that connection.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de el poder del Bhāgavatam para atraer incluso a los ātmārāmas.",
-          "Explica la transición lógica desde sambandha hacia práctica devocional o prema que este anuccheda establece.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the power of the Bhāgavatam to attract even the ātmārāmas.",
+          "Explain the logical transition from sambandha toward devotional practice or prema that this anuccheda establishes.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1769,7 +1769,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 49.1",
@@ -1777,7 +1777,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 7246
       },
-      "academicFocus": "el poder del Bhāgavatam para atraer incluso a los ātmārāmas"
+      "academicFocus": "the power of the Bhāgavatam to attract even the ātmārāmas"
     },
     {
       "id": "TS.50",
@@ -1785,18 +1785,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer el vastu o realidad que constituye el tema del Ṣaṭ-sandarbha.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the vastu or reality that constitutes the subject of the Ṣaṭ-sandarbha.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre el vastu o realidad que constituye el tema del Ṣaṭ-sandarbha.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the vastu or reality that constitutes the subject of the Ṣaṭ-sandarbha.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de el vastu o realidad que constituye el tema del Ṣaṭ-sandarbha.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the vastu or reality that constitutes the subject of the Ṣaṭ-sandarbha.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1805,7 +1805,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 50",
@@ -1813,7 +1813,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 7510
       },
-      "academicFocus": "el vastu o realidad que constituye el tema del Ṣaṭ-sandarbha"
+      "academicFocus": "the vastu or reality that constitutes the subject of the Ṣaṭ-sandarbha"
     },
     {
       "id": "TS.51",
@@ -1821,18 +1821,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la Realidad Absoluta como jñānam advayam, conciencia no dual.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the Absolute Reality as jñānam advayam, nondual consciousness.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la Realidad Absoluta como jñānam advayam, conciencia no dual.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the Absolute Reality as jñānam advayam, nondual consciousness.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la Realidad Absoluta como jñānam advayam, conciencia no dual.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the Absolute Reality as jñānam advayam, nondual consciousness.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1841,7 +1841,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 51",
@@ -1849,7 +1849,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 7580
       },
-      "academicFocus": "la Realidad Absoluta como jñānam advayam, conciencia no dual"
+      "academicFocus": "the Absolute Reality as jñānam advayam, nondual consciousness"
     },
     {
       "id": "TS.52",
@@ -1857,18 +1857,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer el sentido de las afirmaciones monistas dentro de la exposición de la realidad no dual.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the meaning of monistic statements within the exposition of nondual reality.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre el sentido de las afirmaciones monistas dentro de la exposición de la realidad no dual.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the meaning of monistic statements within the exposition of nondual reality.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de el sentido de las afirmaciones monistas dentro de la exposición de la realidad no dual.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the meaning of monistic statements within the exposition of nondual reality.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1877,7 +1877,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 52.1",
@@ -1885,7 +1885,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 7740
       },
-      "academicFocus": "el sentido de las afirmaciones monistas dentro de la exposición de la realidad no dual"
+      "academicFocus": "the meaning of monistic statements within the exposition of nondual reality"
     },
     {
       "id": "TS.53",
@@ -1893,18 +1893,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer las características de la jīva como entidad consciente y perdurable.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the characteristics of the jīva as a conscious and enduring entity.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre las características de la jīva como entidad consciente y perdurable.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the characteristics of the jīva as a conscious and enduring entity.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de las características de la jīva como entidad consciente y perdurable.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the characteristics of the jīva as a conscious and enduring entity.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1913,7 +1913,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 53.1",
@@ -1921,7 +1921,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 8068
       },
-      "academicFocus": "las características de la jīva como entidad consciente y perdurable"
+      "academicFocus": "the characteristics of the jīva as a conscious and enduring entity"
     },
     {
       "id": "TS.54",
@@ -1929,18 +1929,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la distinción entre el alma y el cuerpo mediante la continuidad del testigo consciente.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the distinction between the soul and the body through the continuity of the conscious witness.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la distinción entre el alma y el cuerpo mediante la continuidad del testigo consciente.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the distinction between the soul and the body through the continuity of the conscious witness.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la distinción entre el alma y el cuerpo mediante la continuidad del testigo consciente.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the distinction between the soul and the body through the continuity of the conscious witness.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1949,7 +1949,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 54.1",
@@ -1957,7 +1957,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 8250
       },
-      "academicFocus": "la distinción entre el alma y el cuerpo mediante la continuidad del testigo consciente"
+      "academicFocus": "the distinction between the soul and the body through the continuity of the conscious witness"
     },
     {
       "id": "TS.55",
@@ -1965,18 +1965,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la síntesis de las enseñanzas de Śrī Pippalāyana y sus formas de razonamiento.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the synthesis of Śrī Pippalāyana's teachings and their forms of reasoning.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la síntesis de las enseñanzas de Śrī Pippalāyana y sus formas de razonamiento.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the synthesis of Śrī Pippalāyana's teachings and their forms of reasoning.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la síntesis de las enseñanzas de Śrī Pippalāyana y sus formas de razonamiento.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the synthesis of Śrī Pippalāyana's teachings and their forms of reasoning.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -1985,7 +1985,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 55",
@@ -1993,7 +1993,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 8483
       },
-      "academicFocus": "la síntesis de las enseñanzas de Śrī Pippalāyana y sus formas de razonamiento"
+      "academicFocus": "the synthesis of Śrī Pippalāyana's teachings and their forms of reasoning"
     },
     {
       "id": "TS.56",
@@ -2001,18 +2001,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la función de los diez temas del Śrīmad-Bhāgavatam y su orientación hacia āśraya.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the function of the ten topics of Śrīmad-Bhāgavatam and their orientation toward āśraya.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la función de los diez temas del Śrīmad-Bhāgavatam y su orientación hacia āśraya.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the function of the ten topics of Śrīmad-Bhāgavatam and their orientation toward āśraya.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la función de los diez temas del Śrīmad-Bhāgavatam y su orientación hacia āśraya.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the function of the ten topics of Śrīmad-Bhāgavatam and their orientation toward āśraya.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -2021,7 +2021,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 56.1",
@@ -2029,7 +2029,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 8558
       },
-      "academicFocus": "la función de los diez temas del Śrīmad-Bhāgavatam y su orientación hacia āśraya"
+      "academicFocus": "the function of the ten topics of Śrīmad-Bhāgavatam and their orientation toward āśraya"
     },
     {
       "id": "TS.57",
@@ -2037,18 +2037,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la definición de los primeros nueve temas del Śrīmad-Bhāgavatam.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the definition of the first nine topics of Śrīmad-Bhāgavatam.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la definición de los primeros nueve temas del Śrīmad-Bhāgavatam.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the definition of the first nine topics of Śrīmad-Bhāgavatam.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la definición de los primeros nueve temas del Śrīmad-Bhāgavatam.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the definition of the first nine topics of Śrīmad-Bhāgavatam.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -2057,7 +2057,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 57.1",
@@ -2065,7 +2065,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 8745
       },
-      "academicFocus": "la definición de los primeros nueve temas del Śrīmad-Bhāgavatam"
+      "academicFocus": "the definition of the first nine topics of Śrīmad-Bhāgavatam"
     },
     {
       "id": "TS.58",
@@ -2073,18 +2073,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la definición del décimo tema, āśraya, como Brahman/Paramātmā.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the definition of the tenth topic, āśraya, as Brahman/Paramātmā.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la definición del décimo tema, āśraya, como Brahman/Paramātmā.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the definition of the tenth topic, āśraya, as Brahman/Paramātmā.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la definición del décimo tema, āśraya, como Brahman/Paramātmā.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the definition of the tenth topic, āśraya, as Brahman/Paramātmā.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -2093,7 +2093,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 58",
@@ -2101,7 +2101,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 8933
       },
-      "academicFocus": "la definición del décimo tema, āśraya, como Brahman/Paramātmā"
+      "academicFocus": "the definition of the tenth topic, āśraya, as Brahman/Paramātmā"
     },
     {
       "id": "TS.59",
@@ -2109,18 +2109,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer el Señor como āśraya o refugio último de las categorías dependientes.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the Lord as āśraya or the ultimate shelter of the dependent categories.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre el Señor como āśraya o refugio último de las categorías dependientes.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the Lord as āśraya or the ultimate shelter of the dependent categories.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de el Señor como āśraya o refugio último de las categorías dependientes.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the Lord as āśraya or the ultimate shelter of the dependent categories.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -2129,7 +2129,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 59.1",
@@ -2137,7 +2137,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 9002
       },
-      "academicFocus": "el Señor como āśraya o refugio último de las categorías dependientes"
+      "academicFocus": "the Lord as āśraya or the ultimate shelter of the dependent categories"
     },
     {
       "id": "TS.60",
@@ -2145,18 +2145,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer por qué la jīva no puede ser el āśraya último.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish why the jīva cannot be the ultimate āśraya.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre por qué la jīva no puede ser el āśraya último.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning why the jīva cannot be the ultimate āśraya.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de por qué la jīva no puede ser el āśraya último.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning why the jīva cannot be the ultimate āśraya.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -2165,7 +2165,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 60.1",
@@ -2173,7 +2173,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 9107
       },
-      "academicFocus": "por qué la jīva no puede ser el āśraya último"
+      "academicFocus": "why the jīva cannot be the ultimate āśraya"
     },
     {
       "id": "TS.61",
@@ -2181,18 +2181,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la enumeración de los diez temas del Bhāgavatam por Śrī Sūta Gosvāmī.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the enumeration of the ten topics of the Bhāgavatam by Śrī Sūta Gosvāmī.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la enumeración de los diez temas del Bhāgavatam por Śrī Sūta Gosvāmī.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the enumeration of the ten topics of the Bhāgavatam by Śrī Sūta Gosvāmī.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la enumeración de los diez temas del Bhāgavatam por Śrī Sūta Gosvāmī.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the enumeration of the ten topics of the Bhāgavatam by Śrī Sūta Gosvāmī.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -2201,7 +2201,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 61.1",
@@ -2209,7 +2209,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 9233
       },
-      "academicFocus": "la enumeración de los diez temas del Bhāgavatam por Śrī Sūta Gosvāmī"
+      "academicFocus": "the enumeration of the ten topics of the Bhāgavatam by Śrī Sūta Gosvāmī"
     },
     {
       "id": "TS.62",
@@ -2217,18 +2217,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer las definiciones de los temas del Bhāgavatam dadas por Śrī Sūta Gosvāmī.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the definitions of the topics of the Bhāgavatam given by Śrī Sūta Gosvāmī.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre las definiciones de los temas del Bhāgavatam dadas por Śrī Sūta Gosvāmī.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the definitions of the topics of the Bhāgavatam given by Śrī Sūta Gosvāmī.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de las definiciones de los temas del Bhāgavatam dadas por Śrī Sūta Gosvāmī.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the definitions of the topics of the Bhāgavatam given by Śrī Sūta Gosvāmī.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -2237,7 +2237,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 62.1",
@@ -2245,7 +2245,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 9455
       },
-      "academicFocus": "las definiciones de los temas del Bhāgavatam dadas por Śrī Sūta Gosvāmī"
+      "academicFocus": "the definitions of the topics of the Bhāgavatam given by Śrī Sūta Gosvāmī"
     },
     {
       "id": "TS.63",
@@ -2253,18 +2253,18 @@
       "sourceHeadingVerified": true,
       "studyMethod": {
         "beforeReading": [
-          "Antes de leer, formula qué tendría que demostrar Jīva Gosvāmī para establecer la conclusión de Tattva Sandarbha y la integración de samsthā, mukti y āśraya.",
-          "Anota tu comprensión inicial y qué evidencia esperarías encontrar en la fuente."
+          "Before reading, formulate what Jīva Gosvāmī would need to demonstrate in order to establish the conclusion of Tattva Sandarbha and the integration of saṁsthā, mukti, and āśraya.",
+          "Record your initial understanding and what evidence you would expect to find in the source."
         ],
         "sourceStudy": [
-          "Lee el anuccheda completo y localiza la afirmación principal sobre la conclusión de Tattva Sandarbha y la integración de samsthā, mukti y āśraya.",
-          "Identifica la definición técnica central del anuccheda y las palabras de la fuente que delimitan su significado.",
-          "Separa cuidadosamente la voz de Jīva Gosvāmī de las citas escriturales, objeciones y comentarios editoriales."
+          "Read the complete anuccheda and identify the principal claim concerning the conclusion of Tattva Sandarbha and the integration of saṁsthā, mukti, and āśraya.",
+          "Identify the central technical definition of the anuccheda and the words in the source that delimit its meaning.",
+          "Carefully distinguish Jīva Gosvāmī's voice from scriptural quotations, objections, and editorial comments."
         ],
         "afterReading": [
-          "Explica con tus propias palabras qué establece este anuccheda acerca de la conclusión de Tattva Sandarbha y la integración de samsthā, mukti y āśraya.",
-          "Explica cómo esta definición contribuye a identificar el vastu/āśraya que organiza la conclusión de Tattva Sandarbha.",
-          "Compara tu conclusión con tu comprensión inicial: ¿qué tuviste que precisar, corregir o distinguir?"
+          "Explain in your own words what this anuccheda establishes concerning the conclusion of Tattva Sandarbha and the integration of saṁsthā, mukti, and āśraya.",
+          "Explain how this definition contributes to identifying the vastu/āśraya that structures the conclusion of Tattva Sandarbha.",
+          "Compare your conclusion with your initial understanding: what did you have to refine, correct, or distinguish?"
         ],
         "advancedLens": [
           "Viṣaya",
@@ -2273,7 +2273,7 @@
           "Siddhānta",
           "Pramāṇa",
           "Samanvaya",
-          "Aplicación"
+          "Application"
         ]
       },
       "sourceLabel": "TEXT 63.1",
@@ -2281,7 +2281,7 @@
         "sourceId": "tattva-source-edition",
         "startLine": 9741
       },
-      "academicFocus": "la conclusión de Tattva Sandarbha y la integración de samsthā, mukti y āśraya"
+      "academicFocus": "the conclusion of Tattva Sandarbha and the integration of saṁsthā, mukti, and āśraya"
     }
   ]
 }
