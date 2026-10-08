@@ -29,6 +29,7 @@ function sidebar(a='home',rootOverride=null){
    ['My Study',[
      ['study','Study',R+'study/index.html'],
      ['portfolio','My Work',R+'student/portfolio.html'],
+     ['journal','Study Journal',R+'student/journal.html'],
      ['question-bank','Question Bank',R+'question-bank/index.html'],
      ['progress','My Progress',R+'student/progress.html'],
      ['certificates','Certificates',R+'certificates/index.html']
