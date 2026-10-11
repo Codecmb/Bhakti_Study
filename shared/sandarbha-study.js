@@ -71,6 +71,8 @@
 @media(max-width:1200px){.sandarbha-reader-shell{grid-template-columns:220px minmax(0,1fr)}.sandarbha-study-panel{display:none;position:fixed;z-index:10002;inset:auto 0 0 0;top:12vh;max-height:88vh;overflow:auto;border-radius:18px 18px 0 0;margin:0}.sandarbha-study-panel.open{display:block}.sandarbha-study-fab{display:block;position:fixed;z-index:10001;right:1rem;bottom:1rem;box-shadow:0 4px 18px rgba(0,0,0,.2)}.study-close{display:block;float:right;border:0;background:transparent;font-size:2rem;line-height:1;cursor:pointer}.sandarbha-reader-shell.nav-collapsed{grid-template-columns:52px minmax(0,1fr)}}
 @media(max-width:850px){.sandarbha-reader-shell,.sandarbha-reader-shell.nav-collapsed{grid-template-columns:1fr}.sandarbha-nav-panel{position:static}.sandarbha-reader-shell.nav-collapsed>.sandarbha-nav-panel{display:none}}
 `;document.head.appendChild(style)}
+    await loadScript(ROOT+'shared/journal-sandarbha-link.js',
+      ()=>!!window.AcademyJournalReader);
     const sourceByNum=new Map(source.records.map(r=>[r.number,r]));
     const units=course.units||[];
     let selected=Math.max(1,Math.min(source.unitCount,+new URLSearchParams(location.search).get('n')||1));
@@ -136,6 +138,16 @@ ${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div
 <h3>Study Questions</h3>
 <div id="sandarbhaQuestions"><p class="muted">Loading question bank…</p></div><div id="sandarbhaMyQuestions" style="margin-top:1rem"></div><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;flex-wrap:wrap"><button class="button" id="saveStudy" type="button">Save</button><span id="saveStatus" class="muted" role="status" aria-live="polite">${Object.keys(draft).length?'Unsaved draft':'Saved'}</span></div><label style="display:block;margin-top:1rem"><input type="checkbox" id="completed" ${done?'checked':''}> Study unit completed</label></aside>
 </div><button class="button sandarbha-study-fab" id="studyOpen" aria-controls="studyPanel">Study</button>`
+      if(window.AcademyJournalReader){
+        AcademyJournalReader.update({
+          program:'Ṣaṭ Sandarbhas',
+          unit:id,
+          book:work,
+          bookTitle:course.displayTitle||course.title,
+          section:'Anuccheda '+selected,
+          ref:id
+        });
+      }
       const highlightSource=document.getElementById('sandarbhaSourceText');
       if(highlightSource&&window.AcademyHighlighter)AcademyHighlighter.attach(highlightSource,id);
       renderMyQuestions(id,u.id);
