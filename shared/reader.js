@@ -67,6 +67,16 @@ function renderStudyContext(canonical){
 
 async function openVerse(i){verseIndex=i;let s=book.sections[sectionIndex],v=s.verses[i];[...el.verses.children].forEach((b,j)=>b.classList.toggle('active',j===i));let prev=neighbor(-1),next=neighbor(1),canonical=canonicalOf(v);
  renderStudyContext(canonical);
+ if(window.AcademyLibraryJournal){
+  AcademyLibraryJournal.update({
+    program:programId||'Books & Library',
+    unit:unitId||'library',
+    book:bookId,
+    bookTitle:book.title||meta.title||bookId,
+    section:s.title||'',
+    ref:canonical
+  });
+ }
  if(window.StudyContext)StudyContext.write({program:programId,unit:unitId,canonical,book:bookId});
  el.passage.innerHTML=`<div class="study-nav">${returnToQuestion()}<span>${prev?'<button id="prevVerse" class="button secondary">← Previous Verse</button>':'<button class="button secondary" disabled>← Previous Verse</button>'}</span>${programId&&unitId?`<a class="button secondary" href="../programs/${encodeURIComponent(programId)}/index.html#${encodeURIComponent(unitId)}">Back to Study Unit</a>`:''}<a class="button secondary" href="../programs/${encodeURIComponent(programId||'bhakti-sastri')}/index.html">↑ Program</a><a class="button secondary" href="../index.html">Academy Home</a>${SourceResolver.external(canonical)?`<a class="button secondary" href="${SourceResolver.external(canonical)}" target="_blank" rel="noopener">Vedabase ↗</a>`:''}${/^BG\.\d+\.\d+$/.test(canonical)?`<a class="button secondary" href="https://vanipedia.org/wiki/ES/${canonical.replaceAll('.', '_')}" target="_blank" rel="noopener">Vanipedia ↗</a>`:''}<span>${next?'<button id="nextVerse" class="button secondary">Next Verse →</button>':'<button class="button secondary" disabled>Next Verse →</button>'}</span></div><div class="eyebrow">Internal Academy Source</div><h2>${esc(canonical)}</h2>${v.source_text?`<h3>Source Text</h3><div class="scripture source-linkable">${esc(v.source_text)}</div>`:''}${v.devanagari?`<h3>Text</h3><div class="scripture">${esc(v.devanagari)}</div>`:''}${v.transliteration?`<h3>Transliteration</h3><div class="scripture">${esc(v.transliteration)}</div>`:''}${v.synonyms?`<h3>Word-for-word</h3><div class="purport source-linkable">${esc(v.synonyms).replace(/\n/g,' ')}</div>`:''}${v.translation?`<h3>Translation</h3><div class="purport source-linkable">${esc(v.translation)}</div>`:''}${v.purport?`<h3>${/Bhaktivedanta Swami Prabhup/i.test(book.creator||'')?"Śrīla Prabhupāda's Purport":'Purport'}</h3><div class="purport source-linkable">${esc(v.purport).replace(/\n/g,' ')}</div>`:''}${v.content?`<div class="purport source-linkable">${esc(v.content)}</div>`:''}`;
  document.querySelector('#prevVerse')?.addEventListener('click',()=>jump(prev));document.querySelector('#nextVerse')?.addEventListener('click',()=>jump(next));
