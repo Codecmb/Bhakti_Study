@@ -68,3 +68,20 @@
     grid-template-columns:1fr;
   }
 }
+
+/* Bhakti Study: justified reader text */
+#passage .purport,
+#passage .scripture {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.8;
+    overflow-wrap: break-word;
+}
+
+/* Bhakti Study: justified Sandarbha source text */
+#sandarbhaSourceText {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.8;
+    overflow-wrap: break-word;
+}
