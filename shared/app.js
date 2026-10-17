@@ -95,6 +95,7 @@ function sidebar(a='home',rootOverride=null){
    ]],
    ['Resources',[
      ['library','Books & Library',R+'library/index.html'],
+      ['download-library','Download Complete Library',R+'index.html#offline-library'],
      ['references','References & Further Study',R+'references/index.html'],
      ['slokas','Śloka Lab',R+'slokas/index.html']
    ]],
