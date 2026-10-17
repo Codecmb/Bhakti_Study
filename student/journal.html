@@ -26,6 +26,28 @@ body{margin:0}
 .journal-entry-ref{display:block;font-size:.82rem;opacity:.7;margin-top:3px}
 #saveStatus{margin-left:auto;align-self:center}
 @media(max-width:850px){.journal-layout{grid-template-columns:1fr}}
+
+/* Classroom-only layout */
+body.aula-mode .journal-page {
+  max-width: none;
+  margin: 0;
+  padding: 16px;
+}
+body.aula-mode .journal-page > .eyebrow,
+body.aula-mode .journal-page > h1,
+body.aula-mode .journal-page > .lead {
+  display: none;
+}
+body.aula-mode .journal-layout {
+  display: block;
+}
+body.aula-mode .journal-layout > aside {
+  display: none;
+}
+body.aula-mode .journal-field textarea {
+  min-height: 300px;
+}
+
 </style>
 </head>
 <body>
@@ -98,6 +120,9 @@ body{margin:0}
 <script>
 const $=id=>document.getElementById(id);
 const params=new URLSearchParams(location.search);
+if(params.get('aula')==='1'){
+  document.body.classList.add('aula-mode');
+}
 
 function contextFromUrl(){
   return {
@@ -116,6 +141,22 @@ function freshEntry(){
 
 let current=null;
 
+function shortReference(ref){
+  if (!ref || !ref.startsWith('vihe:')) return ref;
+
+  try {
+    const url = new URL(ref.slice(5));
+    const filename = decodeURIComponent(
+      url.pathname
+    ).split('/').pop();
+    return 'VIHE · ' + filename
+      .replace(/\.mp3$/i, '')
+      .replace(/\+/g, ' ');
+  } catch {
+    return 'VIHE Audio Class';
+  }
+}
+
 function contextLine(label,value){
   return value
     ? `<div><strong>${StudyJournal.esc(label)}:</strong> ${StudyJournal.esc(value)}</div>`
@@ -124,12 +165,23 @@ function contextLine(label,value){
 
 function renderContext(){
   const e=current||freshEntry();
+  const ctx=params.get('aula')==='1'
+    ? {...e,...contextFromUrl()}
+    : e;
+
+  const programNames={
+    bs:'Bhakti Shastri',
+    bv:'Bhakti Vaibhava',
+    bved:'Bhakti Vedanta',
+    bsarv:'Bhakti Sarvabhauma',
+    sandarbhas:'Sat Sandarbhas'
+  };
 
   $('journalContext').innerHTML=
-    contextLine('Study Area',e.program)+
-    contextLine('Book',e.bookTitle||e.book)+
-    contextLine('Section',e.section)+
-    contextLine('Reference',e.canonical) ||
+    contextLine('Study Area',programNames[ctx.program]||ctx.program)+
+    contextLine('Book',ctx.bookTitle||ctx.book)+
+    contextLine('Class',ctx.section)+
+    contextLine('Reference',shortReference(ctx.canonical)) ||
     '<div>General journal entry</div>';
 }
 

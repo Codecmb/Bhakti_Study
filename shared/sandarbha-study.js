@@ -111,6 +111,8 @@
     function render(){
       const r=sourceFor(selected),u=unitFor(selected),id=u.id||`${prefixes[work]}.${selected}`;migrateLegacy(id);
       const verified=!!r?.sourceHeadingVerified&&!!r?.content;
+      const sourceEditKey=`bhakti-study:sandarbha-source-edit:v1:${work}:${id}`;
+      const sourceEdit=verified?localStorage.getItem(sourceEditKey):null;
       const draftKey=`bhakti-study:sandarbha-draft:${id}`;
       let draft={};try{draft=JSON.parse(sessionStorage.getItem(draftKey)||'{}')}catch{}
       const before=draft.understanding??storeGet('understanding',id,''),after=draft.reflection??storeGet('reflection',id,''),notes=draft.notes??storeGet('notes',`sat-sandarbhas.${id}`,''),done=storeGet('completion',`sat-sandarbhas.${id}`,'')==='1';
@@ -131,7 +133,7 @@
 ${verified?'<span class="source-state verified">English source segment verified</span>':'<p class="notice"><b>Canonical identity preserved.</b> This edition does not expose an independently verified heading boundary for this unit, so Bhakti Study does not invent a source segment.</p>'}
 ${lens.length?`<div class="lens">${lens.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}
 </section>
-${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div><h2>Source text</h2><p class="muted">${esc(source.sourceFile)} · English study source · ${esc(id)}</p><div id="sandarbhaSourceText" style="line-height:1.65">${esc(r.content).replace(/\n/g,' ')}</div></section>`:''}
+${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div><h2>Source text</h2>${r?.sharedSource?`<p class="notice"><b>Shared source passage:</b> ${esc(r.sourceLabel)}. This passage covers multiple canonical Anucchedas and is not attributed exclusively to ${esc(id)}.</p>`:""}<p class="muted">${esc(source.sourceFile)} · English study source · ${esc(id)}</p><div id="sandarbhaSourceText" style="line-height:1.65;white-space:pre-wrap;overflow-wrap:anywhere">${esc(sourceEdit===null?r.content:sourceEdit)}</div><div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem"><button class="button secondary" type="button" id="editSandarbhaSource">Edit Source</button>${sourceEdit!==null?'<span class="muted">Personal edited version</span>':''}</div><div id="sandarbhaEditor" hidden style="margin-top:1rem"><p class="muted">Edit your personal copy. The original scholarly source remains unchanged.</p><textarea id="sandarbhaEditorText" rows="22" style="width:100%;box-sizing:border-box;line-height:1.65;font-family:inherit"></textarea><div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.75rem"><button class="button" type="button" id="saveSandarbhaEdit">Save Edits</button><button class="button secondary" type="button" id="exportSandarbhaEdit">Export TXT</button><button class="button secondary" type="button" id="restoreSandarbhaOriginal">Restore Original</button><button class="button secondary" type="button" id="cancelSandarbhaEdit">Cancel</button></div><p id="sandarbhaEditStatus" role="status"></p></div></section>`:''}
 <section class="card"><div class="eyebrow">Provenance</div><p><b>Author:</b> Śrī Jīva Gosvāmī</p><p><b>Study source:</b> ${esc(source.sourceFile)}</p><p><b>Canonical identity:</b> ${esc(id)}</p><p><b>Segmentation:</b> ${verified?(r?.sharedSource?'Verified shared source segment; canonical student identity remains separate.':'Source heading/boundary independently detected.'):'Canonical placeholder only; no source boundary guessed.'}</p><p class="muted">Bhakti Study reflections and summaries are student/application synthesis and are not quotations from the source.</p></section>
 </main>
 <aside class="sandarbha-study-panel card" id="studyPanel"><button class="study-close" id="studyClose" aria-label="Close study panel">×</button><div class="eyebrow">Study Workspace</div><h2>Study</h2><h3>My Understanding</h3><p>${esc(u.studyMethod?.beforeReading?.[0]||'What is Jīva Gosvāmī establishing here?')}</p><textarea id="understanding" rows="6" placeholder="Write your understanding before consulting additional notes…">${esc(before)}</textarea><h3>Source Study</h3><ul>${(u.studyMethod?.sourceStudy||['Identify the principal claim, scriptural evidence, and conclusion.']).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h3>Revised Understanding</h3><p>${esc(u.studyMethod?.afterReading?.[0]||'State the siddhānta in your own words and cite the supporting source.')}</p><textarea id="reflection" rows="6" placeholder="After returning to the source…">${esc(after)}</textarea><h3>Notes</h3><textarea id="notes" rows="6" placeholder="Personal notes…">${esc(notes)}</textarea>
@@ -146,6 +148,41 @@ ${verified?`<section class="card"><div class="eyebrow">Primary Study Source</div
           bookTitle:course.displayTitle||course.title,
           section:'Anuccheda '+selected,
           ref:id
+        });
+      }
+      const editButton=document.getElementById('editSandarbhaSource');
+      const editor=document.getElementById('sandarbhaEditor');
+      const editText=document.getElementById('sandarbhaEditorText');
+      if(editButton&&editor&&editText){
+        const status=document.getElementById('sandarbhaEditStatus');
+        editButton.addEventListener('click',()=>{
+          editText.value=localStorage.getItem(sourceEditKey)??r.content;
+          editor.hidden=false;
+          editText.focus();
+        });
+        document.getElementById('cancelSandarbhaEdit')?.addEventListener('click',()=>{editor.hidden=true});
+        document.getElementById('saveSandarbhaEdit')?.addEventListener('click',()=>{
+          try{
+            localStorage.setItem(sourceEditKey,editText.value);
+            render();
+          }catch(err){status.textContent='Could not save: '+err.message}
+        });
+        document.getElementById('restoreSandarbhaOriginal')?.addEventListener('click',()=>{
+          if(!confirm('Discard your saved source edits for this Anuccheda and restore the original display?'))return;
+          localStorage.removeItem(sourceEditKey);
+          render();
+        });
+        document.getElementById('exportSandarbhaEdit')?.addEventListener('click',()=>{
+          const blob=new Blob([editText.value],{type:'text/plain;charset=utf-8'});
+          const url=URL.createObjectURL(blob);
+          const a=document.createElement('a');
+          a.href=url;
+          a.download=id+'-edited-source.txt';
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          setTimeout(()=>URL.revokeObjectURL(url),1000);
+          status.textContent='Text export requested.';
         });
       }
       const highlightSource=document.getElementById('sandarbhaSourceText');

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study Classroom | Bhakti Study</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #f5f3ee;
+    color: #242424;
+  }
+  header {
+    padding: 16px 24px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  h1 { margin: 0; font-size: 22px; }
+  .toolbar { padding: 14px 24px; }
+  select {
+    padding: 10px;
+    font-size: 15px;
+    max-width: 100%;
+  }
+  .classroom {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: calc(100vh - 125px);
+  }
+  .video-panel {
+    padding: 12px;
+    overflow-y: auto;
+  }
+  .video-frame {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    background: #111;
+  }
+  details {
+    margin-top: 14px;
+    padding: 12px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  summary { cursor: pointer; font-weight: 600; }
+  .lesson {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+  }
+  .lesson:hover { background: #eee; }
+  .journal-frame {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: white;
+  }
+  @media(max-width: 800px) {
+    .classroom {
+      display: block;
+      height: auto;
+    }
+    .journal-frame { height: 75vh; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Study Classroom</h1>
+</header>
+
+<div class="toolbar">
+  <label for="program">Study Program: </label>
+  <select id="program">
+    <option value="bs">Bhakti Shastri</option>
+    <option value="bv">Bhakti Vaibhava</option>
+    <option value="bved">Bhakti Vedanta</option>
+    <option value="bsarv">Bhakti Sarvabhauma</option>
+    <option value="sandarbhas">Sat Sandarbhas</option>
+  </select>
+</div>
+
+
+<div class="toolbar" id="seriesToolbar">
+  <label for="series">Book / Series: </label>
+  <select id="series"></select>
+</div>
+
+<main class="classroom">
+  <section class="video-panel">
+    <iframe
+      id="video"
+      class="video-frame"
+      title="Class video"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+
+    <audio id="audioPlayer" controls hidden
+      style="width:100%;margin:12px 0"></audio>
+
+    <details id="lessonCatalog">
+      <summary>Select a Class</summary>
+      <div id="lessonList"></div>
+    </details>
+  </section>
+
+  <iframe
+    id="journal"
+    class="journal-frame"
+    title="Study Journal"
+    src="journal.html?aula=1">
+  </iframe>
+</main>
+
+<script src="classroom-lessons.js"></script>
+<script src="bhakti-shastri-catalog.js"></script>
+<script src="bhakti-vaibhava-catalog.js"></script>
+<script src="bhakti-vedanta-audio-catalog.js"></script>
+<script src="bhakti-sarvabhauma-audio-catalog.js"></script>
+<script src="sandarbhas-audio-catalog.js"></script>
+<script src="bhagavat-sandarbha-audio-catalog.js"></script>
+<script src="paramatma-sandarbha-catalog.js"></script>
+<script src="bhakti-sandarbha-catalog.js"></script>
+<script src="krishna-sandarbha-audio-catalog.js"></script>
+<script>
+const lessons = classroomLessons;
+
+const program = document.getElementById("program");
+const video = document.getElementById("video");
+const audioPlayer = document.getElementById("audioPlayer");
+
+const vedantaCatalog = Object.entries(
+  window.BHAKTI_VEDANTA_AUDIO_CATALOG
+).map(([key, items]) => ({
+  name: "Srimad Bhagavatam — Canto " + key.split("-")[1],
+  lessons: items
+}));
+const sarvabhaumaCatalog = [
+  {
+    name: "The Teachings of Lord Caitanya — Giriraja Swami",
+    lessons: window.BHAKTI_SARVABHAUMA_AUDIO_CATALOG[
+      "teachings-lord-caitanya"
+    ]
+  },
+  {
+    name: "Getting Inspiration from Caitanya Caritamrita — Kadamba Kanana Swami",
+    lessons: window.BHAKTI_SARVABHAUMA_AUDIO_CATALOG[
+      "inspiration-caitanya-caritamrita"
+    ]
+  }
+];
+
+const journal = document.getElementById("journal");
+const lessonList = document.getElementById("lessonList");
+const seriesSelect = document.getElementById("series");
+const seriesToolbar = document.getElementById("seriesToolbar");
+
+
+const sandarbhasCatalog = [
+  {
+    name: "Tattva Sandarbha — Bhakti Caitanya Swami",
+    lessons: window.SANDARBHAS_AUDIO_CATALOG["tattva-sandarbha"]
+  },
+  {
+    name: "Bhagavat Sandarbha — Gopiparanadhana Dasa",
+    lessons: window.BHAGAVAT_SANDARBHA_AUDIO_CATALOG
+  },
+  {
+    name: "Paramatma Sandarbha — Bhanu Swami",
+    lessons: window.PARAMATMA_SANDARBHA_CATALOG["paramatma-sandarbha"]
+  },
+  {
+    name: "Krishna Sandarbha — Dulal Chandra Dasa",
+    lessons: window.KRISHNA_SANDARBHA_AUDIO_CATALOG["krishna-sandarbha"]
+  },
+  {
+    name: "Bhakti Sandarbha — HG Venu Gopal Das",
+    lessons: window.BHAKTI_SANDARBHA_CATALOG
+  }
+];
+
+function activeCatalog() {
+  if (program.value === "bs") return bhaktiShastriCatalog;
+  if (program.value === "bv") return bhaktiVaibhavaCatalog;
+  if (program.value === "bved") return vedantaCatalog;
+  if (program.value === "bsarv") return sarvabhaumaCatalog;
+  if (program.value === "sandarbhas") return sandarbhasCatalog;
+  return null;
+}
+
+function selectLesson(lesson) {
+  const isAudio = lesson.type === "audio";
+
+  video.hidden = isAudio;
+  audioPlayer.hidden = !isAudio;
+
+  if (isAudio) {
+    video.removeAttribute("src");
+    audioPlayer.src = lesson.url;
+    audioPlayer.load();
+  } else {
+    audioPlayer.pause();
+    audioPlayer.removeAttribute("src");
+    video.src = "https://www.youtube.com/embed/" +
+      encodeURIComponent(lesson.id);
+  }
+
+  const catalog = activeCatalog();
+  const selectedSeries = catalog
+    ? catalog[Number(seriesSelect.value) || 0]
+    : null;
+
+  const params = new URLSearchParams({
+    aula: "1",
+    program: program.value,
+    book: lesson.type === "audio" ? "vihe" : "youtube",
+    bookTitle: selectedSeries
+      ? selectedSeries.name
+      : "Video Classes",
+    section: lesson.title,
+    ref: lesson.type === "audio"
+      ? "vihe:" + lesson.id
+      : "youtube:" + lesson.id
+  });
+
+  journal.src = "journal.html?" + params.toString();
+}
+
+function showLessons() {
+  lessonList.replaceChildren();
+  video.removeAttribute("src");
+  audioPlayer.pause();
+  audioPlayer.removeAttribute("src");
+
+  const catalog = activeCatalog();
+  const selectedSeries = catalog
+    ? catalog[Number(seriesSelect.value) || 0]
+    : null;
+
+  const items = selectedSeries
+    ? selectedSeries.lessons
+    : (lessons[program.value] || []);
+
+  if (!items.length) {
+    lessonList.textContent =
+      "Classes for this program are being prepared.";
+    journal.src = "journal.html?aula=1";
+    return;
+  }
+
+  items.forEach(lesson => {
+    const button = document.createElement("button");
+    button.className = "lesson";
+    button.textContent = lesson.title;
+    button.onclick = () => selectLesson(lesson);
+    lessonList.appendChild(button);
+  });
+
+  selectLesson(items[0]);
+}
+
+function updateSeries() {
+  const catalog = activeCatalog();
+  seriesToolbar.hidden = !catalog;
+  seriesSelect.replaceChildren();
+
+  if (catalog) {
+    catalog.forEach((series, index) => {
+      const option = document.createElement("option");
+      option.value = String(index);
+      option.textContent = series.name +
+        " (" + series.lessons.length + " classes)";
+      seriesSelect.appendChild(option);
+    });
+  }
+
+  showLessons();
+}
+
+seriesSelect.addEventListener("change", showLessons);
+program.addEventListener("change", updateSeries);
+updateSeries();
+</script>
+
+</body>
+</html>
