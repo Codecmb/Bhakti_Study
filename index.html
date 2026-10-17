@@ -69,4 +69,14 @@
   </a>
 </section>
 
-<h2 class="section-title">Study Programs</h2><section id="programs" class="grid"></section><div class="footer-note">Independent study application. Official ISKCON śāstric degrees require the applicable BOEX/Ministry authorization and assessment process.</div></main></div><script src="shared/mobile-navigation.js"></script><script src="shared/app.js"></script><script>sidebar('home');json('data/programs.json').then(ps=>programs.innerHTML=ps.map(p=>`<article class="card"><div class="eyebrow">Study Program</div><h2>${p.title}</h2><p>${p.subtitle}</p><a class="button" href="programs/${p.id}/index.html">Enter Program</a></article>`).join(''))</script><script>if('serviceWorker'in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(console.error))}</script></body></html>
+<h2 class="section-title">Study Programs</h2><section id="programs" class="grid"></section><div class="footer-note">Independent study application. Official ISKCON śāstric degrees require the applicable BOEX/Ministry authorization and assessment process.</div>
+<section style="margin:24px 0">
+  <h2>Offline Library</h2>
+  <p>Download books and study resources for offline reading.</p>
+  <button id="download-library" class="button"
+    onclick="downloadCompleteLibrary()">
+    Download Complete Library
+  </button>
+  <p id="download-status" role="status"></p>
+</section>
+</main></div><script src="shared/mobile-navigation.js"></script><script src="shared/app.js"></script><script>sidebar('home');json('data/programs.json').then(ps=>programs.innerHTML=ps.map(p=>`<article class="card"><div class="eyebrow">Study Program</div><h2>${p.title}</h2><p>${p.subtitle}</p><a class="button" href="programs/${p.id}/index.html">Enter Program</a></article>`).join(''))</script><script>if('serviceWorker'in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(console.error))}</script><script src="shared/download-library.js"></script></body></html>

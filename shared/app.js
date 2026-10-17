@@ -105,7 +105,9 @@ function sidebar(a='home',rootOverride=null){
  const grouped=groups.map(([label,items])=>`<div class="nav-group"><div class="nav-label">${label}</div>${items.map(link).join('')}</div>`).join('');
  document.querySelector('.sidebar').innerHTML=`<div class="brand"><img src="${R}assets/bhakti-study-logo.png" alt="Bhakti Study Academy" style="display:block;width:118px;height:118px;object-fit:contain;margin:0 auto 10px"><div>Bhakti Study</div></div><nav class="nav">${link(home)}${grouped}</nav>`;
 
- bhaktiMobileNavigation();
+ if (typeof bhaktiMobileNavigation === 'function') {
+    bhaktiMobileNavigation();
+  }
  const journalLink=document.querySelector('.sidebar a[href*="student/journal.html"]');
  if(journalLink){
    journalLink.addEventListener('click',function(event){
