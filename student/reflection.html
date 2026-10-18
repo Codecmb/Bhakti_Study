@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guided Philosophical Reflection — Bhakti Study</title>
+<link rel="stylesheet" href="../shared/styles.css">
+<style>
+.reflection-shell{max-width:1000px;margin:auto}
+.reflection-hero{padding:26px;border-radius:16px;background:#253d32;color:#fff;margin-bottom:22px}
+.reflection-hero .eyebrow{color:#dfd0a7}
+.passage-card,.stage-card,.feedback-card{padding:22px;border:1px solid var(--border,#ddd);border-radius:14px;margin:16px 0}
+.scripture{white-space:pre-line;line-height:1.9}
+.stage-nav{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
+.stage-nav button[aria-current="step"]{background:#253d32;color:white}
+.stage-panel[hidden]{display:none}
+.reflection-answer{width:100%;min-height:145px;box-sizing:border-box;padding:13px;border:1px solid #b8b8b8;border-radius:9px;font:inherit;line-height:1.6}
+.reflection-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.reflection-meta{font-size:.9rem;opacity:.8}
+.reflection-progress{height:8px;background:#e5e5e5;border-radius:8px;overflow:hidden}
+.reflection-progress span{display:block;height:100%;width:0;background:#567b5e;transition:width .2s}
+.prompt{padding:13px;background:var(--surface-secondary,#f4f2ec);border-radius:9px;margin:12px 0}
+.notice-small{font-size:.9rem;opacity:.8}
+button:focus-visible,a:focus-visible,textarea:focus-visible{outline:3px solid #9b7d42;outline-offset:3px}
+@media(max-width:600px){.reflection-hero,.passage-card,.stage-card,.feedback-card{padding:16px}.reflection-actions>*{flex:1}}
+</style>
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar"></aside>
+<main class="main reflection-shell">
+<div class="reflection-hero">
+  <div class="eyebrow">Bhakti Study · Philosophical Training</div>
+  <h1>Guided Reflection</h1>
+  <p>Understand the teaching. Examine your reasoning. Apply what you learn.</p>
+</div>
+
+<div class="notice" id="pageStatus" role="status" aria-live="polite">
+Loading the source passage…
+</div>
+
+<section class="passage-card" aria-labelledby="passageHeading">
+  <div class="eyebrow">Your study passage</div>
+  <h2 id="passageHeading">Bhagavad-gītā 4.18</h2>
+  <div id="sourceText"></div>
+  <details>
+    <summary>Show translation and source explanation</summary>
+    <h3>Translation</h3>
+    <p id="translation"></p>
+    <h3>Source explanation</h3>
+    <div id="purport" class="scripture"></div>
+  </details>
+  <p class="reflection-actions">
+    <a class="button secondary" id="returnPassage" href="../library/reader.html?book=bg&amp;ref=BG.4.18">Return to passage</a>
+  </p>
+</section>
+
+<section class="stage-card">
+  <h2>Your reflection</h2>
+  <p>Work through the stages in your own words. Your answers are saved in this browser as you type.</p>
+  <div class="reflection-progress" role="progressbar" aria-label="Reflection completion" aria-valuemin="0" aria-valuemax="4" aria-valuenow="0" id="progressBar">
+    <span id="progressFill"></span>
+  </div>
+  <p class="reflection-meta" id="progressText">0 of 4 stages answered</p>
+  <nav class="stage-nav" aria-label="Reflection stages">
+    <button type="button" data-stage="0" aria-current="step">1. Understand</button>
+    <button type="button" data-stage="1">2. Discern</button>
+    <button type="button" data-stage="2">3. Apply</button>
+    <button type="button" data-stage="3">4. Consolidate</button>
+  </nav>
+
+  <div class="stage-panel" data-panel="0">
+    <div class="eyebrow">Stage 1 · Understand</div>
+    <h3>What is the passage teaching?</h3>
+    <div class="prompt">Explain the verse in your own words. What do you understand by seeing inaction in action and action in inaction?</div>
+    <label for="answer0">Your explanation</label>
+    <textarea class="reflection-answer" id="answer0" placeholder="Explain what you understand, in your own words."></textarea>
+  </div>
+
+  <div class="stage-panel" data-panel="1" hidden>
+    <div class="eyebrow">Stage 2 · Discern</div>
+    <h3>Examine the distinction</h3>
+    <div class="prompt">Two people perform the same outward activity. Does that alone establish that their actions have the same significance? What additional considerations does the source passage give you?</div>
+    <label for="answer1">Your reasoning</label>
+    <textarea class="reflection-answer" id="answer1" placeholder="Identify the relevant distinction and explain your reasoning."></textarea>
+  </div>
+
+  <div class="stage-panel" data-panel="2" hidden>
+    <div class="eyebrow">Stage 3 · Apply</div>
+    <h3>Connect the teaching to life</h3>
+    <div class="prompt">Describe a real-life situation in which outward activity alone does not tell the whole story. How can this verse guide your interpretation without encouraging you to assume you know another person's inner motives?</div>
+    <label for="answer2">Your application</label>
+    <textarea class="reflection-answer" id="answer2" placeholder="Describe the situation and how the teaching informs your response."></textarea>
+  </div>
+
+  <div class="stage-panel" data-panel="3" hidden>
+    <div class="eyebrow">Stage 4 · Consolidate</div>
+    <h3>State your understanding clearly</h3>
+    <div class="prompt">Summarize the central teaching, explain the distinction you consider most important, and name one question you still have.</div>
+    <label for="answer3">Your synthesis</label>
+    <textarea class="reflection-answer" id="answer3" placeholder="Bring together your understanding in a concise explanation."></textarea>
+  </div>
+
+  <div class="reflection-actions">
+    <button type="button" class="button secondary" id="previousStage">← Previous</button>
+    <button type="button" class="button" id="nextStage">Next stage →</button>
+    <button type="button" class="button secondary" id="voiceButton">🎙 Dictate answer</button>
+  </div>
+  <p class="notice-small" id="voiceStatus" role="status" aria-live="polite">Voice input requires browser support and microphone permission.</p>
+  <p class="notice-small" id="saveStatus" role="status" aria-live="polite">Your reflection is stored locally in this browser.</p>
+</section>
+
+<section class="feedback-card">
+  <div class="eyebrow">Review your reasoning</div>
+  <h2>Reflection guide</h2>
+  <p>This guide checks whether your response addresses the task. It is not an AI evaluator and does not claim to determine philosophical correctness.</p>
+  <button class="button" id="reviewButton" type="button">Review my reflection</button>
+  <div id="feedback" aria-live="polite"></div>
+</section>
+
+<section class="passage-card">
+  <h2>Learning record</h2>
+  <p id="masterySummary">Begin writing to record your progress.</p>
+  <p class="reflection-meta">Progress is stored locally on this device. Clearing browser storage may remove it; use your normal browser backup practices.</p>
+  <div class="reflection-actions">
+    <button class="button secondary" type="button" id="exportButton">Export reflection</button>
+    <button class="button secondary" type="button" id="clearButton">Clear this reflection</button>
+  </div>
+</section>
+</main>
+</div>
+
+<script src="../shared/mobile-navigation.js"></script>
+<script src="../shared/app.js"></script>
+<script src="../shared/student-store.js"></script>
+<script src="../shared/study-context.js"></script>
+<script>
+'use strict';
+
+(function(){
+  const q = new URLSearchParams(location.search);
+  const bookId = q.get('book') || 'bg';
+  const requestedRef = q.get('ref') || 'BG.4.18';
+  const programId = q.get('program') || 'bhakti-sastri';
+  const unitId = q.get('unit') || '';
+  const key = bookId + ':' + requestedRef;
+  const localKey = 'bhakti-study.reflection.v1.' + key;
+  let currentStage = 0;
+  let passage = null;
+  let recognition = null;
+
+  const $ = id => document.getElementById(id);
+  const answers = [0,1,2,3].map(i => $('answer'+i));
+
+  if(typeof sidebar === 'function') sidebar('reflection');
+
+  function canonicalOf(v, meta){
+    const r = String(v.reference || '');
+    if(meta.canonicalId === 'BG') return 'BG.' + r;
+    if(meta.canonicalId && meta.canonicalId.startsWith('SB.')) return 'SB.' + r;
+    if(meta.canonicalId && meta.canonicalId.startsWith('CC.')){
+      const m = r.match(/(adi|madhya|antya)\.(\d+)\.(\d+(?:-\d+)?)/i);
+      if(m) return 'CC.' + m[1].toUpperCase() + '.' + m[2] + '.' + m[3];
+    }
+    if(meta.canonicalId === 'ISO' || meta.canonicalId === 'NOI'){
+      const m = r.match(/(\d+)/);
+      if(m) return meta.canonicalId + '.' + m[1];
+    }
+    if(meta.canonicalId === 'NOD'){
+      if(/^NOD\.(?:Dedication|Preface|Introduction|\d+)$/i.test(v.id || '')) return v.id;
+      const m = r.match(/^\s*(\d+)/);
+      if(m) return 'NOD.' + m[1];
+    }
+    return v.id || r;
+  }
+
+  function safeText(element, value){
+    element.textContent = value || '';
+  }
+
+  function loadSaved(){
+    try{
+      const raw = window.StudentStore
+        ? StudentStore.getJSON('reflection', key, null)
+        : JSON.parse(localStorage.getItem(localKey) || 'null');
+      if(raw && Array.isArray(raw.answers)){
+        answers.forEach((el,i) => el.value = raw.answers[i] || '');
+      }
+    }catch(error){
+      console.warn('Could not load saved reflection:', error);
+    }
+    updateProgress();
+  }
+
+  function save(){
+    const record = {
+      book:bookId, ref:requestedRef, program:programId, unit:unitId,
+      answers:answers.map(el => el.value),
+      updatedAt:new Date().toISOString()
+    };
+    try{
+      if(window.StudentStore) StudentStore.setJSON('reflection',key,record);
+      else localStorage.setItem(localKey,JSON.stringify(record));
+      $('saveStatus').textContent = 'Saved locally · ' +
+        new Date(record.updatedAt).toLocaleTimeString();
+    }catch(error){
+      $('saveStatus').textContent = 'Could not save locally: ' + error.message;
+    }
+    updateProgress();
+  }
+
+  function updateProgress(){
+    const count = answers.filter(el => el.value.trim().length > 0).length;
+    $('progressFill').style.width = (count/4*100) + '%';
+    $('progressBar').setAttribute('aria-valuenow',String(count));
+    $('progressText').textContent = count + ' of 4 stages answered';
+    $('masterySummary').textContent = count === 4
+      ? 'All four stages have responses. Review your reasoning before marking this reflection complete.'
+      : count + ' stage(s) have responses. Continue when you are ready.';
+  }
+
+  function showStage(n){
+    currentStage = Math.max(0,Math.min(3,n));
+    document.querySelectorAll('[data-panel]').forEach(panel=>{
+      panel.hidden = Number(panel.dataset.panel) !== currentStage;
+    });
+    document.querySelectorAll('[data-stage]').forEach(button=>{
+      if(Number(button.dataset.stage) === currentStage){
+        button.setAttribute('aria-current','step');
+      }else{
+        button.removeAttribute('aria-current');
+      }
+    });
+    $('previousStage').disabled = currentStage === 0;
+    $('nextStage').textContent = currentStage === 3 ? 'Back to first stage' : 'Next stage →';
+  }
+
+  async function loadPassage(){
+    try{
+      const registryResponse = await fetch('../data/books.json');
+      if(!registryResponse.ok) throw Error('Could not load the book registry.');
+      const registry = await registryResponse.json();
+      const meta = registry.find(book=>book.id === bookId);
+      if(!meta || !meta.dataPath) throw Error('Book not found in the registry.');
+
+      const sourceResponse = await fetch('../' + meta.dataPath);
+      if(!sourceResponse.ok) throw Error('Could not load the selected book.');
+      const data = await sourceResponse.json();
+
+      let found = null;
+      let foundSection = null;
+      for(const section of (data.sections || [])){
+        for(const verse of (section.verses || [])){
+          if(canonicalOf(verse,meta).toUpperCase() === requestedRef.toUpperCase()){
+            found = verse;
+            foundSection = section;
+            break;
+          }
+        }
+        if(found) break;
+      }
+      if(!found) throw Error('The requested passage was not found in this book.');
+
+      passage = found;
+      $('passageHeading').textContent = meta.title + ' · ' + canonicalOf(found,meta);
+      const source = $('sourceText');
+      source.replaceChildren();
+
+      if(found.devanagari){
+        const h = document.createElement('h3');
+        h.textContent = 'Devanāgarī';
+        const p = document.createElement('div');
+        p.className = 'scripture';
+        p.textContent = found.devanagari;
+        source.append(h,p);
+      }
+      if(found.transliteration){
+        const h = document.createElement('h3');
+        h.textContent = 'Transliteration';
+        const p = document.createElement('div');
+        p.className = 'scripture';
+        p.textContent = found.transliteration;
+        source.append(h,p);
+      }
+      safeText($('translation'),found.translation);
+      safeText($('purport'),found.purport || found.content || 'No source explanation is available in this record.');
+
+      const back = new URL('../library/reader.html',location.href);
+      back.searchParams.set('book',bookId);
+      back.searchParams.set('ref',canonicalOf(found,meta));
+      if(programId) back.searchParams.set('program',programId);
+      if(unitId) back.searchParams.set('unit',unitId);
+      $('returnPassage').href = back.href;
+
+      if(window.StudyContext){
+        StudyContext.write({
+          program:programId,unit:unitId,canonical:canonicalOf(found,meta),book:bookId
+        });
+      }
+      $('pageStatus').textContent = 'Verified internal source · ' +
+        canonicalOf(found,meta) + (foundSection ? ' · ' + foundSection.title : '');
+    }catch(error){
+      $('pageStatus').textContent = 'Passage could not be loaded: ' + error.message +
+        '. You can still use the reflection stages, but source verification is unavailable.';
+      console.error(error);
+    }
+  }
+
+  function review(){
+    const text = answers.map(a=>a.value.trim());
+    const labels = ['Understand','Discern','Apply','Consolidate'];
+    const prompts = [
+      'Explain the verse in your own words rather than repeating its wording.',
+      'Name the distinction you are making and explain why it follows from the source.',
+      'Connect the teaching to a specific situation and avoid assuming another person’s motives.',
+      'Summarize the central idea and state what remains unclear.'
+    ];
+    const container = $('feedback');
+    container.replaceChildren();
+    let complete = 0;
+    text.forEach((value,i)=>{
+      const card = document.createElement('article');
+      card.className = 'prompt';
+      const title = document.createElement('h3');
+      title.textContent = labels[i] + (value ? ' · Response present' : ' · Not yet answered');
+      const note = document.createElement('p');
+      note.textContent = value
+        ? (value.split(/\s+/).filter(Boolean).length < 12
+            ? 'Consider expanding your reasoning. ' + prompts[i]
+            : 'Your response has substance. Check it against the source and ask whether you have explained the reasoning, not only the conclusion.')
+        : prompts[i];
+      if(value) complete++;
+      card.append(title,note);
+      container.appendChild(card);
+    });
+    const disclaimer = document.createElement('p');
+    disclaimer.className = 'notice-small';
+    disclaimer.textContent = complete + ' of 4 stages contain responses. This is a structural self-review, not an AI judgment of doctrinal correctness.';
+    container.appendChild(disclaimer);
+  }
+
+  answers.forEach(el=>el.addEventListener('input',save));
+
+  document.querySelectorAll('[data-stage]').forEach(button=>{
+    button.addEventListener('click',()=>showStage(Number(button.dataset.stage)));
+  });
+  $('previousStage').addEventListener('click',()=>showStage(currentStage-1));
+  $('nextStage').addEventListener('click',()=>showStage(currentStage===3?0:currentStage+1));
+  $('reviewButton').addEventListener('click',review);
+
+  $('voiceButton').addEventListener('click',()=>{
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if(!SpeechRecognition){
+      $('voiceStatus').textContent = 'Speech recognition is not supported in this browser. You can type your response instead.';
+      return;
+    }
+    if(recognition){
+      recognition.stop();
+      recognition = null;
+      $('voiceStatus').textContent = 'Voice input stopped.';
+      return;
+    }
+    try{
+      recognition = new SpeechRecognition();
+      recognition.lang = 'en-US';
+      recognition.interimResults = false;
+      recognition.continuous = false;
+      recognition.onresult = event=>{
+        const spoken = event.results[0][0].transcript;
+        const el = answers[currentStage];
+        el.value = (el.value ? el.value.trim() + ' ' : '') + spoken;
+        save();
+      };
+      recognition.onerror = event=>{
+        $('voiceStatus').textContent = 'Voice input issue: ' + event.error + '. Check microphone permission or type your response.';
+      };
+      recognition.onend = ()=>{
+        recognition = null;
+        $('voiceStatus').textContent = 'Voice input ended.';
+      };
+      recognition.start();
+      $('voiceStatus').textContent = 'Listening… speak your answer.';
+    }catch(error){
+      recognition = null;
+      $('voiceStatus').textContent = 'Could not start speech recognition: ' + error.message;
+    }
+  });
+
+  $('exportButton').addEventListener('click',()=>{
+    const record = {
+      title:$('passageHeading').textContent,
+      reference:requestedRef,
+      answers:answers.map(el=>el.value),
+      exportedAt:new Date().toISOString()
+    };
+    const blob = new Blob([JSON.stringify(record,null,2)],{type:'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'bhakti-study-reflection.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+
+  $('clearButton').addEventListener('click',()=>{
+    if(!confirm('Clear the saved answers for this passage in this browser?')) return;
+    answers.forEach(el=>el.value='');
+    try{
+      if(window.StudentStore) StudentStore.remove('reflection',key);
+      localStorage.removeItem(localKey);
+    }catch(error){}
+    $('feedback').replaceChildren();
+    save();
+  });
+
+  loadSaved();
+  showStage(0);
+  loadPassage();
+})();
+</script>
+</body>
+</html>

@@ -25,6 +25,7 @@ function sidebar(a='home',rootOverride=null){
    ['My Study',[
      ['classroom','Study Classroom',R+'student/aula-estudio.html'],
      ['book-study','Book Study',R+'student/book-study.html'],
+     ['reflection','Guided Reflection',R+'student/reflection.html'],
      ['journal','Study Journal',(()=>{
        const url=new URL(R+'student/journal.html',location.href);
        const ref=new URLSearchParams(location.search).get('ref');
