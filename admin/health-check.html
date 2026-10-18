@@ -40,6 +40,14 @@
 <p>Read-only checks for application files and educational content.</p>
 </header>
 
+
+<section class="health-card">
+  <h2>Academy Content Inventory</h2>
+  <p>Live counts from registered academic curriculum files.</p>
+  <button class="button" id="runInventory">Count Educational Content</button>
+  <div id="inventoryResults" class="health-result" aria-live="polite"></div>
+</section>
+
 <button class="button" id="runCheck">Run Health Check</button>
 <p id="summary" aria-live="polite"></p>
 <div id="results"></div>
@@ -128,6 +136,109 @@ document.getElementById('runCheck').addEventListener('click',async()=>{
 
   button.disabled=false;
 });
+
+const inventoryPrograms = [
+  ['Bhakti Śāstrī','bhakti-sastri'],
+  ['Bhakti Vaibhava','bhakti-vaibhava'],
+  ['Bhakti Vedānta','bhakti-vedanta'],
+  ['Bhakti Sārvabhauma','bhakti-sarvabhauma']
+];
+
+document.getElementById('runInventory').addEventListener('click', async () => {
+  const output = document.getElementById('inventoryResults');
+  const button = document.getElementById('runInventory');
+
+  button.disabled = true;
+  output.replaceChildren();
+  output.textContent = 'Reading curriculum files...';
+
+  const table = document.createElement('table');
+  table.style.cssText = 'width:100%;border-collapse:collapse;margin-top:15px';
+
+  const head = document.createElement('tr');
+
+  for (const label of ['Program','Lessons','Units','Supplemental Sessions']) {
+    const th = document.createElement('th');
+    th.textContent = label;
+    th.style.cssText = 'text-align:left;padding:10px;border-bottom:2px solid #ddd';
+    head.appendChild(th);
+  }
+
+  table.appendChild(head);
+
+  let lessonsTotal = 0;
+  let unitsTotal = 0;
+  let supplementalTotal = 0;
+  let errors = 0;
+
+  for (const [name,id] of inventoryPrograms) {
+    const base = '../programs/' + id + '/data/course/';
+
+    try {
+      const [lr,ur] = await Promise.all([
+        fetch(base + 'lessons.json', {cache:'no-store'}),
+        fetch(base + 'units.json', {cache:'no-store'})
+      ]);
+
+      if (!lr.ok || !ur.ok) {
+        throw new Error('Curriculum file unavailable');
+      }
+
+      const lessonsData = await lr.json();
+      const unitsData = await ur.json();
+
+      if (!Array.isArray(lessonsData.lessons) ||
+          !Array.isArray(unitsData.units)) {
+        throw new Error('Unexpected curriculum structure');
+      }
+
+      const lessons = lessonsData.lessons.length;
+      const units = unitsData.units.length;
+      const supplemental =
+        Array.isArray(lessonsData.supplementalSessions)
+        ? lessonsData.supplementalSessions.length : 0;
+
+      lessonsTotal += lessons;
+      unitsTotal += units;
+      supplementalTotal += supplemental;
+
+      const row = document.createElement('tr');
+
+      for (const value of [name,lessons,units,supplemental]) {
+        const cell = document.createElement('td');
+        cell.textContent = value;
+        cell.style.cssText = 'padding:10px;border-bottom:1px solid #eee';
+        row.appendChild(cell);
+      }
+
+      table.appendChild(row);
+
+    } catch (error) {
+      errors++;
+      const row = document.createElement('tr');
+      const cell = document.createElement('td');
+      cell.colSpan = 4;
+      cell.textContent = name + ': ' + error.message;
+      cell.className = 'health-error';
+      row.appendChild(cell);
+      table.appendChild(row);
+    }
+  }
+
+  output.replaceChildren(table);
+
+  const summary = document.createElement('p');
+  summary.style.fontWeight = 'bold';
+  summary.textContent =
+    lessonsTotal + ' lessons · ' +
+    unitsTotal + ' units · ' +
+    supplementalTotal + ' supplemental sessions' +
+    (errors ? ' · ' + errors + ' program(s) could not be counted' : '');
+
+  output.appendChild(summary);
+  button.disabled = false;
+});
+
 </script>
 </body>
 </html>
