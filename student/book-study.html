@@ -128,7 +128,18 @@ function updateBooks() {
   addOption(bookSelect, "", "Choose a book");
 
   if (program.id === "sat-sandarbhas") {
-    addOption(bookSelect, "sat-sandarbhas", "Ṣaṭ Sandarbhas — Open Study Area");
+    const sandarbhas = [
+      ["tattva", "Tattva Sandarbha"],
+      ["bhagavat", "Bhagavat Sandarbha"],
+      ["paramatma", "Paramātma Sandarbha"],
+      ["krsna", "Kṛṣṇa Sandarbha"],
+      ["bhakti", "Bhakti Sandarbha"],
+      ["priti", "Prīti Sandarbha"]
+    ];
+
+    for (const [id, title] of sandarbhas) {
+      addOption(bookSelect, "sandarbha:" + id, title);
+    }
     bookSelect.disabled = false;
     return;
   }
@@ -153,8 +164,50 @@ function openBook() {
     return;
   }
 
-  if (id === "sat-sandarbhas") {
-    location.href = "../programs/sat-sandarbhas/index.html";
+  if (id.startsWith("sandarbha:")) {
+    const work = id.split(":")[1];
+    const allowed = [
+      "tattva", "bhagavat", "paramatma",
+      "krsna", "bhakti", "priti"
+    ];
+
+    if (!allowed.includes(work)) return;
+
+    const title = bookSelect.selectedOptions[0].textContent.trim();
+
+    bookFrame.onload = () => {
+      const doc = bookFrame.contentDocument;
+      if (!doc) return;
+
+      const style = doc.createElement("style");
+      style.textContent = `
+        body { margin: 0 !important; }
+        .sidebar { display: none !important; }
+        .layout { display: block !important; }
+        .main { width: 100% !important; }
+        main.study {
+          max-width: none !important;
+          margin: 0 !important;
+          padding: 16px !important;
+        }
+      `;
+      doc.head.appendChild(style);
+    };
+
+    bookFrame.src =
+      "../programs/sat-sandarbhas/" + work + "/index.html?n=1";
+
+    const journalParams = new URLSearchParams({
+      aula: "1",
+      program: "Ṣaṭ Sandarbhas",
+      unit: work.toUpperCase() + ".1",
+      book: work,
+      bookTitle: title,
+      section: "Anuccheda 1",
+      ref: work.toUpperCase() + ".1"
+    });
+
+    journalFrame.src = "journal.html?" + journalParams.toString();
     return;
   }
 
