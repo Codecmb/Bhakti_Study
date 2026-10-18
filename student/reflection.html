@@ -55,7 +55,7 @@ Loading the source passage…
   </p>
 </section>
 
-<section class="stage-card">
+<section class="stage-card" id="reflectionStart">
   <h2>Your reflection</h2>
   <p>Work through the stages in your own words. Your answers are saved in this browser as you type.</p>
   <div class="reflection-progress" role="progressbar" aria-label="Reflection completion" aria-valuemin="0" aria-valuemax="4" aria-valuenow="0" id="progressBar">
@@ -118,6 +118,28 @@ Loading the source passage…
   <div id="feedback" aria-live="polite"></div>
 </section>
 
+<section class="feedback-card" aria-labelledby="tutorHeading">
+  <div class="eyebrow">Interactive philosophical training</div>
+  <h2 id="tutorHeading">Discuss your understanding</h2>
+  <p>The guide uses the verified verse and purport to help you examine your reasoning. It asks questions rather than simply supplying conclusions.</p>
+  <div class="prompt">
+    <strong>Choose a starting point</strong>
+    <div class="reflection-actions">
+      <button type="button" class="button secondary" data-tutor-prompt="Help me understand akarma and why it does not simply mean doing nothing.">What is akarma?</button>
+      <button type="button" class="button secondary" data-tutor-prompt="Challenge my reasoning about action and inaction in Bhagavad-gita 4.18.">Challenge my reasoning</button>
+      <button type="button" class="button secondary" data-tutor-prompt="Give me a practical example that helps me apply this verse without judging someone's hidden motives.">Apply the teaching</button>
+    </div>
+  </div>
+  <div id="tutorTranscript" aria-live="polite" aria-label="Tutor conversation"></div>
+  <label for="tutorInput">Your question or response</label>
+  <textarea id="tutorInput" class="reflection-answer" rows="3" placeholder="What are you uncertain about? You can also respond to the tutor's question."></textarea>
+  <div class="reflection-actions">
+    <button type="button" class="button" id="tutorSend">Discuss</button>
+    <button type="button" class="button secondary" id="tutorClear">Clear conversation</button>
+  </div>
+  <p class="notice-small">This is source-grounded, rule-based guidance, not a generative AI conversation. It does not claim to determine doctrinal correctness. Your conversation is saved locally with this reflection.</p>
+</section>
+
 <section class="passage-card">
   <h2>Learning record</h2>
   <p id="masterySummary">Begin writing to record your progress.</p>
@@ -148,6 +170,7 @@ Loading the source passage…
   let currentStage = 0;
   let passage = null;
   let recognition = null;
+  let tutorMessages = [];
 
   const $ = id => document.getElementById(id);
   const answers = [0,1,2,3].map(i => $('answer'+i));
@@ -185,7 +208,9 @@ Loading the source passage…
         : JSON.parse(localStorage.getItem(localKey) || 'null');
       if(raw && Array.isArray(raw.answers)){
         answers.forEach((el,i) => el.value = raw.answers[i] || '');
+        if(Array.isArray(raw.dialogue)) tutorMessages = raw.dialogue;
       }
+      renderTutor();
     }catch(error){
       console.warn('Could not load saved reflection:', error);
     }
@@ -196,6 +221,7 @@ Loading the source passage…
     const record = {
       book:bookId, ref:requestedRef, program:programId, unit:unitId,
       answers:answers.map(el => el.value),
+      dialogue:tutorMessages,
       updatedAt:new Date().toISOString()
     };
     try{
@@ -306,6 +332,94 @@ Loading the source passage…
     }
   }
 
+  function renderTutor(){
+    const transcript = $('tutorTranscript');
+    if(!transcript) return;
+    transcript.replaceChildren();
+
+    if(!tutorMessages.length){
+      const note = document.createElement('p');
+      note.className = 'notice-small';
+      note.textContent = 'Your conversation will appear here. Start with a question or choose a prompt above.';
+      transcript.appendChild(note);
+      return;
+    }
+
+    tutorMessages.forEach(message=>{
+      const card = document.createElement('article');
+      card.className = 'prompt';
+      const heading = document.createElement('strong');
+      heading.textContent = message.role === 'student' ? 'You' : 'Reflection guide';
+      const body = document.createElement('p');
+      body.textContent = message.text;
+      card.append(heading,body);
+      transcript.appendChild(card);
+    });
+  }
+
+  function tutorReply(input){
+    const text = input.toLowerCase();
+    const answer = answers[currentStage].value.trim();
+    const answerLower = answer.toLowerCase();
+
+    if(/clear|delete|forget/.test(text) && /conversation|chat|messages/.test(text)){
+      return 'You can clear this conversation using the Clear conversation button. Your four reflection answers will remain saved.';
+    }
+
+    if(/akarma|inaction|doing nothing|inactive/.test(text)){
+      return 'The supplied purport explicitly states: “Akarma means without reaction to work.” It then describes a person actively engaged in activities for Kṛṣṇa. So the passage does not present mere inactivity as its explanation of akarma. Consider this question: what distinction does the purport make between stopping activity out of fear of its consequences and engaging in activity for Kṛṣṇa?';
+    }
+
+    if(/karma|vikarma|reaction to work|fruitive/.test(text)){
+      return 'Stay close to what this passage actually explains. The purport discusses freedom from the reactions to work, activities performed for Kṛṣṇa, and the absence of desire for personal sense gratification. It does not fully define every category of karma and vikarma here. Which of these distinctions are you trying to understand, and what other source passage would you need to establish a fuller definition?';
+    }
+
+    if(/motivation|intention|desire|gratification|purpose/.test(text)){
+      return 'The purport connects action in Kṛṣṇa consciousness with performing activities for Kṛṣṇa and being without desire for personal sense gratification. Test your reasoning: have you explained this connection using the source, or have you assumed that an outward action alone reveals a person’s inner state? What evidence would support your conclusion?';
+    }
+
+    if(/example|apply|life|practical|workplace|family/.test(text)){
+      return 'Consider two people performing the same helpful task. The outward action alone does not establish everything about its spiritual significance. The purport directs attention to action performed for Kṛṣṇa and freedom from personal sense gratification. How would you apply that teaching to your own choices without claiming to know another person’s inner motives?';
+    }
+
+    if(/challenge|wrong|contradict|reasoning|evidence|why/.test(text)){
+      if(!answer){
+        return 'First, write your current explanation in the ' + ['Understand','Discern','Apply','Consolidate'][currentStage] + ' stage. Then we can examine the reasoning you have actually presented. What is your main claim, and which words in the translation or purport support it?';
+      }
+      const missing = [];
+      if(!/action|activity|work|doing/.test(answerLower)) missing.push('the distinction involving action or activity');
+      if(!/krishna|kṛṣṇa/.test(answerLower)) missing.push('the purport’s specific connection to Kṛṣṇa consciousness');
+      if(!/reaction|result|fruitive/.test(answerLower)) missing.push('the explanation of reactions to work');
+      if(!missing.length){
+        return 'Your answer addresses action, Kṛṣṇa consciousness, and reactions to work. Now examine the connection between them: have you explained why these ideas belong together, or merely listed them? Which statement in the purport supports the link you are making?';
+      }
+      return 'Your current answer may need closer examination of ' + missing.join(', ') + '. This is a prompt to review, not a verdict that your answer is wrong. Which of these points is essential to your conclusion, and how does the source support it?';
+    }
+
+    if(!answer){
+      return 'Let us start with your own understanding. In one or two sentences, explain what you think the verse means. Then identify the phrase in the translation or purport that most strongly supports your interpretation.';
+    }
+
+    if(answer.split(/\s+/).filter(Boolean).length < 20){
+      return 'You have begun developing your idea. Can you explain the reason behind your conclusion and connect it to a specific statement in the supplied purport? Try distinguishing what the source explicitly says from what you infer from it.';
+    }
+
+    return 'Let us examine your reasoning rather than judge it by length. What is your main conclusion? Which statement in the supplied translation or purport supports it? Is there an alternative interpretation that you need to rule out before your conclusion follows?';
+  }
+
+  function discussTutor(input){
+    const question = String(input || '').trim();
+    if(!question) return;
+
+    tutorMessages.push({role:'student',text:question});
+    tutorMessages.push({role:'guide',text:tutorReply(question)});
+    if(tutorMessages.length > 40) tutorMessages = tutorMessages.slice(-40);
+
+    $('tutorInput').value = '';
+    renderTutor();
+    save();
+  }
+
   function review(){
     const text = answers.map(a=>a.value.trim());
     const labels = ['Understand','Discern','Apply','Consolidate'];
@@ -347,6 +461,46 @@ Loading the source passage…
   $('previousStage').addEventListener('click',()=>showStage(currentStage-1));
   $('nextStage').addEventListener('click',()=>showStage(currentStage===3?0:currentStage+1));
   $('reviewButton').addEventListener('click',review);
+
+  // Autosave only the unfinished tutor message.
+  const tutorDraftKey = 'bhakti-study.tutor-draft.v1.' + key;
+  const tutorDraftInput = $('tutorInput');
+
+  try {
+    tutorDraftInput.value =
+      localStorage.getItem(tutorDraftKey) || '';
+  } catch(error) {
+    console.warn('Could not restore tutor draft:', error);
+  }
+
+  tutorDraftInput.addEventListener('input', () => {
+    try {
+      localStorage.setItem(tutorDraftKey, tutorDraftInput.value);
+    } catch(error) {
+      console.warn('Could not save tutor draft:', error);
+    }
+  });
+
+  $('tutorSend').addEventListener('click',()=>{
+    discussTutor($('tutorInput').value);
+  });
+  $('tutorInput').addEventListener('keydown',event=>{
+    if(event.key === 'Enter' && (event.ctrlKey || event.metaKey)){
+      event.preventDefault();
+      discussTutor($('tutorInput').value);
+    }
+  });
+  document.querySelectorAll('[data-tutor-prompt]').forEach(button=>{
+    button.addEventListener('click',()=>{
+      discussTutor(button.dataset.tutorPrompt);
+    });
+  });
+  $('tutorClear').addEventListener('click',()=>{
+    if(!confirm('Clear the tutor conversation? Your four reflection answers will remain saved.')) return;
+    tutorMessages = [];
+    renderTutor();
+    save();
+  });
 
   $('voiceButton').addEventListener('click',()=>{
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -416,6 +570,16 @@ Loading the source passage…
   loadSaved();
   showStage(0);
   loadPassage();
+  // Bring students directly to the reflection exercises on mobile.
+  if (window.matchMedia('(max-width: 768px)').matches) {
+    window.addEventListener('load', () => {
+      const target = document.getElementById('reflectionStart');
+      if (target) {
+        target.scrollIntoView({block:'start', behavior:'instant'});
+      }
+    }, {once:true});
+  }
+
 })();
 </script>
 </body>
