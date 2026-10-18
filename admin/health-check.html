@@ -236,6 +236,94 @@ document.getElementById('runInventory').addEventListener('click', async () => {
     (errors ? ' · ' + errors + ' program(s) could not be counted' : '');
 
   output.appendChild(summary);
+
+  // Ṣaṭ Sandarbhas: read live anuccheda counts from course.json.
+  const sandarbhaInventory = [
+    ['Tattva Sandarbha', 'tattva'],
+    ['Bhagavat Sandarbha', 'bhagavat'],
+    ['Paramātma Sandarbha', 'paramatma'],
+    ['Kṛṣṇa Sandarbha', 'krsna'],
+    ['Bhakti Sandarbha', 'bhakti'],
+    ['Prīti Sandarbha', 'priti']
+  ];
+
+  const heading = document.createElement('h3');
+  heading.textContent = 'Ṣaṭ Sandarbhas — Anuccheda Inventory';
+  output.appendChild(heading);
+
+  const sandarbhaTable = document.createElement('table');
+  sandarbhaTable.style.cssText =
+    'width:100%;border-collapse:collapse;margin-top:12px';
+
+  const headerRow = document.createElement('tr');
+
+  for (const label of ['Sandarbha', 'Anucchedas']) {
+    const th = document.createElement('th');
+    th.textContent = label;
+    th.style.cssText =
+      'text-align:left;padding:10px;border-bottom:2px solid #ddd';
+    headerRow.appendChild(th);
+  }
+
+  sandarbhaTable.appendChild(headerRow);
+
+  let sandarbhaTotal = 0;
+  let sandarbhaErrors = 0;
+
+  for (const [name, id] of sandarbhaInventory) {
+    const row = document.createElement('tr');
+    const nameCell = document.createElement('td');
+    const countCell = document.createElement('td');
+
+    nameCell.textContent = name;
+
+    try {
+      const response = await fetch(
+        '../programs/sat-sandarbhas/' + id + '/course.json',
+        {cache: 'no-store'}
+      );
+
+      if (!response.ok) {
+        throw new Error('File unavailable');
+      }
+
+      const data = await response.json();
+
+      if (!Array.isArray(data.units)) {
+        throw new Error('Invalid units structure');
+      }
+
+      const count = data.units.length;
+      sandarbhaTotal += count;
+      countCell.textContent = String(count);
+
+    } catch (error) {
+      sandarbhaErrors++;
+      countCell.textContent = 'Error: ' + error.message;
+    }
+
+    for (const cell of [nameCell, countCell]) {
+      cell.style.cssText =
+        'padding:10px;border-bottom:1px solid #eee';
+      row.appendChild(cell);
+    }
+
+    sandarbhaTable.appendChild(row);
+  }
+
+  output.appendChild(sandarbhaTable);
+
+  const sandarbhaSummary = document.createElement('p');
+  sandarbhaSummary.style.fontWeight = 'bold';
+  sandarbhaSummary.textContent =
+    sandarbhaTotal + ' registered anucchedas across ' +
+    (sandarbhaInventory.length - sandarbhaErrors) +
+    ' of 6 Sandarbhas' +
+    (sandarbhaErrors
+      ? ' · ' + sandarbhaErrors + ' file(s) could not be counted'
+      : '');
+
+  output.appendChild(sandarbhaSummary);
   button.disabled = false;
 });
 
