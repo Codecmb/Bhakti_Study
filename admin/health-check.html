@@ -324,6 +324,156 @@ document.getElementById('runInventory').addEventListener('click', async () => {
       : '');
 
   output.appendChild(sandarbhaSummary);
+
+  // Question Bank inventory: count entries in registered question sheets.
+  const questionHeading = document.createElement('h3');
+  questionHeading.textContent = 'Question Bank Inventory';
+  output.appendChild(questionHeading);
+
+  const questionInfo = document.createElement('p');
+  questionInfo.textContent =
+    'Registered question entries, not deduplicated across providers.';
+  output.appendChild(questionInfo);
+
+  const questionTable = document.createElement('table');
+  questionTable.style.cssText =
+    'width:100%;border-collapse:collapse;margin-top:12px';
+
+  const questionHeader = document.createElement('tr');
+
+  for (const label of ['Academic Program', 'Sheets', 'Questions']) {
+    const th = document.createElement('th');
+    th.textContent = label;
+    th.style.cssText =
+      'text-align:left;padding:10px;border-bottom:2px solid #ddd';
+    questionHeader.appendChild(th);
+  }
+
+  questionTable.appendChild(questionHeader);
+
+  const questionTotals = new Map();
+  let questionSheetInventory = 0;
+  let questionErrors = 0;
+  let registeredSheetCount = 0;
+
+  try {
+    const registryResponse = await fetch(
+      '../data/question-sheet-registry.json',
+      {cache:'no-store'}
+    );
+
+    if (!registryResponse.ok) {
+      throw new Error('Question registry unavailable');
+    }
+
+    const registry = await registryResponse.json();
+
+    if (!Array.isArray(registry.sheets)) {
+      throw new Error('Invalid question registry');
+    }
+
+    registeredSheetCount = registry.sheets.length;
+
+    for (const sheet of registry.sheets) {
+      try {
+        if (typeof sheet.data !== 'string' ||
+            !sheet.data.startsWith('programs/') ||
+            sheet.data.includes('..')) {
+          throw new Error('Invalid question file path');
+        }
+
+        const response = await fetch(
+          '../' + sheet.data,
+          {cache:'no-store'}
+        );
+
+        if (!response.ok) {
+          throw new Error('Question file unavailable');
+        }
+
+        const data = await response.json();
+        let count = 0;
+
+        if (Array.isArray(data.questions)) {
+          count = data.questions.length;
+        } else if (Array.isArray(data.groups)) {
+          for (const group of data.groups) {
+            if (!Array.isArray(group.sections)) {
+              throw new Error('Invalid group sections');
+            }
+
+            for (const section of group.sections) {
+              if (!Array.isArray(section.questions)) {
+                throw new Error('Invalid section questions');
+              }
+              count += section.questions.length;
+            }
+          }
+        } else {
+          throw new Error('Unknown question structure');
+        }
+
+        const program = sheet.program || 'Unassigned';
+
+        if (!questionTotals.has(program)) {
+          questionTotals.set(program, {sheets:0, questions:0});
+        }
+
+        const item = questionTotals.get(program);
+        item.sheets++;
+        item.questions += count;
+        questionSheetInventory += count;
+
+      } catch (error) {
+        questionErrors++;
+        console.warn('Question inventory:', sheet.id, error);
+      }
+    }
+
+    const programNames = {
+      'bhakti-sastri': 'Bhakti Śāstrī',
+      'bhakti-vaibhava': 'Bhakti Vaibhava',
+      'bhakti-vedanta': 'Bhakti Vedānta',
+      'bhakti-sarvabhauma': 'Bhakti Sārvabhauma'
+    };
+
+    for (const [program, item] of questionTotals) {
+      const row = document.createElement('tr');
+
+      for (const value of [
+        programNames[program] || program,
+        item.sheets,
+        item.questions
+      ]) {
+        const cell = document.createElement('td');
+        cell.textContent = String(value);
+        cell.style.cssText =
+          'padding:10px;border-bottom:1px solid #eee';
+        row.appendChild(cell);
+      }
+
+      questionTable.appendChild(row);
+    }
+
+    output.appendChild(questionTable);
+
+    const questionSummary = document.createElement('p');
+    questionSummary.style.fontWeight = 'bold';
+    questionSummary.textContent =
+      questionSheetInventory + ' question entries · ' +
+      registeredSheetCount + ' registered sheets' +
+      (questionErrors
+        ? ' · ' + questionErrors + ' sheet(s) could not be counted'
+        : '');
+
+    output.appendChild(questionSummary);
+
+  } catch (error) {
+    const message = document.createElement('p');
+    message.textContent = 'Question inventory error: ' + error.message;
+    output.appendChild(message);
+  }
+
   button.disabled = false;
 });
 
