@@ -30,6 +30,7 @@ function sidebar(a='home',rootOverride=null){
      ['study','Study',R+'study/index.html'],
      ['portfolio','My Work',R+'student/portfolio.html'],
      ['classroom','Study Classroom',R+'student/aula-estudio.html'],
+     ['book-study','Book Study',R+'student/book-study.html'],
      ['journal','Study Journal',(()=>{
        const url=new URL(R+'student/journal.html',location.href);
        const ref=new URLSearchParams(location.search).get('ref');

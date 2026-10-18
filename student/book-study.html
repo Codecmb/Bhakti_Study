@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Book Study | Bhakti Study</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f3ee;
+  color: #242424;
+}
+header {
+  background: white;
+  padding: 14px 22px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+h1 { margin: 0; font-size: 22px; }
+button, select, .home {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+  font: inherit;
+}
+.home {
+  text-decoration: none;
+  color: inherit;
+}
+.toolbar {
+  padding: 12px 22px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.workspace {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: calc(100vh - 132px);
+}
+.workspace iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: white;
+}
+.reader-pane {
+  border-right: 1px solid #ddd;
+  min-height: 0;
+}
+.journal-pane { min-height: 0; }
+@media (max-width: 800px) {
+  .workspace {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .reader-pane, .journal-pane {
+    height: 75vh;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Book Study</h1>
+  <a class="home" href="../index.html">← Back to Academy Home</a>
+</header>
+
+<div class="toolbar">
+  <label for="areaSelect">1. Select Study Area:</label>
+  <select id="areaSelect">
+    <option value="">Loading study areas…</option>
+  </select>
+
+  <label for="bookSelect">2. Select Book:</label>
+  <select id="bookSelect" disabled>
+    <option value="">Select a study area first</option>
+  </select>
+</div>
+
+<main class="workspace">
+  <section class="reader-pane" aria-label="Book Reader">
+    <iframe id="bookFrame" title="Book Reader"></iframe>
+  </section>
+  <section class="journal-pane" aria-label="Study Journal">
+    <iframe id="journalFrame"
+      title="Study Journal"
+      src="journal.html?aula=1"></iframe>
+  </section>
+</main>
+
+<script>
+const areaSelect = document.getElementById("areaSelect");
+const bookSelect = document.getElementById("bookSelect");
+const bookFrame = document.getElementById("bookFrame");
+
+let programs = [];
+let books = [];
+
+function addOption(select, value, label) {
+  const option = document.createElement("option");
+  option.value = value;
+  option.textContent = label;
+  select.appendChild(option);
+}
+
+function updateBooks() {
+  bookSelect.innerHTML = "";
+  bookSelect.disabled = true;
+  bookFrame.removeAttribute("src");
+
+  const program = programs.find(p => p.id === areaSelect.value);
+
+  if (!program) {
+    addOption(bookSelect, "", "Select a study area first");
+    return;
+  }
+
+  addOption(bookSelect, "", "Choose a book");
+
+  if (program.id === "sat-sandarbhas") {
+    addOption(bookSelect, "sat-sandarbhas", "Ṣaṭ Sandarbhas — Open Study Area");
+    bookSelect.disabled = false;
+    return;
+  }
+
+  for (const id of program.books || []) {
+    const book = books.find(b => b.id === id && b.status === "imported");
+    if (book) addOption(bookSelect, book.id, book.title);
+  }
+
+  bookSelect.disabled = bookSelect.options.length <= 1;
+}
+
+
+
+function openBook() {
+  const id = bookSelect.value;
+  const area = programs.find(p => p.id === areaSelect.value);
+
+  if (!id) {
+    bookFrame.removeAttribute("src");
+    journalFrame.src = "journal.html?aula=1";
+    return;
+  }
+
+  if (id === "sat-sandarbhas") {
+    location.href = "../programs/sat-sandarbhas/index.html";
+    return;
+  }
+
+  const book = books.find(b => b.id === id);
+  const programName =
+    areaSelect.selectedOptions[0]?.textContent?.trim() || "";
+
+  const readerParams = new URLSearchParams({
+    book: id,
+    program: area?.id || ""
+  });
+
+  // Start the journal with the same academic context
+  // used by the Bhakti Sastri module.
+  const journalParams = new URLSearchParams({
+    aula: "1",
+    program: programName,
+    unit: id === "bg" ? "BS.U1" : "library",
+    book: id,
+    bookTitle: book?.title || ""
+  });
+
+  let lastReference = "";
+  let readerObserver = null;
+
+  function updateJournal() {
+    const win = bookFrame.contentWindow;
+    const doc = bookFrame.contentDocument;
+    if (!win || !doc) return;
+
+    const ref =
+      doc.querySelector("#passage h2")?.textContent?.trim() ||
+      new URLSearchParams(win.location.search).get("ref");
+
+    if (!ref || ref === lastReference) return;
+
+    lastReference = ref;
+
+    const heading =
+      doc.querySelector("#sectionHeader h2")?.textContent?.trim() || "";
+
+    journalParams.set("ref", ref);
+    journalParams.set("section", heading);
+
+    // Use the same URL-based context initialization
+    // as the working academic Study Journal.
+    journalFrame.src = "journal.html?" + journalParams.toString();
+  }
+
+  bookFrame.onload = () => {
+    try {
+      readerObserver?.disconnect();
+
+      const doc = bookFrame.contentDocument;
+      if (!doc) return;
+
+      const style = doc.createElement("style");
+      style.textContent = `
+        .sidebar { display: none !important; }
+        .layout { display: block !important; }
+        .main {
+          width: 100% !important;
+          max-width: none !important;
+          margin: 0 !important;
+          padding: 16px !important;
+        }
+      `;
+      doc.head.appendChild(style);
+
+      const passage = doc.getElementById("passage");
+
+      if (passage) {
+        readerObserver = new MutationObserver(updateJournal);
+        readerObserver.observe(passage, {
+          childList: true,
+          subtree: true
+        });
+      }
+
+      updateJournal();
+    } catch (error) {
+      console.error("Book Study connection:", error);
+    }
+  };
+
+  bookFrame.src = "../library/reader.html?" + readerParams.toString();
+}
+
+async function initialize() {
+  try {
+    const [programResponse, bookResponse] = await Promise.all([
+      fetch("../data/programs.json"),
+      fetch("../data/books.json")
+    ]);
+
+    if (!programResponse.ok || !bookResponse.ok) {
+      throw new Error("Unable to load study data");
+    }
+
+    programs = await programResponse.json();
+    books = await bookResponse.json();
+
+    areaSelect.innerHTML = "";
+    addOption(areaSelect, "", "Choose a study area");
+
+    for (const program of programs) {
+      addOption(areaSelect, program.id, program.title);
+    }
+
+    const params = new URLSearchParams(location.search);
+    const requestedArea = params.get("area");
+    const requestedBook = params.get("book");
+
+    if (programs.some(p => p.id === requestedArea)) {
+      areaSelect.value = requestedArea;
+    } else if (requestedBook) {
+      const matching = programs.find(
+        p => (p.books || []).includes(requestedBook)
+      );
+      if (matching) areaSelect.value = matching.id;
+    }
+
+    updateBooks();
+
+    if (requestedBook && [...bookSelect.options].some(
+      option => option.value === requestedBook
+    )) {
+      bookSelect.value = requestedBook;
+      openBook();
+    }
+  } catch (error) {
+    areaSelect.innerHTML = "";
+    addOption(areaSelect, "", "Unable to load study areas");
+    console.error(error);
+  }
+}
+
+areaSelect.addEventListener("change", updateBooks);
+bookSelect.addEventListener("change", openBook);
+
+initialize();
+</script>
+
+</body>
+</html>
