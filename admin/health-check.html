@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Academy Health Check</title>
+<link rel="stylesheet" href="../shared/styles.css">
+<style>
+.health-header {
+  background:#172b54;
+  color:white;
+  border-bottom:4px solid #bd9850;
+  border-radius:14px;
+  padding:25px;
+  margin-bottom:24px;
+}
+.health-header h1 { color:white; font-family:Georgia,serif; }
+.health-header p { color:#e5dfd3; }
+.health-card {
+  background:white;
+  border:1px solid #e4ddd0;
+  border-radius:12px;
+  padding:20px;
+  margin-bottom:14px;
+}
+.health-card h2 { font-size:19px; margin-top:0; }
+.health-result { margin-top:12px; line-height:1.8; }
+.health-ok { color:#17653b; }
+.health-error { color:#a32929; }
+.health-note { color:#74643e; }
+</style>
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar"></aside>
+<main class="main">
+
+<header class="health-header">
+<h1>Academy Health Check</h1>
+<p>Read-only checks for application files and educational content.</p>
+</header>
+
+<button class="button" id="runCheck">Run Health Check</button>
+<p id="summary" aria-live="polite"></p>
+<div id="results"></div>
+
+</main>
+</div>
+
+<script src="../shared/app.js"></script>
+<script>
+sidebar('manage');
+
+const checks = [
+  ['Academy Home','../index.html'],
+  ['Study Classroom','../student/aula-estudio.html'],
+  ['Book Study','../student/book-study.html'],
+  ['Study Journal','../student/journal.html'],
+  ['Question Bank','../question-bank/index.html'],
+  ['Books & Library','../library/index.html'],
+  ['Bhakti Śāstrī','../programs/bhakti-sastri/index.html'],
+  ['Bhakti Vaibhava','../programs/bhakti-vaibhava/index.html'],
+  ['Bhakti Vedānta','../programs/bhakti-vedanta/index.html'],
+  ['Bhakti Sārvabhauma','../programs/bhakti-sarvabhauma/index.html'],
+  ['Ṣaṭ Sandarbhas','../programs/sat-sandarbhas/index.html'],
+  ['Tattva Sandarbha','../programs/sat-sandarbhas/tattva/index.html'],
+  ['Bhagavat Sandarbha','../programs/sat-sandarbhas/bhagavat/index.html'],
+  ['Paramātma Sandarbha','../programs/sat-sandarbhas/paramatma/index.html'],
+  ['Kṛṣṇa Sandarbha','../programs/sat-sandarbhas/krsna/index.html'],
+  ['Bhakti Sandarbha','../programs/sat-sandarbhas/bhakti/index.html'],
+  ['Prīti Sandarbha','../programs/sat-sandarbhas/priti/index.html'],
+  ['Program Registry','../data/programs.json'],
+  ['Book Registry','../data/books.json']
+];
+
+document.getElementById('runCheck').addEventListener('click',async()=>{
+  const button=document.getElementById('runCheck');
+  const results=document.getElementById('results');
+  const summary=document.getElementById('summary');
+
+  button.disabled=true;
+  results.replaceChildren();
+  summary.textContent='Checking application resources...';
+
+  let passed=0,failed=0;
+
+  for(const [name,path] of checks){
+    const card=document.createElement('article');
+    card.className='health-card';
+
+    const title=document.createElement('h2');
+    title.textContent=name;
+    card.appendChild(title);
+
+    const status=document.createElement('div');
+    status.className='health-result';
+
+    try {
+      const response=await fetch(path,{cache:'no-store'});
+
+      if(!response.ok)throw new Error('HTTP '+response.status);
+
+      if(path.endsWith('.json')){
+        await response.json();
+      }else{
+        const content=await response.text();
+        if(!content.trim().toLowerCase().includes('<html')){
+          throw new Error('Unexpected HTML response');
+        }
+      }
+
+      status.className+=' health-ok';
+      status.textContent='✓ Resource accessible';
+      passed++;
+    }catch(error){
+      status.className+=' health-error';
+      status.textContent='✗ Check failed: '+error.message;
+      failed++;
+    }
+
+    card.appendChild(status);
+    results.appendChild(card);
+  }
+
+  summary.textContent=
+    'Completed: '+passed+' passed, '+failed+' failed, '+checks.length+' checked. '+
+    'This verifies resource accessibility and basic parsing, not full content integrity.';
+
+  button.disabled=false;
+});
+</script>
+</body>
+</html>

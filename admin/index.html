@@ -1,25 +1,134 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Manage Academy</title><link rel="stylesheet" href="../shared/styles.css"></head><body><div class="layout"><aside class="sidebar"></aside><main class="main"><div class="eyebrow">Plug & Play</div><h1>Manage Academy</h1><p class="lead">Add source material without rewriting the application.</p><div id="drop" class="drop"><h2>Drag a book here</h2><p>EPUB · PDF · HTML/XHTML · DOCX · TXT</p><input id="file" type="file" accept=".epub,.pdf,.html,.htm,.xhtml,.docx,.txt"></div><div id="result"></div><div class="grid">
-<article class="card">
-<h3>Books</h3>
-<p>View and manage the canonical books installed in the Academy.</p>
-<a class="button" href="books.html">Manage Books</a>
-</article>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Academy Tools — Bhakti Study</title>
+<link rel="stylesheet" href="../shared/styles.css">
+<style>
+.tools-header {
+  background:#172b54;
+  color:#fff;
+  border-bottom:4px solid #bd9850;
+  border-radius:14px;
+  padding:26px 30px;
+  margin-bottom:25px;
+}
+.tools-header h1 {
+  font-family:Georgia,serif;
+  color:#fff;
+  margin:8px 0;
+}
+.tools-header p { color:#e5dfd3; margin:0; }
+.tools-header .eyebrow { color:#e0bf7b; }
 
-<article class="card">
-<h3>Question Sheets</h3>
-<p>Add and manage question sheets for each Academy program.</p>
-<a class="button" href="questions.html">Manage Question Sheets</a>
-</article>
+.tools-grid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+  margin-bottom:28px;
+}
+.tool-card {
+  background:#fff;
+  border:1px solid #e4ddd0;
+  border-radius:14px;
+  padding:23px;
+  box-shadow:0 3px 12px rgba(0,0,0,.04);
+}
+.tool-card h2 {
+  font-family:Georgia,serif;
+  font-size:21px;
+  margin:0 0 9px;
+}
+.tool-card p {
+  line-height:1.6;
+  margin:0 0 19px;
+}
+.tool-card .button { display:inline-block; }
 
-<article class="card">
-<h3>Study Guides & Academy Questions</h3>
-<p>Add study guides and individual administrator-created questions.</p>
-<a class="button" href="study-guides.html">Manage Study Guides</a>
-</article>
+.import-section {
+  background:#fff;
+  border:1px solid #e4ddd0;
+  border-radius:14px;
+  padding:24px;
+}
+.import-section h2 {
+  font-family:Georgia,serif;
+  margin-top:0;
+}
+.import-section .drop {
+  margin-top:15px;
+}
+@media(max-width:760px) {
+  .tools-grid { grid-template-columns:1fr; }
+  .tools-header { padding:22px; }
+  .import-section { padding:17px; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar"></aside>
+<main class="main">
 
-<article class="card">
-<h3>References</h3>
-<p>Manage optional scholar and course resources.</p>
-<a class="button" href="references.html">Manage References</a>
-</article>
-</div></main></div><script src="../shared/app.js"></script><script>sidebar('manage');let d=drop,f=file,o=result;function inspect(x){let e=(x.name.split('.').pop()||'').toLowerCase(),ok=['epub','pdf','html','htm','xhtml','docx','txt'].includes(e);o.innerHTML=`<div class="card" style="margin-top:18px"><div class="eyebrow">Import preview</div><h3>${x.name}</h3><p><b>Detected:</b> ${e.toUpperCase()}</p><p><b>Supported:</b> ${ok?'Yes':'Needs adapter'}</p><p><b>Preferred:</b> EPUB ${e==='epub'?'✓':'— this format can still be used'}</p><p class="small">Before registration, confirm title, edition, translator/commentator, source and canonical book ID.</p></div>`}f.onchange=()=>f.files[0]&&inspect(f.files[0]);d.ondragover=e=>e.preventDefault();d.ondrop=e=>{e.preventDefault();e.dataTransfer.files[0]&&inspect(e.dataTransfer.files[0])}</script></body></html>
+<header class="tools-header">
+  <div class="eyebrow">ACADEMY MANAGEMENT</div>
+  <h1>Academy Tools</h1>
+  <p>Manage books, questions, study guides, and scholarly resources.</p>
+</header>
+
+<section class="tools-grid" aria-label="Academy management tools">
+
+  <article class="tool-card">
+    <h2>Manage Books</h2>
+    <p>View and manage the canonical books installed in the Academy.</p>
+    <a class="button" href="books.html">Open Books</a>
+  </article>
+
+  <article class="tool-card">
+    <h2>Question Sheets</h2>
+    <p>Add and manage question sheets for each Academy program.</p>
+    <a class="button" href="questions.html">Open Question Sheets</a>
+  </article>
+
+  <article class="tool-card">
+    <h2>Study Guides &amp; Questions</h2>
+    <p>Manage study guides and administrator-created questions.</p>
+    <a class="button" href="study-guides.html">Open Study Guides</a>
+  </article>
+
+  <article class="tool-card">
+    <h2>References</h2>
+    <p>Manage optional scholar and course resources.</p>
+    <a class="button" href="references.html">Open References</a>
+  </article>
+
+  <article class="tool-card">
+    <h2>Academy Health Check</h2>
+    <p>Check essential application pages, Sandarbha readers, and data registries.</p>
+    <a class="button" href="health-check.html">Run Health Check</a>
+  </article>
+
+</section>
+
+<section class="import-section">
+  <h2>Import Source Material</h2>
+  <p>Inspect a source file before registering it in the Academy.</p>
+
+  <div id="drop" class="drop">
+    <h2>Drag a book here</h2>
+    <p>EPUB · PDF · HTML/XHTML · DOCX · TXT</p>
+    <input id="file" type="file"
+      accept=".epub,.pdf,.html,.htm,.xhtml,.docx,.txt">
+  </div>
+
+  <div id="result"></div>
+</section>
+
+</main>
+</div>
+
+<script src="../shared/app.js"></script>
+<script>sidebar('manage');let d=drop,f=file,o=result;function inspect(x){let e=(x.name.split('.').pop()||'').toLowerCase(),ok=['epub','pdf','html','htm','xhtml','docx','txt'].includes(e);o.innerHTML=`<div class="card" style="margin-top:18px"><div class="eyebrow">Import preview</div><h3>${x.name}</h3><p><b>Detected:</b> ${e.toUpperCase()}</p><p><b>Supported:</b> ${ok?'Yes':'Needs adapter'}</p><p><b>Preferred:</b> EPUB ${e==='epub'?'✓':'— this format can still be used'}</p><p class="small">Before registration, confirm title, edition, translator/commentator, source and canonical book ID.</p></div>`}f.onchange=()=>f.files[0]&&inspect(f.files[0]);d.ondragover=e=>e.preventDefault();d.ondrop=e=>{e.preventDefault();e.dataTransfer.files[0]&&inspect(e.dataTransfer.files[0])}</script>
+</body>
+</html>
