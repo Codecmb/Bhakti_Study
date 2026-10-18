@@ -474,6 +474,170 @@ document.getElementById('runInventory').addEventListener('click', async () => {
     output.appendChild(message);
   }
 
+
+  // LIBRARY_CONTENT_INVENTORY_V1
+  try {
+    const libraryResponse = await fetch('../data/books.json');
+
+    if (!libraryResponse.ok) {
+      throw new Error('Cannot load Library Registry');
+    }
+
+    const libraryRegistry = await libraryResponse.json();
+
+    if (!Array.isArray(libraryRegistry)) {
+      throw new Error('Unexpected Library Registry structure');
+    }
+
+    const libraryHeading = document.createElement('h3');
+    libraryHeading.textContent = 'Library Content Inventory';
+    output.appendChild(libraryHeading);
+
+    const libraryTable = document.createElement('table');
+    libraryTable.style.cssText =
+      'width:100%;border-collapse:collapse;margin-top:12px';
+
+    const libraryHeader = document.createElement('tr');
+
+    for (const heading of [
+      'Book', 'Status', 'Sections',
+      'Registered Records', 'Actual Records', 'Verification'
+    ]) {
+      const cell = document.createElement('th');
+      cell.textContent = heading;
+      cell.style.cssText =
+        'padding:10px;text-align:left;border-bottom:2px solid #aaa';
+      libraryHeader.appendChild(cell);
+    }
+
+    libraryTable.appendChild(libraryHeader);
+
+    let importedBooks = 0;
+    let actualLibraryRecords = 0;
+    let registeredLibraryRecords = 0;
+    let libraryMismatches = 0;
+    let libraryErrors = 0;
+    let libraryModules = 0;
+
+    for (const book of libraryRegistry) {
+      const row = document.createElement('tr');
+
+      let actualSections = '—';
+      let actualRecords = '—';
+      let verification = 'Not checked';
+
+      const status = book.status || 'unknown';
+
+      try {
+        if (
+          typeof book.dataPath !== 'string' ||
+          !(
+            book.dataPath.startsWith('library/') ||
+            (
+              book.id === 'sat-sandarbhas' &&
+              book.dataPath === 'sandarbhas/module.json'
+            )
+          ) ||
+          book.dataPath.split('/').includes('..')
+        ) {
+          throw new Error('Invalid source path');
+        }
+
+        const response = await fetch('../' + book.dataPath);
+
+        if (!response.ok) {
+          throw new Error('Source unavailable: HTTP ' + response.status);
+        }
+
+        const source = await response.json();
+
+        if (status === 'imported') {
+          importedBooks++;
+
+          if (!Array.isArray(source.sections)) {
+            throw new Error('Missing sections array');
+          }
+
+          actualSections = source.sections.length;
+          actualRecords = 0;
+
+          for (const section of source.sections) {
+            if (!Array.isArray(section.verses)) {
+              throw new Error('Invalid verses array');
+            }
+            actualRecords += section.verses.length;
+          }
+
+          actualLibraryRecords += actualRecords;
+
+          const declaredRecords = Number(book.records);
+          const declaredSections = Number(book.sections);
+
+          if (Number.isFinite(declaredRecords)) {
+            registeredLibraryRecords += declaredRecords;
+          }
+
+          if (
+            actualRecords !== declaredRecords ||
+            actualSections !== declaredSections
+          ) {
+            libraryMismatches++;
+            verification = 'Metadata mismatch';
+          } else {
+            verification = 'Match';
+          }
+
+        } else {
+          libraryModules++;
+          verification = 'Module source available';
+        }
+
+      } catch (error) {
+        libraryErrors++;
+        verification = 'Error: ' + error.message;
+      }
+
+      for (const value of [
+        book.title || 'Untitled',
+        status,
+        status === 'imported'
+          ? String(book.sections ?? '—') + ' / ' + actualSections
+          : '—',
+        status === 'imported' ? book.records ?? '—' : '—',
+        actualRecords,
+        verification
+      ]) {
+        const cell = document.createElement('td');
+        cell.textContent = String(value);
+        cell.style.cssText =
+          'padding:10px;border-bottom:1px solid #eee';
+        row.appendChild(cell);
+      }
+
+      libraryTable.appendChild(row);
+    }
+
+    output.appendChild(libraryTable);
+
+    const librarySummary = document.createElement('p');
+    librarySummary.style.fontWeight = 'bold';
+    librarySummary.textContent =
+      libraryRegistry.length + ' registry entries · ' +
+      importedBooks + ' imported books · ' +
+      libraryModules + ' module(s) · ' +
+      actualLibraryRecords.toLocaleString() + ' actual reading records · ' +
+      registeredLibraryRecords.toLocaleString() + ' registered records · ' +
+      libraryMismatches + ' metadata mismatch(es) · ' +
+      libraryErrors + ' error(s)';
+
+    output.appendChild(librarySummary);
+
+  } catch (error) {
+    const message = document.createElement('p');
+    message.textContent = 'Library inventory error: ' + error.message;
+    output.appendChild(message);
+  }
+
   button.disabled = false;
 });
 
