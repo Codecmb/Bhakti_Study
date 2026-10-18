@@ -175,9 +175,45 @@ function openBook() {
 
     const title = bookSelect.selectedOptions[0].textContent.trim();
 
+    let lastSandarbhaRef = work.toUpperCase() + ".1";
+    let sandarbhaObserver = null;
+
+    function updateSandarbhaJournal() {
+      const win = bookFrame.contentWindow;
+      if (!win) return;
+
+      const n = new URLSearchParams(win.location.search).get("n");
+      if (!n || !/^\d+$/.test(n)) return;
+
+      const ref = work.toUpperCase() + "." + n;
+      if (ref === lastSandarbhaRef) return;
+
+      lastSandarbhaRef = ref;
+
+      const params = new URLSearchParams({
+        aula: "1",
+        program: "Ṣaṭ Sandarbhas",
+        unit: ref,
+        book: work,
+        bookTitle: title,
+        section: "Anuccheda " + n,
+        ref: ref
+      });
+
+      journalFrame.src = "journal.html?" + params.toString();
+    }
+
     bookFrame.onload = () => {
       const doc = bookFrame.contentDocument;
       if (!doc) return;
+
+      sandarbhaObserver?.disconnect();
+
+      sandarbhaObserver = new MutationObserver(updateSandarbhaJournal);
+      sandarbhaObserver.observe(doc.body, {
+        childList: true,
+        subtree: true
+      });
 
       const style = doc.createElement("style");
       style.textContent = `
