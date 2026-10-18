@@ -77,7 +77,13 @@
 <body>
 
 <header>
-  <h1>Study Classroom</h1>
+  <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+    <h1>Study Classroom</h1>
+    <button type="button" id="backToAcademyHome"
+      style="padding:10px 16px;border:1px solid #ccc;border-radius:8px;background:#fff;cursor:pointer;font-weight:600">
+      ← Back to Academy Home
+    </button>
+  </div>
 </header>
 
 <div class="toolbar">
@@ -297,6 +303,23 @@ function updateSeries() {
 seriesSelect.addEventListener("change", showLessons);
 program.addEventListener("change", updateSeries);
 updateSeries();
+</script>
+
+
+<script>
+document.getElementById("backToAcademyHome").addEventListener("click", function () {
+  const video = document.getElementById("video");
+  const audio = document.getElementById("audioPlayer");
+
+  if (video) video.removeAttribute("src");
+  if (audio) {
+    audio.pause();
+    audio.removeAttribute("src");
+    audio.load();
+  }
+
+  window.location.href = "../index.html";
+});
 </script>
 
 </body>
