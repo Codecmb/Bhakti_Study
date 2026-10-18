@@ -20,8 +20,6 @@ function sidebar(a='home',rootOverride=null){
  const home=['home','Academy Home',R+'index.html'];
  const groups=[
    ['My Study',[
-     ['study','Study',R+'study/index.html'],
-     ['portfolio','My Work',R+'student/portfolio.html'],
      ['classroom','Study Classroom',R+'student/aula-estudio.html'],
      ['book-study','Book Study',R+'student/book-study.html'],
      ['journal','Study Journal',(()=>{
@@ -84,14 +82,16 @@ function sidebar(a='home',rootOverride=null){
        return url.href;
      })()],
      ['question-bank','Question Bank',R+'question-bank/index.html'],
+     ['portfolio','My Work',R+'student/portfolio.html'],
      ['progress','My Progress',R+'student/progress.html'],
-     ['certificates','Certificates',R+'certificates/index.html']
+     ['certificates','Certificates',R+'certificates/index.html'],
+     ['study','Study',R+'study/index.html']
    ]],
    ['Resources',[
      ['library','Books & Library',R+'library/index.html'],
-      ['download-library','Download Complete Library',R+'index.html#offline-library'],
+     ['slokas','Śloka Lab',R+'slokas/index.html'],
      ['references','References & Further Study',R+'references/index.html'],
-     ['slokas','Śloka Lab',R+'slokas/index.html']
+     ['download-library','Download Complete Library',R+'index.html#offline-library']
    ]],
    ['Academy',[
      ['manage','Manage Academy',R+'admin/index.html']
