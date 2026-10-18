@@ -22,5 +22,17 @@
         "url": "https://www.hdgoswami.com/"
       }
     ]
+  },
+  {
+    "id": "bhaktivinoda-institute",
+    "name": "Bhaktivinoda Institute",
+    "role": "Further Study — Optional",
+    "enabled": true,
+    "links": [
+      {
+        "label": "Bhaktivinoda Institute — Writings and Resources",
+        "url": "https://bhaktivinodainstitute.org/"
+      }
+    ]
   }
 ]
