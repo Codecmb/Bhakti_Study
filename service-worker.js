@@ -1,4 +1,4 @@
-const CACHE = 'bhakti-study-offline-v17';
+const CACHE = 'bhakti-study-offline-v18';
 const MANIFEST = './offline-files.json';
 
 async function cacheAcademy() {
