@@ -113,21 +113,9 @@
   </article>
 </section>
 
-<section class="card" aria-labelledby="classroom-title">
-  <div class="eyebrow">Guided Learning</div>
-  <h2 id="classroom-title">Study Classroom</h2>
-  <p>
-    Listen to recorded lectures, explore the Bhakti study
-    programs and the Ṣaṭ Sandarbhas, and develop your
-    understanding with the integrated Study Journal.
-  </p>
-  <a class="button" href="student/aula-estudio.html">
-    Open Study Classroom
-  </a>
-</section>
 
-<h2 class="section-title">Study Programs</h2>
-<section id="english-program-cards" class="grid"></section>
+
+
 
 <div class="footer-note">
   Independent study application. Official ISKCON śāstric
@@ -147,7 +135,7 @@
 
 </main>
 </div>
-<script src="shared/mobile-navigation.js"></script><script src="shared/app.js"></script><script>sidebar('home');json('data/programs.json').then(ps=>document.getElementById('english-program-cards').innerHTML=ps.map(p=>`<article class="card"><div class="eyebrow">Study Program</div><h2>${p.title}</h2><p>${p.subtitle}</p><a class="button" href="programs/${p.id}/index.html">Enter Program</a></article>`).join(''))</script><script>if('serviceWorker'in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(console.error))}</script><script src="shared/download-library.js"></script>
+<script src="shared/mobile-navigation.js"></script><script src="shared/app.js"></script><script>sidebar("home");</script><script>if('serviceWorker'in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(console.error))}</script><script src="shared/download-library.js"></script>
 <script>
 (function () {
   function setup() {
