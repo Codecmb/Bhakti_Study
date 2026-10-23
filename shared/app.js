@@ -92,7 +92,7 @@ function sidebar(a='home',rootOverride=null){
    ]],
    ['Resources',[
      ['library','Books & Library',R+'library/index.html'],
-     ['slokas','Śloka Lab',R+'slokas/index.html'],
+     ['slokas','Most Quoted Verses',R+'srila-prabhupada-slokas/index.html'],
      ['references','References & Further Study',R+'references/index.html'],
      ['download-library','Download Complete Library',R+'index.html#offline-library']
    ]],
