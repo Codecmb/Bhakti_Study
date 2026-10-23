@@ -15,7 +15,7 @@ async function downloadCompleteLibrary() {
     if (!response.ok) throw new Error('Cannot load offline manifest.');
 
     const files = await response.json();
-    const cache = await caches.open('bhakti-study-offline-v17');
+    const cache = await caches.open('bhakti-study-offline-v18');
 
     let completed = 0;
     let failed = 0;
