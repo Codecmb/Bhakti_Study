@@ -2,4 +2,5 @@
 sidebar('bhakti-sastri');const host=document.getElementById('guides');const guides=AcademyGuides.forProgram('bhakti-sastri');
 function esc(s){return String(s||'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 if(!guides.length)host.innerHTML='<div class="notice">No Academy Study Guides have been published in this browser yet.</div>';else host.innerHTML=guides.map(g=>'<article class="card"><span class="tag">'+esc(g.provenance)+'</span><h2>'+esc(g.title)+'</h2><p class="small">'+esc(g.scope)+'</p>'+(g.body?'<details><summary><b>Read Study Guide</b></summary><div style="white-space:pre-wrap;line-height:1.65;margin-top:12px">'+esc(g.body)+'</div></details>':'')+'<h3>Questions</h3>'+g.questions.map(q=>'<div class="question-card"><b>'+esc(q.text)+'</b><textarea class="field" placeholder="Your answer..."></textarea><div class="action-grid">'+q.refs.map(r=>'<a class="button secondary" href="'+AcademyGuides.internalHref(r,'bhakti-sastri')+'">Study '+esc(r)+'</a>').join('')+'</div></div>').join('')+'</article>').join('');
-</script></body></html>
+</script><script src="../../shared/voice-input.js"></script>
+</body></html>

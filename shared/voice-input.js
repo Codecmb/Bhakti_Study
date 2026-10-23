@@ -8,7 +8,15 @@ window.VoiceInput={
     const msg=document.createElement('span');msg.className='small muted';msg.textContent=' Optional voice input';
     bar.append(btn,msg);textarea.insertAdjacentElement('afterend',bar);
     const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-    if(!SR){btn.disabled=true;btn.title='Speech-to-text is not available in this browser.';msg.textContent=' Microphone transcription is not available in this browser; typing still works.';return}
+    if(!SR){
+       btn.textContent='🎙 Use Device Dictation';
+       msg.textContent=' Use your keyboard microphone to dictate.';
+       btn.addEventListener('click',()=>{
+         textarea.focus();
+         msg.textContent=' Tap the microphone on your device keyboard to dictate. If unavailable, type your answer.';
+       });
+       return;
+     }
     let rec=null;
     btn.addEventListener('click',()=>{
       if(rec){rec.stop();return}
@@ -22,3 +30,39 @@ window.VoiceInput={
   },
   attachAll(root=document){root.querySelectorAll('textarea').forEach(t=>this.attach(t));}
 };
+
+
+/* Automatically connect voice input to current and future textareas. */
+(function(){
+  function connect(root=document){
+    if(root.matches?.('textarea')) {
+      window.VoiceInput.attach(root);
+    }
+    root.querySelectorAll?.('textarea').forEach(t=>{
+      window.VoiceInput.attach(t);
+    });
+  }
+
+  function initialize(){
+    connect();
+
+    const observer = new MutationObserver(records=>{
+      for(const record of records){
+        for(const node of record.addedNodes){
+          if(node.nodeType === 1) connect(node);
+        }
+      }
+    });
+
+    observer.observe(document.body,{
+      childList:true,
+      subtree:true
+    });
+  }
+
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded',initialize,{once:true});
+  }else{
+    initialize();
+  }
+})();
